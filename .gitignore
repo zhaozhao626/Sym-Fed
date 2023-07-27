@@ -1,0 +1,11 @@
+# /log
+# /run
+/checkpoint
+/data
+encrypt/__pycache__/*.pyc
+
+util/__pycache__/*.pyc
+encrypt/__pycache__/*.pyc
+
+*/*/*.pyc
+
