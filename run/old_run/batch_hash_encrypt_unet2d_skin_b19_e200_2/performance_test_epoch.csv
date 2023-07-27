@@ -1,0 +1,2 @@
+step,test_loss,test_accuracy,jaccard index(JA),dice coefficient(DI),Accuracy(AC),sensitivity(SE),specificity(SP)
+0,3.317072868347168,0.7773437206561749,0.0,0.7773437206561749,0.0,0.0,1.0

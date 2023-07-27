@@ -1,0 +1,39 @@
+2023-06-24 19:40:36,620 - alexnet_cifar10.py - INFO: 5 clients building datasets.
+2023-06-24 19:40:36,621 - alexnet_cifar10.py - INFO: 0 client has 10000 data items.
+2023-06-24 19:40:36,621 - alexnet_cifar10.py - INFO: 1 client has 10000 data items.
+2023-06-24 19:40:36,622 - alexnet_cifar10.py - INFO: 2 client has 10000 data items.
+2023-06-24 19:40:36,622 - alexnet_cifar10.py - INFO: 3 client has 10000 data items.
+2023-06-24 19:40:36,623 - alexnet_cifar10.py - INFO: 4 client has 10000 data items.
+2023-06-24 19:40:38,694 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch1,5 clients are in federated training
+
+2023-06-24 19:40:38,694 - alexnet_cifar10.py - INFO: mode = batch parallel_mode = pool
+2023-06-24 19:40:41,565 - alexnet_cifar10.py - INFO: train_time:2.87034
+2023-06-24 19:40:41,900 - alexnet_cifar10.py - INFO: 量化时间：0.297808
+2023-06-24 19:40:43,141 - alexnet_cifar10.py - INFO: 批处理时间：1.240818
+2023-06-24 19:40:49,600 - alexnet_cifar10.py - INFO: 加密梯度时间：6.458705
+2023-06-24 19:40:49,600 - alexnet_cifar10.py - INFO: 聚集时间：0.000103
+2023-06-24 19:40:54,738 - alexnet_cifar10.py - INFO: 解密时间：5.137650
+2023-06-24 19:40:55,004 - alexnet_cifar10.py - INFO: 去量化时间：0.265019
+2023-06-24 19:40:55,472 - polymorphic_function.py - WARNING: 5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7f8499a4d1f0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-06-24 19:40:55,565 - polymorphic_function.py - WARNING: 6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7f8499a4d1f0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-06-24 19:40:56,007 - alexnet_cifar10.py - INFO: loss: 2.310932159423828 	 elapsed time: 13.43689250946045
+2023-06-24 19:40:56,092 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch2,5 clients are in federated training
+
+2023-06-24 19:40:56,093 - alexnet_cifar10.py - INFO: mode = batch parallel_mode = pool
+2023-06-24 19:40:56,171 - alexnet_cifar10.py - INFO: train_time:0.07761
+2023-06-24 19:40:56,509 - alexnet_cifar10.py - INFO: 量化时间：0.296600
+2023-06-24 19:40:57,635 - alexnet_cifar10.py - INFO: 批处理时间：1.126124
+2023-06-24 19:41:03,157 - alexnet_cifar10.py - INFO: 加密梯度时间：5.521770
+2023-06-24 19:41:03,168 - alexnet_cifar10.py - INFO: 聚集时间：0.010795
+2023-06-24 19:41:08,429 - alexnet_cifar10.py - INFO: 解密时间：5.260693
+2023-06-24 19:41:08,672 - alexnet_cifar10.py - INFO: 去量化时间：0.241770
+2023-06-24 19:41:08,720 - alexnet_cifar10.py - INFO: loss: 2.3078276157379154 	 elapsed time: 12.49626874923706
+2023-06-24 19:41:08,729 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch3,5 clients are in federated training
+
+2023-06-24 19:41:08,729 - alexnet_cifar10.py - INFO: mode = batch parallel_mode = pool
+2023-06-24 19:41:08,801 - alexnet_cifar10.py - INFO: train_time:0.07104
+2023-06-24 19:41:09,137 - alexnet_cifar10.py - INFO: 量化时间：0.303126
+2023-06-24 19:41:10,284 - alexnet_cifar10.py - INFO: 批处理时间：1.146864

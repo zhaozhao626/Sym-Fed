@@ -1,0 +1,2 @@
+step,train_loss,train_accuracy,test_loss,test_accuracy
+0,0.787469744682312,0.7426000237464905,0.5351426005363464,0.815

@@ -1,0 +1,109 @@
+2023-06-24 19:36:33,311 - fcn_fminist.py - INFO: 
+---------epoch 0 batch1,20 clients are in federated training
+
+2023-06-24 19:36:33,311 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:34,047 - fcn_fminist.py - INFO: train_time:0.73670
+2023-06-24 19:36:34,058 - fcn_fminist.py - INFO: aggregation finished in 0.001042
+2023-06-24 19:36:34,764 - fcn_fminist.py - INFO: loss: 2.536210072040558 	 elapsed time: 0.7071564197540283
+2023-06-24 19:36:34,821 - fcn_fminist.py - INFO: 
+---------epoch 0 batch2,20 clients are in federated training
+
+2023-06-24 19:36:34,822 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:34,977 - fcn_fminist.py - INFO: train_time:0.15468
+2023-06-24 19:36:34,990 - fcn_fminist.py - INFO: aggregation finished in 0.001042
+2023-06-24 19:36:34,996 - fcn_fminist.py - INFO: loss: 2.2095504522323606 	 elapsed time: 0.007009267807006836
+2023-06-24 19:36:35,016 - fcn_fminist.py - INFO: 
+---------epoch 0 batch3,20 clients are in federated training
+
+2023-06-24 19:36:35,017 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:35,148 - fcn_fminist.py - INFO: train_time:0.13005
+2023-06-24 19:36:35,154 - fcn_fminist.py - INFO: aggregation finished in 0.001206
+2023-06-24 19:36:35,158 - fcn_fminist.py - INFO: loss: 1.5496351718902588 	 elapsed time: 0.005901336669921875
+2023-06-24 19:36:35,172 - fcn_fminist.py - INFO: 
+---------epoch 0 batch4,20 clients are in federated training
+
+2023-06-24 19:36:35,174 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:35,340 - fcn_fminist.py - INFO: train_time:0.16561
+2023-06-24 19:36:35,345 - fcn_fminist.py - INFO: aggregation finished in 0.001144
+2023-06-24 19:36:35,359 - fcn_fminist.py - INFO: loss: 1.4472201228141786 	 elapsed time: 0.015335321426391602
+2023-06-24 19:36:35,373 - fcn_fminist.py - INFO: 
+---------epoch 0 batch5,20 clients are in federated training
+
+2023-06-24 19:36:35,373 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:35,537 - fcn_fminist.py - INFO: train_time:0.16316
+2023-06-24 19:36:35,551 - fcn_fminist.py - INFO: aggregation finished in 0.001198
+2023-06-24 19:36:35,556 - fcn_fminist.py - INFO: loss: 1.2496362268924712 	 elapsed time: 0.006327629089355469
+2023-06-24 19:36:35,567 - fcn_fminist.py - INFO: 
+---------epoch 0 batch6,20 clients are in federated training
+
+2023-06-24 19:36:35,567 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:35,752 - fcn_fminist.py - INFO: train_time:0.18517
+2023-06-24 19:36:35,757 - fcn_fminist.py - INFO: aggregation finished in 0.001274
+2023-06-24 19:36:35,762 - fcn_fminist.py - INFO: loss: 1.0427149564027787 	 elapsed time: 0.006518840789794922
+2023-06-24 19:36:35,770 - fcn_fminist.py - INFO: 
+---------epoch 0 batch7,20 clients are in federated training
+
+2023-06-24 19:36:35,771 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:35,960 - fcn_fminist.py - INFO: train_time:0.18926
+2023-06-24 19:36:35,966 - fcn_fminist.py - INFO: aggregation finished in 0.001403
+2023-06-24 19:36:35,971 - fcn_fminist.py - INFO: loss: 1.0223209738731383 	 elapsed time: 0.00642848014831543
+2023-06-24 19:36:35,978 - fcn_fminist.py - INFO: 
+---------epoch 0 batch8,20 clients are in federated training
+
+2023-06-24 19:36:35,978 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:36,157 - fcn_fminist.py - INFO: train_time:0.17807
+2023-06-24 19:36:36,163 - fcn_fminist.py - INFO: aggregation finished in 0.001061
+2023-06-24 19:36:36,168 - fcn_fminist.py - INFO: loss: 0.921693179011345 	 elapsed time: 0.00561213493347168
+2023-06-24 19:36:36,176 - fcn_fminist.py - INFO: 
+---------epoch 0 batch9,20 clients are in federated training
+
+2023-06-24 19:36:36,177 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:36,331 - fcn_fminist.py - INFO: train_time:0.15292
+2023-06-24 19:36:36,336 - fcn_fminist.py - INFO: aggregation finished in 0.001081
+2023-06-24 19:36:36,346 - fcn_fminist.py - INFO: loss: 0.9030791521072389 	 elapsed time: 0.011468648910522461
+2023-06-24 19:36:36,360 - fcn_fminist.py - INFO: 
+---------epoch 0 batch10,20 clients are in federated training
+
+2023-06-24 19:36:36,362 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:36,491 - fcn_fminist.py - INFO: train_time:0.12905
+2023-06-24 19:36:36,497 - fcn_fminist.py - INFO: aggregation finished in 0.001307
+2023-06-24 19:36:36,501 - fcn_fminist.py - INFO: loss: 0.8292483091354371 	 elapsed time: 0.00567317008972168
+2023-06-24 19:36:36,510 - fcn_fminist.py - INFO: 
+---------epoch 0 batch11,20 clients are in federated training
+
+2023-06-24 19:36:36,510 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:36,707 - fcn_fminist.py - INFO: train_time:0.19637
+2023-06-24 19:36:36,720 - fcn_fminist.py - INFO: aggregation finished in 0.007346
+2023-06-24 19:36:36,724 - fcn_fminist.py - INFO: loss: 0.8243347316980363 	 elapsed time: 0.011123895645141602
+2023-06-24 19:36:36,734 - fcn_fminist.py - INFO: 
+---------epoch 0 batch12,20 clients are in federated training
+
+2023-06-24 19:36:36,734 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:36,842 - fcn_fminist.py - INFO: train_time:0.10763
+2023-06-24 19:36:36,846 - fcn_fminist.py - INFO: aggregation finished in 0.000996
+2023-06-24 19:36:36,849 - fcn_fminist.py - INFO: loss: 0.7903567641973497 	 elapsed time: 0.004750490188598633
+2023-06-24 19:36:36,858 - fcn_fminist.py - INFO: 
+---------epoch 0 batch13,20 clients are in federated training
+
+2023-06-24 19:36:36,859 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:36,968 - fcn_fminist.py - INFO: train_time:0.10844
+2023-06-24 19:36:36,972 - fcn_fminist.py - INFO: aggregation finished in 0.001015
+2023-06-24 19:36:36,976 - fcn_fminist.py - INFO: loss: 0.7232965379953383 	 elapsed time: 0.0046253204345703125
+2023-06-24 19:36:36,985 - fcn_fminist.py - INFO: 
+---------epoch 0 batch14,20 clients are in federated training
+
+2023-06-24 19:36:36,986 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:37,109 - fcn_fminist.py - INFO: train_time:0.12293
+2023-06-24 19:36:37,115 - fcn_fminist.py - INFO: aggregation finished in 0.001067
+2023-06-24 19:36:37,118 - fcn_fminist.py - INFO: loss: 0.740023919939995 	 elapsed time: 0.00487065315246582
+2023-06-24 19:36:37,130 - fcn_fminist.py - INFO: 
+---------epoch 0 batch15,20 clients are in federated training
+
+2023-06-24 19:36:37,131 - fcn_fminist.py - INFO: mode = plain
+2023-06-24 19:36:37,237 - fcn_fminist.py - INFO: train_time:0.10634
+2023-06-24 19:36:37,245 - fcn_fminist.py - INFO: aggregation finished in 0.000942
+2023-06-24 19:36:37,249 - fcn_fminist.py - INFO: loss: 0.7216564089059831 	 elapsed time: 0.00470423698425293
+2023-06-24 19:36:37,260 - fcn_fminist.py - INFO: 
+---------epoch 0 batch16,20 clients are in federated training
+
+2023-06-24 19:36:37,260 - fcn_fminist.py - INFO: mode = plain

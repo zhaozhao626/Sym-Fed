@@ -1,0 +1,32 @@
+2023-06-30 11:26:22,186 - alexnet_cifar10.py - INFO: 10 clients building datasets.
+2023-06-30 11:26:22,187 - alexnet_cifar10.py - INFO: 0 client has 5000 data items.
+2023-06-30 11:26:22,187 - alexnet_cifar10.py - INFO: 1 client has 5000 data items.
+2023-06-30 11:26:22,187 - alexnet_cifar10.py - INFO: 2 client has 5000 data items.
+2023-06-30 11:26:22,188 - alexnet_cifar10.py - INFO: 3 client has 5000 data items.
+2023-06-30 11:26:22,188 - alexnet_cifar10.py - INFO: 4 client has 5000 data items.
+2023-06-30 11:26:22,188 - alexnet_cifar10.py - INFO: 5 client has 5000 data items.
+2023-06-30 11:26:22,189 - alexnet_cifar10.py - INFO: 6 client has 5000 data items.
+2023-06-30 11:26:22,189 - alexnet_cifar10.py - INFO: 7 client has 5000 data items.
+2023-06-30 11:26:22,191 - alexnet_cifar10.py - INFO: 8 client has 5000 data items.
+2023-06-30 11:26:22,191 - alexnet_cifar10.py - INFO: 9 client has 5000 data items.
+2023-06-30 11:26:23,776 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-30 11:26:23,777 - alexnet_cifar10.py - INFO: mode = batch parallel_mode = pool
+2023-06-30 11:26:26,068 - alexnet_cifar10.py - INFO: train_time:2.29168
+2023-06-30 11:26:26,449 - alexnet_cifar10.py - INFO: 量化时间：0.297739
+2023-06-30 11:26:43,441 - alexnet_cifar10.py - INFO: 批处理时间：16.992297
+2023-06-30 11:27:17,011 - alexnet_cifar10.py - INFO: 加密梯度时间：33.569603
+2023-06-30 11:27:17,012 - alexnet_cifar10.py - INFO: 聚集时间：0.001002
+2023-06-30 11:27:47,015 - alexnet_cifar10.py - INFO: 解密时间：30.001523
+2023-06-30 11:27:47,332 - alexnet_cifar10.py - INFO: 去量化时间：0.317001
+2023-06-30 11:27:47,569 - alexnet_cifar10.py - INFO: loss: 2.3007145166397094 	 elapsed time: 81.35276579856873
+2023-06-30 11:27:48,015 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-06-30 11:27:48,016 - alexnet_cifar10.py - INFO: mode = batch parallel_mode = pool
+2023-06-30 11:27:50,186 - alexnet_cifar10.py - INFO: train_time:2.16355
+2023-06-30 11:27:50,550 - alexnet_cifar10.py - INFO: 量化时间：0.284591
+2023-06-30 11:28:03,331 - alexnet_cifar10.py - INFO: 批处理时间：12.780681
+2023-06-30 11:28:35,324 - alexnet_cifar10.py - INFO: 加密梯度时间：31.992789
+2023-06-30 11:28:35,345 - alexnet_cifar10.py - INFO: 聚集时间：0.021000

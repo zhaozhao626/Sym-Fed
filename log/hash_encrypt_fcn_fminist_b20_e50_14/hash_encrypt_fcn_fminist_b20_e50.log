@@ -1,0 +1,5 @@
+2023-07-21 22:49:36,466 - fcn_fminist.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-07-21 22:49:36,467 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-07-21 22:49:36,652 - fcn_fminist.py - INFO: train_time:0.18400

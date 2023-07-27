@@ -1,0 +1,115 @@
+2023-07-21 23:20:42,748 - alexnet_cifar10_signle.py - INFO: 10 clients building datasets.
+2023-07-21 23:20:42,748 - alexnet_cifar10_signle.py - INFO: 0 client has 5000 data items.
+2023-07-21 23:20:42,748 - alexnet_cifar10_signle.py - INFO: 1 client has 5000 data items.
+2023-07-21 23:20:42,749 - alexnet_cifar10_signle.py - INFO: 2 client has 5000 data items.
+2023-07-21 23:20:42,749 - alexnet_cifar10_signle.py - INFO: 3 client has 5000 data items.
+2023-07-21 23:20:42,749 - alexnet_cifar10_signle.py - INFO: 4 client has 5000 data items.
+2023-07-21 23:20:42,750 - alexnet_cifar10_signle.py - INFO: 5 client has 5000 data items.
+2023-07-21 23:20:42,751 - alexnet_cifar10_signle.py - INFO: 6 client has 5000 data items.
+2023-07-21 23:20:42,752 - alexnet_cifar10_signle.py - INFO: 7 client has 5000 data items.
+2023-07-21 23:20:42,752 - alexnet_cifar10_signle.py - INFO: 8 client has 5000 data items.
+2023-07-21 23:20:42,753 - alexnet_cifar10_signle.py - INFO: 9 client has 5000 data items.
+2023-07-21 23:20:44,256 - alexnet_cifar10_signle.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-07-21 23:20:44,257 - alexnet_cifar10_signle.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-07-21 23:20:46,345 - alexnet_cifar10_signle.py - INFO: train_time:2.08737
+2023-07-21 23:20:47,385 - alexnet_cifar10_signle.py - INFO: 量化时间：0.973155
+2023-07-21 23:20:48,573 - alexnet_cifar10_signle.py - INFO: 加密梯度时间：1.185958
+2023-07-21 23:20:48,992 - genernal.py - INFO: 全局梯度大小:_size 5.94 GB
+2023-07-21 23:20:48,992 - alexnet_cifar10_signle.py - INFO: 聚集时间：0.418835
+2023-07-21 23:20:49,119 - alexnet_cifar10_signle.py - INFO: 解密时间：0.126410
+2023-07-21 23:20:49,494 - alexnet_cifar10_signle.py - INFO: 去量化时间：0.375033
+2023-07-21 23:20:49,963 - alexnet_cifar10_signle.py - INFO: loss: 2.3160303354263307 	 elapsed time: 3.500934600830078
+2023-07-21 23:20:50,442 - alexnet_cifar10_signle.py - INFO: Plaintext_size 47.72 MB
+2023-07-21 23:20:50,442 - alexnet_cifar10_signle.py - INFO: Ciphertext_size 59.34 MB
+2023-07-21 23:20:50,448 - alexnet_cifar10_signle.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-07-21 23:20:50,449 - alexnet_cifar10_signle.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-07-21 23:20:52,498 - alexnet_cifar10_signle.py - INFO: train_time:2.04015
+2023-07-21 23:20:53,758 - alexnet_cifar10_signle.py - INFO: 量化时间：1.183596
+2023-07-21 23:20:55,126 - alexnet_cifar10_signle.py - INFO: 加密梯度时间：1.366832
+2023-07-21 23:20:55,537 - genernal.py - INFO: 全局梯度大小:_size 5.94 GB
+2023-07-21 23:20:55,538 - alexnet_cifar10_signle.py - INFO: 聚集时间：0.412000
+2023-07-21 23:20:55,674 - alexnet_cifar10_signle.py - INFO: 解密时间：0.136001
+2023-07-21 23:20:56,057 - alexnet_cifar10_signle.py - INFO: 去量化时间：0.382628
+2023-07-21 23:20:56,515 - alexnet_cifar10_signle.py - INFO: loss: 2.2936089038848877 	 elapsed time: 3.916060447692871
+2023-07-21 23:20:56,989 - alexnet_cifar10_signle.py - INFO: Plaintext_size 95.44 MB
+2023-07-21 23:20:56,989 - alexnet_cifar10_signle.py - INFO: Ciphertext_size 118.69 MB
+2023-07-21 23:20:56,997 - alexnet_cifar10_signle.py - INFO: 
+---------epoch 0 batch3,10 clients are in federated training
+
+2023-07-21 23:20:56,999 - alexnet_cifar10_signle.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-07-21 23:20:59,093 - alexnet_cifar10_signle.py - INFO: train_time:2.08715
+2023-07-21 23:21:00,309 - alexnet_cifar10_signle.py - INFO: 量化时间：1.148670
+2023-07-21 23:21:01,657 - alexnet_cifar10_signle.py - INFO: 加密梯度时间：1.347158
+2023-07-21 23:21:02,086 - genernal.py - INFO: 全局梯度大小:_size 5.94 GB
+2023-07-21 23:21:02,087 - alexnet_cifar10_signle.py - INFO: 聚集时间：0.430818
+2023-07-21 23:21:02,215 - alexnet_cifar10_signle.py - INFO: 解密时间：0.128002
+2023-07-21 23:21:02,593 - alexnet_cifar10_signle.py - INFO: 去量化时间：0.377446
+2023-07-21 23:21:03,003 - alexnet_cifar10_signle.py - INFO: loss: 2.287438631057739 	 elapsed time: 3.820756673812866
+2023-07-21 23:21:03,484 - alexnet_cifar10_signle.py - INFO: Plaintext_size 143.16 MB
+2023-07-21 23:21:03,484 - alexnet_cifar10_signle.py - INFO: Ciphertext_size 178.04 MB
+2023-07-21 23:21:03,487 - alexnet_cifar10_signle.py - INFO: 
+---------epoch 0 batch4,10 clients are in federated training
+
+2023-07-21 23:21:03,488 - alexnet_cifar10_signle.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-07-21 23:21:05,666 - alexnet_cifar10_signle.py - INFO: train_time:2.17199
+2023-07-21 23:21:06,846 - alexnet_cifar10_signle.py - INFO: 量化时间：1.120773
+2023-07-21 23:21:08,179 - alexnet_cifar10_signle.py - INFO: 加密梯度时间：1.332120
+2023-07-21 23:21:08,583 - genernal.py - INFO: 全局梯度大小:_size 5.94 GB
+2023-07-21 23:21:08,584 - alexnet_cifar10_signle.py - INFO: 聚集时间：0.404018
+2023-07-21 23:21:08,716 - alexnet_cifar10_signle.py - INFO: 解密时间：0.132009
+2023-07-21 23:21:09,098 - alexnet_cifar10_signle.py - INFO: 去量化时间：0.381629
+2023-07-21 23:21:09,495 - alexnet_cifar10_signle.py - INFO: loss: 2.28723316192627 	 elapsed time: 3.745551347732544
+2023-07-21 23:21:09,973 - alexnet_cifar10_signle.py - INFO: Plaintext_size 190.88 MB
+2023-07-21 23:21:09,974 - alexnet_cifar10_signle.py - INFO: Ciphertext_size 237.39 MB
+2023-07-21 23:21:09,981 - alexnet_cifar10_signle.py - INFO: 
+---------epoch 0 batch5,10 clients are in federated training
+
+2023-07-21 23:21:09,982 - alexnet_cifar10_signle.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-07-21 23:21:12,017 - alexnet_cifar10_signle.py - INFO: train_time:2.02935
+2023-07-21 23:21:13,223 - alexnet_cifar10_signle.py - INFO: 量化时间：1.144637
+2023-07-21 23:21:14,577 - alexnet_cifar10_signle.py - INFO: 加密梯度时间：1.351639
+2023-07-21 23:21:15,019 - genernal.py - INFO: 全局梯度大小:_size 5.94 GB
+2023-07-21 23:21:15,019 - alexnet_cifar10_signle.py - INFO: 聚集时间：0.442621
+2023-07-21 23:21:15,149 - alexnet_cifar10_signle.py - INFO: 解密时间：0.128998
+2023-07-21 23:21:15,533 - alexnet_cifar10_signle.py - INFO: 去量化时间：0.384002
+2023-07-21 23:21:15,961 - alexnet_cifar10_signle.py - INFO: loss: 2.2762748479843142 	 elapsed time: 3.8595309257507324
+2023-07-21 23:21:16,417 - alexnet_cifar10_signle.py - INFO: Plaintext_size 238.60 MB
+2023-07-21 23:21:16,417 - alexnet_cifar10_signle.py - INFO: Ciphertext_size 296.74 MB
+2023-07-21 23:21:16,420 - alexnet_cifar10_signle.py - INFO: 
+---------epoch 0 batch6,10 clients are in federated training
+
+2023-07-21 23:21:16,421 - alexnet_cifar10_signle.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-07-21 23:21:18,493 - alexnet_cifar10_signle.py - INFO: train_time:2.06745
+2023-07-21 23:21:19,684 - alexnet_cifar10_signle.py - INFO: 量化时间：1.117846
+2023-07-21 23:21:21,025 - alexnet_cifar10_signle.py - INFO: 加密梯度时间：1.339286
+2023-07-21 23:21:21,431 - genernal.py - INFO: 全局梯度大小:_size 5.94 GB
+2023-07-21 23:21:21,432 - alexnet_cifar10_signle.py - INFO: 聚集时间：0.405002
+2023-07-21 23:21:21,562 - alexnet_cifar10_signle.py - INFO: 解密时间：0.130451
+2023-07-21 23:21:21,948 - alexnet_cifar10_signle.py - INFO: 去量化时间：0.385603
+2023-07-21 23:21:22,351 - alexnet_cifar10_signle.py - INFO: loss: 2.2634217500686646 	 elapsed time: 3.7601804733276367
+2023-07-21 23:21:22,825 - alexnet_cifar10_signle.py - INFO: Plaintext_size 286.33 MB
+2023-07-21 23:21:22,825 - alexnet_cifar10_signle.py - INFO: Ciphertext_size 356.10 MB
+2023-07-21 23:21:22,831 - alexnet_cifar10_signle.py - INFO: 
+---------epoch 0 batch7,10 clients are in federated training
+
+2023-07-21 23:21:22,832 - alexnet_cifar10_signle.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-07-21 23:21:24,920 - alexnet_cifar10_signle.py - INFO: train_time:2.08046
+2023-07-21 23:21:26,111 - alexnet_cifar10_signle.py - INFO: 量化时间：1.115921
+2023-07-21 23:21:27,498 - alexnet_cifar10_signle.py - INFO: 加密梯度时间：1.386424
+2023-07-21 23:21:27,924 - genernal.py - INFO: 全局梯度大小:_size 5.94 GB
+2023-07-21 23:21:27,924 - alexnet_cifar10_signle.py - INFO: 聚集时间：0.426615
+2023-07-21 23:21:28,049 - alexnet_cifar10_signle.py - INFO: 解密时间：0.124002
+2023-07-21 23:21:28,424 - alexnet_cifar10_signle.py - INFO: 去量化时间：0.373999
+2023-07-21 23:21:28,829 - alexnet_cifar10_signle.py - INFO: loss: 2.2580499887466434 	 elapsed time: 3.8085503578186035
+2023-07-21 23:21:29,292 - alexnet_cifar10_signle.py - INFO: Plaintext_size 334.05 MB
+2023-07-21 23:21:29,292 - alexnet_cifar10_signle.py - INFO: Ciphertext_size 415.45 MB
+2023-07-21 23:21:29,295 - alexnet_cifar10_signle.py - INFO: 
+---------epoch 0 batch8,10 clients are in federated training
+
+2023-07-21 23:21:29,296 - alexnet_cifar10_signle.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-07-21 23:21:31,415 - alexnet_cifar10_signle.py - INFO: train_time:2.11226
+2023-07-21 23:21:32,617 - alexnet_cifar10_signle.py - INFO: 量化时间：1.133624

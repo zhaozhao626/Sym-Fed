@@ -1,0 +1,1 @@
+step,train_loss,train_accuracy,jaccard index(JA),dice coefficient(DI),Accuracy(AC),sensitivity(SE),specificity(SP)

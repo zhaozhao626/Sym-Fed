@@ -1,0 +1,6 @@
+2023-06-30 13:10:47,985 - fcn_fminist.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-30 13:10:47,986 - fcn_fminist.py - INFO: mode = batch
+2023-06-30 13:10:48,127 - fcn_fminist.py - INFO: train_time:0.14100
+2023-06-30 13:10:48,206 - fcn_fminist.py - INFO: 量化时间：0.074001

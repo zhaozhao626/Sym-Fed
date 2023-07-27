@@ -1,0 +1,73 @@
+2023-06-30 15:54:18,046 - LSTM_Shakespeare.py - INFO: Length of text: 1115394 characters
+2023-06-30 15:54:18,061 - LSTM_Shakespeare.py - INFO: 65 unique characters
+2023-06-30 15:54:18,205 - LSTM_Shakespeare.py - INFO: {
+2023-06-30 15:54:18,205 - LSTM_Shakespeare.py - INFO:   '\n':   0,
+2023-06-30 15:54:18,206 - LSTM_Shakespeare.py - INFO:   ' ' :   1,
+2023-06-30 15:54:18,206 - LSTM_Shakespeare.py - INFO:   '!' :   2,
+2023-06-30 15:54:18,207 - LSTM_Shakespeare.py - INFO:   '$' :   3,
+2023-06-30 15:54:18,207 - LSTM_Shakespeare.py - INFO:   '&' :   4,
+2023-06-30 15:54:18,208 - LSTM_Shakespeare.py - INFO:   "'" :   5,
+2023-06-30 15:54:18,208 - LSTM_Shakespeare.py - INFO:   ',' :   6,
+2023-06-30 15:54:18,209 - LSTM_Shakespeare.py - INFO:   '-' :   7,
+2023-06-30 15:54:18,209 - LSTM_Shakespeare.py - INFO:   '.' :   8,
+2023-06-30 15:54:18,210 - LSTM_Shakespeare.py - INFO:   '3' :   9,
+2023-06-30 15:54:18,210 - LSTM_Shakespeare.py - INFO:   ':' :  10,
+2023-06-30 15:54:18,210 - LSTM_Shakespeare.py - INFO:   ';' :  11,
+2023-06-30 15:54:18,211 - LSTM_Shakespeare.py - INFO:   '?' :  12,
+2023-06-30 15:54:18,212 - LSTM_Shakespeare.py - INFO:   'A' :  13,
+2023-06-30 15:54:18,212 - LSTM_Shakespeare.py - INFO:   'B' :  14,
+2023-06-30 15:54:18,213 - LSTM_Shakespeare.py - INFO:   'C' :  15,
+2023-06-30 15:54:18,214 - LSTM_Shakespeare.py - INFO:   'D' :  16,
+2023-06-30 15:54:18,214 - LSTM_Shakespeare.py - INFO:   'E' :  17,
+2023-06-30 15:54:18,215 - LSTM_Shakespeare.py - INFO:   'F' :  18,
+2023-06-30 15:54:18,216 - LSTM_Shakespeare.py - INFO:   'G' :  19,
+2023-06-30 15:54:18,216 - LSTM_Shakespeare.py - INFO:   ...
+}
+2023-06-30 15:54:18,217 - LSTM_Shakespeare.py - INFO: 'First Citizen' ---- characters mapped to int ---- > [18 47 56 57 58  1 15 47 58 47 64 43 52]
+2023-06-30 15:54:18,246 - LSTM_Shakespeare.py - INFO: F
+2023-06-30 15:54:18,247 - LSTM_Shakespeare.py - INFO: i
+2023-06-30 15:54:18,247 - LSTM_Shakespeare.py - INFO: r
+2023-06-30 15:54:18,248 - LSTM_Shakespeare.py - INFO: s
+2023-06-30 15:54:18,249 - LSTM_Shakespeare.py - INFO: t
+2023-06-30 15:54:18,260 - LSTM_Shakespeare.py - INFO: 'First Citizen:\nBefore we proceed any further, hear me speak.\n\nAll:\nSpeak, speak.\n\nFirst Citizen:\nYou '
+2023-06-30 15:54:18,261 - LSTM_Shakespeare.py - INFO: 'are all resolved rather to die than to famish?\n\nAll:\nResolved. resolved.\n\nFirst Citizen:\nFirst, you k'
+2023-06-30 15:54:18,262 - LSTM_Shakespeare.py - INFO: "now Caius Marcius is chief enemy to the people.\n\nAll:\nWe know't, we know't.\n\nFirst Citizen:\nLet us ki"
+2023-06-30 15:54:18,262 - LSTM_Shakespeare.py - INFO: "ll him, and we'll have corn at our own price.\nIs't a verdict?\n\nAll:\nNo more talking on't; let it be d"
+2023-06-30 15:54:18,263 - LSTM_Shakespeare.py - INFO: 'one: away, away!\n\nSecond Citizen:\nOne word, good citizens.\n\nFirst Citizen:\nWe are accounted poor citi'
+2023-06-30 15:54:18,350 - LSTM_Shakespeare.py - INFO: Step    0
+2023-06-30 15:54:18,351 - LSTM_Shakespeare.py - INFO:   input: 18 ('F')
+2023-06-30 15:54:18,352 - LSTM_Shakespeare.py - INFO:   expected output: 47 ('i')
+2023-06-30 15:54:18,353 - LSTM_Shakespeare.py - INFO: Step    1
+2023-06-30 15:54:18,354 - LSTM_Shakespeare.py - INFO:   input: 47 ('i')
+2023-06-30 15:54:18,355 - LSTM_Shakespeare.py - INFO:   expected output: 56 ('r')
+2023-06-30 15:54:18,356 - LSTM_Shakespeare.py - INFO: Step    2
+2023-06-30 15:54:18,357 - LSTM_Shakespeare.py - INFO:   input: 56 ('r')
+2023-06-30 15:54:18,358 - LSTM_Shakespeare.py - INFO:   expected output: 57 ('s')
+2023-06-30 15:54:18,359 - LSTM_Shakespeare.py - INFO: Step    3
+2023-06-30 15:54:18,371 - LSTM_Shakespeare.py - INFO:   input: 57 ('s')
+2023-06-30 15:54:18,384 - LSTM_Shakespeare.py - INFO:   expected output: 58 ('t')
+2023-06-30 15:54:18,395 - LSTM_Shakespeare.py - INFO: Step    4
+2023-06-30 15:54:18,402 - LSTM_Shakespeare.py - INFO:   input: 58 ('t')
+2023-06-30 15:54:18,403 - LSTM_Shakespeare.py - INFO:   expected output: 1 (' ')
+2023-06-30 15:54:18,409 - deprecation.py - WARNING: From e:/BaiduNetdiskDownload/backup_6_20/home/wjz/Efficient_Data_Processing_with_Symmetrically_Encrypted_Neural_Networks/LSTM_Shakespeare.py:153: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2023-06-30 15:54:28,999 - LSTM_Shakespeare.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-30 15:54:29,000 - LSTM_Shakespeare.py - INFO: mode = hash_encrypt
+2023-06-30 15:54:29,001 - LSTM_Shakespeare.py - INFO: 10 clients are in federated training
+2023-06-30 15:54:50,873 - LSTM_Shakespeare.py - INFO: train_time:21.87104
+2023-06-30 15:54:54,262 - LSTM_Shakespeare.py - INFO: 量化时间：3.154773
+2023-06-30 15:54:58,951 - LSTM_Shakespeare.py - INFO: 加密梯度时间：4.688442
+2023-06-30 15:55:00,170 - LSTM_Shakespeare.py - INFO: 聚集时间：1.218089
+2023-06-30 15:55:00,572 - LSTM_Shakespeare.py - INFO: 解密时间：0.401190
+2023-06-30 15:55:01,820 - LSTM_Shakespeare.py - INFO: 去量化时间：1.248412
+2023-06-30 15:55:03,166 - LSTM_Shakespeare.py - INFO: loss: 0.4173198938369751 	elapsed time: 11.976454734802246
+2023-06-30 15:55:03,168 - LSTM_Shakespeare.py - INFO: Plaintext_size 153.41 MB
+2023-06-30 15:55:03,168 - LSTM_Shakespeare.py - INFO: Ciphertext_size 190.64 MB
+2023-06-30 15:55:03,180 - LSTM_Shakespeare.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-06-30 15:55:03,182 - LSTM_Shakespeare.py - INFO: mode = hash_encrypt
+2023-06-30 15:55:03,184 - LSTM_Shakespeare.py - INFO: 10 clients are in federated training

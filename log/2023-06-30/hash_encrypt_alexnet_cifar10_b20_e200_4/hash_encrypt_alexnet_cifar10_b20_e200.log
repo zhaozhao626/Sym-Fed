@@ -1,0 +1,28 @@
+2023-06-30 14:14:47,326 - alexnet_cifar10.py - INFO: 10 clients building datasets.
+2023-06-30 14:14:47,326 - alexnet_cifar10.py - INFO: 0 client has 5000 data items.
+2023-06-30 14:14:47,326 - alexnet_cifar10.py - INFO: 1 client has 5000 data items.
+2023-06-30 14:14:47,326 - alexnet_cifar10.py - INFO: 2 client has 5000 data items.
+2023-06-30 14:14:47,327 - alexnet_cifar10.py - INFO: 3 client has 5000 data items.
+2023-06-30 14:14:47,327 - alexnet_cifar10.py - INFO: 4 client has 5000 data items.
+2023-06-30 14:14:47,327 - alexnet_cifar10.py - INFO: 5 client has 5000 data items.
+2023-06-30 14:14:47,328 - alexnet_cifar10.py - INFO: 6 client has 5000 data items.
+2023-06-30 14:14:47,328 - alexnet_cifar10.py - INFO: 7 client has 5000 data items.
+2023-06-30 14:14:47,328 - alexnet_cifar10.py - INFO: 8 client has 5000 data items.
+2023-06-30 14:14:47,329 - alexnet_cifar10.py - INFO: 9 client has 5000 data items.
+2023-06-30 14:14:48,966 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-30 14:14:48,967 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-30 14:14:51,143 - alexnet_cifar10.py - INFO: train_time:2.17500
+2023-06-30 14:14:52,154 - alexnet_cifar10.py - INFO: 量化时间：0.948369
+2023-06-30 14:14:53,353 - alexnet_cifar10.py - INFO: 加密梯度时间：1.199561
+2023-06-30 14:14:53,723 - alexnet_cifar10.py - INFO: 聚集时间：0.370011
+2023-06-30 14:14:53,854 - alexnet_cifar10.py - INFO: 解密时间：0.131000
+2023-06-30 14:14:54,241 - alexnet_cifar10.py - INFO: 去量化时间：0.386000
+2023-06-30 14:14:54,669 - alexnet_cifar10.py - INFO: loss: 2.3125622749328616 	 elapsed time: 3.414637804031372
+2023-06-30 14:14:55,165 - alexnet_cifar10.py - INFO: Plaintext_size 47.72 MB
+2023-06-30 14:14:55,166 - alexnet_cifar10.py - INFO: Ciphertext_size 59.35 MB
+2023-06-30 14:14:55,170 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-06-30 14:14:55,171 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool

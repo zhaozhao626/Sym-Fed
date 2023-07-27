@@ -1,0 +1,213 @@
+2023-07-21 23:38:45,270 - LSTM_Shakespeare_signle.py - INFO: Length of text: 1115394 characters
+2023-07-21 23:38:45,284 - LSTM_Shakespeare_signle.py - INFO: 65 unique characters
+2023-07-21 23:38:45,416 - LSTM_Shakespeare_signle.py - INFO: {
+2023-07-21 23:38:45,417 - LSTM_Shakespeare_signle.py - INFO:   '\n':   0,
+2023-07-21 23:38:45,417 - LSTM_Shakespeare_signle.py - INFO:   ' ' :   1,
+2023-07-21 23:38:45,418 - LSTM_Shakespeare_signle.py - INFO:   '!' :   2,
+2023-07-21 23:38:45,418 - LSTM_Shakespeare_signle.py - INFO:   '$' :   3,
+2023-07-21 23:38:45,419 - LSTM_Shakespeare_signle.py - INFO:   '&' :   4,
+2023-07-21 23:38:45,419 - LSTM_Shakespeare_signle.py - INFO:   "'" :   5,
+2023-07-21 23:38:45,420 - LSTM_Shakespeare_signle.py - INFO:   ',' :   6,
+2023-07-21 23:38:45,421 - LSTM_Shakespeare_signle.py - INFO:   '-' :   7,
+2023-07-21 23:38:45,421 - LSTM_Shakespeare_signle.py - INFO:   '.' :   8,
+2023-07-21 23:38:45,421 - LSTM_Shakespeare_signle.py - INFO:   '3' :   9,
+2023-07-21 23:38:45,422 - LSTM_Shakespeare_signle.py - INFO:   ':' :  10,
+2023-07-21 23:38:45,422 - LSTM_Shakespeare_signle.py - INFO:   ';' :  11,
+2023-07-21 23:38:45,423 - LSTM_Shakespeare_signle.py - INFO:   '?' :  12,
+2023-07-21 23:38:45,423 - LSTM_Shakespeare_signle.py - INFO:   'A' :  13,
+2023-07-21 23:38:45,423 - LSTM_Shakespeare_signle.py - INFO:   'B' :  14,
+2023-07-21 23:38:45,424 - LSTM_Shakespeare_signle.py - INFO:   'C' :  15,
+2023-07-21 23:38:45,424 - LSTM_Shakespeare_signle.py - INFO:   'D' :  16,
+2023-07-21 23:38:45,424 - LSTM_Shakespeare_signle.py - INFO:   'E' :  17,
+2023-07-21 23:38:45,425 - LSTM_Shakespeare_signle.py - INFO:   'F' :  18,
+2023-07-21 23:38:45,425 - LSTM_Shakespeare_signle.py - INFO:   'G' :  19,
+2023-07-21 23:38:45,426 - LSTM_Shakespeare_signle.py - INFO:   ...
+}
+2023-07-21 23:38:45,426 - LSTM_Shakespeare_signle.py - INFO: 'First Citizen' ---- characters mapped to int ---- > [18 47 56 57 58  1 15 47 58 47 64 43 52]
+2023-07-21 23:38:45,454 - LSTM_Shakespeare_signle.py - INFO: F
+2023-07-21 23:38:45,455 - LSTM_Shakespeare_signle.py - INFO: i
+2023-07-21 23:38:45,455 - LSTM_Shakespeare_signle.py - INFO: r
+2023-07-21 23:38:45,456 - LSTM_Shakespeare_signle.py - INFO: s
+2023-07-21 23:38:45,457 - LSTM_Shakespeare_signle.py - INFO: t
+2023-07-21 23:38:45,468 - LSTM_Shakespeare_signle.py - INFO: 'First Citizen:\nBefore we proceed any further, hear me speak.\n\nAll:\nSpeak, speak.\n\nFirst Citizen:\nYou '
+2023-07-21 23:38:45,469 - LSTM_Shakespeare_signle.py - INFO: 'are all resolved rather to die than to famish?\n\nAll:\nResolved. resolved.\n\nFirst Citizen:\nFirst, you k'
+2023-07-21 23:38:45,470 - LSTM_Shakespeare_signle.py - INFO: "now Caius Marcius is chief enemy to the people.\n\nAll:\nWe know't, we know't.\n\nFirst Citizen:\nLet us ki"
+2023-07-21 23:38:45,471 - LSTM_Shakespeare_signle.py - INFO: "ll him, and we'll have corn at our own price.\nIs't a verdict?\n\nAll:\nNo more talking on't; let it be d"
+2023-07-21 23:38:45,472 - LSTM_Shakespeare_signle.py - INFO: 'one: away, away!\n\nSecond Citizen:\nOne word, good citizens.\n\nFirst Citizen:\nWe are accounted poor citi'
+2023-07-21 23:38:45,550 - LSTM_Shakespeare_signle.py - INFO: Step    0
+2023-07-21 23:38:45,551 - LSTM_Shakespeare_signle.py - INFO:   input: 18 ('F')
+2023-07-21 23:38:45,551 - LSTM_Shakespeare_signle.py - INFO:   expected output: 47 ('i')
+2023-07-21 23:38:45,552 - LSTM_Shakespeare_signle.py - INFO: Step    1
+2023-07-21 23:38:45,553 - LSTM_Shakespeare_signle.py - INFO:   input: 47 ('i')
+2023-07-21 23:38:45,553 - LSTM_Shakespeare_signle.py - INFO:   expected output: 56 ('r')
+2023-07-21 23:38:45,554 - LSTM_Shakespeare_signle.py - INFO: Step    2
+2023-07-21 23:38:45,555 - LSTM_Shakespeare_signle.py - INFO:   input: 56 ('r')
+2023-07-21 23:38:45,555 - LSTM_Shakespeare_signle.py - INFO:   expected output: 57 ('s')
+2023-07-21 23:38:45,556 - LSTM_Shakespeare_signle.py - INFO: Step    3
+2023-07-21 23:38:45,556 - LSTM_Shakespeare_signle.py - INFO:   input: 57 ('s')
+2023-07-21 23:38:45,557 - LSTM_Shakespeare_signle.py - INFO:   expected output: 58 ('t')
+2023-07-21 23:38:45,558 - LSTM_Shakespeare_signle.py - INFO: Step    4
+2023-07-21 23:38:45,558 - LSTM_Shakespeare_signle.py - INFO:   input: 58 ('t')
+2023-07-21 23:38:45,558 - LSTM_Shakespeare_signle.py - INFO:   expected output: 1 (' ')
+2023-07-21 23:38:45,562 - deprecation.py - WARNING: From .\LSTM_Shakespeare_signle.py:153: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2023-07-21 23:38:55,368 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-07-21 23:38:55,369 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:38:55,369 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:39:14,211 - LSTM_Shakespeare_signle.py - INFO: train_time:18.84191
+2023-07-21 23:39:17,344 - LSTM_Shakespeare_signle.py - INFO: 量化时间：2.928756
+2023-07-21 23:39:21,531 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：4.186253
+2023-07-21 23:39:22,662 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.130561
+2023-07-21 23:39:23,064 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.402568
+2023-07-21 23:39:24,238 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.173558
+2023-07-21 23:39:25,560 - LSTM_Shakespeare_signle.py - INFO: loss: 0.41754069924354553 	elapsed time: 11.067078351974487
+2023-07-21 23:39:25,561 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 153.41 MB
+2023-07-21 23:39:25,561 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 190.64 MB
+2023-07-21 23:39:25,572 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-07-21 23:39:25,576 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:39:25,579 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:39:46,023 - LSTM_Shakespeare_signle.py - INFO: train_time:20.41720
+2023-07-21 23:39:49,574 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.336462
+2023-07-21 23:39:54,642 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：5.067338
+2023-07-21 23:39:55,893 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.250792
+2023-07-21 23:39:56,346 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.451641
+2023-07-21 23:39:57,511 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.164105
+2023-07-21 23:39:58,789 - LSTM_Shakespeare_signle.py - INFO: loss: 0.4134792387485504 	elapsed time: 12.502221822738647
+2023-07-21 23:39:58,790 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 306.83 MB
+2023-07-21 23:39:58,790 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 381.27 MB
+2023-07-21 23:39:58,794 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch3,10 clients are in federated training
+
+2023-07-21 23:39:58,797 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:39:58,808 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:40:18,982 - LSTM_Shakespeare_signle.py - INFO: train_time:20.14463
+2023-07-21 23:40:22,654 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.436598
+2023-07-21 23:40:27,710 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：5.054542
+2023-07-21 23:40:29,066 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.356735
+2023-07-21 23:40:29,475 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.408001
+2023-07-21 23:40:30,632 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.156564
+2023-07-21 23:40:31,943 - LSTM_Shakespeare_signle.py - INFO: loss: 0.40617749094963074 	elapsed time: 12.671770095825195
+2023-07-21 23:40:31,944 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 460.24 MB
+2023-07-21 23:40:31,944 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 571.92 MB
+2023-07-21 23:40:31,947 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch4,10 clients are in federated training
+
+2023-07-21 23:40:31,954 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:40:31,960 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:40:52,618 - LSTM_Shakespeare_signle.py - INFO: train_time:20.60692
+2023-07-21 23:40:56,222 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.403108
+2023-07-21 23:41:01,701 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：5.478863
+2023-07-21 23:41:02,951 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.249122
+2023-07-21 23:41:03,365 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.413651
+2023-07-21 23:41:04,527 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.161646
+2023-07-21 23:41:06,072 - LSTM_Shakespeare_signle.py - INFO: loss: 0.3655112385749817 	elapsed time: 13.202348709106445
+2023-07-21 23:41:06,073 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 613.65 MB
+2023-07-21 23:41:06,074 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 762.64 MB
+2023-07-21 23:41:06,077 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch5,10 clients are in federated training
+
+2023-07-21 23:41:06,079 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:41:06,080 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:41:26,275 - LSTM_Shakespeare_signle.py - INFO: train_time:20.15992
+2023-07-21 23:41:29,867 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.383037
+2023-07-21 23:41:34,640 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：4.772972
+2023-07-21 23:41:35,887 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.246130
+2023-07-21 23:41:36,320 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.433000
+2023-07-21 23:41:37,492 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.171587
+2023-07-21 23:41:38,769 - LSTM_Shakespeare_signle.py - INFO: loss: 1.3047059774398804 	elapsed time: 12.235235214233398
+2023-07-21 23:41:38,770 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 767.07 MB
+2023-07-21 23:41:38,771 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 953.25 MB
+2023-07-21 23:41:38,773 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch6,10 clients are in federated training
+
+2023-07-21 23:41:38,787 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:41:38,789 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:42:00,154 - LSTM_Shakespeare_signle.py - INFO: train_time:21.33828
+2023-07-21 23:42:03,796 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.417068
+2023-07-21 23:42:08,530 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：4.732310
+2023-07-21 23:42:09,738 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.207164
+2023-07-21 23:42:10,158 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.418663
+2023-07-21 23:42:11,304 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.145706
+2023-07-21 23:42:12,580 - LSTM_Shakespeare_signle.py - INFO: loss: 0.8263180255889893 	elapsed time: 12.151506662368774
+2023-07-21 23:42:12,581 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 920.48 MB
+2023-07-21 23:42:12,581 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 1.12 GB
+2023-07-21 23:42:12,596 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch7,10 clients are in federated training
+
+2023-07-21 23:42:12,599 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:42:12,601 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:42:32,912 - LSTM_Shakespeare_signle.py - INFO: train_time:20.28093
+2023-07-21 23:42:36,642 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.495505
+2023-07-21 23:42:41,490 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：4.847135
+2023-07-21 23:42:42,686 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.194579
+2023-07-21 23:42:43,096 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.409572
+2023-07-21 23:42:44,270 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.174555
+2023-07-21 23:42:45,578 - LSTM_Shakespeare_signle.py - INFO: loss: 0.5630546808242798 	elapsed time: 12.381181955337524
+2023-07-21 23:42:45,579 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 1.05 GB
+2023-07-21 23:42:45,580 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 1.30 GB
+2023-07-21 23:42:45,584 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch8,10 clients are in federated training
+
+2023-07-21 23:42:45,589 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:42:45,593 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:43:06,669 - LSTM_Shakespeare_signle.py - INFO: train_time:21.04117
+2023-07-21 23:43:10,390 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.527149
+2023-07-21 23:43:15,179 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：4.788135
+2023-07-21 23:43:16,338 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.158234
+2023-07-21 23:43:16,738 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.399998
+2023-07-21 23:43:17,907 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.168199
+2023-07-21 23:43:19,256 - LSTM_Shakespeare_signle.py - INFO: loss: 0.44143930077552795 	elapsed time: 12.338310241699219
+2023-07-21 23:43:19,257 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 1.20 GB
+2023-07-21 23:43:19,258 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 1.49 GB
+2023-07-21 23:43:19,261 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch9,10 clients are in federated training
+
+2023-07-21 23:43:19,279 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:43:19,282 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:43:40,558 - LSTM_Shakespeare_signle.py - INFO: train_time:21.24725
+2023-07-21 23:43:44,248 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.493748
+2023-07-21 23:43:48,986 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：4.737509
+2023-07-21 23:43:50,166 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.180639
+2023-07-21 23:43:50,564 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.397019
+2023-07-21 23:43:51,731 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.165693
+2023-07-21 23:43:53,094 - LSTM_Shakespeare_signle.py - INFO: loss: 0.3780129551887512 	elapsed time: 12.288362264633179
+2023-07-21 23:43:53,095 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 1.35 GB
+2023-07-21 23:43:53,096 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 1.68 GB
+2023-07-21 23:43:53,110 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch10,10 clients are in federated training
+
+2023-07-21 23:43:53,114 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:43:53,115 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:44:14,421 - LSTM_Shakespeare_signle.py - INFO: train_time:21.27192
+2023-07-21 23:44:18,442 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.822938
+2023-07-21 23:44:24,438 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：5.995708
+2023-07-21 23:44:25,729 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.290685
+2023-07-21 23:44:26,206 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.476736
+2023-07-21 23:44:27,445 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.239748
+2023-07-21 23:44:28,784 - LSTM_Shakespeare_signle.py - INFO: loss: 0.38970106840133667 	elapsed time: 14.114521980285645
+2023-07-21 23:44:28,785 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 1.50 GB
+2023-07-21 23:44:28,785 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 1.86 GB
+2023-07-21 23:44:28,788 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch11,10 clients are in federated training
+
+2023-07-21 23:44:28,793 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:44:28,797 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:44:51,150 - LSTM_Shakespeare_signle.py - INFO: train_time:22.31832
+2023-07-21 23:44:54,871 - LSTM_Shakespeare_signle.py - INFO: 量化时间：3.493658
+2023-07-21 23:44:59,629 - LSTM_Shakespeare_signle.py - INFO: 加密梯度时间：4.756350
+2023-07-21 23:45:00,837 - LSTM_Shakespeare_signle.py - INFO: 聚集时间：1.207124
+2023-07-21 23:45:01,260 - LSTM_Shakespeare_signle.py - INFO: 解密时间：0.423005
+2023-07-21 23:45:02,441 - LSTM_Shakespeare_signle.py - INFO: 去量化时间：1.179948
+2023-07-21 23:45:03,747 - LSTM_Shakespeare_signle.py - INFO: loss: 0.3962149918079376 	elapsed time: 12.3192298412323
+2023-07-21 23:45:03,748 - LSTM_Shakespeare_signle.py - INFO: Plaintext_size 1.65 GB
+2023-07-21 23:45:03,749 - LSTM_Shakespeare_signle.py - INFO: Ciphertext_size 2.05 GB
+2023-07-21 23:45:03,751 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch12,10 clients are in federated training
+
+2023-07-21 23:45:03,755 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:45:03,766 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training

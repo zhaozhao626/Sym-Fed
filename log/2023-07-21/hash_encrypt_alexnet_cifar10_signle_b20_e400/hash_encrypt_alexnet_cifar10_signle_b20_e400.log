@@ -1,0 +1,17 @@
+2023-07-21 23:16:17,156 - alexnet_cifar10_signle.py - INFO: 10 clients building datasets.
+2023-07-21 23:16:17,157 - alexnet_cifar10_signle.py - INFO: 0 client has 5000 data items.
+2023-07-21 23:16:17,157 - alexnet_cifar10_signle.py - INFO: 1 client has 5000 data items.
+2023-07-21 23:16:17,157 - alexnet_cifar10_signle.py - INFO: 2 client has 5000 data items.
+2023-07-21 23:16:17,158 - alexnet_cifar10_signle.py - INFO: 3 client has 5000 data items.
+2023-07-21 23:16:17,158 - alexnet_cifar10_signle.py - INFO: 4 client has 5000 data items.
+2023-07-21 23:16:17,158 - alexnet_cifar10_signle.py - INFO: 5 client has 5000 data items.
+2023-07-21 23:16:17,159 - alexnet_cifar10_signle.py - INFO: 6 client has 5000 data items.
+2023-07-21 23:16:17,159 - alexnet_cifar10_signle.py - INFO: 7 client has 5000 data items.
+2023-07-21 23:16:17,159 - alexnet_cifar10_signle.py - INFO: 8 client has 5000 data items.
+2023-07-21 23:16:17,160 - alexnet_cifar10_signle.py - INFO: 9 client has 5000 data items.
+2023-07-21 23:16:18,835 - alexnet_cifar10_signle.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-07-21 23:16:18,836 - alexnet_cifar10_signle.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-07-21 23:16:20,819 - alexnet_cifar10_signle.py - INFO: train_time:1.98264
+2023-07-21 23:16:21,909 - alexnet_cifar10_signle.py - INFO: 量化时间：1.002571

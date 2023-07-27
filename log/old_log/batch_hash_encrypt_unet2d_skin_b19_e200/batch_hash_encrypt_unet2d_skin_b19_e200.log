@@ -1,0 +1,95 @@
+2023-05-26 22:25:42,601 - unet2d_skin.py - INFO: 4 clients building datasets.
+2023-05-26 22:25:42,601 - unet2d_skin.py - INFO: 0 client has 453 data items.
+2023-05-26 22:25:42,601 - unet2d_skin.py - INFO: 1 client has 453 data items.
+2023-05-26 22:25:42,601 - unet2d_skin.py - INFO: 2 client has 453 data items.
+2023-05-26 22:25:42,601 - unet2d_skin.py - INFO: 3 client has 456 data items.
+2023-05-26 22:25:45,395 - deprecation.py - WARNING: From /home/wjz/anaconda3/envs/fl/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py:83: Analyzer.lamba_check (from tensorflow.python.autograph.pyct.static_analysis.liveness) is deprecated and will be removed after 2023-09-23.
+Instructions for updating:
+Lambda fuctions will be no more assumed to be used in the statement where they are used, or at least in the same block. https://github.com/tensorflow/tensorflow/issues/56089
+2023-05-26 22:25:46,790 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 1 step 0,4 clients are in federated training
+
+2023-05-26 22:25:46,791 - unet2d_skin.py - INFO: mode = batch_hash_encrypt parallel_mode = pool
+2023-05-26 22:25:51,284 - unet2d_skin.py - INFO: train_time:4.49340
+2023-05-26 22:26:01,796 - unet2d_skin.py - INFO: 量化时间：9.969503
+2023-05-26 22:26:18,260 - unet2d_skin.py - INFO: 批处理时间：16.463833
+2023-05-26 22:26:20,330 - unet2d_skin.py - INFO: 加密梯度时间：2.047543
+2023-05-26 22:26:20,332 - unet2d_skin.py - INFO: 聚集时间：0.001253
+2023-05-26 22:26:22,248 - unet2d_skin.py - INFO: 解密时间：1.916283
+2023-05-26 22:26:27,833 - unet2d_skin.py - INFO: 去批处理时间：5.584882
+2023-05-26 22:26:28,536 - unet2d_skin.py - INFO: 去量化时间：0.702492
+2023-05-26 22:26:32,110 - polymorphic_function.py - WARNING: 5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7f920647e9d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-05-26 22:26:32,228 - polymorphic_function.py - WARNING: 6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7f920647e9d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-05-26 22:26:35,868 - unet2d_skin.py - INFO: aggregate_loss: 0.6927376240491867 	 elapsed time: 36.709129333496094
+2023-05-26 22:26:36,921 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:26:36,921 - unet2d_skin.py - INFO: train_loss: 0.6927376389503479, train_accuracy:0.0, train_JA:0.0000, train_AC:0.6632, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:26:36,924 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 2 step 1,4 clients are in federated training
+
+2023-05-26 22:26:36,925 - unet2d_skin.py - INFO: mode = batch_hash_encrypt parallel_mode = pool
+2023-05-26 22:26:37,384 - unet2d_skin.py - INFO: train_time:0.45493
+2023-05-26 22:26:47,207 - unet2d_skin.py - INFO: 量化时间：9.713737
+2023-05-26 22:27:09,213 - unet2d_skin.py - INFO: 批处理时间：22.005923
+2023-05-26 22:27:11,209 - unet2d_skin.py - INFO: 加密梯度时间：1.984989
+2023-05-26 22:27:11,544 - unet2d_skin.py - INFO: 聚集时间：0.333903
+2023-05-26 22:27:13,795 - unet2d_skin.py - INFO: 解密时间：2.251784
+2023-05-26 22:27:19,335 - unet2d_skin.py - INFO: 去批处理时间：5.539320
+2023-05-26 22:27:19,964 - unet2d_skin.py - INFO: 去量化时间：0.628964
+2023-05-26 22:27:20,084 - unet2d_skin.py - INFO: aggregate_loss: 0.6927302479743958 	 elapsed time: 42.47056555747986
+2023-05-26 22:27:20,171 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:27:20,171 - unet2d_skin.py - INFO: train_loss: 0.6927339434623718, train_accuracy:0.0, train_JA:0.0000, train_AC:0.6051, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:27:20,305 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 3 step 2,4 clients are in federated training
+
+2023-05-26 22:27:20,305 - unet2d_skin.py - INFO: mode = batch_hash_encrypt parallel_mode = pool
+2023-05-26 22:27:20,885 - unet2d_skin.py - INFO: train_time:0.52054
+2023-05-26 22:27:30,120 - unet2d_skin.py - INFO: 量化时间：9.125298
+2023-05-26 22:27:42,992 - unet2d_skin.py - INFO: 批处理时间：12.872360
+2023-05-26 22:27:45,001 - unet2d_skin.py - INFO: 加密梯度时间：2.007927
+2023-05-26 22:27:45,336 - unet2d_skin.py - INFO: 聚集时间：0.335439
+2023-05-26 22:27:47,598 - unet2d_skin.py - INFO: 解密时间：2.261325
+2023-05-26 22:27:53,160 - unet2d_skin.py - INFO: 去批处理时间：5.561792
+2023-05-26 22:27:53,774 - unet2d_skin.py - INFO: 去量化时间：0.613898
+2023-05-26 22:27:53,879 - unet2d_skin.py - INFO: aggregate_loss: 0.6927057802677155 	 elapsed time: 32.77919316291809
+2023-05-26 22:27:53,941 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:27:53,941 - unet2d_skin.py - INFO: train_loss: 0.6927245259284973, train_accuracy:0.0, train_JA:0.3107, train_AC:0.3055, train_DI:0.4290, train_SE:0.9805, train_SP:0.0315
+2023-05-26 22:27:53,942 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 4 step 3,4 clients are in federated training
+
+2023-05-26 22:27:53,942 - unet2d_skin.py - INFO: mode = batch_hash_encrypt parallel_mode = pool
+2023-05-26 22:27:54,652 - unet2d_skin.py - INFO: train_time:0.68125
+2023-05-26 22:28:04,097 - unet2d_skin.py - INFO: 量化时间：9.330983
+2023-05-26 22:28:17,367 - unet2d_skin.py - INFO: 批处理时间：13.269948
+2023-05-26 22:28:19,356 - unet2d_skin.py - INFO: 加密梯度时间：1.988490
+2023-05-26 22:28:19,690 - unet2d_skin.py - INFO: 聚集时间：0.333913
+2023-05-26 22:28:21,949 - unet2d_skin.py - INFO: 解密时间：2.259183
+2023-05-26 22:28:27,700 - unet2d_skin.py - INFO: 去批处理时间：5.750539
+2023-05-26 22:28:28,325 - unet2d_skin.py - INFO: 去量化时间：0.624691
+2023-05-26 22:28:28,433 - unet2d_skin.py - INFO: aggregate_loss: 0.6926300972700119 	 elapsed time: 33.558931827545166
+2023-05-26 22:28:28,497 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:28:28,497 - unet2d_skin.py - INFO: train_loss: 0.6927009224891663, train_accuracy:0.0, train_JA:0.1743, train_AC:0.1719, train_DI:0.2666, train_SE:0.9995, train_SP:0.0152
+2023-05-26 22:28:28,500 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 5 step 4,4 clients are in federated training
+
+2023-05-26 22:28:28,500 - unet2d_skin.py - INFO: mode = batch_hash_encrypt parallel_mode = pool
+2023-05-26 22:28:29,290 - unet2d_skin.py - INFO: train_time:0.78894
+2023-05-26 22:28:38,868 - unet2d_skin.py - INFO: 量化时间：9.461381
+2023-05-26 22:28:58,890 - unet2d_skin.py - INFO: 批处理时间：20.021862
+2023-05-26 22:29:00,940 - unet2d_skin.py - INFO: 加密梯度时间：2.009320
+2023-05-26 22:29:01,275 - unet2d_skin.py - INFO: 聚集时间：0.334713
+2023-05-26 22:29:03,528 - unet2d_skin.py - INFO: 解密时间：2.252388
+2023-05-26 22:29:09,090 - unet2d_skin.py - INFO: 去批处理时间：5.562131
+2023-05-26 22:29:09,711 - unet2d_skin.py - INFO: 去量化时间：0.620644
+2023-05-26 22:29:09,806 - unet2d_skin.py - INFO: aggregate_loss: 0.6927230209112167 	 elapsed time: 40.30433487892151
+2023-05-26 22:29:10,009 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:29:10,010 - unet2d_skin.py - INFO: train_loss: 0.6927053332328796, train_accuracy:0.0, train_JA:0.1116, train_AC:0.1087, train_DI:0.1728, train_SE:0.9913, train_SP:0.0118
+2023-05-26 22:29:10,012 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 6 step 5,4 clients are in federated training
+
+2023-05-26 22:29:10,012 - unet2d_skin.py - INFO: mode = batch_hash_encrypt parallel_mode = pool
+2023-05-26 22:29:10,798 - unet2d_skin.py - INFO: train_time:0.74001
+2023-05-26 22:29:20,301 - unet2d_skin.py - INFO: 量化时间：9.388294
+2023-05-26 22:29:33,721 - unet2d_skin.py - INFO: 批处理时间：13.419375
+2023-05-26 22:29:35,733 - unet2d_skin.py - INFO: 加密梯度时间：2.011605
+2023-05-26 22:29:36,072 - unet2d_skin.py - INFO: 聚集时间：0.338947
+2023-05-26 22:29:38,338 - unet2d_skin.py - INFO: 解密时间：2.266086

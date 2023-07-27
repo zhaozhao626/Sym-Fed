@@ -1,0 +1,35 @@
+2023-06-30 13:12:34,331 - fcn_fminist.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-30 13:12:34,332 - fcn_fminist.py - INFO: mode = batch
+2023-06-30 13:12:34,466 - fcn_fminist.py - INFO: train_time:0.13388
+2023-06-30 13:12:34,547 - fcn_fminist.py - INFO: 量化时间：0.075997
+2023-06-30 13:12:42,499 - fcn_fminist.py - INFO: 批处理时间：7.952096
+2023-06-30 13:12:47,671 - fcn_fminist.py - INFO: 加密梯度时间：5.171764
+2023-06-30 13:12:47,676 - fcn_fminist.py - INFO: 聚集时间：0.005000
+2023-06-30 13:12:48,017 - fcn_fminist.py - INFO: 解密时间：0.341244
+2023-06-30 13:12:48,047 - fcn_fminist.py - INFO: 去量化时间：0.028003
+2023-06-30 13:12:48,094 - fcn_fminist.py - INFO: loss: 2.506466412544251 	 elapsed time: 13.62222957611084
+2023-06-30 13:12:48,111 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-30 13:12:48,111 - fcn_fminist.py - INFO: Ciphertext_size 5.07 MB
+2023-06-30 13:12:48,114 - fcn_fminist.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-06-30 13:12:48,115 - fcn_fminist.py - INFO: mode = batch
+2023-06-30 13:12:48,178 - fcn_fminist.py - INFO: train_time:0.06300
+2023-06-30 13:12:48,257 - fcn_fminist.py - INFO: 量化时间：0.073999
+2023-06-30 13:12:55,283 - fcn_fminist.py - INFO: 批处理时间：7.026126
+2023-06-30 13:12:58,772 - fcn_fminist.py - INFO: 加密梯度时间：3.487471
+2023-06-30 13:12:58,778 - fcn_fminist.py - INFO: 聚集时间：0.005003
+2023-06-30 13:12:59,149 - fcn_fminist.py - INFO: 解密时间：0.370915
+2023-06-30 13:12:59,179 - fcn_fminist.py - INFO: 去量化时间：0.030003
+2023-06-30 13:12:59,211 - fcn_fminist.py - INFO: loss: 2.5034725904464725 	 elapsed time: 11.027524471282959
+2023-06-30 13:12:59,221 - fcn_fminist.py - INFO: Plaintext_size 7.77 MB
+2023-06-30 13:12:59,222 - fcn_fminist.py - INFO: Ciphertext_size 10.15 MB
+2023-06-30 13:12:59,225 - fcn_fminist.py - INFO: 
+---------epoch 0 batch3,10 clients are in federated training
+
+2023-06-30 13:12:59,226 - fcn_fminist.py - INFO: mode = batch
+2023-06-30 13:12:59,291 - fcn_fminist.py - INFO: train_time:0.06454
+2023-06-30 13:12:59,407 - fcn_fminist.py - INFO: 量化时间：0.108572
+2023-06-30 13:13:06,658 - fcn_fminist.py - INFO: 批处理时间：7.250970

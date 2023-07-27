@@ -1,0 +1,145 @@
+2023-06-20 20:56:04,528 - fcn_fminist.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-20 20:56:04,528 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:05,234 - fcn_fminist.py - INFO: train_time:0.70589
+2023-06-20 20:56:05,335 - fcn_fminist.py - INFO: 量化时间：0.096313
+2023-06-20 20:56:05,523 - fcn_fminist.py - INFO: 加密梯度时间：0.188117
+2023-06-20 20:56:05,573 - fcn_fminist.py - INFO: 聚集时间：0.049212
+2023-06-20 20:56:05,599 - fcn_fminist.py - INFO: 解密时间：0.026438
+2023-06-20 20:56:05,642 - fcn_fminist.py - INFO: 去量化时间：0.042716
+2023-06-20 20:56:06,324 - fcn_fminist.py - INFO: loss: 2.532875823974609 	 elapsed time: 1.085160255432129
+2023-06-20 20:56:07,070 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-20 20:56:07,070 - fcn_fminist.py - INFO: Ciphertext_size 4.86 MB
+2023-06-20 20:56:07,088 - fcn_fminist.py - INFO: ========Epoch 000: train_loss: 2.533, train_accuracy: 35.800%, test_loss: 2.319, test_accuracy: 35.400%
+2023-06-20 20:56:07,094 - fcn_fminist.py - INFO: Saved epoch_model to disk
+2023-06-20 20:56:07,148 - fcn_fminist.py - INFO: 
+---------epoch 1 batch1,10 clients are in federated training
+
+2023-06-20 20:56:07,148 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:07,201 - fcn_fminist.py - INFO: train_time:0.05243
+2023-06-20 20:56:07,272 - fcn_fminist.py - INFO: 量化时间：0.066328
+2023-06-20 20:56:07,367 - fcn_fminist.py - INFO: 加密梯度时间：0.094647
+2023-06-20 20:56:07,385 - fcn_fminist.py - INFO: 聚集时间：0.017581
+2023-06-20 20:56:07,392 - fcn_fminist.py - INFO: 解密时间：0.006860
+2023-06-20 20:56:07,418 - fcn_fminist.py - INFO: 去量化时间：0.025803
+2023-06-20 20:56:07,446 - fcn_fminist.py - INFO: loss: 2.2753986120224003 	 elapsed time: 0.2406766414642334
+2023-06-20 20:56:07,758 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-20 20:56:07,759 - fcn_fminist.py - INFO: Ciphertext_size 4.86 MB
+2023-06-20 20:56:07,767 - fcn_fminist.py - INFO: ========Epoch 001: train_loss: 2.275, train_accuracy: 36.000%, test_loss: 1.737, test_accuracy: 33.400%
+2023-06-20 20:56:07,787 - fcn_fminist.py - INFO: Saved epoch_model to disk
+2023-06-20 20:56:07,827 - fcn_fminist.py - INFO: 
+---------epoch 2 batch1,10 clients are in federated training
+
+2023-06-20 20:56:07,827 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:07,881 - fcn_fminist.py - INFO: train_time:0.05423
+2023-06-20 20:56:07,941 - fcn_fminist.py - INFO: 量化时间：0.057950
+2023-06-20 20:56:08,053 - fcn_fminist.py - INFO: 加密梯度时间：0.111446
+2023-06-20 20:56:08,071 - fcn_fminist.py - INFO: 聚集时间：0.017744
+2023-06-20 20:56:08,078 - fcn_fminist.py - INFO: 解密时间：0.007023
+2023-06-20 20:56:08,103 - fcn_fminist.py - INFO: 去量化时间：0.024379
+2023-06-20 20:56:08,131 - fcn_fminist.py - INFO: loss: 1.642151987552643 	 elapsed time: 0.24742960929870605
+2023-06-20 20:56:08,461 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-20 20:56:08,462 - fcn_fminist.py - INFO: Ciphertext_size 4.86 MB
+2023-06-20 20:56:08,482 - fcn_fminist.py - INFO: ========Epoch 002: train_loss: 1.642, train_accuracy: 60.200%, test_loss: 1.334, test_accuracy: 52.600%
+2023-06-20 20:56:08,489 - fcn_fminist.py - INFO: Saved epoch_model to disk
+2023-06-20 20:56:08,680 - fcn_fminist.py - INFO: 
+---------epoch 3 batch1,10 clients are in federated training
+
+2023-06-20 20:56:08,680 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:08,848 - fcn_fminist.py - INFO: train_time:0.16798
+2023-06-20 20:56:08,961 - fcn_fminist.py - INFO: 量化时间：0.111239
+2023-06-20 20:56:09,090 - fcn_fminist.py - INFO: 加密梯度时间：0.129169
+2023-06-20 20:56:09,109 - fcn_fminist.py - INFO: 聚集时间：0.018363
+2023-06-20 20:56:09,116 - fcn_fminist.py - INFO: 解密时间：0.006554
+2023-06-20 20:56:09,140 - fcn_fminist.py - INFO: 去量化时间：0.024185
+2023-06-20 20:56:09,166 - fcn_fminist.py - INFO: loss: 1.283057391643524 	 elapsed time: 0.31664419174194336
+2023-06-20 20:56:09,292 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-20 20:56:09,292 - fcn_fminist.py - INFO: Ciphertext_size 4.86 MB
+2023-06-20 20:56:09,304 - fcn_fminist.py - INFO: ========Epoch 003: train_loss: 1.283, train_accuracy: 55.600%, test_loss: 1.263, test_accuracy: 55.400%
+2023-06-20 20:56:09,312 - fcn_fminist.py - INFO: Saved epoch_model to disk
+2023-06-20 20:56:09,412 - fcn_fminist.py - INFO: 
+---------epoch 4 batch1,10 clients are in federated training
+
+2023-06-20 20:56:09,413 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:09,489 - fcn_fminist.py - INFO: train_time:0.07592
+2023-06-20 20:56:09,572 - fcn_fminist.py - INFO: 量化时间：0.082033
+2023-06-20 20:56:09,681 - fcn_fminist.py - INFO: 加密梯度时间：0.108106
+2023-06-20 20:56:09,700 - fcn_fminist.py - INFO: 聚集时间：0.018818
+2023-06-20 20:56:09,707 - fcn_fminist.py - INFO: 解密时间：0.006640
+2023-06-20 20:56:09,730 - fcn_fminist.py - INFO: 去量化时间：0.023262
+2023-06-20 20:56:09,756 - fcn_fminist.py - INFO: loss: 1.230065488815308 	 elapsed time: 0.26565051078796387
+2023-06-20 20:56:09,762 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-20 20:56:09,762 - fcn_fminist.py - INFO: Ciphertext_size 4.86 MB
+2023-06-20 20:56:09,769 - fcn_fminist.py - INFO: ========Epoch 004: train_loss: 1.230, train_accuracy: 61.000%, test_loss: 1.097, test_accuracy: 57.200%
+2023-06-20 20:56:09,775 - fcn_fminist.py - INFO: Saved epoch_model to disk
+2023-06-20 20:56:09,813 - fcn_fminist.py - INFO: 
+---------epoch 5 batch1,10 clients are in federated training
+
+2023-06-20 20:56:09,813 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:09,885 - fcn_fminist.py - INFO: train_time:0.07121
+2023-06-20 20:56:09,944 - fcn_fminist.py - INFO: 量化时间：0.057293
+2023-06-20 20:56:10,032 - fcn_fminist.py - INFO: 加密梯度时间：0.088655
+2023-06-20 20:56:10,052 - fcn_fminist.py - INFO: 聚集时间：0.019642
+2023-06-20 20:56:10,060 - fcn_fminist.py - INFO: 解密时间：0.006837
+2023-06-20 20:56:10,084 - fcn_fminist.py - INFO: 去量化时间：0.024566
+2023-06-20 20:56:10,112 - fcn_fminist.py - INFO: loss: 1.049391716718674 	 elapsed time: 0.22596049308776855
+2023-06-20 20:56:10,119 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-20 20:56:10,120 - fcn_fminist.py - INFO: Ciphertext_size 4.86 MB
+2023-06-20 20:56:10,127 - fcn_fminist.py - INFO: ========Epoch 005: train_loss: 1.049, train_accuracy: 72.400%, test_loss: 0.924, test_accuracy: 63.400%
+2023-06-20 20:56:10,133 - fcn_fminist.py - INFO: Saved epoch_model to disk
+2023-06-20 20:56:10,173 - fcn_fminist.py - INFO: 
+---------epoch 6 batch1,10 clients are in federated training
+
+2023-06-20 20:56:10,174 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:10,253 - fcn_fminist.py - INFO: train_time:0.07955
+2023-06-20 20:56:10,316 - fcn_fminist.py - INFO: 量化时间：0.060997
+2023-06-20 20:56:10,407 - fcn_fminist.py - INFO: 加密梯度时间：0.090165
+2023-06-20 20:56:10,427 - fcn_fminist.py - INFO: 聚集时间：0.019656
+2023-06-20 20:56:10,435 - fcn_fminist.py - INFO: 解密时间：0.007239
+2023-06-20 20:56:10,460 - fcn_fminist.py - INFO: 去量化时间：0.024336
+2023-06-20 20:56:10,489 - fcn_fminist.py - INFO: loss: 0.8624357163906098 	 elapsed time: 0.23407912254333496
+2023-06-20 20:56:10,795 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-20 20:56:10,795 - fcn_fminist.py - INFO: Ciphertext_size 4.86 MB
+2023-06-20 20:56:10,804 - fcn_fminist.py - INFO: ========Epoch 006: train_loss: 0.862, train_accuracy: 76.400%, test_loss: 0.868, test_accuracy: 68.800%
+2023-06-20 20:56:10,808 - fcn_fminist.py - INFO: Saved epoch_model to disk
+2023-06-20 20:56:10,854 - fcn_fminist.py - INFO: 
+---------epoch 7 batch1,10 clients are in federated training
+
+2023-06-20 20:56:10,854 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:10,908 - fcn_fminist.py - INFO: train_time:0.05339
+2023-06-20 20:56:10,978 - fcn_fminist.py - INFO: 量化时间：0.069060
+2023-06-20 20:56:11,063 - fcn_fminist.py - INFO: 加密梯度时间：0.085171
+2023-06-20 20:56:11,090 - fcn_fminist.py - INFO: 聚集时间：0.026518
+2023-06-20 20:56:11,097 - fcn_fminist.py - INFO: 解密时间：0.006958
+2023-06-20 20:56:11,121 - fcn_fminist.py - INFO: 去量化时间：0.023628
+2023-06-20 20:56:11,147 - fcn_fminist.py - INFO: loss: 0.791214394569397 	 elapsed time: 0.2381596565246582
+2023-06-20 20:56:11,472 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-20 20:56:11,472 - fcn_fminist.py - INFO: Ciphertext_size 4.86 MB
+2023-06-20 20:56:11,486 - fcn_fminist.py - INFO: ========Epoch 007: train_loss: 0.791, train_accuracy: 76.800%, test_loss: 0.834, test_accuracy: 71.000%
+2023-06-20 20:56:11,494 - fcn_fminist.py - INFO: Saved epoch_model to disk
+2023-06-20 20:56:11,643 - fcn_fminist.py - INFO: 
+---------epoch 8 batch1,10 clients are in federated training
+
+2023-06-20 20:56:11,643 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:11,783 - fcn_fminist.py - INFO: train_time:0.13990
+2023-06-20 20:56:11,866 - fcn_fminist.py - INFO: 量化时间：0.080163
+2023-06-20 20:56:11,954 - fcn_fminist.py - INFO: 加密梯度时间：0.087664
+2023-06-20 20:56:11,975 - fcn_fminist.py - INFO: 聚集时间：0.021063
+2023-06-20 20:56:11,983 - fcn_fminist.py - INFO: 解密时间：0.007315
+2023-06-20 20:56:12,014 - fcn_fminist.py - INFO: 去量化时间：0.030307
+2023-06-20 20:56:12,058 - fcn_fminist.py - INFO: loss: 0.7635043919086457 	 elapsed time: 0.27236151695251465
+2023-06-20 20:56:12,271 - fcn_fminist.py - INFO: Plaintext_size 3.88 MB
+2023-06-20 20:56:12,271 - fcn_fminist.py - INFO: Ciphertext_size 4.86 MB
+2023-06-20 20:56:12,286 - fcn_fminist.py - INFO: ========Epoch 008: train_loss: 0.764, train_accuracy: 76.400%, test_loss: 0.821, test_accuracy: 71.800%
+2023-06-20 20:56:12,297 - fcn_fminist.py - INFO: Saved epoch_model to disk
+2023-06-20 20:56:12,391 - fcn_fminist.py - INFO: 
+---------epoch 9 batch1,10 clients are in federated training
+
+2023-06-20 20:56:12,392 - fcn_fminist.py - INFO: mode = hash_encrypt
+2023-06-20 20:56:12,448 - fcn_fminist.py - INFO: train_time:0.05688
+2023-06-20 20:56:12,514 - fcn_fminist.py - INFO: 量化时间：0.063050
+2023-06-20 20:56:12,598 - fcn_fminist.py - INFO: 加密梯度时间：0.083398
+2023-06-20 20:56:12,616 - fcn_fminist.py - INFO: 聚集时间：0.018274
+2023-06-20 20:56:12,624 - fcn_fminist.py - INFO: 解密时间：0.006882
+2023-06-20 20:56:12,647 - fcn_fminist.py - INFO: 去量化时间：0.023591
