@@ -1,0 +1,28 @@
+2023-06-06 14:14:43,473 - unet2d_skin.py - INFO: 4 clients building datasets.
+2023-06-06 14:14:43,473 - unet2d_skin.py - INFO: 0 client has 453 data items.
+2023-06-06 14:14:43,473 - unet2d_skin.py - INFO: 1 client has 453 data items.
+2023-06-06 14:14:43,473 - unet2d_skin.py - INFO: 2 client has 453 data items.
+2023-06-06 14:14:43,473 - unet2d_skin.py - INFO: 3 client has 456 data items.
+2023-06-06 14:14:46,302 - deprecation.py - WARNING: From /home/wjz/anaconda3/envs/fl/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py:83: Analyzer.lamba_check (from tensorflow.python.autograph.pyct.static_analysis.liveness) is deprecated and will be removed after 2023-09-23.
+Instructions for updating:
+Lambda fuctions will be no more assumed to be used in the statement where they are used, or at least in the same block. https://github.com/tensorflow/tensorflow/issues/56089
+2023-06-06 14:14:48,019 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 1 step 0,4 clients are in federated training
+
+2023-06-06 14:14:48,020 - unet2d_skin.py - INFO: mode = batch parallel_mode = pool
+2023-06-06 14:14:56,302 - unet2d_skin.py - INFO: train_time:8.28150
+2023-06-06 14:15:20,392 - unet2d_skin.py - INFO: 量化时间：23.362286
+2023-06-06 14:17:24,395 - unet2d_skin.py - INFO: 加密梯度时间：123.991082
+2023-06-06 14:17:24,395 - unet2d_skin.py - INFO: 聚集时间：0.000105
+2023-06-06 14:19:17,839 - unet2d_skin.py - INFO: 解密时间：113.443561
+2023-06-06 14:19:24,304 - unet2d_skin.py - INFO: 去量化时间：6.464763
+2023-06-06 14:19:26,792 - polymorphic_function.py - WARNING: 5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7f47a15be940> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-06-06 14:19:26,915 - polymorphic_function.py - WARNING: 6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7f47a15be940> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-06-06 14:19:30,485 - unet2d_skin.py - INFO: aggregate_loss: 0.6922368109226227 	 elapsed time: 267.3449332714081
+2023-06-06 14:19:31,675 - unet2d_skin.py - INFO: ========================================
+2023-06-06 14:19:31,676 - unet2d_skin.py - INFO: train_loss: 0.6922367811203003, train_accuracy:0.5448875427246094, train_JA:0.0005, train_AC:0.5449, train_DI:0.0005, train_SE:0.0005, train_SP:0.9911
+2023-06-06 14:19:31,678 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 2 step 1,4 clients are in federated training
+
+2023-06-06 14:19:31,678 - unet2d_skin.py - INFO: mode = batch parallel_mode = pool
+2023-06-06 14:19:32,182 - unet2d_skin.py - INFO: train_time:0.49272

@@ -1,0 +1,2054 @@
+2023-05-26 22:46:44,720 - unet2d_skin.py - INFO: 4 clients building datasets.
+2023-05-26 22:46:44,720 - unet2d_skin.py - INFO: 0 client has 453 data items.
+2023-05-26 22:46:44,720 - unet2d_skin.py - INFO: 1 client has 453 data items.
+2023-05-26 22:46:44,720 - unet2d_skin.py - INFO: 2 client has 453 data items.
+2023-05-26 22:46:44,720 - unet2d_skin.py - INFO: 3 client has 456 data items.
+2023-05-26 22:46:47,689 - deprecation.py - WARNING: From /home/wjz/anaconda3/envs/fl/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py:83: Analyzer.lamba_check (from tensorflow.python.autograph.pyct.static_analysis.liveness) is deprecated and will be removed after 2023-09-23.
+Instructions for updating:
+Lambda fuctions will be no more assumed to be used in the statement where they are used, or at least in the same block. https://github.com/tensorflow/tensorflow/issues/56089
+2023-05-26 22:46:49,151 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 1 step 0,4 clients are in federated training
+
+2023-05-26 22:46:49,151 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:46:53,873 - unet2d_skin.py - INFO: train_time:4.72157
+2023-05-26 22:46:54,515 - unet2d_skin.py - INFO: aggregation finished in 0.105333
+2023-05-26 22:46:55,191 - polymorphic_function.py - WARNING: 5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7f201b488160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-05-26 22:46:55,308 - polymorphic_function.py - WARNING: 6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7f201b488160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-05-26 22:46:58,873 - unet2d_skin.py - INFO: aggregate_loss: 0.6922768801450729 	 elapsed time: 0.10547256469726562
+2023-05-26 22:46:59,762 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:46:59,763 - unet2d_skin.py - INFO: train_loss: 0.6922768950462341, train_accuracy:0.5682086944580078, train_JA:0.0000, train_AC:0.5682, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:46:59,764 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 2 step 1,4 clients are in federated training
+
+2023-05-26 22:46:59,764 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:00,178 - unet2d_skin.py - INFO: train_time:0.41236
+2023-05-26 22:47:00,387 - unet2d_skin.py - INFO: aggregation finished in 0.100973
+2023-05-26 22:47:00,491 - unet2d_skin.py - INFO: aggregate_loss: 0.6900982558727264 	 elapsed time: 0.10111021995544434
+2023-05-26 22:47:00,551 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:00,552 - unet2d_skin.py - INFO: train_loss: 0.6911876201629639, train_accuracy:0.6169757843017578, train_JA:0.0000, train_AC:0.6657, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:00,555 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 3 step 2,4 clients are in federated training
+
+2023-05-26 22:47:00,555 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:00,932 - unet2d_skin.py - INFO: train_time:0.37584
+2023-05-26 22:47:01,146 - unet2d_skin.py - INFO: aggregation finished in 0.114013
+2023-05-26 22:47:01,250 - unet2d_skin.py - INFO: aggregate_loss: 0.6155040115118027 	 elapsed time: 0.11417531967163086
+2023-05-26 22:47:01,310 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:01,310 - unet2d_skin.py - INFO: train_loss: 0.6659597754478455, train_accuracy:0.6646715998649597, train_JA:0.0000, train_AC:0.7601, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:01,312 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 4 step 3,4 clients are in federated training
+
+2023-05-26 22:47:01,313 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:01,693 - unet2d_skin.py - INFO: train_time:0.38034
+2023-05-26 22:47:01,891 - unet2d_skin.py - INFO: aggregation finished in 0.098649
+2023-05-26 22:47:01,995 - unet2d_skin.py - INFO: aggregate_loss: 0.5032990798354149 	 elapsed time: 0.09878373146057129
+2023-05-26 22:47:02,057 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:02,057 - unet2d_skin.py - INFO: train_loss: 0.62529456615448, train_accuracy:0.6993451118469238, train_JA:0.0000, train_AC:0.8034, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:02,059 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 5 step 4,4 clients are in federated training
+
+2023-05-26 22:47:02,060 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:02,438 - unet2d_skin.py - INFO: train_time:0.37843
+2023-05-26 22:47:02,642 - unet2d_skin.py - INFO: aggregation finished in 0.101290
+2023-05-26 22:47:02,751 - unet2d_skin.py - INFO: aggregate_loss: 0.4065205156803131 	 elapsed time: 0.10141420364379883
+2023-05-26 22:47:02,812 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:02,812 - unet2d_skin.py - INFO: train_loss: 0.5815397500991821, train_accuracy:0.7262763977050781, train_JA:0.0000, train_AC:0.8340, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:02,813 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 6 step 5,4 clients are in federated training
+
+2023-05-26 22:47:02,814 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:03,194 - unet2d_skin.py - INFO: train_time:0.37999
+2023-05-26 22:47:03,395 - unet2d_skin.py - INFO: aggregation finished in 0.100627
+2023-05-26 22:47:03,501 - unet2d_skin.py - INFO: aggregate_loss: 0.38644101470708847 	 elapsed time: 0.10076689720153809
+2023-05-26 22:47:03,563 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:03,563 - unet2d_skin.py - INFO: train_loss: 0.5490233302116394, train_accuracy:0.7436177134513855, train_JA:0.0000, train_AC:0.8303, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:03,565 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 7 step 6,4 clients are in federated training
+
+2023-05-26 22:47:03,565 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:03,942 - unet2d_skin.py - INFO: train_time:0.37672
+2023-05-26 22:47:04,147 - unet2d_skin.py - INFO: aggregation finished in 0.103853
+2023-05-26 22:47:04,251 - unet2d_skin.py - INFO: aggregate_loss: 0.47603514790534973 	 elapsed time: 0.1039881706237793
+2023-05-26 22:47:04,312 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:04,313 - unet2d_skin.py - INFO: train_loss: 0.5385964512825012, train_accuracy:0.7461743950843811, train_JA:0.0000, train_AC:0.7615, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:04,314 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 8 step 7,4 clients are in federated training
+
+2023-05-26 22:47:04,314 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:04,699 - unet2d_skin.py - INFO: train_time:0.38398
+2023-05-26 22:47:04,898 - unet2d_skin.py - INFO: aggregation finished in 0.100078
+2023-05-26 22:47:05,001 - unet2d_skin.py - INFO: aggregate_loss: 0.3744102120399475 	 elapsed time: 0.10020995140075684
+2023-05-26 22:47:05,062 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:05,062 - unet2d_skin.py - INFO: train_loss: 0.5180731415748596, train_accuracy:0.7600960731506348, train_JA:0.0000, train_AC:0.8575, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:05,063 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 9 step 8,4 clients are in federated training
+
+2023-05-26 22:47:05,064 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:05,444 - unet2d_skin.py - INFO: train_time:0.37968
+2023-05-26 22:47:05,646 - unet2d_skin.py - INFO: aggregation finished in 0.101650
+2023-05-26 22:47:05,752 - unet2d_skin.py - INFO: aggregate_loss: 0.7938191518187523 	 elapsed time: 0.10178160667419434
+2023-05-26 22:47:05,813 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:05,813 - unet2d_skin.py - INFO: train_loss: 0.5487115383148193, train_accuracy:0.7594971060752869, train_JA:0.0000, train_AC:0.7547, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:05,815 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 10 step 9,4 clients are in federated training
+
+2023-05-26 22:47:05,815 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:06,198 - unet2d_skin.py - INFO: train_time:0.38252
+2023-05-26 22:47:06,396 - unet2d_skin.py - INFO: aggregation finished in 0.099474
+2023-05-26 22:47:06,504 - unet2d_skin.py - INFO: aggregate_loss: 0.4630291797220707 	 elapsed time: 0.09960603713989258
+2023-05-26 22:47:06,565 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:06,565 - unet2d_skin.py - INFO: train_loss: 0.5401433706283569, train_accuracy:0.7608522176742554, train_JA:0.0000, train_AC:0.7730, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:06,567 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 11 step 10,4 clients are in federated training
+
+2023-05-26 22:47:06,569 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:06,945 - unet2d_skin.py - INFO: train_time:0.37543
+2023-05-26 22:47:07,147 - unet2d_skin.py - INFO: aggregation finished in 0.102216
+2023-05-26 22:47:07,252 - unet2d_skin.py - INFO: aggregate_loss: 0.39344099909067154 	 elapsed time: 0.10234904289245605
+2023-05-26 22:47:07,314 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:07,314 - unet2d_skin.py - INFO: train_loss: 0.5268067717552185, train_accuracy:0.7670374512672424, train_JA:0.0000, train_AC:0.8289, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:07,315 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 12 step 11,4 clients are in federated training
+
+2023-05-26 22:47:07,315 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:07,691 - unet2d_skin.py - INFO: train_time:0.37543
+2023-05-26 22:47:07,890 - unet2d_skin.py - INFO: aggregation finished in 0.099157
+2023-05-26 22:47:07,995 - unet2d_skin.py - INFO: aggregate_loss: 0.4289761483669281 	 elapsed time: 0.09927821159362793
+2023-05-26 22:47:08,057 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:08,057 - unet2d_skin.py - INFO: train_loss: 0.5186542272567749, train_accuracy:0.7686168551445007, train_JA:0.0000, train_AC:0.7860, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:08,058 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 13 step 12,4 clients are in federated training
+
+2023-05-26 22:47:08,059 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:08,437 - unet2d_skin.py - INFO: train_time:0.37757
+2023-05-26 22:47:08,637 - unet2d_skin.py - INFO: aggregation finished in 0.100654
+2023-05-26 22:47:08,739 - unet2d_skin.py - INFO: aggregate_loss: 0.38091811537742615 	 elapsed time: 0.10078907012939453
+2023-05-26 22:47:08,800 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:08,800 - unet2d_skin.py - INFO: train_loss: 0.5080591440200806, train_accuracy:0.7732924222946167, train_JA:0.0000, train_AC:0.8294, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:08,802 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 14 step 13,4 clients are in federated training
+
+2023-05-26 22:47:08,802 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:09,184 - unet2d_skin.py - INFO: train_time:0.38171
+2023-05-26 22:47:09,382 - unet2d_skin.py - INFO: aggregation finished in 0.099155
+2023-05-26 22:47:09,491 - unet2d_skin.py - INFO: aggregate_loss: 0.4274640791118145 	 elapsed time: 0.09929013252258301
+2023-05-26 22:47:09,552 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:09,552 - unet2d_skin.py - INFO: train_loss: 0.502302348613739, train_accuracy:0.773616373538971, train_JA:0.0000, train_AC:0.7778, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:09,553 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 15 step 14,4 clients are in federated training
+
+2023-05-26 22:47:09,554 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:09,931 - unet2d_skin.py - INFO: train_time:0.37663
+2023-05-26 22:47:10,135 - unet2d_skin.py - INFO: aggregation finished in 0.103570
+2023-05-26 22:47:10,241 - unet2d_skin.py - INFO: aggregate_loss: 0.5027904435992241 	 elapsed time: 0.10370421409606934
+2023-05-26 22:47:10,301 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:10,302 - unet2d_skin.py - INFO: train_loss: 0.5023348927497864, train_accuracy:0.7723909020423889, train_JA:0.0000, train_AC:0.7552, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:10,306 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 16 step 15,4 clients are in federated training
+
+2023-05-26 22:47:10,306 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:10,680 - unet2d_skin.py - INFO: train_time:0.37354
+2023-05-26 22:47:10,880 - unet2d_skin.py - INFO: aggregation finished in 0.098514
+2023-05-26 22:47:10,985 - unet2d_skin.py - INFO: aggregate_loss: 0.5311300978064537 	 elapsed time: 0.09864974021911621
+2023-05-26 22:47:11,046 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:11,046 - unet2d_skin.py - INFO: train_loss: 0.5041345953941345, train_accuracy:0.7690943479537964, train_JA:0.0000, train_AC:0.7196, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:11,050 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 17 step 16,4 clients are in federated training
+
+2023-05-26 22:47:11,050 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:11,430 - unet2d_skin.py - INFO: train_time:0.37947
+2023-05-26 22:47:11,628 - unet2d_skin.py - INFO: aggregation finished in 0.099249
+2023-05-26 22:47:11,733 - unet2d_skin.py - INFO: aggregate_loss: 0.4035842642188072 	 elapsed time: 0.09937286376953125
+2023-05-26 22:47:11,794 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:11,800 - unet2d_skin.py - INFO: train_loss: 0.49821987748146057, train_accuracy:0.7710351347923279, train_JA:0.0000, train_AC:0.8021, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:11,802 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 18 step 17,4 clients are in federated training
+
+2023-05-26 22:47:11,802 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:12,272 - unet2d_skin.py - INFO: train_time:0.46945
+2023-05-26 22:47:12,469 - unet2d_skin.py - INFO: aggregation finished in 0.098355
+2023-05-26 22:47:12,578 - unet2d_skin.py - INFO: aggregate_loss: 0.37792133539915085 	 elapsed time: 0.09848999977111816
+2023-05-26 22:47:12,639 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:12,640 - unet2d_skin.py - INFO: train_loss: 0.49153661727905273, train_accuracy:0.7777776718139648, train_JA:0.0000, train_AC:0.8924, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:12,642 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 19 step 18,4 clients are in federated training
+
+2023-05-26 22:47:12,643 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:13,080 - unet2d_skin.py - INFO: train_time:0.43727
+2023-05-26 22:47:13,314 - unet2d_skin.py - INFO: aggregation finished in 0.098501
+2023-05-26 22:47:13,422 - unet2d_skin.py - INFO: aggregate_loss: 0.5673292130231857 	 elapsed time: 0.09864616394042969
+2023-05-26 22:47:13,482 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:13,483 - unet2d_skin.py - INFO: train_loss: 0.4955257177352905, train_accuracy:0.7710015177726746, train_JA:0.0000, train_AC:0.6490, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:13,484 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 20 step 19,4 clients are in federated training
+
+2023-05-26 22:47:13,485 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:13,917 - unet2d_skin.py - INFO: train_time:0.43217
+2023-05-26 22:47:14,180 - unet2d_skin.py - INFO: aggregation finished in 0.122771
+2023-05-26 22:47:14,281 - unet2d_skin.py - INFO: aggregate_loss: 0.2963680922985077 	 elapsed time: 0.1229085922241211
+2023-05-26 22:47:14,342 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:14,342 - unet2d_skin.py - INFO: train_loss: 0.4855678081512451, train_accuracy:0.7760087847709656, train_JA:0.0000, train_AC:0.8711, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:14,343 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 21 step 20,4 clients are in federated training
+
+2023-05-26 22:47:14,344 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:14,724 - unet2d_skin.py - INFO: train_time:0.37935
+2023-05-26 22:47:14,921 - unet2d_skin.py - INFO: aggregation finished in 0.099138
+2023-05-26 22:47:15,030 - unet2d_skin.py - INFO: aggregate_loss: 0.518101416528225 	 elapsed time: 0.09926819801330566
+2023-05-26 22:47:15,093 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:15,093 - unet2d_skin.py - INFO: train_loss: 0.48711705207824707, train_accuracy:0.7696524262428284, train_JA:0.0000, train_AC:0.6425, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:15,094 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 22 step 21,4 clients are in federated training
+
+2023-05-26 22:47:15,095 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:15,472 - unet2d_skin.py - INFO: train_time:0.37726
+2023-05-26 22:47:15,670 - unet2d_skin.py - INFO: aggregation finished in 0.098634
+2023-05-26 22:47:15,769 - unet2d_skin.py - INFO: aggregate_loss: 0.35506197810173035 	 elapsed time: 0.09876441955566406
+2023-05-26 22:47:15,829 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:15,830 - unet2d_skin.py - INFO: train_loss: 0.4811145067214966, train_accuracy:0.7716821432113647, train_JA:0.0000, train_AC:0.8143, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:15,833 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 23 step 22,4 clients are in federated training
+
+2023-05-26 22:47:15,834 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:16,216 - unet2d_skin.py - INFO: train_time:0.38223
+2023-05-26 22:47:16,417 - unet2d_skin.py - INFO: aggregation finished in 0.100582
+2023-05-26 22:47:16,521 - unet2d_skin.py - INFO: aggregate_loss: 0.3743326738476753 	 elapsed time: 0.10072207450866699
+2023-05-26 22:47:16,582 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:16,582 - unet2d_skin.py - INFO: train_loss: 0.47647181153297424, train_accuracy:0.7719241976737976, train_JA:0.0000, train_AC:0.7773, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:16,583 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 24 step 23,4 clients are in federated training
+
+2023-05-26 22:47:16,584 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:16,962 - unet2d_skin.py - INFO: train_time:0.37782
+2023-05-26 22:47:17,177 - unet2d_skin.py - INFO: aggregation finished in 0.106700
+2023-05-26 22:47:17,285 - unet2d_skin.py - INFO: aggregate_loss: 0.3920248746871948 	 elapsed time: 0.10683703422546387
+2023-05-26 22:47:17,346 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:17,346 - unet2d_skin.py - INFO: train_loss: 0.472953200340271, train_accuracy:0.7694178223609924, train_JA:0.0000, train_AC:0.7118, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:17,347 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 25 step 24,4 clients are in federated training
+
+2023-05-26 22:47:17,348 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:17,725 - unet2d_skin.py - INFO: train_time:0.37657
+2023-05-26 22:47:17,928 - unet2d_skin.py - INFO: aggregation finished in 0.101943
+2023-05-26 22:47:18,034 - unet2d_skin.py - INFO: aggregate_loss: 0.3282683677971363 	 elapsed time: 0.1020822525024414
+2023-05-26 22:47:18,096 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:18,096 - unet2d_skin.py - INFO: train_loss: 0.4671657979488373, train_accuracy:0.772519588470459, train_JA:0.0000, train_AC:0.8470, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:18,097 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 26 step 25,4 clients are in federated training
+
+2023-05-26 22:47:18,098 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:18,476 - unet2d_skin.py - INFO: train_time:0.37822
+2023-05-26 22:47:18,681 - unet2d_skin.py - INFO: aggregation finished in 0.101976
+2023-05-26 22:47:18,780 - unet2d_skin.py - INFO: aggregate_loss: 0.6171019300818443 	 elapsed time: 0.10211396217346191
+2023-05-26 22:47:18,841 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:18,841 - unet2d_skin.py - INFO: train_loss: 0.4729325473308563, train_accuracy:0.7686519622802734, train_JA:0.0000, train_AC:0.6720, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:18,844 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 27 step 26,4 clients are in federated training
+
+2023-05-26 22:47:18,844 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:19,222 - unet2d_skin.py - INFO: train_time:0.37785
+2023-05-26 22:47:19,426 - unet2d_skin.py - INFO: aggregation finished in 0.104438
+2023-05-26 22:47:19,534 - unet2d_skin.py - INFO: aggregate_loss: 0.40691638737916946 	 elapsed time: 0.104583740234375
+2023-05-26 22:47:19,595 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:19,595 - unet2d_skin.py - INFO: train_loss: 0.4704875349998474, train_accuracy:0.7697941064834595, train_JA:0.0000, train_AC:0.7995, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:19,596 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 28 step 27,4 clients are in federated training
+
+2023-05-26 22:47:19,597 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:19,977 - unet2d_skin.py - INFO: train_time:0.37987
+2023-05-26 22:47:20,182 - unet2d_skin.py - INFO: aggregation finished in 0.100311
+2023-05-26 22:47:20,281 - unet2d_skin.py - INFO: aggregate_loss: 0.3744511529803276 	 elapsed time: 0.10044407844543457
+2023-05-26 22:47:20,341 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:20,342 - unet2d_skin.py - INFO: train_loss: 0.46705764532089233, train_accuracy:0.7689603567123413, train_JA:0.0000, train_AC:0.7464, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:20,346 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 29 step 28,4 clients are in federated training
+
+2023-05-26 22:47:20,346 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:20,722 - unet2d_skin.py - INFO: train_time:0.37443
+2023-05-26 22:47:20,922 - unet2d_skin.py - INFO: aggregation finished in 0.100340
+2023-05-26 22:47:21,030 - unet2d_skin.py - INFO: aggregate_loss: 0.4512515664100647 	 elapsed time: 0.10047316551208496
+2023-05-26 22:47:21,092 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:21,092 - unet2d_skin.py - INFO: train_loss: 0.46651262044906616, train_accuracy:0.770713210105896, train_JA:0.0000, train_AC:0.8198, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:21,095 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 30 step 29,4 clients are in federated training
+
+2023-05-26 22:47:21,096 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:21,471 - unet2d_skin.py - INFO: train_time:0.37485
+2023-05-26 22:47:21,674 - unet2d_skin.py - INFO: aggregation finished in 0.103529
+2023-05-26 22:47:21,780 - unet2d_skin.py - INFO: aggregate_loss: 0.39538370817899704 	 elapsed time: 0.10366392135620117
+2023-05-26 22:47:21,841 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:21,841 - unet2d_skin.py - INFO: train_loss: 0.4641416668891907, train_accuracy:0.7702640295028687, train_JA:0.0000, train_AC:0.7572, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:21,842 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 31 step 30,4 clients are in federated training
+
+2023-05-26 22:47:21,843 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:22,222 - unet2d_skin.py - INFO: train_time:0.37897
+2023-05-26 22:47:22,425 - unet2d_skin.py - INFO: aggregation finished in 0.100837
+2023-05-26 22:47:22,529 - unet2d_skin.py - INFO: aggregate_loss: 0.40712549164891243 	 elapsed time: 0.10097002983093262
+2023-05-26 22:47:22,591 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:22,591 - unet2d_skin.py - INFO: train_loss: 0.46230241656303406, train_accuracy:0.7699468731880188, train_JA:0.0000, train_AC:0.7604, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:22,592 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 32 step 31,4 clients are in federated training
+
+2023-05-26 22:47:22,593 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:22,970 - unet2d_skin.py - INFO: train_time:0.37738
+2023-05-26 22:47:23,182 - unet2d_skin.py - INFO: aggregation finished in 0.109010
+2023-05-26 22:47:23,282 - unet2d_skin.py - INFO: aggregate_loss: 0.2499099038541317 	 elapsed time: 0.1091468334197998
+2023-05-26 22:47:23,343 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:23,343 - unet2d_skin.py - INFO: train_loss: 0.4556651711463928, train_accuracy:0.7735692858695984, train_JA:0.0000, train_AC:0.8859, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:23,347 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 33 step 32,4 clients are in federated training
+
+2023-05-26 22:47:23,347 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:23,724 - unet2d_skin.py - INFO: train_time:0.37651
+2023-05-26 22:47:23,939 - unet2d_skin.py - INFO: aggregation finished in 0.112233
+2023-05-26 22:47:24,046 - unet2d_skin.py - INFO: aggregate_loss: 0.3575996086001396 	 elapsed time: 0.11244058609008789
+2023-05-26 22:47:24,108 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:24,108 - unet2d_skin.py - INFO: train_loss: 0.45269346237182617, train_accuracy:0.7731120586395264, train_JA:0.0000, train_AC:0.7585, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:24,109 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 34 step 33,4 clients are in federated training
+
+2023-05-26 22:47:24,109 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:24,491 - unet2d_skin.py - INFO: train_time:0.38136
+2023-05-26 22:47:24,696 - unet2d_skin.py - INFO: aggregation finished in 0.102195
+2023-05-26 22:47:24,800 - unet2d_skin.py - INFO: aggregate_loss: 0.5010200887918472 	 elapsed time: 0.1023414134979248
+2023-05-26 22:47:24,861 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:24,861 - unet2d_skin.py - INFO: train_loss: 0.4541148543357849, train_accuracy:0.7709124088287354, train_JA:0.0000, train_AC:0.6983, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:24,866 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 35 step 34,4 clients are in federated training
+
+2023-05-26 22:47:24,866 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:25,248 - unet2d_skin.py - INFO: train_time:0.38184
+2023-05-26 22:47:25,446 - unet2d_skin.py - INFO: aggregation finished in 0.099983
+2023-05-26 22:47:25,546 - unet2d_skin.py - INFO: aggregate_loss: 0.2964935526251793 	 elapsed time: 0.10011625289916992
+2023-05-26 22:47:25,607 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:25,608 - unet2d_skin.py - INFO: train_loss: 0.4496113955974579, train_accuracy:0.7738268375396729, train_JA:0.0000, train_AC:0.8729, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:25,609 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 36 step 35,4 clients are in federated training
+
+2023-05-26 22:47:25,610 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:25,986 - unet2d_skin.py - INFO: train_time:0.37626
+2023-05-26 22:47:26,194 - unet2d_skin.py - INFO: aggregation finished in 0.102436
+2023-05-26 22:47:26,304 - unet2d_skin.py - INFO: aggregate_loss: 0.5532611012458801 	 elapsed time: 0.10256409645080566
+2023-05-26 22:47:26,365 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:26,365 - unet2d_skin.py - INFO: train_loss: 0.45249053835868835, train_accuracy:0.7745001316070557, train_JA:0.0000, train_AC:0.7981, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:26,368 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 37 step 36,4 clients are in federated training
+
+2023-05-26 22:47:26,368 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:26,745 - unet2d_skin.py - INFO: train_time:0.37675
+2023-05-26 22:47:26,943 - unet2d_skin.py - INFO: aggregation finished in 0.099209
+2023-05-26 22:47:27,048 - unet2d_skin.py - INFO: aggregate_loss: 0.29712313041090965 	 elapsed time: 0.09937095642089844
+2023-05-26 22:47:27,109 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:27,110 - unet2d_skin.py - INFO: train_loss: 0.4482914209365845, train_accuracy:0.776585042476654, train_JA:0.0000, train_AC:0.8516, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:27,113 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 38 step 37,4 clients are in federated training
+
+2023-05-26 22:47:27,113 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:27,496 - unet2d_skin.py - INFO: train_time:0.37952
+2023-05-26 22:47:27,700 - unet2d_skin.py - INFO: aggregation finished in 0.103220
+2023-05-26 22:47:27,810 - unet2d_skin.py - INFO: aggregate_loss: 0.2871648594737053 	 elapsed time: 0.10341095924377441
+2023-05-26 22:47:27,870 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:27,871 - unet2d_skin.py - INFO: train_loss: 0.44405123591423035, train_accuracy:0.7780101895332336, train_JA:0.0000, train_AC:0.8307, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:27,874 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 39 step 38,4 clients are in federated training
+
+2023-05-26 22:47:27,874 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:28,252 - unet2d_skin.py - INFO: train_time:0.37648
+2023-05-26 22:47:28,458 - unet2d_skin.py - INFO: aggregation finished in 0.103308
+2023-05-26 22:47:28,559 - unet2d_skin.py - INFO: aggregate_loss: 0.3511672168970108 	 elapsed time: 0.10344171524047852
+2023-05-26 22:47:28,620 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:28,620 - unet2d_skin.py - INFO: train_loss: 0.44166961312294006, train_accuracy:0.7783039808273315, train_JA:0.0000, train_AC:0.7895, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:28,624 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 40 step 39,4 clients are in federated training
+
+2023-05-26 22:47:28,624 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:29,008 - unet2d_skin.py - INFO: train_time:0.38204
+2023-05-26 22:47:29,214 - unet2d_skin.py - INFO: aggregation finished in 0.100456
+2023-05-26 22:47:29,323 - unet2d_skin.py - INFO: aggregate_loss: 0.409113846719265 	 elapsed time: 0.10059213638305664
+2023-05-26 22:47:29,385 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:29,385 - unet2d_skin.py - INFO: train_loss: 0.4408556818962097, train_accuracy:0.7775366902351379, train_JA:0.0000, train_AC:0.7476, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:29,390 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 41 step 40,4 clients are in federated training
+
+2023-05-26 22:47:29,390 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:29,767 - unet2d_skin.py - INFO: train_time:0.37705
+2023-05-26 22:47:29,967 - unet2d_skin.py - INFO: aggregation finished in 0.100322
+2023-05-26 22:47:30,073 - unet2d_skin.py - INFO: aggregate_loss: 0.2873573414981365 	 elapsed time: 0.10045170783996582
+2023-05-26 22:47:30,134 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:30,135 - unet2d_skin.py - INFO: train_loss: 0.43711182475090027, train_accuracy:0.7787483334541321, train_JA:0.0000, train_AC:0.8272, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:30,136 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 42 step 41,4 clients are in federated training
+
+2023-05-26 22:47:30,136 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:30,515 - unet2d_skin.py - INFO: train_time:0.37842
+2023-05-26 22:47:30,720 - unet2d_skin.py - INFO: aggregation finished in 0.102917
+2023-05-26 22:47:30,823 - unet2d_skin.py - INFO: aggregate_loss: 0.2806008532643318 	 elapsed time: 0.10305023193359375
+2023-05-26 22:47:30,883 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:30,884 - unet2d_skin.py - INFO: train_loss: 0.4333854019641876, train_accuracy:0.7797393798828125, train_JA:0.0000, train_AC:0.8204, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:30,887 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 43 step 42,4 clients are in federated training
+
+2023-05-26 22:47:30,888 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:31,274 - unet2d_skin.py - INFO: train_time:0.38576
+2023-05-26 22:47:31,483 - unet2d_skin.py - INFO: aggregation finished in 0.102239
+2023-05-26 22:47:31,589 - unet2d_skin.py - INFO: aggregate_loss: 0.4015481285750866 	 elapsed time: 0.10237455368041992
+2023-05-26 22:47:31,650 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:31,650 - unet2d_skin.py - INFO: train_loss: 0.4326449930667877, train_accuracy:0.7786959409713745, train_JA:0.0000, train_AC:0.7349, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:31,653 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 44 step 43,4 clients are in federated training
+
+2023-05-26 22:47:31,654 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:32,030 - unet2d_skin.py - INFO: train_time:0.37646
+2023-05-26 22:47:32,240 - unet2d_skin.py - INFO: aggregation finished in 0.104449
+2023-05-26 22:47:32,341 - unet2d_skin.py - INFO: aggregate_loss: 0.43921343982219696 	 elapsed time: 0.10459041595458984
+2023-05-26 22:47:32,401 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:32,402 - unet2d_skin.py - INFO: train_loss: 0.4327942728996277, train_accuracy:0.7784683704376221, train_JA:0.0000, train_AC:0.7687, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:32,403 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 45 step 44,4 clients are in federated training
+
+2023-05-26 22:47:32,404 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:32,782 - unet2d_skin.py - INFO: train_time:0.37769
+2023-05-26 22:47:32,982 - unet2d_skin.py - INFO: aggregation finished in 0.099649
+2023-05-26 22:47:33,094 - unet2d_skin.py - INFO: aggregate_loss: 0.381173949688673 	 elapsed time: 0.09978485107421875
+2023-05-26 22:47:33,154 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:33,155 - unet2d_skin.py - INFO: train_loss: 0.4316471517086029, train_accuracy:0.7773854732513428, train_JA:0.0000, train_AC:0.7297, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:33,156 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 46 step 45,4 clients are in federated training
+
+2023-05-26 22:47:33,156 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:33,537 - unet2d_skin.py - INFO: train_time:0.38069
+2023-05-26 22:47:33,736 - unet2d_skin.py - INFO: aggregation finished in 0.099754
+2023-05-26 22:47:33,833 - unet2d_skin.py - INFO: aggregate_loss: 0.27350393310189247 	 elapsed time: 0.09988665580749512
+2023-05-26 22:47:33,894 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:33,894 - unet2d_skin.py - INFO: train_loss: 0.4282092750072479, train_accuracy:0.7802278399467468, train_JA:0.0000, train_AC:0.9081, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:33,896 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 47 step 46,4 clients are in federated training
+
+2023-05-26 22:47:33,896 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:34,280 - unet2d_skin.py - INFO: train_time:0.38171
+2023-05-26 22:47:34,486 - unet2d_skin.py - INFO: aggregation finished in 0.103353
+2023-05-26 22:47:34,596 - unet2d_skin.py - INFO: aggregate_loss: 0.34292517974972725 	 elapsed time: 0.1034843921661377
+2023-05-26 22:47:34,657 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:34,658 - unet2d_skin.py - INFO: train_loss: 0.4263947308063507, train_accuracy:0.780667245388031, train_JA:0.0000, train_AC:0.8009, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:34,660 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 48 step 47,4 clients are in federated training
+
+2023-05-26 22:47:34,660 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:35,037 - unet2d_skin.py - INFO: train_time:0.37667
+2023-05-26 22:47:35,238 - unet2d_skin.py - INFO: aggregation finished in 0.098571
+2023-05-26 22:47:35,338 - unet2d_skin.py - INFO: aggregate_loss: 0.38800935074687004 	 elapsed time: 0.09870290756225586
+2023-05-26 22:47:35,399 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:35,399 - unet2d_skin.py - INFO: train_loss: 0.4255950450897217, train_accuracy:0.7809608578681946, train_JA:0.0000, train_AC:0.7948, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:35,402 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 49 step 48,4 clients are in federated training
+
+2023-05-26 22:47:35,403 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:35,779 - unet2d_skin.py - INFO: train_time:0.37552
+2023-05-26 22:47:35,978 - unet2d_skin.py - INFO: aggregation finished in 0.098969
+2023-05-26 22:47:36,085 - unet2d_skin.py - INFO: aggregate_loss: 0.3827522099018097 	 elapsed time: 0.09910249710083008
+2023-05-26 22:47:36,147 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:36,147 - unet2d_skin.py - INFO: train_loss: 0.4247206747531891, train_accuracy:0.7813320755958557, train_JA:0.0000, train_AC:0.7991, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:36,149 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 50 step 49,4 clients are in federated training
+
+2023-05-26 22:47:36,149 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:36,526 - unet2d_skin.py - INFO: train_time:0.37678
+2023-05-26 22:47:36,724 - unet2d_skin.py - INFO: aggregation finished in 0.098955
+2023-05-26 22:47:36,831 - unet2d_skin.py - INFO: aggregate_loss: 1.0161131024360657 	 elapsed time: 0.09910345077514648
+2023-05-26 22:47:36,892 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:36,892 - unet2d_skin.py - INFO: train_loss: 0.43654853105545044, train_accuracy:0.7743751406669617, train_JA:0.0000, train_AC:0.4335, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:36,895 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 51 step 50,4 clients are in federated training
+
+2023-05-26 22:47:36,896 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:37,273 - unet2d_skin.py - INFO: train_time:0.37727
+2023-05-26 22:47:37,474 - unet2d_skin.py - INFO: aggregation finished in 0.101534
+2023-05-26 22:47:37,577 - unet2d_skin.py - INFO: aggregate_loss: 0.3309263847768307 	 elapsed time: 0.10166811943054199
+2023-05-26 22:47:37,638 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:37,638 - unet2d_skin.py - INFO: train_loss: 0.4344775378704071, train_accuracy:0.7759881019592285, train_JA:0.0000, train_AC:0.8566, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:37,641 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 52 step 51,4 clients are in federated training
+
+2023-05-26 22:47:37,641 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:38,022 - unet2d_skin.py - INFO: train_time:0.37664
+2023-05-26 22:47:38,227 - unet2d_skin.py - INFO: aggregation finished in 0.101499
+2023-05-26 22:47:38,328 - unet2d_skin.py - INFO: aggregate_loss: 0.3215321972966194 	 elapsed time: 0.10164117813110352
+2023-05-26 22:47:38,389 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:38,390 - unet2d_skin.py - INFO: train_loss: 0.4323054850101471, train_accuracy:0.77685546875, train_JA:0.0000, train_AC:0.8211, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:38,392 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 53 step 52,4 clients are in federated training
+
+2023-05-26 22:47:38,392 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:38,769 - unet2d_skin.py - INFO: train_time:0.37713
+2023-05-26 22:47:38,972 - unet2d_skin.py - INFO: aggregation finished in 0.100291
+2023-05-26 22:47:39,075 - unet2d_skin.py - INFO: aggregate_loss: 0.36093177646398544 	 elapsed time: 0.1004190444946289
+2023-05-26 22:47:39,136 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:39,136 - unet2d_skin.py - INFO: train_loss: 0.4309588074684143, train_accuracy:0.7785592675209045, train_JA:0.0000, train_AC:0.8672, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:39,140 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 54 step 53,4 clients are in federated training
+
+2023-05-26 22:47:39,140 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:39,522 - unet2d_skin.py - INFO: train_time:0.38190
+2023-05-26 22:47:39,721 - unet2d_skin.py - INFO: aggregation finished in 0.099006
+2023-05-26 22:47:39,826 - unet2d_skin.py - INFO: aggregate_loss: 0.36504682898521423 	 elapsed time: 0.0991361141204834
+2023-05-26 22:47:39,887 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:39,888 - unet2d_skin.py - INFO: train_loss: 0.42973822355270386, train_accuracy:0.77814781665802, train_JA:0.0000, train_AC:0.7563, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:39,892 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 55 step 54,4 clients are in federated training
+
+2023-05-26 22:47:39,892 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:40,271 - unet2d_skin.py - INFO: train_time:0.37870
+2023-05-26 22:47:40,474 - unet2d_skin.py - INFO: aggregation finished in 0.102637
+2023-05-26 22:47:40,583 - unet2d_skin.py - INFO: aggregate_loss: 0.4427492842078209 	 elapsed time: 0.10277557373046875
+2023-05-26 22:47:40,644 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:40,644 - unet2d_skin.py - INFO: train_loss: 0.4299747943878174, train_accuracy:0.7766163945198059, train_JA:0.0000, train_AC:0.6939, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:40,645 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 56 step 55,4 clients are in federated training
+
+2023-05-26 22:47:40,647 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:41,033 - unet2d_skin.py - INFO: train_time:0.38599
+2023-05-26 22:47:41,234 - unet2d_skin.py - INFO: aggregation finished in 0.098438
+2023-05-26 22:47:41,332 - unet2d_skin.py - INFO: aggregate_loss: 0.4261232390999794 	 elapsed time: 0.0985710620880127
+2023-05-26 22:47:41,392 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:41,393 - unet2d_skin.py - INFO: train_loss: 0.4299059808254242, train_accuracy:0.7772594094276428, train_JA:0.0000, train_AC:0.8126, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:41,394 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 57 step 56,4 clients are in federated training
+
+2023-05-26 22:47:41,395 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:41,772 - unet2d_skin.py - INFO: train_time:0.37733
+2023-05-26 22:47:41,973 - unet2d_skin.py - INFO: aggregation finished in 0.099023
+2023-05-26 22:47:42,077 - unet2d_skin.py - INFO: aggregate_loss: 0.4156561605632305 	 elapsed time: 0.09915804862976074
+2023-05-26 22:47:42,138 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:42,138 - unet2d_skin.py - INFO: train_loss: 0.4296559989452362, train_accuracy:0.7772005796432495, train_JA:0.0000, train_AC:0.7739, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:42,141 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 58 step 57,4 clients are in federated training
+
+2023-05-26 22:47:42,143 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:42,522 - unet2d_skin.py - INFO: train_time:0.37819
+2023-05-26 22:47:42,720 - unet2d_skin.py - INFO: aggregation finished in 0.098992
+2023-05-26 22:47:42,820 - unet2d_skin.py - INFO: aggregate_loss: 0.25016211718320847 	 elapsed time: 0.09912347793579102
+2023-05-26 22:47:42,881 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:42,881 - unet2d_skin.py - INFO: train_loss: 0.42656129598617554, train_accuracy:0.7786431908607483, train_JA:0.0000, train_AC:0.8609, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:42,884 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 59 step 58,4 clients are in federated training
+
+2023-05-26 22:47:42,884 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:43,264 - unet2d_skin.py - INFO: train_time:0.37999
+2023-05-26 22:47:43,462 - unet2d_skin.py - INFO: aggregation finished in 0.098724
+2023-05-26 22:47:43,571 - unet2d_skin.py - INFO: aggregate_loss: 0.2690240889787674 	 elapsed time: 0.09885334968566895
+2023-05-26 22:47:43,632 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:43,632 - unet2d_skin.py - INFO: train_loss: 0.42389115691185, train_accuracy:0.7801123261451721, train_JA:0.0000, train_AC:0.8653, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:43,634 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 60 step 59,4 clients are in federated training
+
+2023-05-26 22:47:43,634 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:44,012 - unet2d_skin.py - INFO: train_time:0.37697
+2023-05-26 22:47:44,216 - unet2d_skin.py - INFO: aggregation finished in 0.100865
+2023-05-26 22:47:44,322 - unet2d_skin.py - INFO: aggregate_loss: 0.2821272946894169 	 elapsed time: 0.1009981632232666
+2023-05-26 22:47:44,384 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:44,384 - unet2d_skin.py - INFO: train_loss: 0.4215284287929535, train_accuracy:0.7815343141555786, train_JA:0.0000, train_AC:0.8654, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:44,388 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 61 step 60,4 clients are in federated training
+
+2023-05-26 22:47:44,389 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:44,768 - unet2d_skin.py - INFO: train_time:0.37875
+2023-05-26 22:47:44,975 - unet2d_skin.py - INFO: aggregation finished in 0.103667
+2023-05-26 22:47:45,079 - unet2d_skin.py - INFO: aggregate_loss: 0.251799575984478 	 elapsed time: 0.10381674766540527
+2023-05-26 22:47:45,140 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:45,140 - unet2d_skin.py - INFO: train_loss: 0.4187460243701935, train_accuracy:0.7831477522850037, train_JA:0.0000, train_AC:0.8800, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:45,143 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 62 step 61,4 clients are in federated training
+
+2023-05-26 22:47:45,143 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:45,520 - unet2d_skin.py - INFO: train_time:0.37598
+2023-05-26 22:47:45,722 - unet2d_skin.py - INFO: aggregation finished in 0.099250
+2023-05-26 22:47:45,816 - unet2d_skin.py - INFO: aggregate_loss: 0.40479639172554016 	 elapsed time: 0.09937453269958496
+2023-05-26 22:47:45,876 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:45,877 - unet2d_skin.py - INFO: train_loss: 0.4185210168361664, train_accuracy:0.7816553711891174, train_JA:0.0000, train_AC:0.6906, train_DI:0.0000, train_SE:0.0000, train_SP:1.0000
+2023-05-26 22:47:45,881 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 63 step 62,4 clients are in federated training
+
+2023-05-26 22:47:45,881 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:46,265 - unet2d_skin.py - INFO: train_time:0.38397
+2023-05-26 22:47:46,464 - unet2d_skin.py - INFO: aggregation finished in 0.099083
+2023-05-26 22:47:46,567 - unet2d_skin.py - INFO: aggregate_loss: 0.4013630971312523 	 elapsed time: 0.09921622276306152
+2023-05-26 22:47:46,628 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:46,629 - unet2d_skin.py - INFO: train_loss: 0.4182486832141876, train_accuracy:0.781442403793335, train_JA:0.2464, train_AC:0.7682, train_DI:0.3168, train_SE:0.4610, train_SP:0.8902
+2023-05-26 22:47:46,632 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 64 step 63,4 clients are in federated training
+
+2023-05-26 22:47:46,632 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:47,018 - unet2d_skin.py - INFO: train_time:0.38606
+2023-05-26 22:47:47,238 - unet2d_skin.py - INFO: aggregation finished in 0.117321
+2023-05-26 22:47:47,367 - unet2d_skin.py - INFO: aggregate_loss: 0.5495309308171272 	 elapsed time: 0.11747550964355469
+2023-05-26 22:47:47,435 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:47,440 - unet2d_skin.py - INFO: train_loss: 0.4202999472618103, train_accuracy:0.7815134525299072, train_JA:0.4488, train_AC:0.7860, train_DI:0.5828, train_SE:0.4488, train_SP:1.0000
+2023-05-26 22:47:47,445 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 65 step 64,4 clients are in federated training
+
+2023-05-26 22:47:47,446 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:47,910 - unet2d_skin.py - INFO: train_time:0.46307
+2023-05-26 22:47:48,166 - unet2d_skin.py - INFO: aggregation finished in 0.118081
+2023-05-26 22:47:48,263 - unet2d_skin.py - INFO: aggregate_loss: 0.2940484285354614 	 elapsed time: 0.11821556091308594
+2023-05-26 22:47:48,324 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:48,324 - unet2d_skin.py - INFO: train_loss: 0.41835761070251465, train_accuracy:0.7837552428245544, train_JA:0.6373, train_AC:0.9272, train_DI:0.7506, train_SE:0.7552, train_SP:0.9815
+2023-05-26 22:47:48,326 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 66 step 65,4 clients are in federated training
+
+2023-05-26 22:47:48,326 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:48,704 - unet2d_skin.py - INFO: train_time:0.37751
+2023-05-26 22:47:48,901 - unet2d_skin.py - INFO: aggregation finished in 0.098605
+2023-05-26 22:47:49,008 - unet2d_skin.py - INFO: aggregate_loss: 0.33279451727867126 	 elapsed time: 0.0987386703491211
+2023-05-26 22:47:49,070 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:49,070 - unet2d_skin.py - INFO: train_loss: 0.4170612096786499, train_accuracy:0.7854511141777039, train_JA:0.7081, train_AC:0.8957, train_DI:0.8316, train_SE:0.7577, train_SP:0.9306
+2023-05-26 22:47:49,075 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 67 step 66,4 clients are in federated training
+
+2023-05-26 22:47:49,075 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:49,453 - unet2d_skin.py - INFO: train_time:0.37747
+2023-05-26 22:47:49,651 - unet2d_skin.py - INFO: aggregation finished in 0.099784
+2023-05-26 22:47:49,759 - unet2d_skin.py - INFO: aggregate_loss: 0.36304813250899315 	 elapsed time: 0.09991860389709473
+2023-05-26 22:47:49,820 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:49,820 - unet2d_skin.py - INFO: train_loss: 0.41625502705574036, train_accuracy:0.7867636680603027, train_JA:0.5761, train_AC:0.8734, train_DI:0.6893, train_SE:0.7161, train_SP:0.9279
+2023-05-26 22:47:49,821 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 68 step 67,4 clients are in federated training
+
+2023-05-26 22:47:49,822 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:50,207 - unet2d_skin.py - INFO: train_time:0.38486
+2023-05-26 22:47:50,407 - unet2d_skin.py - INFO: aggregation finished in 0.101036
+2023-05-26 22:47:50,510 - unet2d_skin.py - INFO: aggregate_loss: 0.30293601378798485 	 elapsed time: 0.10117602348327637
+2023-05-26 22:47:50,571 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:50,571 - unet2d_skin.py - INFO: train_loss: 0.41458860039711, train_accuracy:0.7882883548736572, train_JA:0.4471, train_AC:0.8904, train_DI:0.5596, train_SE:0.5006, train_SP:0.9749
+2023-05-26 22:47:50,573 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 69 step 68,4 clients are in federated training
+
+2023-05-26 22:47:50,573 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:50,950 - unet2d_skin.py - INFO: train_time:0.37715
+2023-05-26 22:47:51,152 - unet2d_skin.py - INFO: aggregation finished in 0.102408
+2023-05-26 22:47:51,255 - unet2d_skin.py - INFO: aggregate_loss: 0.2762921266257763 	 elapsed time: 0.10254406929016113
+2023-05-26 22:47:51,317 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:51,317 - unet2d_skin.py - INFO: train_loss: 0.4125843048095703, train_accuracy:0.789824366569519, train_JA:0.4404, train_AC:0.8943, train_DI:0.5777, train_SE:0.4404, train_SP:1.0000
+2023-05-26 22:47:51,318 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 70 step 69,4 clients are in federated training
+
+2023-05-26 22:47:51,319 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:51,762 - unet2d_skin.py - INFO: train_time:0.44341
+2023-05-26 22:47:52,013 - unet2d_skin.py - INFO: aggregation finished in 0.125490
+2023-05-26 22:47:52,158 - unet2d_skin.py - INFO: aggregate_loss: 0.3294699229300022 	 elapsed time: 0.12562799453735352
+2023-05-26 22:47:52,224 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:52,225 - unet2d_skin.py - INFO: train_loss: 0.41139695048332214, train_accuracy:0.7910908460617065, train_JA:0.5189, train_AC:0.8785, train_DI:0.6809, train_SE:0.5189, train_SP:1.0000
+2023-05-26 22:47:52,229 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 71 step 70,4 clients are in federated training
+
+2023-05-26 22:47:52,230 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:52,651 - unet2d_skin.py - INFO: train_time:0.42048
+2023-05-26 22:47:52,890 - unet2d_skin.py - INFO: aggregation finished in 0.116322
+2023-05-26 22:47:53,002 - unet2d_skin.py - INFO: aggregate_loss: 0.604737289249897 	 elapsed time: 0.11648368835449219
+2023-05-26 22:47:53,065 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:53,066 - unet2d_skin.py - INFO: train_loss: 0.41412004828453064, train_accuracy:0.7911520004272461, train_JA:0.4325, train_AC:0.7954, train_DI:0.5486, train_SE:0.5516, train_SP:0.9783
+2023-05-26 22:47:53,067 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 72 step 71,4 clients are in federated training
+
+2023-05-26 22:47:53,068 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:53,498 - unet2d_skin.py - INFO: train_time:0.42999
+2023-05-26 22:47:53,733 - unet2d_skin.py - INFO: aggregation finished in 0.118251
+2023-05-26 22:47:53,859 - unet2d_skin.py - INFO: aggregate_loss: 0.33684148266911507 	 elapsed time: 0.11841654777526855
+2023-05-26 22:47:53,921 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:53,921 - unet2d_skin.py - INFO: train_loss: 0.4130467176437378, train_accuracy:0.7923928499221802, train_JA:0.6206, train_AC:0.8805, train_DI:0.7361, train_SE:0.7274, train_SP:0.9564
+2023-05-26 22:47:53,923 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 73 step 72,4 clients are in federated training
+
+2023-05-26 22:47:53,924 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:54,305 - unet2d_skin.py - INFO: train_time:0.38091
+2023-05-26 22:47:54,507 - unet2d_skin.py - INFO: aggregation finished in 0.102255
+2023-05-26 22:47:54,612 - unet2d_skin.py - INFO: aggregate_loss: 0.4053095616400242 	 elapsed time: 0.10238766670227051
+2023-05-26 22:47:54,673 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:54,673 - unet2d_skin.py - INFO: train_loss: 0.41294074058532715, train_accuracy:0.7937266230583191, train_JA:0.7456, train_AC:0.8898, train_DI:0.8471, train_SE:0.7716, train_SP:0.9918
+2023-05-26 22:47:54,677 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 74 step 73,4 clients are in federated training
+
+2023-05-26 22:47:54,677 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:55,055 - unet2d_skin.py - INFO: train_time:0.37771
+2023-05-26 22:47:55,258 - unet2d_skin.py - INFO: aggregation finished in 0.098787
+2023-05-26 22:47:55,359 - unet2d_skin.py - INFO: aggregate_loss: 0.41225916147232056 	 elapsed time: 0.09892416000366211
+2023-05-26 22:47:55,421 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:55,421 - unet2d_skin.py - INFO: train_loss: 0.41293153166770935, train_accuracy:0.7949466705322266, train_JA:0.4822, train_AC:0.8840, train_DI:0.5830, train_SE:0.7817, train_SP:0.9275
+2023-05-26 22:47:55,425 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 75 step 74,4 clients are in federated training
+
+2023-05-26 22:47:55,425 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:55,805 - unet2d_skin.py - INFO: train_time:0.37910
+2023-05-26 22:47:56,003 - unet2d_skin.py - INFO: aggregation finished in 0.099283
+2023-05-26 22:47:56,107 - unet2d_skin.py - INFO: aggregate_loss: 0.3328024223446846 	 elapsed time: 0.09941673278808594
+2023-05-26 22:47:56,168 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:56,169 - unet2d_skin.py - INFO: train_loss: 0.41186314821243286, train_accuracy:0.7964655756950378, train_JA:0.5084, train_AC:0.9089, train_DI:0.6572, train_SE:0.7279, train_SP:0.9375
+2023-05-26 22:47:56,172 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 76 step 75,4 clients are in federated training
+
+2023-05-26 22:47:56,173 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:56,550 - unet2d_skin.py - INFO: train_time:0.37673
+2023-05-26 22:47:56,749 - unet2d_skin.py - INFO: aggregation finished in 0.098447
+2023-05-26 22:47:56,858 - unet2d_skin.py - INFO: aggregate_loss: 0.38521821051836014 	 elapsed time: 0.09857678413391113
+2023-05-26 22:47:56,919 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:56,919 - unet2d_skin.py - INFO: train_loss: 0.411512553691864, train_accuracy:0.7968234419822693, train_JA:0.4925, train_AC:0.8237, train_DI:0.6131, train_SE:0.4939, train_SP:0.9997
+2023-05-26 22:47:56,921 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 77 step 76,4 clients are in federated training
+
+2023-05-26 22:47:56,921 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:57,303 - unet2d_skin.py - INFO: train_time:0.38177
+2023-05-26 22:47:57,502 - unet2d_skin.py - INFO: aggregation finished in 0.099537
+2023-05-26 22:47:57,608 - unet2d_skin.py - INFO: aggregate_loss: 0.34103794395923615 	 elapsed time: 0.09966158866882324
+2023-05-26 22:47:57,669 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:57,669 - unet2d_skin.py - INFO: train_loss: 0.4105972945690155, train_accuracy:0.797767162322998, train_JA:0.3257, train_AC:0.8695, train_DI:0.4009, train_SE:0.3491, train_SP:0.9985
+2023-05-26 22:47:57,670 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 78 step 77,4 clients are in federated training
+
+2023-05-26 22:47:57,670 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:58,056 - unet2d_skin.py - INFO: train_time:0.38063
+2023-05-26 22:47:58,264 - unet2d_skin.py - INFO: aggregation finished in 0.101555
+2023-05-26 22:47:58,373 - unet2d_skin.py - INFO: aggregate_loss: 0.3429621607065201 	 elapsed time: 0.10169434547424316
+2023-05-26 22:47:58,434 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:58,435 - unet2d_skin.py - INFO: train_loss: 0.4097301661968231, train_accuracy:0.7985106110572815, train_JA:0.3505, train_AC:0.8558, train_DI:0.4840, train_SE:0.3586, train_SP:0.9991
+2023-05-26 22:47:58,436 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 79 step 78,4 clients are in federated training
+
+2023-05-26 22:47:58,436 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:58,814 - unet2d_skin.py - INFO: train_time:0.37715
+2023-05-26 22:47:59,019 - unet2d_skin.py - INFO: aggregation finished in 0.102021
+2023-05-26 22:47:59,131 - unet2d_skin.py - INFO: aggregate_loss: 0.429216131567955 	 elapsed time: 0.10215020179748535
+2023-05-26 22:47:59,193 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:59,193 - unet2d_skin.py - INFO: train_loss: 0.4099768102169037, train_accuracy:0.7989439964294434, train_JA:0.4995, train_AC:0.8327, train_DI:0.5915, train_SE:0.5136, train_SP:0.9981
+2023-05-26 22:47:59,196 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 80 step 79,4 clients are in federated training
+
+2023-05-26 22:47:59,196 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:47:59,577 - unet2d_skin.py - INFO: train_time:0.37971
+2023-05-26 22:47:59,774 - unet2d_skin.py - INFO: aggregation finished in 0.098902
+2023-05-26 22:47:59,879 - unet2d_skin.py - INFO: aggregate_loss: 0.2928406223654747 	 elapsed time: 0.0990450382232666
+2023-05-26 22:47:59,940 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:47:59,941 - unet2d_skin.py - INFO: train_loss: 0.40851259231567383, train_accuracy:0.8002802133560181, train_JA:0.5718, train_AC:0.9058, train_DI:0.7139, train_SE:0.5776, train_SP:0.9976
+2023-05-26 22:47:59,943 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 81 step 80,4 clients are in federated training
+
+2023-05-26 22:47:59,943 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:00,324 - unet2d_skin.py - INFO: train_time:0.37974
+2023-05-26 22:48:00,525 - unet2d_skin.py - INFO: aggregation finished in 0.099718
+2023-05-26 22:48:00,634 - unet2d_skin.py - INFO: aggregate_loss: 0.28427137807011604 	 elapsed time: 0.09984946250915527
+2023-05-26 22:48:00,696 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:00,696 - unet2d_skin.py - INFO: train_loss: 0.4069787561893463, train_accuracy:0.8019407391548157, train_JA:0.7739, train_AC:0.9348, train_DI:0.8740, train_SE:0.8048, train_SP:0.9939
+2023-05-26 22:48:00,698 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 82 step 81,4 clients are in federated training
+
+2023-05-26 22:48:00,698 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:01,078 - unet2d_skin.py - INFO: train_time:0.37967
+2023-05-26 22:48:01,286 - unet2d_skin.py - INFO: aggregation finished in 0.100827
+2023-05-26 22:48:01,390 - unet2d_skin.py - INFO: aggregate_loss: 0.2809349074959755 	 elapsed time: 0.10097193717956543
+2023-05-26 22:48:01,451 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:01,451 - unet2d_skin.py - INFO: train_loss: 0.40544161200523376, train_accuracy:0.8036615252494812, train_JA:0.6030, train_AC:0.9430, train_DI:0.7466, train_SE:0.6235, train_SP:0.9958
+2023-05-26 22:48:01,453 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 83 step 82,4 clients are in federated training
+
+2023-05-26 22:48:01,453 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:01,836 - unet2d_skin.py - INFO: train_time:0.38271
+2023-05-26 22:48:02,043 - unet2d_skin.py - INFO: aggregation finished in 0.101318
+2023-05-26 22:48:02,156 - unet2d_skin.py - INFO: aggregate_loss: 0.3481047973036766 	 elapsed time: 0.10145092010498047
+2023-05-26 22:48:02,219 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:02,219 - unet2d_skin.py - INFO: train_loss: 0.4047508239746094, train_accuracy:0.804276168346405, train_JA:0.4823, train_AC:0.8547, train_DI:0.6420, train_SE:0.4823, train_SP:1.0000
+2023-05-26 22:48:02,223 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 84 step 83,4 clients are in federated training
+
+2023-05-26 22:48:02,223 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:02,599 - unet2d_skin.py - INFO: train_time:0.37564
+2023-05-26 22:48:02,801 - unet2d_skin.py - INFO: aggregation finished in 0.100792
+2023-05-26 22:48:02,908 - unet2d_skin.py - INFO: aggregate_loss: 0.5256437510251999 	 elapsed time: 0.10092544555664062
+2023-05-26 22:48:02,970 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:02,970 - unet2d_skin.py - INFO: train_loss: 0.40619000792503357, train_accuracy:0.8043085932731628, train_JA:0.4544, train_AC:0.8070, train_DI:0.5553, train_SE:0.4893, train_SP:0.9949
+2023-05-26 22:48:02,973 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 85 step 84,4 clients are in federated training
+
+2023-05-26 22:48:02,974 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:03,362 - unet2d_skin.py - INFO: train_time:0.38805
+2023-05-26 22:48:03,567 - unet2d_skin.py - INFO: aggregation finished in 0.103679
+2023-05-26 22:48:03,677 - unet2d_skin.py - INFO: aggregate_loss: 0.4085487052798271 	 elapsed time: 0.10385847091674805
+2023-05-26 22:48:03,739 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:03,739 - unet2d_skin.py - INFO: train_loss: 0.4062177836894989, train_accuracy:0.8048542737960815, train_JA:0.5160, train_AC:0.8507, train_DI:0.6805, train_SE:0.5188, train_SP:0.9990
+2023-05-26 22:48:03,743 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 86 step 85,4 clients are in federated training
+
+2023-05-26 22:48:03,743 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:04,123 - unet2d_skin.py - INFO: train_time:0.37989
+2023-05-26 22:48:04,339 - unet2d_skin.py - INFO: aggregation finished in 0.112083
+2023-05-26 22:48:04,448 - unet2d_skin.py - INFO: aggregate_loss: 0.5108031891286373 	 elapsed time: 0.11226558685302734
+2023-05-26 22:48:04,509 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:04,510 - unet2d_skin.py - INFO: train_loss: 0.4074338972568512, train_accuracy:0.804892361164093, train_JA:0.5408, train_AC:0.8081, train_DI:0.6799, train_SE:0.5557, train_SP:0.9522
+2023-05-26 22:48:04,511 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 87 step 86,4 clients are in federated training
+
+2023-05-26 22:48:04,511 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:04,890 - unet2d_skin.py - INFO: train_time:0.37825
+2023-05-26 22:48:05,094 - unet2d_skin.py - INFO: aggregation finished in 0.102630
+2023-05-26 22:48:05,207 - unet2d_skin.py - INFO: aggregate_loss: 0.23059413023293018 	 elapsed time: 0.1027677059173584
+2023-05-26 22:48:05,268 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:05,269 - unet2d_skin.py - INFO: train_loss: 0.4054012596607208, train_accuracy:0.8062502145767212, train_JA:0.4575, train_AC:0.9230, train_DI:0.5711, train_SE:0.4698, train_SP:0.9967
+2023-05-26 22:48:05,273 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 88 step 87,4 clients are in federated training
+
+2023-05-26 22:48:05,273 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:05,651 - unet2d_skin.py - INFO: train_time:0.37630
+2023-05-26 22:48:05,850 - unet2d_skin.py - INFO: aggregation finished in 0.098874
+2023-05-26 22:48:05,960 - unet2d_skin.py - INFO: aggregate_loss: 0.334107656031847 	 elapsed time: 0.09901022911071777
+2023-05-26 22:48:06,022 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:06,023 - unet2d_skin.py - INFO: train_loss: 0.40459108352661133, train_accuracy:0.806983232498169, train_JA:0.6235, train_AC:0.8708, train_DI:0.7478, train_SE:0.7848, train_SP:0.9351
+2023-05-26 22:48:06,024 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 89 step 88,4 clients are in federated training
+
+2023-05-26 22:48:06,024 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:06,403 - unet2d_skin.py - INFO: train_time:0.37726
+2023-05-26 22:48:06,603 - unet2d_skin.py - INFO: aggregation finished in 0.101683
+2023-05-26 22:48:06,706 - unet2d_skin.py - INFO: aggregate_loss: 0.3351471722126007 	 elapsed time: 0.10182666778564453
+2023-05-26 22:48:06,767 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:06,767 - unet2d_skin.py - INFO: train_loss: 0.4038108289241791, train_accuracy:0.8077199459075928, train_JA:0.5580, train_AC:0.8725, train_DI:0.6651, train_SE:0.9375, train_SP:0.8564
+2023-05-26 22:48:06,771 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 90 step 89,4 clients are in federated training
+
+2023-05-26 22:48:06,771 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:07,156 - unet2d_skin.py - INFO: train_time:0.38472
+2023-05-26 22:48:07,356 - unet2d_skin.py - INFO: aggregation finished in 0.099376
+2023-05-26 22:48:07,453 - unet2d_skin.py - INFO: aggregate_loss: 0.27931175380945206 	 elapsed time: 0.09950852394104004
+2023-05-26 22:48:07,514 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:07,514 - unet2d_skin.py - INFO: train_loss: 0.4024274945259094, train_accuracy:0.8087981939315796, train_JA:0.4879, train_AC:0.9048, train_DI:0.6128, train_SE:0.5244, train_SP:0.9973
+2023-05-26 22:48:07,517 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 91 step 90,4 clients are in federated training
+
+2023-05-26 22:48:07,518 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:07,896 - unet2d_skin.py - INFO: train_time:0.37780
+2023-05-26 22:48:08,106 - unet2d_skin.py - INFO: aggregation finished in 0.106911
+2023-05-26 22:48:08,212 - unet2d_skin.py - INFO: aggregate_loss: 0.29833273589611053 	 elapsed time: 0.10704398155212402
+2023-05-26 22:48:08,273 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:08,274 - unet2d_skin.py - INFO: train_loss: 0.4012835919857025, train_accuracy:0.8094567060470581, train_JA:0.4891, train_AC:0.8687, train_DI:0.6107, train_SE:0.5793, train_SP:0.9274
+2023-05-26 22:48:08,278 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 92 step 91,4 clients are in federated training
+
+2023-05-26 22:48:08,278 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:08,654 - unet2d_skin.py - INFO: train_time:0.37583
+2023-05-26 22:48:08,854 - unet2d_skin.py - INFO: aggregation finished in 0.100134
+2023-05-26 22:48:08,956 - unet2d_skin.py - INFO: aggregate_loss: 0.3736033961176872 	 elapsed time: 0.10027670860290527
+2023-05-26 22:48:09,018 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:09,018 - unet2d_skin.py - INFO: train_loss: 0.40098273754119873, train_accuracy:0.8102605938911438, train_JA:0.5173, train_AC:0.8834, train_DI:0.6531, train_SE:0.5431, train_SP:0.9916
+2023-05-26 22:48:09,021 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 93 step 92,4 clients are in federated training
+
+2023-05-26 22:48:09,022 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:09,405 - unet2d_skin.py - INFO: train_time:0.38322
+2023-05-26 22:48:09,608 - unet2d_skin.py - INFO: aggregation finished in 0.099203
+2023-05-26 22:48:09,718 - unet2d_skin.py - INFO: aggregate_loss: 0.26493294537067413 	 elapsed time: 0.09932923316955566
+2023-05-26 22:48:09,779 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:09,780 - unet2d_skin.py - INFO: train_loss: 0.3995198607444763, train_accuracy:0.81160968542099, train_JA:0.5733, train_AC:0.9357, train_DI:0.7097, train_SE:0.5849, train_SP:0.9931
+2023-05-26 22:48:09,781 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 94 step 93,4 clients are in federated training
+
+2023-05-26 22:48:09,781 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:10,161 - unet2d_skin.py - INFO: train_time:0.37992
+2023-05-26 22:48:10,359 - unet2d_skin.py - INFO: aggregation finished in 0.098482
+2023-05-26 22:48:10,465 - unet2d_skin.py - INFO: aggregate_loss: 0.2250555232167244 	 elapsed time: 0.09862327575683594
+2023-05-26 22:48:10,527 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:10,527 - unet2d_skin.py - INFO: train_loss: 0.3976638615131378, train_accuracy:0.8129507303237915, train_JA:0.5597, train_AC:0.9377, train_DI:0.6977, train_SE:0.5717, train_SP:0.9887
+2023-05-26 22:48:10,532 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 95 step 94,4 clients are in federated training
+
+2023-05-26 22:48:10,532 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:10,908 - unet2d_skin.py - INFO: train_time:0.37551
+2023-05-26 22:48:11,112 - unet2d_skin.py - INFO: aggregation finished in 0.104917
+2023-05-26 22:48:11,216 - unet2d_skin.py - INFO: aggregate_loss: 0.42859969660639763 	 elapsed time: 0.10507059097290039
+2023-05-26 22:48:11,278 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:11,278 - unet2d_skin.py - INFO: train_loss: 0.3979894816875458, train_accuracy:0.8133817911148071, train_JA:0.5930, train_AC:0.8539, train_DI:0.7469, train_SE:0.5931, train_SP:1.0000
+2023-05-26 22:48:11,279 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 96 step 95,4 clients are in federated training
+
+2023-05-26 22:48:11,280 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:11,658 - unet2d_skin.py - INFO: train_time:0.37825
+2023-05-26 22:48:11,862 - unet2d_skin.py - INFO: aggregation finished in 0.100723
+2023-05-26 22:48:11,967 - unet2d_skin.py - INFO: aggregate_loss: 0.29825494438409805 	 elapsed time: 0.10085773468017578
+2023-05-26 22:48:12,029 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:12,029 - unet2d_skin.py - INFO: train_loss: 0.3969506025314331, train_accuracy:0.8138545155525208, train_JA:0.4638, train_AC:0.8588, train_DI:0.6130, train_SE:0.6097, train_SP:0.9192
+2023-05-26 22:48:12,033 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 97 step 96,4 clients are in federated training
+
+2023-05-26 22:48:12,033 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:12,414 - unet2d_skin.py - INFO: train_time:0.38096
+2023-05-26 22:48:12,613 - unet2d_skin.py - INFO: aggregation finished in 0.098812
+2023-05-26 22:48:12,719 - unet2d_skin.py - INFO: aggregate_loss: 0.16757966578006744 	 elapsed time: 0.0989389419555664
+2023-05-26 22:48:12,780 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:12,780 - unet2d_skin.py - INFO: train_loss: 0.3945859670639038, train_accuracy:0.8153401613235474, train_JA:0.5925, train_AC:0.9580, train_DI:0.7210, train_SE:0.6089, train_SP:0.9931
+2023-05-26 22:48:12,784 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 98 step 97,4 clients are in federated training
+
+2023-05-26 22:48:12,784 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:13,165 - unet2d_skin.py - INFO: train_time:0.38055
+2023-05-26 22:48:13,364 - unet2d_skin.py - INFO: aggregation finished in 0.099741
+2023-05-26 22:48:13,465 - unet2d_skin.py - INFO: aggregate_loss: 0.18184978887438774 	 elapsed time: 0.09987974166870117
+2023-05-26 22:48:13,526 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:13,526 - unet2d_skin.py - INFO: train_loss: 0.39241519570350647, train_accuracy:0.8164761662483215, train_JA:0.5100, train_AC:0.9267, train_DI:0.6331, train_SE:0.5100, train_SP:1.0000
+2023-05-26 22:48:13,529 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 99 step 98,4 clients are in federated training
+
+2023-05-26 22:48:13,529 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:13,908 - unet2d_skin.py - INFO: train_time:0.37799
+2023-05-26 22:48:14,109 - unet2d_skin.py - INFO: aggregation finished in 0.102215
+2023-05-26 22:48:14,214 - unet2d_skin.py - INFO: aggregate_loss: 0.3064824156463146 	 elapsed time: 0.10235023498535156
+2023-05-26 22:48:14,276 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:14,276 - unet2d_skin.py - INFO: train_loss: 0.39154720306396484, train_accuracy:0.817175567150116, train_JA:0.4902, train_AC:0.8857, train_DI:0.6108, train_SE:0.5927, train_SP:0.9793
+2023-05-26 22:48:14,278 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 100 step 99,4 clients are in federated training
+
+2023-05-26 22:48:14,278 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:14,658 - unet2d_skin.py - INFO: train_time:0.37676
+2023-05-26 22:48:14,860 - unet2d_skin.py - INFO: aggregation finished in 0.100312
+2023-05-26 22:48:14,969 - unet2d_skin.py - INFO: aggregate_loss: 0.278581440448761 	 elapsed time: 0.10044431686401367
+2023-05-26 22:48:15,030 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:15,031 - unet2d_skin.py - INFO: train_loss: 0.39041751623153687, train_accuracy:0.8180691599845886, train_JA:0.5602, train_AC:0.9065, train_DI:0.7024, train_SE:0.5827, train_SP:0.9871
+2023-05-26 22:48:15,034 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 101 step 100,4 clients are in federated training
+
+2023-05-26 22:48:15,035 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:15,414 - unet2d_skin.py - INFO: train_time:0.37904
+2023-05-26 22:48:15,614 - unet2d_skin.py - INFO: aggregation finished in 0.098663
+2023-05-26 22:48:15,721 - unet2d_skin.py - INFO: aggregate_loss: 0.3088045194745064 	 elapsed time: 0.09879636764526367
+2023-05-26 22:48:15,782 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:15,782 - unet2d_skin.py - INFO: train_loss: 0.3896094560623169, train_accuracy:0.8187280297279358, train_JA:0.5950, train_AC:0.8846, train_DI:0.7251, train_SE:0.6690, train_SP:0.9601
+2023-05-26 22:48:15,784 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 102 step 101,4 clients are in federated training
+
+2023-05-26 22:48:15,784 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:16,163 - unet2d_skin.py - INFO: train_time:0.37707
+2023-05-26 22:48:16,365 - unet2d_skin.py - INFO: aggregation finished in 0.099179
+2023-05-26 22:48:16,467 - unet2d_skin.py - INFO: aggregate_loss: 0.3698456771671772 	 elapsed time: 0.0993192195892334
+2023-05-26 22:48:16,528 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:16,528 - unet2d_skin.py - INFO: train_loss: 0.3894157111644745, train_accuracy:0.8190944790840149, train_JA:0.6355, train_AC:0.8561, train_DI:0.7385, train_SE:0.9197, train_SP:0.8911
+2023-05-26 22:48:16,529 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 103 step 102,4 clients are in federated training
+
+2023-05-26 22:48:16,530 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:16,908 - unet2d_skin.py - INFO: train_time:0.37779
+2023-05-26 22:48:17,111 - unet2d_skin.py - INFO: aggregation finished in 0.102419
+2023-05-26 22:48:17,221 - unet2d_skin.py - INFO: aggregate_loss: 0.3571469709277153 	 elapsed time: 0.10256814956665039
+2023-05-26 22:48:17,282 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:17,283 - unet2d_skin.py - INFO: train_loss: 0.38910242915153503, train_accuracy:0.8198153972625732, train_JA:0.5874, train_AC:0.8933, train_DI:0.6982, train_SE:0.7636, train_SP:0.9399
+2023-05-26 22:48:17,284 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 104 step 103,4 clients are in federated training
+
+2023-05-26 22:48:17,284 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:17,663 - unet2d_skin.py - INFO: train_time:0.37823
+2023-05-26 22:48:17,863 - unet2d_skin.py - INFO: aggregation finished in 0.098689
+2023-05-26 22:48:17,968 - unet2d_skin.py - INFO: aggregate_loss: 0.32127291336655617 	 elapsed time: 0.09882330894470215
+2023-05-26 22:48:18,030 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:18,030 - unet2d_skin.py - INFO: train_loss: 0.3884502053260803, train_accuracy:0.8203786015510559, train_JA:0.5603, train_AC:0.8784, train_DI:0.7011, train_SE:0.6323, train_SP:0.9840
+2023-05-26 22:48:18,031 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 105 step 104,4 clients are in federated training
+
+2023-05-26 22:48:18,033 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:18,412 - unet2d_skin.py - INFO: train_time:0.37772
+2023-05-26 22:48:18,610 - unet2d_skin.py - INFO: aggregation finished in 0.098851
+2023-05-26 22:48:18,716 - unet2d_skin.py - INFO: aggregate_loss: 0.34841176867485046 	 elapsed time: 0.09898877143859863
+2023-05-26 22:48:18,777 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:18,778 - unet2d_skin.py - INFO: train_loss: 0.38806888461112976, train_accuracy:0.8212277293205261, train_JA:0.6631, train_AC:0.9095, train_DI:0.7934, train_SE:0.6960, train_SP:0.9793
+2023-05-26 22:48:18,782 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 106 step 105,4 clients are in federated training
+
+2023-05-26 22:48:18,782 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:19,163 - unet2d_skin.py - INFO: train_time:0.38025
+2023-05-26 22:48:19,365 - unet2d_skin.py - INFO: aggregation finished in 0.102464
+2023-05-26 22:48:19,475 - unet2d_skin.py - INFO: aggregate_loss: 0.2881261706352234 	 elapsed time: 0.10259890556335449
+2023-05-26 22:48:19,537 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:19,537 - unet2d_skin.py - INFO: train_loss: 0.38712605834007263, train_accuracy:0.8219912648200989, train_JA:0.6237, train_AC:0.9022, train_DI:0.7739, train_SE:0.6237, train_SP:1.0000
+2023-05-26 22:48:19,541 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 107 step 106,4 clients are in federated training
+
+2023-05-26 22:48:19,541 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:19,918 - unet2d_skin.py - INFO: train_time:0.37613
+2023-05-26 22:48:20,120 - unet2d_skin.py - INFO: aggregation finished in 0.102851
+2023-05-26 22:48:20,228 - unet2d_skin.py - INFO: aggregate_loss: 0.43617477640509605 	 elapsed time: 0.10298037528991699
+2023-05-26 22:48:20,290 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:20,290 - unet2d_skin.py - INFO: train_loss: 0.38758447766304016, train_accuracy:0.8223029971122742, train_JA:0.6813, train_AC:0.8553, train_DI:0.7866, train_SE:0.7969, train_SP:0.9393
+2023-05-26 22:48:20,292 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 108 step 107,4 clients are in federated training
+
+2023-05-26 22:48:20,292 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:20,675 - unet2d_skin.py - INFO: train_time:0.38201
+2023-05-26 22:48:20,874 - unet2d_skin.py - INFO: aggregation finished in 0.100178
+2023-05-26 22:48:20,968 - unet2d_skin.py - INFO: aggregate_loss: 0.25765513628721237 	 elapsed time: 0.10031342506408691
+2023-05-26 22:48:21,030 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:21,030 - unet2d_skin.py - INFO: train_loss: 0.3863814175128937, train_accuracy:0.8232150673866272, train_JA:0.6756, train_AC:0.9208, train_DI:0.7905, train_SE:0.7732, train_SP:0.9762
+2023-05-26 22:48:21,034 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 109 step 108,4 clients are in federated training
+
+2023-05-26 22:48:21,035 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:21,414 - unet2d_skin.py - INFO: train_time:0.37852
+2023-05-26 22:48:21,611 - unet2d_skin.py - INFO: aggregation finished in 0.098775
+2023-05-26 22:48:21,711 - unet2d_skin.py - INFO: aggregate_loss: 0.1745596006512642 	 elapsed time: 0.09889554977416992
+2023-05-26 22:48:21,773 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:21,773 - unet2d_skin.py - INFO: train_loss: 0.3844381272792816, train_accuracy:0.8243958950042725, train_JA:0.5886, train_AC:0.9519, train_DI:0.6709, train_SE:0.7323, train_SP:0.9685
+2023-05-26 22:48:21,778 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 110 step 109,4 clients are in federated training
+
+2023-05-26 22:48:21,778 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:22,157 - unet2d_skin.py - INFO: train_time:0.37862
+2023-05-26 22:48:22,358 - unet2d_skin.py - INFO: aggregation finished in 0.102536
+2023-05-26 22:48:22,456 - unet2d_skin.py - INFO: aggregate_loss: 0.18971821665763855 	 elapsed time: 0.10266280174255371
+2023-05-26 22:48:22,517 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:22,517 - unet2d_skin.py - INFO: train_loss: 0.3826679289340973, train_accuracy:0.8256335854530334, train_JA:0.7156, train_AC:0.9605, train_DI:0.8149, train_SE:0.7306, train_SP:0.9968
+2023-05-26 22:48:22,518 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 111 step 110,4 clients are in federated training
+
+2023-05-26 22:48:22,519 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:22,897 - unet2d_skin.py - INFO: train_time:0.37752
+2023-05-26 22:48:23,097 - unet2d_skin.py - INFO: aggregation finished in 0.101287
+2023-05-26 22:48:23,206 - unet2d_skin.py - INFO: aggregate_loss: 0.49019334465265274 	 elapsed time: 0.10142230987548828
+2023-05-26 22:48:23,268 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:23,268 - unet2d_skin.py - INFO: train_loss: 0.38363662362098694, train_accuracy:0.8259574174880981, train_JA:0.6248, train_AC:0.8616, train_DI:0.7336, train_SE:0.8352, train_SP:0.9412
+2023-05-26 22:48:23,271 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 112 step 111,4 clients are in federated training
+
+2023-05-26 22:48:23,271 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:23,650 - unet2d_skin.py - INFO: train_time:0.37778
+2023-05-26 22:48:23,851 - unet2d_skin.py - INFO: aggregation finished in 0.101699
+2023-05-26 22:48:23,980 - unet2d_skin.py - INFO: aggregate_loss: 0.43117646127939224 	 elapsed time: 0.10184621810913086
+2023-05-26 22:48:24,042 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:24,042 - unet2d_skin.py - INFO: train_loss: 0.3840610682964325, train_accuracy:0.8260602951049805, train_JA:0.3998, train_AC:0.8375, train_DI:0.4920, train_SE:0.4139, train_SP:0.9906
+2023-05-26 22:48:24,043 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 113 step 112,4 clients are in federated training
+
+2023-05-26 22:48:24,044 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:24,426 - unet2d_skin.py - INFO: train_time:0.38244
+2023-05-26 22:48:24,632 - unet2d_skin.py - INFO: aggregation finished in 0.100720
+2023-05-26 22:48:24,728 - unet2d_skin.py - INFO: aggregate_loss: 0.26804540306329727 	 elapsed time: 0.10085940361022949
+2023-05-26 22:48:24,789 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:24,789 - unet2d_skin.py - INFO: train_loss: 0.383034348487854, train_accuracy:0.8263446688652039, train_JA:0.6414, train_AC:0.8582, train_DI:0.7416, train_SE:0.7745, train_SP:0.9067
+2023-05-26 22:48:24,791 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 114 step 113,4 clients are in federated training
+
+2023-05-26 22:48:24,791 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:25,175 - unet2d_skin.py - INFO: train_time:0.38375
+2023-05-26 22:48:25,378 - unet2d_skin.py - INFO: aggregation finished in 0.101862
+2023-05-26 22:48:25,477 - unet2d_skin.py - INFO: aggregate_loss: 0.34784160554409027 	 elapsed time: 0.10199642181396484
+2023-05-26 22:48:25,538 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:25,538 - unet2d_skin.py - INFO: train_loss: 0.38272565603256226, train_accuracy:0.8264618515968323, train_JA:0.6655, train_AC:0.8397, train_DI:0.7583, train_SE:0.8186, train_SP:0.8359
+2023-05-26 22:48:25,541 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 115 step 114,4 clients are in federated training
+
+2023-05-26 22:48:25,541 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:25,920 - unet2d_skin.py - INFO: train_time:0.37852
+2023-05-26 22:48:26,125 - unet2d_skin.py - INFO: aggregation finished in 0.103820
+2023-05-26 22:48:26,229 - unet2d_skin.py - INFO: aggregate_loss: 0.3805745542049408 	 elapsed time: 0.10396695137023926
+2023-05-26 22:48:26,291 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:26,291 - unet2d_skin.py - INFO: train_loss: 0.3827069401741028, train_accuracy:0.826593279838562, train_JA:0.5570, train_AC:0.8416, train_DI:0.6509, train_SE:0.6951, train_SP:0.9697
+2023-05-26 22:48:26,293 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 116 step 115,4 clients are in federated training
+
+2023-05-26 22:48:26,293 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:26,673 - unet2d_skin.py - INFO: train_time:0.37889
+2023-05-26 22:48:26,872 - unet2d_skin.py - INFO: aggregation finished in 0.099183
+2023-05-26 22:48:26,972 - unet2d_skin.py - INFO: aggregate_loss: 0.4595053605735302 	 elapsed time: 0.09931397438049316
+2023-05-26 22:48:27,033 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:27,034 - unet2d_skin.py - INFO: train_loss: 0.3833690285682678, train_accuracy:0.8266388177871704, train_JA:0.4385, train_AC:0.8319, train_DI:0.5465, train_SE:0.4528, train_SP:0.9891
+2023-05-26 22:48:27,037 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 117 step 116,4 clients are in federated training
+
+2023-05-26 22:48:27,037 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:27,414 - unet2d_skin.py - INFO: train_time:0.37605
+2023-05-26 22:48:27,616 - unet2d_skin.py - INFO: aggregation finished in 0.099576
+2023-05-26 22:48:27,725 - unet2d_skin.py - INFO: aggregate_loss: 0.3019140549004078 	 elapsed time: 0.09971165657043457
+2023-05-26 22:48:27,786 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:27,787 - unet2d_skin.py - INFO: train_loss: 0.38267281651496887, train_accuracy:0.827478289604187, train_JA:0.6398, train_AC:0.9248, train_DI:0.7505, train_SE:0.7264, train_SP:0.9958
+2023-05-26 22:48:27,788 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 118 step 117,4 clients are in federated training
+
+2023-05-26 22:48:27,789 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:28,172 - unet2d_skin.py - INFO: train_time:0.38330
+2023-05-26 22:48:28,370 - unet2d_skin.py - INFO: aggregation finished in 0.098907
+2023-05-26 22:48:28,483 - unet2d_skin.py - INFO: aggregate_loss: 0.24898885563015938 	 elapsed time: 0.09903979301452637
+2023-05-26 22:48:28,544 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:28,545 - unet2d_skin.py - INFO: train_loss: 0.381539911031723, train_accuracy:0.8282979130744934, train_JA:0.4700, train_AC:0.9242, train_DI:0.5944, train_SE:0.5236, train_SP:0.9922
+2023-05-26 22:48:28,548 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 119 step 118,4 clients are in federated training
+
+2023-05-26 22:48:28,549 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:28,926 - unet2d_skin.py - INFO: train_time:0.37655
+2023-05-26 22:48:29,128 - unet2d_skin.py - INFO: aggregation finished in 0.102907
+2023-05-26 22:48:29,233 - unet2d_skin.py - INFO: aggregate_loss: 0.46477585658431053 	 elapsed time: 0.10303878784179688
+2023-05-26 22:48:29,294 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:29,294 - unet2d_skin.py - INFO: train_loss: 0.38223937153816223, train_accuracy:0.828414261341095, train_JA:0.5944, train_AC:0.8422, train_DI:0.7125, train_SE:0.6043, train_SP:0.9972
+2023-05-26 22:48:29,295 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 120 step 119,4 clients are in federated training
+
+2023-05-26 22:48:29,296 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:29,677 - unet2d_skin.py - INFO: train_time:0.38069
+2023-05-26 22:48:29,874 - unet2d_skin.py - INFO: aggregation finished in 0.098506
+2023-05-26 22:48:29,978 - unet2d_skin.py - INFO: aggregate_loss: 0.2878887355327606 	 elapsed time: 0.09864091873168945
+2023-05-26 22:48:30,040 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:30,040 - unet2d_skin.py - INFO: train_loss: 0.38145309686660767, train_accuracy:0.8291641473770142, train_JA:0.6109, train_AC:0.9184, train_DI:0.7150, train_SE:0.7239, train_SP:0.9908
+2023-05-26 22:48:30,044 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 121 step 120,4 clients are in federated training
+
+2023-05-26 22:48:30,044 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:30,420 - unet2d_skin.py - INFO: train_time:0.37563
+2023-05-26 22:48:30,625 - unet2d_skin.py - INFO: aggregation finished in 0.100051
+2023-05-26 22:48:30,728 - unet2d_skin.py - INFO: aggregate_loss: 0.24632781371474266 	 elapsed time: 0.10018181800842285
+2023-05-26 22:48:30,789 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:30,790 - unet2d_skin.py - INFO: train_loss: 0.38033634424209595, train_accuracy:0.8300854563713074, train_JA:0.5778, train_AC:0.9406, train_DI:0.6900, train_SE:0.6914, train_SP:0.9778
+2023-05-26 22:48:30,791 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 122 step 121,4 clients are in federated training
+
+2023-05-26 22:48:30,792 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:31,182 - unet2d_skin.py - INFO: train_time:0.39015
+2023-05-26 22:48:31,380 - unet2d_skin.py - INFO: aggregation finished in 0.098602
+2023-05-26 22:48:31,481 - unet2d_skin.py - INFO: aggregate_loss: 0.2222243808209896 	 elapsed time: 0.09874343872070312
+2023-05-26 22:48:31,544 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:31,544 - unet2d_skin.py - INFO: train_loss: 0.37904036045074463, train_accuracy:0.8310611248016357, train_JA:0.6123, train_AC:0.9491, train_DI:0.7185, train_SE:0.6472, train_SP:0.9864
+2023-05-26 22:48:31,547 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 123 step 122,4 clients are in federated training
+
+2023-05-26 22:48:31,548 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:31,925 - unet2d_skin.py - INFO: train_time:0.37609
+2023-05-26 22:48:32,127 - unet2d_skin.py - INFO: aggregation finished in 0.103163
+2023-05-26 22:48:32,223 - unet2d_skin.py - INFO: aggregate_loss: 0.48637785762548447 	 elapsed time: 0.10329842567443848
+2023-05-26 22:48:32,285 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:32,285 - unet2d_skin.py - INFO: train_loss: 0.3799130320549011, train_accuracy:0.8309393525123596, train_JA:0.5929, train_AC:0.8161, train_DI:0.7194, train_SE:0.6066, train_SP:0.9766
+2023-05-26 22:48:32,289 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 124 step 123,4 clients are in federated training
+
+2023-05-26 22:48:32,290 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:32,669 - unet2d_skin.py - INFO: train_time:0.37884
+2023-05-26 22:48:32,871 - unet2d_skin.py - INFO: aggregation finished in 0.100380
+2023-05-26 22:48:32,974 - unet2d_skin.py - INFO: aggregate_loss: 0.30566976219415665 	 elapsed time: 0.10051918029785156
+2023-05-26 22:48:33,035 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:33,035 - unet2d_skin.py - INFO: train_loss: 0.37931427359580994, train_accuracy:0.831668496131897, train_JA:0.6929, train_AC:0.9214, train_DI:0.8027, train_SE:0.7989, train_SP:0.9801
+2023-05-26 22:48:33,039 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 125 step 124,4 clients are in federated training
+
+2023-05-26 22:48:33,039 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:33,416 - unet2d_skin.py - INFO: train_time:0.37607
+2023-05-26 22:48:33,622 - unet2d_skin.py - INFO: aggregation finished in 0.103591
+2023-05-26 22:48:33,722 - unet2d_skin.py - INFO: aggregate_loss: 0.20146557688713074 	 elapsed time: 0.10371804237365723
+2023-05-26 22:48:33,784 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:33,784 - unet2d_skin.py - INFO: train_loss: 0.377891480922699, train_accuracy:0.8325024247169495, train_JA:0.6805, train_AC:0.9359, train_DI:0.7746, train_SE:0.8037, train_SP:0.9805
+2023-05-26 22:48:33,787 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 126 step 125,4 clients are in federated training
+
+2023-05-26 22:48:33,787 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:34,173 - unet2d_skin.py - INFO: train_time:0.38525
+2023-05-26 22:48:34,373 - unet2d_skin.py - INFO: aggregation finished in 0.101535
+2023-05-26 22:48:34,493 - unet2d_skin.py - INFO: aggregate_loss: 0.23316540196537971 	 elapsed time: 0.10167217254638672
+2023-05-26 22:48:34,554 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:34,554 - unet2d_skin.py - INFO: train_loss: 0.3767428696155548, train_accuracy:0.8332856297492981, train_JA:0.7321, train_AC:0.9312, train_DI:0.8265, train_SE:0.8185, train_SP:0.9741
+2023-05-26 22:48:34,556 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 127 step 126,4 clients are in federated training
+
+2023-05-26 22:48:34,558 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:34,935 - unet2d_skin.py - INFO: train_time:0.37671
+2023-05-26 22:48:35,141 - unet2d_skin.py - INFO: aggregation finished in 0.104632
+2023-05-26 22:48:35,247 - unet2d_skin.py - INFO: aggregate_loss: 0.18124932795763016 	 elapsed time: 0.10475897789001465
+2023-05-26 22:48:35,309 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:35,310 - unet2d_skin.py - INFO: train_loss: 0.37520352005958557, train_accuracy:0.8341778516769409, train_JA:0.6436, train_AC:0.9466, train_DI:0.7561, train_SE:0.8182, train_SP:0.9863
+2023-05-26 22:48:35,311 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 128 step 127,4 clients are in federated training
+
+2023-05-26 22:48:35,311 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:35,690 - unet2d_skin.py - INFO: train_time:0.37851
+2023-05-26 22:48:35,895 - unet2d_skin.py - INFO: aggregation finished in 0.102101
+2023-05-26 22:48:35,996 - unet2d_skin.py - INFO: aggregate_loss: 0.1583786904811859 	 elapsed time: 0.10224080085754395
+2023-05-26 22:48:36,058 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:36,058 - unet2d_skin.py - INFO: train_loss: 0.37350958585739136, train_accuracy:0.8352010846138, train_JA:0.7860, train_AC:0.9651, train_DI:0.8689, train_SE:0.8292, train_SP:0.9934
+2023-05-26 22:48:36,059 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 129 step 128,4 clients are in federated training
+
+2023-05-26 22:48:36,060 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:36,453 - unet2d_skin.py - INFO: train_time:0.39252
+2023-05-26 22:48:36,661 - unet2d_skin.py - INFO: aggregation finished in 0.104666
+2023-05-26 22:48:36,763 - unet2d_skin.py - INFO: aggregate_loss: 0.3118553161621094 	 elapsed time: 0.10480809211730957
+2023-05-26 22:48:36,825 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:36,825 - unet2d_skin.py - INFO: train_loss: 0.3730316460132599, train_accuracy:0.835371196269989, train_JA:0.3810, train_AC:0.8571, train_DI:0.4727, train_SE:0.5755, train_SP:0.9447
+2023-05-26 22:48:36,826 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 130 step 129,4 clients are in federated training
+
+2023-05-26 22:48:36,826 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:37,211 - unet2d_skin.py - INFO: train_time:0.38437
+2023-05-26 22:48:37,414 - unet2d_skin.py - INFO: aggregation finished in 0.101697
+2023-05-26 22:48:37,520 - unet2d_skin.py - INFO: aggregate_loss: 0.44564984925091267 	 elapsed time: 0.10182690620422363
+2023-05-26 22:48:37,582 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:37,582 - unet2d_skin.py - INFO: train_loss: 0.37359023094177246, train_accuracy:0.8358473181724548, train_JA:0.6142, train_AC:0.8973, train_DI:0.7299, train_SE:0.7971, train_SP:0.9752
+2023-05-26 22:48:37,584 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 131 step 130,4 clients are in federated training
+
+2023-05-26 22:48:37,584 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:37,966 - unet2d_skin.py - INFO: train_time:0.38152
+2023-05-26 22:48:38,171 - unet2d_skin.py - INFO: aggregation finished in 0.103488
+2023-05-26 22:48:38,279 - unet2d_skin.py - INFO: aggregate_loss: 0.2738124616444111 	 elapsed time: 0.10362720489501953
+2023-05-26 22:48:38,341 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:38,341 - unet2d_skin.py - INFO: train_loss: 0.37282857298851013, train_accuracy:0.8365338444709778, train_JA:0.7252, train_AC:0.9258, train_DI:0.8159, train_SE:0.8979, train_SP:0.9616
+2023-05-26 22:48:38,343 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 132 step 131,4 clients are in federated training
+
+2023-05-26 22:48:38,344 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:38,722 - unet2d_skin.py - INFO: train_time:0.37776
+2023-05-26 22:48:38,922 - unet2d_skin.py - INFO: aggregation finished in 0.099508
+2023-05-26 22:48:39,026 - unet2d_skin.py - INFO: aggregate_loss: 0.3405979536473751 	 elapsed time: 0.09965229034423828
+2023-05-26 22:48:39,090 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:39,091 - unet2d_skin.py - INFO: train_loss: 0.37258440256118774, train_accuracy:0.8370181918144226, train_JA:0.7627, train_AC:0.9005, train_DI:0.8478, train_SE:0.8719, train_SP:0.9521
+2023-05-26 22:48:39,094 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 133 step 132,4 clients are in federated training
+
+2023-05-26 22:48:39,094 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:39,473 - unet2d_skin.py - INFO: train_time:0.37800
+2023-05-26 22:48:39,672 - unet2d_skin.py - INFO: aggregation finished in 0.099886
+2023-05-26 22:48:39,775 - unet2d_skin.py - INFO: aggregate_loss: 0.3256671875715256 	 elapsed time: 0.10002350807189941
+2023-05-26 22:48:39,837 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:39,837 - unet2d_skin.py - INFO: train_loss: 0.372231662273407, train_accuracy:0.837131917476654, train_JA:0.5445, train_AC:0.8521, train_DI:0.6510, train_SE:0.7650, train_SP:0.9031
+2023-05-26 22:48:39,838 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 134 step 133,4 clients are in federated training
+
+2023-05-26 22:48:39,838 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:40,219 - unet2d_skin.py - INFO: train_time:0.38056
+2023-05-26 22:48:40,419 - unet2d_skin.py - INFO: aggregation finished in 0.098831
+2023-05-26 22:48:40,523 - unet2d_skin.py - INFO: aggregate_loss: 0.27516552060842514 	 elapsed time: 0.09897041320800781
+2023-05-26 22:48:40,585 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:40,585 - unet2d_skin.py - INFO: train_loss: 0.37150728702545166, train_accuracy:0.8377262949943542, train_JA:0.6004, train_AC:0.9168, train_DI:0.7048, train_SE:0.9064, train_SP:0.9432
+2023-05-26 22:48:40,588 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 135 step 134,4 clients are in federated training
+
+2023-05-26 22:48:40,589 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:40,967 - unet2d_skin.py - INFO: train_time:0.37765
+2023-05-26 22:48:41,170 - unet2d_skin.py - INFO: aggregation finished in 0.102933
+2023-05-26 22:48:41,279 - unet2d_skin.py - INFO: aggregate_loss: 0.3553371950984001 	 elapsed time: 0.10307145118713379
+2023-05-26 22:48:41,341 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:41,341 - unet2d_skin.py - INFO: train_loss: 0.3713875114917755, train_accuracy:0.8381290435791016, train_JA:0.6598, train_AC:0.8921, train_DI:0.7444, train_SE:0.8191, train_SP:0.9316
+2023-05-26 22:48:41,342 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 136 step 135,4 clients are in federated training
+
+2023-05-26 22:48:41,343 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:41,722 - unet2d_skin.py - INFO: train_time:0.37900
+2023-05-26 22:48:41,923 - unet2d_skin.py - INFO: aggregation finished in 0.099086
+2023-05-26 22:48:42,029 - unet2d_skin.py - INFO: aggregate_loss: 0.11209540441632271 	 elapsed time: 0.09922242164611816
+2023-05-26 22:48:42,096 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:42,096 - unet2d_skin.py - INFO: train_loss: 0.3694809377193451, train_accuracy:0.8391110301017761, train_JA:0.7620, train_AC:0.9717, train_DI:0.8497, train_SE:0.8605, train_SP:0.9921
+2023-05-26 22:48:42,100 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 137 step 136,4 clients are in federated training
+
+2023-05-26 22:48:42,100 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:42,476 - unet2d_skin.py - INFO: train_time:0.37612
+2023-05-26 22:48:42,678 - unet2d_skin.py - INFO: aggregation finished in 0.101402
+2023-05-26 22:48:42,784 - unet2d_skin.py - INFO: aggregate_loss: 0.5429152306169271 	 elapsed time: 0.10152769088745117
+2023-05-26 22:48:42,847 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:42,847 - unet2d_skin.py - INFO: train_loss: 0.3707468807697296, train_accuracy:0.8389859199523926, train_JA:0.5684, train_AC:0.8220, train_DI:0.6855, train_SE:0.6663, train_SP:0.9502
+2023-05-26 22:48:42,850 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 138 step 137,4 clients are in federated training
+
+2023-05-26 22:48:42,850 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:43,227 - unet2d_skin.py - INFO: train_time:0.37607
+2023-05-26 22:48:43,427 - unet2d_skin.py - INFO: aggregation finished in 0.099534
+2023-05-26 22:48:43,523 - unet2d_skin.py - INFO: aggregate_loss: 0.23505098186433315 	 elapsed time: 0.09966850280761719
+2023-05-26 22:48:43,585 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:43,585 - unet2d_skin.py - INFO: train_loss: 0.36976358294487, train_accuracy:0.8396437764167786, train_JA:0.7378, train_AC:0.9298, train_DI:0.8154, train_SE:0.8605, train_SP:0.9568
+2023-05-26 22:48:43,589 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 139 step 138,4 clients are in federated training
+
+2023-05-26 22:48:43,589 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:43,970 - unet2d_skin.py - INFO: train_time:0.38018
+2023-05-26 22:48:44,172 - unet2d_skin.py - INFO: aggregation finished in 0.103085
+2023-05-26 22:48:44,278 - unet2d_skin.py - INFO: aggregate_loss: 0.25265612453222275 	 elapsed time: 0.10322189331054688
+2023-05-26 22:48:44,340 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:44,341 - unet2d_skin.py - INFO: train_loss: 0.36892107129096985, train_accuracy:0.840368390083313, train_JA:0.7463, train_AC:0.9404, train_DI:0.8169, train_SE:0.7576, train_SP:0.9961
+2023-05-26 22:48:44,345 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 140 step 139,4 clients are in federated training
+
+2023-05-26 22:48:44,345 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:44,726 - unet2d_skin.py - INFO: train_time:0.38046
+2023-05-26 22:48:44,927 - unet2d_skin.py - INFO: aggregation finished in 0.099262
+2023-05-26 22:48:45,038 - unet2d_skin.py - INFO: aggregate_loss: 0.22964942082762718 	 elapsed time: 0.09940242767333984
+2023-05-26 22:48:45,101 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:45,101 - unet2d_skin.py - INFO: train_loss: 0.3679262697696686, train_accuracy:0.8411031365394592, train_JA:0.6881, train_AC:0.9432, train_DI:0.8137, train_SE:0.7168, train_SP:0.9874
+2023-05-26 22:48:45,104 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 141 step 140,4 clients are in federated training
+
+2023-05-26 22:48:45,104 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:45,481 - unet2d_skin.py - INFO: train_time:0.37550
+2023-05-26 22:48:45,681 - unet2d_skin.py - INFO: aggregation finished in 0.099124
+2023-05-26 22:48:45,789 - unet2d_skin.py - INFO: aggregate_loss: 0.36931417882442474 	 elapsed time: 0.0992586612701416
+2023-05-26 22:48:45,850 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:45,851 - unet2d_skin.py - INFO: train_loss: 0.3679361045360565, train_accuracy:0.8413698673248291, train_JA:0.6521, train_AC:0.8787, train_DI:0.7509, train_SE:0.7068, train_SP:0.9957
+2023-05-26 22:48:45,853 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 142 step 141,4 clients are in federated training
+
+2023-05-26 22:48:45,854 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:46,232 - unet2d_skin.py - INFO: train_time:0.37755
+2023-05-26 22:48:46,430 - unet2d_skin.py - INFO: aggregation finished in 0.099186
+2023-05-26 22:48:46,531 - unet2d_skin.py - INFO: aggregate_loss: 0.2906033508479595 	 elapsed time: 0.09932303428649902
+2023-05-26 22:48:46,593 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:46,593 - unet2d_skin.py - INFO: train_loss: 0.3673914968967438, train_accuracy:0.8418676257133484, train_JA:0.5929, train_AC:0.9121, train_DI:0.7009, train_SE:0.6487, train_SP:0.9702
+2023-05-26 22:48:46,598 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 143 step 142,4 clients are in federated training
+
+2023-05-26 22:48:46,598 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:46,976 - unet2d_skin.py - INFO: train_time:0.37731
+2023-05-26 22:48:47,177 - unet2d_skin.py - INFO: aggregation finished in 0.101429
+2023-05-26 22:48:47,275 - unet2d_skin.py - INFO: aggregate_loss: 0.49597975611686707 	 elapsed time: 0.10156106948852539
+2023-05-26 22:48:47,337 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:47,337 - unet2d_skin.py - INFO: train_loss: 0.3682907223701477, train_accuracy:0.8419105410575867, train_JA:0.6606, train_AC:0.8480, train_DI:0.7584, train_SE:0.7572, train_SP:0.9783
+2023-05-26 22:48:47,338 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 144 step 143,4 clients are in federated training
+
+2023-05-26 22:48:47,338 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:47,718 - unet2d_skin.py - INFO: train_time:0.37873
+2023-05-26 22:48:47,923 - unet2d_skin.py - INFO: aggregation finished in 0.104785
+2023-05-26 22:48:48,036 - unet2d_skin.py - INFO: aggregate_loss: 0.2426847442984581 	 elapsed time: 0.10492420196533203
+2023-05-26 22:48:48,098 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:48,098 - unet2d_skin.py - INFO: train_loss: 0.36741843819618225, train_accuracy:0.8425726294517517, train_JA:0.6942, train_AC:0.9373, train_DI:0.7955, train_SE:0.7739, train_SP:0.9944
+2023-05-26 22:48:48,102 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 145 step 144,4 clients are in federated training
+
+2023-05-26 22:48:48,102 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:48,478 - unet2d_skin.py - INFO: train_time:0.37579
+2023-05-26 22:48:48,680 - unet2d_skin.py - INFO: aggregation finished in 0.100233
+2023-05-26 22:48:48,772 - unet2d_skin.py - INFO: aggregate_loss: 0.378118421882391 	 elapsed time: 0.10037350654602051
+2023-05-26 22:48:48,833 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:48,834 - unet2d_skin.py - INFO: train_loss: 0.3674922287464142, train_accuracy:0.8426684737205505, train_JA:0.5340, train_AC:0.8565, train_DI:0.6882, train_SE:0.5355, train_SP:0.9983
+2023-05-26 22:48:48,835 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 146 step 145,4 clients are in federated training
+
+2023-05-26 22:48:48,835 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:49,216 - unet2d_skin.py - INFO: train_time:0.38045
+2023-05-26 22:48:49,417 - unet2d_skin.py - INFO: aggregation finished in 0.102450
+2023-05-26 22:48:49,528 - unet2d_skin.py - INFO: aggregate_loss: 0.262518297880888 	 elapsed time: 0.10258269309997559
+2023-05-26 22:48:49,589 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:49,589 - unet2d_skin.py - INFO: train_loss: 0.36677324771881104, train_accuracy:0.8431426882743835, train_JA:0.6735, train_AC:0.9119, train_DI:0.7600, train_SE:0.6887, train_SP:0.9914
+2023-05-26 22:48:49,592 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 147 step 146,4 clients are in federated training
+
+2023-05-26 22:48:49,593 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:49,969 - unet2d_skin.py - INFO: train_time:0.37538
+2023-05-26 22:48:50,173 - unet2d_skin.py - INFO: aggregation finished in 0.103734
+2023-05-26 22:48:50,284 - unet2d_skin.py - INFO: aggregate_loss: 0.6100089102983475 	 elapsed time: 0.10387253761291504
+2023-05-26 22:48:50,346 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:50,347 - unet2d_skin.py - INFO: train_loss: 0.36842790246009827, train_accuracy:0.8428081274032593, train_JA:0.6345, train_AC:0.7940, train_DI:0.7204, train_SE:0.7174, train_SP:0.9546
+2023-05-26 22:48:50,350 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 148 step 147,4 clients are in federated training
+
+2023-05-26 22:48:50,350 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:50,730 - unet2d_skin.py - INFO: train_time:0.37927
+2023-05-26 22:48:50,931 - unet2d_skin.py - INFO: aggregation finished in 0.102620
+2023-05-26 22:48:51,028 - unet2d_skin.py - INFO: aggregate_loss: 0.27584758400917053 	 elapsed time: 0.10274720191955566
+2023-05-26 22:48:51,091 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:51,092 - unet2d_skin.py - INFO: train_loss: 0.36780235171318054, train_accuracy:0.8434232473373413, train_JA:0.7114, train_AC:0.9338, train_DI:0.8085, train_SE:0.8026, train_SP:0.9779
+2023-05-26 22:48:51,096 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 149 step 148,4 clients are in federated training
+
+2023-05-26 22:48:51,096 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:51,471 - unet2d_skin.py - INFO: train_time:0.37497
+2023-05-26 22:48:51,672 - unet2d_skin.py - INFO: aggregation finished in 0.100150
+2023-05-26 22:48:51,774 - unet2d_skin.py - INFO: aggregate_loss: 0.3057090640068054 	 elapsed time: 0.10028362274169922
+2023-05-26 22:48:51,836 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:51,836 - unet2d_skin.py - INFO: train_loss: 0.3673856258392334, train_accuracy:0.8439590334892273, train_JA:0.7480, train_AC:0.9233, train_DI:0.8575, train_SE:0.7595, train_SP:0.9887
+2023-05-26 22:48:51,837 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 150 step 149,4 clients are in federated training
+
+2023-05-26 22:48:51,837 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:52,223 - unet2d_skin.py - INFO: train_time:0.38504
+2023-05-26 22:48:52,427 - unet2d_skin.py - INFO: aggregation finished in 0.101886
+2023-05-26 22:48:52,533 - unet2d_skin.py - INFO: aggregate_loss: 0.1890663579106331 	 elapsed time: 0.10202264785766602
+2023-05-26 22:48:52,594 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:52,594 - unet2d_skin.py - INFO: train_loss: 0.3661968410015106, train_accuracy:0.8446156978607178, train_JA:0.5736, train_AC:0.9425, train_DI:0.7026, train_SE:0.6174, train_SP:0.9839
+2023-05-26 22:48:52,596 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 151 step 150,4 clients are in federated training
+
+2023-05-26 22:48:52,596 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:52,976 - unet2d_skin.py - INFO: train_time:0.37995
+2023-05-26 22:48:53,180 - unet2d_skin.py - INFO: aggregation finished in 0.102364
+2023-05-26 22:48:53,276 - unet2d_skin.py - INFO: aggregate_loss: 0.41578129306435585 	 elapsed time: 0.1024923324584961
+2023-05-26 22:48:53,338 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:53,338 - unet2d_skin.py - INFO: train_loss: 0.36652523279190063, train_accuracy:0.8446351885795593, train_JA:0.4412, train_AC:0.8476, train_DI:0.5453, train_SE:0.4413, train_SP:0.9999
+2023-05-26 22:48:53,340 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 152 step 151,4 clients are in federated training
+
+2023-05-26 22:48:53,340 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:53,721 - unet2d_skin.py - INFO: train_time:0.38072
+2023-05-26 22:48:53,920 - unet2d_skin.py - INFO: aggregation finished in 0.099051
+2023-05-26 22:48:54,016 - unet2d_skin.py - INFO: aggregate_loss: 0.3631935678422451 	 elapsed time: 0.09918475151062012
+2023-05-26 22:48:54,078 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:54,079 - unet2d_skin.py - INFO: train_loss: 0.3665033280849457, train_accuracy:0.8448440432548523, train_JA:0.5696, train_AC:0.8764, train_DI:0.7354, train_SE:0.5723, train_SP:0.9997
+2023-05-26 22:48:54,080 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 153 step 152,4 clients are in federated training
+
+2023-05-26 22:48:54,081 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:54,467 - unet2d_skin.py - INFO: train_time:0.38575
+2023-05-26 22:48:54,665 - unet2d_skin.py - INFO: aggregation finished in 0.098621
+2023-05-26 22:48:54,774 - unet2d_skin.py - INFO: aggregate_loss: 0.22148004919290543 	 elapsed time: 0.09875679016113281
+2023-05-26 22:48:54,836 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:54,837 - unet2d_skin.py - INFO: train_loss: 0.36555546522140503, train_accuracy:0.8455382585525513, train_JA:0.8253, train_AC:0.9511, train_DI:0.8980, train_SE:0.8978, train_SP:0.9736
+2023-05-26 22:48:54,839 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 154 step 153,4 clients are in federated training
+
+2023-05-26 22:48:54,839 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:55,224 - unet2d_skin.py - INFO: train_time:0.38428
+2023-05-26 22:48:55,423 - unet2d_skin.py - INFO: aggregation finished in 0.099510
+2023-05-26 22:48:55,525 - unet2d_skin.py - INFO: aggregate_loss: 0.3676570989191532 	 elapsed time: 0.09963798522949219
+2023-05-26 22:48:55,586 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:55,587 - unet2d_skin.py - INFO: train_loss: 0.3655691146850586, train_accuracy:0.8459415435791016, train_JA:0.6545, train_AC:0.9076, train_DI:0.7831, train_SE:0.6737, train_SP:0.9962
+2023-05-26 22:48:55,589 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 155 step 154,4 clients are in federated training
+
+2023-05-26 22:48:55,589 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:55,968 - unet2d_skin.py - INFO: train_time:0.37868
+2023-05-26 22:48:56,172 - unet2d_skin.py - INFO: aggregation finished in 0.101152
+2023-05-26 22:48:56,276 - unet2d_skin.py - INFO: aggregate_loss: 0.20803609117865562 	 elapsed time: 0.1012868881225586
+2023-05-26 22:48:56,338 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:56,339 - unet2d_skin.py - INFO: train_loss: 0.36455273628234863, train_accuracy:0.8467002511024475, train_JA:0.7063, train_AC:0.9635, train_DI:0.7883, train_SE:0.9209, train_SP:0.9883
+2023-05-26 22:48:56,341 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 156 step 155,4 clients are in federated training
+
+2023-05-26 22:48:56,341 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:56,722 - unet2d_skin.py - INFO: train_time:0.37850
+2023-05-26 22:48:56,923 - unet2d_skin.py - INFO: aggregation finished in 0.100419
+2023-05-26 22:48:57,026 - unet2d_skin.py - INFO: aggregate_loss: 0.3293675258755684 	 elapsed time: 0.10054779052734375
+2023-05-26 22:48:57,088 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:57,088 - unet2d_skin.py - INFO: train_loss: 0.36432722210884094, train_accuracy:0.8467276096343994, train_JA:0.4627, train_AC:0.8510, train_DI:0.5985, train_SE:0.7719, train_SP:0.9165
+2023-05-26 22:48:57,092 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 157 step 156,4 clients are in federated training
+
+2023-05-26 22:48:57,093 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:57,470 - unet2d_skin.py - INFO: train_time:0.37723
+2023-05-26 22:48:57,669 - unet2d_skin.py - INFO: aggregation finished in 0.099138
+2023-05-26 22:48:57,775 - unet2d_skin.py - INFO: aggregate_loss: 0.19135501235723495 	 elapsed time: 0.099273681640625
+2023-05-26 22:48:57,837 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:57,837 - unet2d_skin.py - INFO: train_loss: 0.3632254898548126, train_accuracy:0.8475427031517029, train_JA:0.8166, train_AC:0.9747, train_DI:0.8870, train_SE:0.9010, train_SP:0.9937
+2023-05-26 22:48:57,841 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 158 step 157,4 clients are in federated training
+
+2023-05-26 22:48:57,842 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:58,222 - unet2d_skin.py - INFO: train_time:0.38054
+2023-05-26 22:48:58,420 - unet2d_skin.py - INFO: aggregation finished in 0.098873
+2023-05-26 22:48:58,526 - unet2d_skin.py - INFO: aggregate_loss: 0.31081148236989975 	 elapsed time: 0.09900665283203125
+2023-05-26 22:48:58,588 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:58,588 - unet2d_skin.py - INFO: train_loss: 0.3628937304019928, train_accuracy:0.8478431105613708, train_JA:0.6070, train_AC:0.8950, train_DI:0.7092, train_SE:0.6480, train_SP:0.9897
+2023-05-26 22:48:58,592 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 159 step 158,4 clients are in federated training
+
+2023-05-26 22:48:58,592 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:58,970 - unet2d_skin.py - INFO: train_time:0.37758
+2023-05-26 22:48:59,177 - unet2d_skin.py - INFO: aggregation finished in 0.106143
+2023-05-26 22:48:59,278 - unet2d_skin.py - INFO: aggregate_loss: 0.2504492476582527 	 elapsed time: 0.10627412796020508
+2023-05-26 22:48:59,340 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:48:59,340 - unet2d_skin.py - INFO: train_loss: 0.3621865510940552, train_accuracy:0.8483508825302124, train_JA:0.6725, train_AC:0.9286, train_DI:0.7683, train_SE:0.6801, train_SP:0.9989
+2023-05-26 22:48:59,344 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 160 step 159,4 clients are in federated training
+
+2023-05-26 22:48:59,345 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:48:59,725 - unet2d_skin.py - INFO: train_time:0.38041
+2023-05-26 22:48:59,926 - unet2d_skin.py - INFO: aggregation finished in 0.100700
+2023-05-26 22:49:00,031 - unet2d_skin.py - INFO: aggregate_loss: 0.2968449965119362 	 elapsed time: 0.1008310317993164
+2023-05-26 22:49:00,093 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:00,093 - unet2d_skin.py - INFO: train_loss: 0.3617781698703766, train_accuracy:0.8487358093261719, train_JA:0.6088, train_AC:0.9099, train_DI:0.7181, train_SE:0.6107, train_SP:0.9995
+2023-05-26 22:49:00,098 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 161 step 160,4 clients are in federated training
+
+2023-05-26 22:49:00,098 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:00,476 - unet2d_skin.py - INFO: train_time:0.37798
+2023-05-26 22:49:00,680 - unet2d_skin.py - INFO: aggregation finished in 0.100090
+2023-05-26 22:49:00,776 - unet2d_skin.py - INFO: aggregate_loss: 0.4188962671905756 	 elapsed time: 0.10022640228271484
+2023-05-26 22:49:00,838 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:00,838 - unet2d_skin.py - INFO: train_loss: 0.3621329367160797, train_accuracy:0.8488740921020508, train_JA:0.4862, train_AC:0.8710, train_DI:0.6336, train_SE:0.6634, train_SP:0.9617
+2023-05-26 22:49:00,841 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 162 step 161,4 clients are in federated training
+
+2023-05-26 22:49:00,841 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:01,221 - unet2d_skin.py - INFO: train_time:0.37947
+2023-05-26 22:49:01,421 - unet2d_skin.py - INFO: aggregation finished in 0.099664
+2023-05-26 22:49:01,527 - unet2d_skin.py - INFO: aggregate_loss: 0.2717108987271786 	 elapsed time: 0.09979677200317383
+2023-05-26 22:49:01,588 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:01,589 - unet2d_skin.py - INFO: train_loss: 0.36157476902008057, train_accuracy:0.8493638038635254, train_JA:0.6603, train_AC:0.9282, train_DI:0.7631, train_SE:0.8850, train_SP:0.9657
+2023-05-26 22:49:01,590 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 163 step 162,4 clients are in federated training
+
+2023-05-26 22:49:01,591 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:01,973 - unet2d_skin.py - INFO: train_time:0.38177
+2023-05-26 22:49:02,182 - unet2d_skin.py - INFO: aggregation finished in 0.106152
+2023-05-26 22:49:02,286 - unet2d_skin.py - INFO: aggregate_loss: 0.4873160570859909 	 elapsed time: 0.10628914833068848
+2023-05-26 22:49:02,347 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:02,348 - unet2d_skin.py - INFO: train_loss: 0.36234617233276367, train_accuracy:0.8490259647369385, train_JA:0.5435, train_AC:0.7943, train_DI:0.6479, train_SE:0.8282, train_SP:0.9088
+2023-05-26 22:49:02,349 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 164 step 163,4 clients are in federated training
+
+2023-05-26 22:49:02,349 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:02,728 - unet2d_skin.py - INFO: train_time:0.37889
+2023-05-26 22:49:02,931 - unet2d_skin.py - INFO: aggregation finished in 0.102124
+2023-05-26 22:49:03,029 - unet2d_skin.py - INFO: aggregate_loss: 0.24612511321902275 	 elapsed time: 0.10226225852966309
+2023-05-26 22:49:03,091 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:03,092 - unet2d_skin.py - INFO: train_loss: 0.36163750290870667, train_accuracy:0.8492707014083862, train_JA:0.5311, train_AC:0.8892, train_DI:0.6345, train_SE:0.9126, train_SP:0.9074
+2023-05-26 22:49:03,095 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 165 step 164,4 clients are in federated training
+
+2023-05-26 22:49:03,096 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:03,474 - unet2d_skin.py - INFO: train_time:0.37798
+2023-05-26 22:49:03,675 - unet2d_skin.py - INFO: aggregation finished in 0.100079
+2023-05-26 22:49:03,774 - unet2d_skin.py - INFO: aggregate_loss: 0.28530921041965485 	 elapsed time: 0.10021281242370605
+2023-05-26 22:49:03,835 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:03,836 - unet2d_skin.py - INFO: train_loss: 0.36117491126060486, train_accuracy:0.8497880697250366, train_JA:0.6663, train_AC:0.9346, train_DI:0.7595, train_SE:0.7154, train_SP:0.9916
+2023-05-26 22:49:03,839 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 166 step 165,4 clients are in federated training
+
+2023-05-26 22:49:03,839 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:04,229 - unet2d_skin.py - INFO: train_time:0.38961
+2023-05-26 22:49:04,436 - unet2d_skin.py - INFO: aggregation finished in 0.105018
+2023-05-26 22:49:04,535 - unet2d_skin.py - INFO: aggregate_loss: 0.5000451877713203 	 elapsed time: 0.1052405834197998
+2023-05-26 22:49:04,597 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:04,598 - unet2d_skin.py - INFO: train_loss: 0.36201149225234985, train_accuracy:0.8497702479362488, train_JA:0.6711, train_AC:0.8468, train_DI:0.7655, train_SE:0.7224, train_SP:0.9865
+2023-05-26 22:49:04,599 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 167 step 166,4 clients are in federated training
+
+2023-05-26 22:49:04,599 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:04,978 - unet2d_skin.py - INFO: train_time:0.37827
+2023-05-26 22:49:05,180 - unet2d_skin.py - INFO: aggregation finished in 0.100612
+2023-05-26 22:49:05,281 - unet2d_skin.py - INFO: aggregate_loss: 0.2846864126622677 	 elapsed time: 0.10074853897094727
+2023-05-26 22:49:05,343 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:05,343 - unet2d_skin.py - INFO: train_loss: 0.36154845356941223, train_accuracy:0.8501883149147034, train_JA:0.7190, train_AC:0.9196, train_DI:0.8184, train_SE:0.8068, train_SP:0.9892
+2023-05-26 22:49:05,345 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 168 step 167,4 clients are in federated training
+
+2023-05-26 22:49:05,346 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:05,725 - unet2d_skin.py - INFO: train_time:0.37843
+2023-05-26 22:49:05,924 - unet2d_skin.py - INFO: aggregation finished in 0.098475
+2023-05-26 22:49:06,029 - unet2d_skin.py - INFO: aggregate_loss: 0.3844149112701416 	 elapsed time: 0.09861111640930176
+2023-05-26 22:49:06,094 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:06,094 - unet2d_skin.py - INFO: train_loss: 0.36168456077575684, train_accuracy:0.8502929210662842, train_JA:0.4926, train_AC:0.8678, train_DI:0.6002, train_SE:0.5329, train_SP:0.9750
+2023-05-26 22:49:06,098 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 169 step 168,4 clients are in federated training
+
+2023-05-26 22:49:06,098 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:06,477 - unet2d_skin.py - INFO: train_time:0.37895
+2023-05-26 22:49:06,682 - unet2d_skin.py - INFO: aggregation finished in 0.101831
+2023-05-26 22:49:06,788 - unet2d_skin.py - INFO: aggregate_loss: 0.39315013214945793 	 elapsed time: 0.10197019577026367
+2023-05-26 22:49:06,849 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:06,850 - unet2d_skin.py - INFO: train_loss: 0.36187076568603516, train_accuracy:0.8505873084068298, train_JA:0.6127, train_AC:0.9000, train_DI:0.7028, train_SE:0.7384, train_SP:0.9906
+2023-05-26 22:49:06,851 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 170 step 169,4 clients are in federated training
+
+2023-05-26 22:49:06,852 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:07,231 - unet2d_skin.py - INFO: train_time:0.37882
+2023-05-26 22:49:07,434 - unet2d_skin.py - INFO: aggregation finished in 0.100186
+2023-05-26 22:49:07,540 - unet2d_skin.py - INFO: aggregate_loss: 0.39704672433435917 	 elapsed time: 0.10031771659851074
+2023-05-26 22:49:07,602 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:07,602 - unet2d_skin.py - INFO: train_loss: 0.36207765340805054, train_accuracy:0.8507745265960693, train_JA:0.6338, train_AC:0.8824, train_DI:0.7543, train_SE:0.7821, train_SP:0.9766
+2023-05-26 22:49:07,604 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 171 step 170,4 clients are in federated training
+
+2023-05-26 22:49:07,604 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:07,983 - unet2d_skin.py - INFO: train_time:0.37888
+2023-05-26 22:49:08,188 - unet2d_skin.py - INFO: aggregation finished in 0.101763
+2023-05-26 22:49:08,285 - unet2d_skin.py - INFO: aggregate_loss: 0.23771917074918747 	 elapsed time: 0.10190725326538086
+2023-05-26 22:49:08,347 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:08,347 - unet2d_skin.py - INFO: train_loss: 0.3613504469394684, train_accuracy:0.8513102531433105, train_JA:0.5398, train_AC:0.9424, train_DI:0.6253, train_SE:0.8098, train_SP:0.9704
+2023-05-26 22:49:08,348 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 172 step 171,4 clients are in federated training
+
+2023-05-26 22:49:08,348 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:08,729 - unet2d_skin.py - INFO: train_time:0.38029
+2023-05-26 22:49:08,931 - unet2d_skin.py - INFO: aggregation finished in 0.100311
+2023-05-26 22:49:09,039 - unet2d_skin.py - INFO: aggregate_loss: 0.3740863651037216 	 elapsed time: 0.1004326343536377
+2023-05-26 22:49:09,101 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:09,101 - unet2d_skin.py - INFO: train_loss: 0.3614244759082794, train_accuracy:0.851475179195404, train_JA:0.6743, train_AC:0.8797, train_DI:0.7629, train_SE:0.7103, train_SP:0.9838
+2023-05-26 22:49:09,104 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 173 step 172,4 clients are in federated training
+
+2023-05-26 22:49:09,105 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:09,484 - unet2d_skin.py - INFO: train_time:0.37861
+2023-05-26 22:49:09,684 - unet2d_skin.py - INFO: aggregation finished in 0.100692
+2023-05-26 22:49:09,790 - unet2d_skin.py - INFO: aggregate_loss: 0.3916468471288681 	 elapsed time: 0.10082459449768066
+2023-05-26 22:49:09,852 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:09,855 - unet2d_skin.py - INFO: train_loss: 0.3615991771221161, train_accuracy:0.8515830636024475, train_JA:0.6119, train_AC:0.8701, train_DI:0.7450, train_SE:0.6538, train_SP:0.9787
+2023-05-26 22:49:09,857 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 174 step 173,4 clients are in federated training
+
+2023-05-26 22:49:09,857 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:10,243 - unet2d_skin.py - INFO: train_time:0.38523
+2023-05-26 22:49:10,446 - unet2d_skin.py - INFO: aggregation finished in 0.099998
+2023-05-26 22:49:10,545 - unet2d_skin.py - INFO: aggregate_loss: 0.3943457007408142 	 elapsed time: 0.10013008117675781
+2023-05-26 22:49:10,607 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:10,608 - unet2d_skin.py - INFO: train_loss: 0.361787348985672, train_accuracy:0.8515520691871643, train_JA:0.5657, train_AC:0.8462, train_DI:0.6970, train_SE:0.7250, train_SP:0.9494
+2023-05-26 22:49:10,609 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 175 step 174,4 clients are in federated training
+
+2023-05-26 22:49:10,609 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:10,989 - unet2d_skin.py - INFO: train_time:0.37992
+2023-05-26 22:49:11,192 - unet2d_skin.py - INFO: aggregation finished in 0.099251
+2023-05-26 22:49:11,302 - unet2d_skin.py - INFO: aggregate_loss: 0.36164699494838715 	 elapsed time: 0.09938883781433105
+2023-05-26 22:49:11,365 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:11,365 - unet2d_skin.py - INFO: train_loss: 0.3617865741252899, train_accuracy:0.8518320322036743, train_JA:0.7348, train_AC:0.9005, train_DI:0.8351, train_SE:0.8346, train_SP:0.9835
+2023-05-26 22:49:11,368 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 176 step 175,4 clients are in federated training
+
+2023-05-26 22:49:11,369 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:11,748 - unet2d_skin.py - INFO: train_time:0.37791
+2023-05-26 22:49:11,947 - unet2d_skin.py - INFO: aggregation finished in 0.099198
+2023-05-26 22:49:12,050 - unet2d_skin.py - INFO: aggregate_loss: 0.22583648934960365 	 elapsed time: 0.09933352470397949
+2023-05-26 22:49:12,112 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:12,112 - unet2d_skin.py - INFO: train_loss: 0.36101412773132324, train_accuracy:0.8522918224334717, train_JA:0.6954, train_AC:0.9328, train_DI:0.7905, train_SE:0.8914, train_SP:0.9542
+2023-05-26 22:49:12,117 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 177 step 176,4 clients are in federated training
+
+2023-05-26 22:49:12,117 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:12,496 - unet2d_skin.py - INFO: train_time:0.37862
+2023-05-26 22:49:12,693 - unet2d_skin.py - INFO: aggregation finished in 0.098873
+2023-05-26 22:49:12,794 - unet2d_skin.py - INFO: aggregate_loss: 0.335585568100214 	 elapsed time: 0.09900212287902832
+2023-05-26 22:49:12,857 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:12,857 - unet2d_skin.py - INFO: train_loss: 0.36087048053741455, train_accuracy:0.8526036143302917, train_JA:0.6478, train_AC:0.9075, train_DI:0.7437, train_SE:0.9263, train_SP:0.9386
+2023-05-26 22:49:12,858 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 178 step 177,4 clients are in federated training
+
+2023-05-26 22:49:12,858 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:13,244 - unet2d_skin.py - INFO: train_time:0.38092
+2023-05-26 22:49:13,448 - unet2d_skin.py - INFO: aggregation finished in 0.102848
+2023-05-26 22:49:13,550 - unet2d_skin.py - INFO: aggregate_loss: 0.26827042177319527 	 elapsed time: 0.10298299789428711
+2023-05-26 22:49:13,611 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:13,612 - unet2d_skin.py - INFO: train_loss: 0.36035022139549255, train_accuracy:0.8529409170150757, train_JA:0.7129, train_AC:0.9126, train_DI:0.8174, train_SE:0.7661, train_SP:0.9933
+2023-05-26 22:49:13,614 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 179 step 178,4 clients are in federated training
+
+2023-05-26 22:49:13,616 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:13,994 - unet2d_skin.py - INFO: train_time:0.37789
+2023-05-26 22:49:14,202 - unet2d_skin.py - INFO: aggregation finished in 0.100834
+2023-05-26 22:49:14,310 - unet2d_skin.py - INFO: aggregate_loss: 0.25398487597703934 	 elapsed time: 0.10097217559814453
+2023-05-26 22:49:14,372 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:14,372 - unet2d_skin.py - INFO: train_loss: 0.3597559928894043, train_accuracy:0.8533806204795837, train_JA:0.6341, train_AC:0.9316, train_DI:0.7578, train_SE:0.7444, train_SP:0.9825
+2023-05-26 22:49:14,374 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 180 step 179,4 clients are in federated training
+
+2023-05-26 22:49:14,374 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:14,754 - unet2d_skin.py - INFO: train_time:0.37969
+2023-05-26 22:49:14,955 - unet2d_skin.py - INFO: aggregation finished in 0.100103
+2023-05-26 22:49:15,063 - unet2d_skin.py - INFO: aggregate_loss: 0.24065086990594864 	 elapsed time: 0.10023975372314453
+2023-05-26 22:49:15,125 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:15,125 - unet2d_skin.py - INFO: train_loss: 0.3590943217277527, train_accuracy:0.853877604007721, train_JA:0.7448, train_AC:0.9428, train_DI:0.8070, train_SE:0.7618, train_SP:0.9929
+2023-05-26 22:49:15,127 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 181 step 180,4 clients are in federated training
+
+2023-05-26 22:49:15,127 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:15,512 - unet2d_skin.py - INFO: train_time:0.38446
+2023-05-26 22:49:15,711 - unet2d_skin.py - INFO: aggregation finished in 0.099649
+2023-05-26 22:49:15,817 - unet2d_skin.py - INFO: aggregate_loss: 0.20291543193161488 	 elapsed time: 0.09978151321411133
+2023-05-26 22:49:15,879 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:15,879 - unet2d_skin.py - INFO: train_loss: 0.35823148488998413, train_accuracy:0.8543353080749512, train_JA:0.5885, train_AC:0.9367, train_DI:0.7533, train_SE:0.6306, train_SP:0.9889
+2023-05-26 22:49:15,880 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 182 step 181,4 clients are in federated training
+
+2023-05-26 22:49:15,880 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:16,283 - unet2d_skin.py - INFO: train_time:0.40253
+2023-05-26 22:49:16,483 - unet2d_skin.py - INFO: aggregation finished in 0.101213
+2023-05-26 22:49:16,589 - unet2d_skin.py - INFO: aggregate_loss: 0.29869672656059265 	 elapsed time: 0.10133981704711914
+2023-05-26 22:49:16,651 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:16,651 - unet2d_skin.py - INFO: train_loss: 0.3579043745994568, train_accuracy:0.8545647859573364, train_JA:0.5409, train_AC:0.8961, train_DI:0.6408, train_SE:0.5635, train_SP:0.9886
+2023-05-26 22:49:16,655 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 183 step 182,4 clients are in federated training
+
+2023-05-26 22:49:16,655 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:17,032 - unet2d_skin.py - INFO: train_time:0.37647
+2023-05-26 22:49:17,233 - unet2d_skin.py - INFO: aggregation finished in 0.098834
+2023-05-26 22:49:17,338 - unet2d_skin.py - INFO: aggregate_loss: 0.42095259204506874 	 elapsed time: 0.09896636009216309
+2023-05-26 22:49:17,400 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:17,400 - unet2d_skin.py - INFO: train_loss: 0.35824888944625854, train_accuracy:0.8547065854072571, train_JA:0.7085, train_AC:0.8805, train_DI:0.7653, train_SE:0.7227, train_SP:0.9979
+2023-05-26 22:49:17,402 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 184 step 183,4 clients are in federated training
+
+2023-05-26 22:49:17,402 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:17,783 - unet2d_skin.py - INFO: train_time:0.38052
+2023-05-26 22:49:17,982 - unet2d_skin.py - INFO: aggregation finished in 0.100434
+2023-05-26 22:49:18,080 - unet2d_skin.py - INFO: aggregate_loss: 0.25681379064917564 	 elapsed time: 0.10057330131530762
+2023-05-26 22:49:18,142 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:18,142 - unet2d_skin.py - INFO: train_loss: 0.35769760608673096, train_accuracy:0.8551943302154541, train_JA:0.7463, train_AC:0.9445, train_DI:0.8179, train_SE:0.8798, train_SP:0.9868
+2023-05-26 22:49:18,144 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 185 step 184,4 clients are in federated training
+
+2023-05-26 22:49:18,144 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:18,525 - unet2d_skin.py - INFO: train_time:0.38071
+2023-05-26 22:49:18,726 - unet2d_skin.py - INFO: aggregation finished in 0.099242
+2023-05-26 22:49:18,832 - unet2d_skin.py - INFO: aggregate_loss: 0.13812250457704067 	 elapsed time: 0.09937930107116699
+2023-05-26 22:49:18,895 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:18,895 - unet2d_skin.py - INFO: train_loss: 0.356510728597641, train_accuracy:0.8557719588279724, train_JA:0.7069, train_AC:0.9621, train_DI:0.8108, train_SE:0.8570, train_SP:0.9855
+2023-05-26 22:49:18,896 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 186 step 185,4 clients are in federated training
+
+2023-05-26 22:49:18,896 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:19,278 - unet2d_skin.py - INFO: train_time:0.38169
+2023-05-26 22:49:19,484 - unet2d_skin.py - INFO: aggregation finished in 0.105466
+2023-05-26 22:49:19,590 - unet2d_skin.py - INFO: aggregate_loss: 0.22564776241779327 	 elapsed time: 0.1056063175201416
+2023-05-26 22:49:19,653 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:19,653 - unet2d_skin.py - INFO: train_loss: 0.3558071553707123, train_accuracy:0.8562120795249939, train_JA:0.7652, train_AC:0.9376, train_DI:0.8399, train_SE:0.9464, train_SP:0.9598
+2023-05-26 22:49:19,656 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 187 step 186,4 clients are in federated training
+
+2023-05-26 22:49:19,656 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:20,034 - unet2d_skin.py - INFO: train_time:0.37779
+2023-05-26 22:49:20,241 - unet2d_skin.py - INFO: aggregation finished in 0.101585
+2023-05-26 22:49:20,341 - unet2d_skin.py - INFO: aggregate_loss: 0.2932705841958523 	 elapsed time: 0.10171961784362793
+2023-05-26 22:49:20,402 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:20,403 - unet2d_skin.py - INFO: train_loss: 0.35547274351119995, train_accuracy:0.8564314246177673, train_JA:0.5860, train_AC:0.8972, train_DI:0.6861, train_SE:0.8573, train_SP:0.9290
+2023-05-26 22:49:20,404 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 188 step 187,4 clients are in federated training
+
+2023-05-26 22:49:20,404 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:20,783 - unet2d_skin.py - INFO: train_time:0.37869
+2023-05-26 22:49:20,985 - unet2d_skin.py - INFO: aggregation finished in 0.100898
+2023-05-26 22:49:21,094 - unet2d_skin.py - INFO: aggregate_loss: 0.3897929824888706 	 elapsed time: 0.10103178024291992
+2023-05-26 22:49:21,157 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:21,157 - unet2d_skin.py - INFO: train_loss: 0.355655312538147, train_accuracy:0.8565276861190796, train_JA:0.5780, train_AC:0.8745, train_DI:0.6772, train_SE:0.7317, train_SP:0.9778
+2023-05-26 22:49:21,160 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 189 step 188,4 clients are in federated training
+
+2023-05-26 22:49:21,160 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:21,537 - unet2d_skin.py - INFO: train_time:0.37719
+2023-05-26 22:49:21,742 - unet2d_skin.py - INFO: aggregation finished in 0.099977
+2023-05-26 22:49:21,841 - unet2d_skin.py - INFO: aggregate_loss: 0.45586374029517174 	 elapsed time: 0.10010385513305664
+2023-05-26 22:49:21,903 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:21,903 - unet2d_skin.py - INFO: train_loss: 0.3561854958534241, train_accuracy:0.8567142486572266, train_JA:0.7179, train_AC:0.8918, train_DI:0.8029, train_SE:0.8924, train_SP:0.9762
+2023-05-26 22:49:21,905 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 190 step 189,4 clients are in federated training
+
+2023-05-26 22:49:21,905 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:22,290 - unet2d_skin.py - INFO: train_time:0.38495
+2023-05-26 22:49:22,489 - unet2d_skin.py - INFO: aggregation finished in 0.098849
+2023-05-26 22:49:22,593 - unet2d_skin.py - INFO: aggregate_loss: 0.291265532374382 	 elapsed time: 0.09898543357849121
+2023-05-26 22:49:22,655 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:22,655 - unet2d_skin.py - INFO: train_loss: 0.35584384202957153, train_accuracy:0.8569204211235046, train_JA:0.5777, train_AC:0.8959, train_DI:0.7017, train_SE:0.9255, train_SP:0.9307
+2023-05-26 22:49:22,659 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 191 step 190,4 clients are in federated training
+
+2023-05-26 22:49:22,659 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:23,037 - unet2d_skin.py - INFO: train_time:0.37733
+2023-05-26 22:49:23,243 - unet2d_skin.py - INFO: aggregation finished in 0.102226
+2023-05-26 22:49:23,337 - unet2d_skin.py - INFO: aggregate_loss: 0.31284739449620247 	 elapsed time: 0.10236167907714844
+2023-05-26 22:49:23,399 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:23,399 - unet2d_skin.py - INFO: train_loss: 0.35561874508857727, train_accuracy:0.8569347858428955, train_JA:0.5906, train_AC:0.8597, train_DI:0.6751, train_SE:0.9239, train_SP:0.8712
+2023-05-26 22:49:23,401 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 192 step 191,4 clients are in federated training
+
+2023-05-26 22:49:23,401 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:23,786 - unet2d_skin.py - INFO: train_time:0.38497
+2023-05-26 22:49:23,989 - unet2d_skin.py - INFO: aggregation finished in 0.099736
+2023-05-26 22:49:24,105 - unet2d_skin.py - INFO: aggregate_loss: 0.2820189520716667 	 elapsed time: 0.0998835563659668
+2023-05-26 22:49:24,168 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:24,168 - unet2d_skin.py - INFO: train_loss: 0.35523542761802673, train_accuracy:0.8574020266532898, train_JA:0.7994, train_AC:0.9466, train_DI:0.8635, train_SE:0.9181, train_SP:0.9679
+2023-05-26 22:49:24,172 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 193 step 192,4 clients are in federated training
+
+2023-05-26 22:49:24,172 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:24,551 - unet2d_skin.py - INFO: train_time:0.37892
+2023-05-26 22:49:24,754 - unet2d_skin.py - INFO: aggregation finished in 0.099660
+2023-05-26 22:49:24,870 - unet2d_skin.py - INFO: aggregate_loss: 0.2020959723740816 	 elapsed time: 0.09981727600097656
+2023-05-26 22:49:24,932 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:24,933 - unet2d_skin.py - INFO: train_loss: 0.35444194078445435, train_accuracy:0.857765257358551, train_JA:0.6582, train_AC:0.9275, train_DI:0.7486, train_SE:0.7507, train_SP:0.9564
+2023-05-26 22:49:24,936 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 194 step 193,4 clients are in federated training
+
+2023-05-26 22:49:24,937 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:25,315 - unet2d_skin.py - INFO: train_time:0.37782
+2023-05-26 22:49:25,513 - unet2d_skin.py - INFO: aggregation finished in 0.099644
+2023-05-26 22:49:25,613 - unet2d_skin.py - INFO: aggregate_loss: 0.2576298229396343 	 elapsed time: 0.09978008270263672
+2023-05-26 22:49:25,676 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:25,676 - unet2d_skin.py - INFO: train_loss: 0.3539429008960724, train_accuracy:0.858009397983551, train_JA:0.5868, train_AC:0.9051, train_DI:0.7081, train_SE:0.5945, train_SP:0.9994
+2023-05-26 22:49:25,679 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 195 step 194,4 clients are in federated training
+
+2023-05-26 22:49:25,680 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:26,059 - unet2d_skin.py - INFO: train_time:0.37905
+2023-05-26 22:49:26,261 - unet2d_skin.py - INFO: aggregation finished in 0.098849
+2023-05-26 22:49:26,367 - unet2d_skin.py - INFO: aggregate_loss: 0.5082549452781677 	 elapsed time: 0.09898161888122559
+2023-05-26 22:49:26,429 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:26,429 - unet2d_skin.py - INFO: train_loss: 0.35473424196243286, train_accuracy:0.8578026294708252, train_JA:0.4484, train_AC:0.8177, train_DI:0.5681, train_SE:0.4497, train_SP:0.9956
+2023-05-26 22:49:26,431 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 196 step 195,4 clients are in federated training
+
+2023-05-26 22:49:26,431 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:26,809 - unet2d_skin.py - INFO: train_time:0.37684
+2023-05-26 22:49:27,013 - unet2d_skin.py - INFO: aggregation finished in 0.102159
+2023-05-26 22:49:27,114 - unet2d_skin.py - INFO: aggregate_loss: 0.6382755851373076 	 elapsed time: 0.10229635238647461
+2023-05-26 22:49:27,176 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:27,176 - unet2d_skin.py - INFO: train_loss: 0.35618090629577637, train_accuracy:0.857613205909729, train_JA:0.6351, train_AC:0.8207, train_DI:0.7627, train_SE:0.6494, train_SP:0.9984
+2023-05-26 22:49:27,180 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 197 step 196,4 clients are in federated training
+
+2023-05-26 22:49:27,180 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:27,559 - unet2d_skin.py - INFO: train_time:0.37864
+2023-05-26 22:49:27,763 - unet2d_skin.py - INFO: aggregation finished in 0.103279
+2023-05-26 22:49:27,861 - unet2d_skin.py - INFO: aggregate_loss: 0.23163103312253952 	 elapsed time: 0.10341167449951172
+2023-05-26 22:49:27,922 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:27,923 - unet2d_skin.py - INFO: train_loss: 0.3555486500263214, train_accuracy:0.8580574989318848, train_JA:0.7735, train_AC:0.9451, train_DI:0.8794, train_SE:0.8111, train_SP:0.9958
+2023-05-26 22:49:27,925 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 198 step 197,4 clients are in federated training
+
+2023-05-26 22:49:27,925 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:28,306 - unet2d_skin.py - INFO: train_time:0.38070
+2023-05-26 22:49:28,507 - unet2d_skin.py - INFO: aggregation finished in 0.099972
+2023-05-26 22:49:28,616 - unet2d_skin.py - INFO: aggregate_loss: 0.2332334667444229 	 elapsed time: 0.10012221336364746
+2023-05-26 22:49:28,678 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:28,678 - unet2d_skin.py - INFO: train_loss: 0.3549308776855469, train_accuracy:0.8585720658302307, train_JA:0.8446, train_AC:0.9600, train_DI:0.9150, train_SE:0.8786, train_SP:0.9918
+2023-05-26 22:49:28,680 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 199 step 198,4 clients are in federated training
+
+2023-05-26 22:49:28,681 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:29,061 - unet2d_skin.py - INFO: train_time:0.37853
+2023-05-26 22:49:29,265 - unet2d_skin.py - INFO: aggregation finished in 0.098417
+2023-05-26 22:49:29,366 - unet2d_skin.py - INFO: aggregate_loss: 0.21971673890948296 	 elapsed time: 0.09855198860168457
+2023-05-26 22:49:29,430 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:29,430 - unet2d_skin.py - INFO: train_loss: 0.3542514145374298, train_accuracy:0.8589354157447815, train_JA:0.6057, train_AC:0.9309, train_DI:0.7106, train_SE:0.7422, train_SP:0.9750
+2023-05-26 22:49:29,433 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 200 step 199,4 clients are in federated training
+
+2023-05-26 22:49:29,433 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:29,813 - unet2d_skin.py - INFO: train_time:0.37937
+2023-05-26 22:49:30,012 - unet2d_skin.py - INFO: aggregation finished in 0.099082
+2023-05-26 22:49:30,128 - unet2d_skin.py - INFO: aggregate_loss: 0.21366786770522594 	 elapsed time: 0.09921693801879883
+2023-05-26 22:49:30,190 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:30,190 - unet2d_skin.py - INFO: train_loss: 0.35354849696159363, train_accuracy:0.8591241240501404, train_JA:0.5142, train_AC:0.8967, train_DI:0.6202, train_SE:0.8325, train_SP:0.9168
+2023-05-26 22:49:30,193 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 201 step 200,4 clients are in federated training
+
+2023-05-26 22:49:30,194 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:30,571 - unet2d_skin.py - INFO: train_time:0.37718
+2023-05-26 22:49:30,774 - unet2d_skin.py - INFO: aggregation finished in 0.101506
+2023-05-26 22:49:30,878 - unet2d_skin.py - INFO: aggregate_loss: 0.30882418155670166 	 elapsed time: 0.10163664817810059
+2023-05-26 22:49:30,939 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:30,939 - unet2d_skin.py - INFO: train_loss: 0.3533259928226471, train_accuracy:0.8593944311141968, train_JA:0.7313, train_AC:0.9135, train_DI:0.8127, train_SE:0.8280, train_SP:0.9594
+2023-05-26 22:49:30,941 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 202 step 201,4 clients are in federated training
+
+2023-05-26 22:49:30,941 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:31,321 - unet2d_skin.py - INFO: train_time:0.37956
+2023-05-26 22:49:31,519 - unet2d_skin.py - INFO: aggregation finished in 0.098852
+2023-05-26 22:49:31,624 - unet2d_skin.py - INFO: aggregate_loss: 0.23643668368458748 	 elapsed time: 0.09898591041564941
+2023-05-26 22:49:31,686 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:31,687 - unet2d_skin.py - INFO: train_loss: 0.3527473211288452, train_accuracy:0.8597189784049988, train_JA:0.6178, train_AC:0.9250, train_DI:0.7298, train_SE:0.7529, train_SP:0.9882
+2023-05-26 22:49:31,691 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 203 step 202,4 clients are in federated training
+
+2023-05-26 22:49:31,691 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:32,075 - unet2d_skin.py - INFO: train_time:0.38351
+2023-05-26 22:49:32,279 - unet2d_skin.py - INFO: aggregation finished in 0.101608
+2023-05-26 22:49:32,385 - unet2d_skin.py - INFO: aggregate_loss: 0.4233322888612747 	 elapsed time: 0.1017451286315918
+2023-05-26 22:49:32,447 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:32,448 - unet2d_skin.py - INFO: train_loss: 0.35309502482414246, train_accuracy:0.8598453402519226, train_JA:0.7780, train_AC:0.8854, train_DI:0.8697, train_SE:0.8780, train_SP:0.9427
+2023-05-26 22:49:32,451 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 204 step 203,4 clients are in federated training
+
+2023-05-26 22:49:32,452 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:32,831 - unet2d_skin.py - INFO: train_time:0.37893
+2023-05-26 22:49:33,033 - unet2d_skin.py - INFO: aggregation finished in 0.100197
+2023-05-26 22:49:33,143 - unet2d_skin.py - INFO: aggregate_loss: 0.27375075593590736 	 elapsed time: 0.10033106803894043
+2023-05-26 22:49:33,205 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:33,206 - unet2d_skin.py - INFO: train_loss: 0.35270607471466064, train_accuracy:0.8603030443191528, train_JA:0.6550, train_AC:0.9532, train_DI:0.7689, train_SE:0.6633, train_SP:0.9989
+2023-05-26 22:49:33,209 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 205 step 204,4 clients are in federated training
+
+2023-05-26 22:49:33,209 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:33,587 - unet2d_skin.py - INFO: train_time:0.37736
+2023-05-26 22:49:33,785 - unet2d_skin.py - INFO: aggregation finished in 0.099039
+2023-05-26 22:49:33,892 - unet2d_skin.py - INFO: aggregate_loss: 0.435233011841774 	 elapsed time: 0.09917235374450684
+2023-05-26 22:49:33,953 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:33,954 - unet2d_skin.py - INFO: train_loss: 0.353108674287796, train_accuracy:0.8600823879241943, train_JA:0.5010, train_AC:0.8151, train_DI:0.5793, train_SE:0.5303, train_SP:0.9961
+2023-05-26 22:49:33,955 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 206 step 205,4 clients are in federated training
+
+2023-05-26 22:49:33,955 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:34,338 - unet2d_skin.py - INFO: train_time:0.38244
+2023-05-26 22:49:34,541 - unet2d_skin.py - INFO: aggregation finished in 0.099634
+2023-05-26 22:49:34,648 - unet2d_skin.py - INFO: aggregate_loss: 0.42145292088389397 	 elapsed time: 0.09976625442504883
+2023-05-26 22:49:34,710 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:34,710 - unet2d_skin.py - INFO: train_loss: 0.35344043374061584, train_accuracy:0.8599343299865723, train_JA:0.6528, train_AC:0.8296, train_DI:0.7428, train_SE:0.6618, train_SP:0.9811
+2023-05-26 22:49:34,715 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 207 step 206,4 clients are in federated training
+
+2023-05-26 22:49:34,715 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:35,100 - unet2d_skin.py - INFO: train_time:0.38441
+2023-05-26 22:49:35,298 - unet2d_skin.py - INFO: aggregation finished in 0.098878
+2023-05-26 22:49:35,404 - unet2d_skin.py - INFO: aggregate_loss: 0.25463270768523216 	 elapsed time: 0.09900879859924316
+2023-05-26 22:49:35,466 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:35,466 - unet2d_skin.py - INFO: train_loss: 0.35296308994293213, train_accuracy:0.8602609634399414, train_JA:0.8124, train_AC:0.9275, train_DI:0.8778, train_SE:0.8842, train_SP:0.9607
+2023-05-26 22:49:35,470 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 208 step 207,4 clients are in federated training
+
+2023-05-26 22:49:35,470 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:35,851 - unet2d_skin.py - INFO: train_time:0.38029
+2023-05-26 22:49:36,047 - unet2d_skin.py - INFO: aggregation finished in 0.098787
+2023-05-26 22:49:36,151 - unet2d_skin.py - INFO: aggregate_loss: 0.23608623072504997 	 elapsed time: 0.09893250465393066
+2023-05-26 22:49:36,213 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:36,213 - unet2d_skin.py - INFO: train_loss: 0.3524011969566345, train_accuracy:0.8605666756629944, train_JA:0.6218, train_AC:0.9238, train_DI:0.7278, train_SE:0.7638, train_SP:0.9840
+2023-05-26 22:49:36,216 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 209 step 208,4 clients are in federated training
+
+2023-05-26 22:49:36,216 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:36,593 - unet2d_skin.py - INFO: train_time:0.37651
+2023-05-26 22:49:36,793 - unet2d_skin.py - INFO: aggregation finished in 0.099392
+2023-05-26 22:49:36,899 - unet2d_skin.py - INFO: aggregate_loss: 0.3382871150970459 	 elapsed time: 0.09952402114868164
+2023-05-26 22:49:36,960 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:36,961 - unet2d_skin.py - INFO: train_loss: 0.352333664894104, train_accuracy:0.8607704639434814, train_JA:0.7199, train_AC:0.9032, train_DI:0.7977, train_SE:0.8207, train_SP:0.9756
+2023-05-26 22:49:36,964 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 210 step 209,4 clients are in federated training
+
+2023-05-26 22:49:36,964 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:37,347 - unet2d_skin.py - INFO: train_time:0.38211
+2023-05-26 22:49:37,545 - unet2d_skin.py - INFO: aggregation finished in 0.098841
+2023-05-26 22:49:37,651 - unet2d_skin.py - INFO: aggregate_loss: 0.22347351163625717 	 elapsed time: 0.09896707534790039
+2023-05-26 22:49:37,713 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:37,713 - unet2d_skin.py - INFO: train_loss: 0.35172003507614136, train_accuracy:0.8612495064735413, train_JA:0.7783, train_AC:0.9614, train_DI:0.8775, train_SE:0.8223, train_SP:0.9888
+2023-05-26 22:49:37,716 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 211 step 210,4 clients are in federated training
+
+2023-05-26 22:49:37,716 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:38,102 - unet2d_skin.py - INFO: train_time:0.38280
+2023-05-26 22:49:38,302 - unet2d_skin.py - INFO: aggregation finished in 0.099931
+2023-05-26 22:49:38,395 - unet2d_skin.py - INFO: aggregate_loss: 0.2955549284815788 	 elapsed time: 0.10006427764892578
+2023-05-26 22:49:38,456 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:38,457 - unet2d_skin.py - INFO: train_loss: 0.35145384073257446, train_accuracy:0.8614077568054199, train_JA:0.3803, train_AC:0.8946, train_DI:0.5134, train_SE:0.4708, train_SP:0.9612
+2023-05-26 22:49:38,458 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 212 step 211,4 clients are in federated training
+
+2023-05-26 22:49:38,458 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:38,837 - unet2d_skin.py - INFO: train_time:0.37837
+2023-05-26 22:49:39,040 - unet2d_skin.py - INFO: aggregation finished in 0.100821
+2023-05-26 22:49:39,157 - unet2d_skin.py - INFO: aggregate_loss: 0.3779190815985203 	 elapsed time: 0.10095834732055664
+2023-05-26 22:49:39,219 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:39,219 - unet2d_skin.py - INFO: train_loss: 0.3515786826610565, train_accuracy:0.8614438772201538, train_JA:0.6581, train_AC:0.8691, train_DI:0.7639, train_SE:0.7068, train_SP:0.9826
+2023-05-26 22:49:39,221 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 213 step 212,4 clients are in federated training
+
+2023-05-26 22:49:39,221 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:39,607 - unet2d_skin.py - INFO: train_time:0.38583
+2023-05-26 22:49:39,806 - unet2d_skin.py - INFO: aggregation finished in 0.099246
+2023-05-26 22:49:39,913 - unet2d_skin.py - INFO: aggregate_loss: 0.1660794448107481 	 elapsed time: 0.09938240051269531
+2023-05-26 22:49:39,975 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:39,975 - unet2d_skin.py - INFO: train_loss: 0.3507077991962433, train_accuracy:0.8619369268417358, train_JA:0.7878, train_AC:0.9665, train_DI:0.9007, train_SE:0.7986, train_SP:0.9962
+2023-05-26 22:49:39,977 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 214 step 213,4 clients are in federated training
+
+2023-05-26 22:49:39,978 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:40,361 - unet2d_skin.py - INFO: train_time:0.38289
+2023-05-26 22:49:40,560 - unet2d_skin.py - INFO: aggregation finished in 0.098772
+2023-05-26 22:49:40,659 - unet2d_skin.py - INFO: aggregate_loss: 0.23780518397688866 	 elapsed time: 0.0989072322845459
+2023-05-26 22:49:40,720 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:40,721 - unet2d_skin.py - INFO: train_loss: 0.3501802384853363, train_accuracy:0.8621698617935181, train_JA:0.6428, train_AC:0.9118, train_DI:0.7782, train_SE:0.6602, train_SP:0.9974
+2023-05-26 22:49:40,723 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 215 step 214,4 clients are in federated training
+
+2023-05-26 22:49:40,723 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:41,115 - unet2d_skin.py - INFO: train_time:0.39142
+2023-05-26 22:49:41,313 - unet2d_skin.py - INFO: aggregation finished in 0.099213
+2023-05-26 22:49:41,413 - unet2d_skin.py - INFO: aggregate_loss: 0.7844164222478867 	 elapsed time: 0.09936046600341797
+2023-05-26 22:49:41,474 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:41,475 - unet2d_skin.py - INFO: train_loss: 0.3521999418735504, train_accuracy:0.8616994619369507, train_JA:0.5524, train_AC:0.7610, train_DI:0.6743, train_SE:0.6301, train_SP:0.9433
+2023-05-26 22:49:41,478 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 216 step 215,4 clients are in federated training
+
+2023-05-26 22:49:41,478 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:41,857 - unet2d_skin.py - INFO: train_time:0.37795
+2023-05-26 22:49:42,058 - unet2d_skin.py - INFO: aggregation finished in 0.101924
+2023-05-26 22:49:42,163 - unet2d_skin.py - INFO: aggregate_loss: 0.1708311252295971 	 elapsed time: 0.10205197334289551
+2023-05-26 22:49:42,225 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:42,226 - unet2d_skin.py - INFO: train_loss: 0.3513602614402771, train_accuracy:0.8621255159378052, train_JA:0.6854, train_AC:0.9537, train_DI:0.7900, train_SE:0.7642, train_SP:0.9860
+2023-05-26 22:49:42,228 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 217 step 216,4 clients are in federated training
+
+2023-05-26 22:49:42,229 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:42,609 - unet2d_skin.py - INFO: train_time:0.37853
+2023-05-26 22:49:42,812 - unet2d_skin.py - INFO: aggregation finished in 0.100621
+2023-05-26 22:49:42,912 - unet2d_skin.py - INFO: aggregate_loss: 0.237031739205122 	 elapsed time: 0.10075759887695312
+2023-05-26 22:49:42,973 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:42,973 - unet2d_skin.py - INFO: train_loss: 0.35083338618278503, train_accuracy:0.8624674677848816, train_JA:0.7513, train_AC:0.9363, train_DI:0.8263, train_SE:0.9361, train_SP:0.9732
+2023-05-26 22:49:42,978 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 218 step 217,4 clients are in federated training
+
+2023-05-26 22:49:42,978 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:43,365 - unet2d_skin.py - INFO: train_time:0.38642
+2023-05-26 22:49:43,563 - unet2d_skin.py - INFO: aggregation finished in 0.099621
+2023-05-26 22:49:43,672 - unet2d_skin.py - INFO: aggregate_loss: 0.4050130024552345 	 elapsed time: 0.09975957870483398
+2023-05-26 22:49:43,734 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:43,734 - unet2d_skin.py - INFO: train_loss: 0.351081907749176, train_accuracy:0.8626604676246643, train_JA:0.7379, train_AC:0.9045, train_DI:0.8213, train_SE:0.8926, train_SP:0.9668
+2023-05-26 22:49:43,737 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 219 step 218,4 clients are in federated training
+
+2023-05-26 22:49:43,738 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:44,120 - unet2d_skin.py - INFO: train_time:0.38126
+2023-05-26 22:49:44,319 - unet2d_skin.py - INFO: aggregation finished in 0.099815
+2023-05-26 22:49:44,423 - unet2d_skin.py - INFO: aggregate_loss: 0.21308907307684422 	 elapsed time: 0.09994792938232422
+2023-05-26 22:49:44,485 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:44,485 - unet2d_skin.py - INFO: train_loss: 0.35045182704925537, train_accuracy:0.863057017326355, train_JA:0.7934, train_AC:0.9495, train_DI:0.8623, train_SE:0.9295, train_SP:0.9776
+2023-05-26 22:49:44,486 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 220 step 219,4 clients are in federated training
+
+2023-05-26 22:49:44,487 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:44,868 - unet2d_skin.py - INFO: train_time:0.37865
+2023-05-26 22:49:45,078 - unet2d_skin.py - INFO: aggregation finished in 0.106550
+2023-05-26 22:49:45,182 - unet2d_skin.py - INFO: aggregate_loss: 0.35007017850875854 	 elapsed time: 0.10669875144958496
+2023-05-26 22:49:45,244 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:45,245 - unet2d_skin.py - INFO: train_loss: 0.3504500687122345, train_accuracy:0.8631524443626404, train_JA:0.6512, train_AC:0.8840, train_DI:0.7616, train_SE:0.7776, train_SP:0.9665
+2023-05-26 22:49:45,249 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 221 step 220,4 clients are in federated training
+
+2023-05-26 22:49:45,250 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:45,629 - unet2d_skin.py - INFO: train_time:0.37920
+2023-05-26 22:49:45,834 - unet2d_skin.py - INFO: aggregation finished in 0.102124
+2023-05-26 22:49:45,926 - unet2d_skin.py - INFO: aggregate_loss: 0.3228694461286068 	 elapsed time: 0.10226202011108398
+2023-05-26 22:49:45,988 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:45,988 - unet2d_skin.py - INFO: train_loss: 0.35032525658607483, train_accuracy:0.8632388710975647, train_JA:0.5126, train_AC:0.8822, train_DI:0.5908, train_SE:0.5384, train_SP:0.9772
+2023-05-26 22:49:45,993 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 222 step 221,4 clients are in federated training
+
+2023-05-26 22:49:45,993 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:46,375 - unet2d_skin.py - INFO: train_time:0.38163
+2023-05-26 22:49:46,574 - unet2d_skin.py - INFO: aggregation finished in 0.100090
+2023-05-26 22:49:46,678 - unet2d_skin.py - INFO: aggregate_loss: 0.24486667662858963 	 elapsed time: 0.1002359390258789
+2023-05-26 22:49:46,740 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:46,740 - unet2d_skin.py - INFO: train_loss: 0.34985020756721497, train_accuracy:0.8635051250457764, train_JA:0.7091, train_AC:0.9223, train_DI:0.8207, train_SE:0.7659, train_SP:0.9886
+2023-05-26 22:49:46,742 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 223 step 222,4 clients are in federated training
+
+2023-05-26 22:49:46,744 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:47,126 - unet2d_skin.py - INFO: train_time:0.38185
+2023-05-26 22:49:47,325 - unet2d_skin.py - INFO: aggregation finished in 0.098779
+2023-05-26 22:49:47,437 - unet2d_skin.py - INFO: aggregate_loss: 0.3588435500860214 	 elapsed time: 0.09891295433044434
+2023-05-26 22:49:47,498 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:47,499 - unet2d_skin.py - INFO: train_loss: 0.3498905301094055, train_accuracy:0.8636343479156494, train_JA:0.6620, train_AC:0.8923, train_DI:0.7785, train_SE:0.7080, train_SP:0.9825
+2023-05-26 22:49:47,500 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 224 step 223,4 clients are in federated training
+
+2023-05-26 22:49:47,501 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:47,879 - unet2d_skin.py - INFO: train_time:0.37797
+2023-05-26 22:49:48,078 - unet2d_skin.py - INFO: aggregation finished in 0.100408
+2023-05-26 22:49:48,191 - unet2d_skin.py - INFO: aggregate_loss: 0.36296219751238823 	 elapsed time: 0.10054659843444824
+2023-05-26 22:49:48,253 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:48,253 - unet2d_skin.py - INFO: train_loss: 0.3499488830566406, train_accuracy:0.8637520670890808, train_JA:0.7297, train_AC:0.8900, train_DI:0.8399, train_SE:0.7846, train_SP:0.9951
+2023-05-26 22:49:48,255 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 225 step 224,4 clients are in federated training
+
+2023-05-26 22:49:48,255 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:48,633 - unet2d_skin.py - INFO: train_time:0.37739
+2023-05-26 22:49:48,831 - unet2d_skin.py - INFO: aggregation finished in 0.099091
+2023-05-26 22:49:48,943 - unet2d_skin.py - INFO: aggregate_loss: 0.2408648021519184 	 elapsed time: 0.09922552108764648
+2023-05-26 22:49:49,006 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:49,006 - unet2d_skin.py - INFO: train_loss: 0.34946408867836, train_accuracy:0.864018440246582, train_JA:0.6805, train_AC:0.9237, train_DI:0.7816, train_SE:0.7958, train_SP:0.9683
+2023-05-26 22:49:49,007 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 226 step 225,4 clients are in federated training
+
+2023-05-26 22:49:49,007 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:49,391 - unet2d_skin.py - INFO: train_time:0.38299
+2023-05-26 22:49:49,595 - unet2d_skin.py - INFO: aggregation finished in 0.100531
+2023-05-26 22:49:49,698 - unet2d_skin.py - INFO: aggregate_loss: 0.46063045784831047 	 elapsed time: 0.10066795349121094
+2023-05-26 22:49:49,759 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:49,759 - unet2d_skin.py - INFO: train_loss: 0.3499559760093689, train_accuracy:0.8639671802520752, train_JA:0.5785, train_AC:0.8524, train_DI:0.6825, train_SE:0.7624, train_SP:0.9676
+2023-05-26 22:49:49,760 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 227 step 226,4 clients are in federated training
+
+2023-05-26 22:49:49,761 - unet2d_skin.py - INFO: mode = plain parallel_mode = pool
+2023-05-26 22:49:51,344 - unet2d_skin.py - INFO: train_time:1.58285
+2023-05-26 22:49:51,541 - unet2d_skin.py - INFO: aggregation finished in 0.098397
+2023-05-26 22:49:51,634 - unet2d_skin.py - INFO: aggregate_loss: 0.30232052505016327 	 elapsed time: 0.09853100776672363
+2023-05-26 22:49:52,397 - unet2d_skin.py - INFO: ========================================
+2023-05-26 22:49:52,397 - unet2d_skin.py - INFO: train_loss: 0.34974613785743713, train_accuracy:0.8641195297241211, train_JA:0.6125, train_AC:0.9192, train_DI:0.7188, train_SE:0.8834, train_SP:0.9482
+2023-05-26 22:49:52,400 - unet2d_skin.py - INFO: ====train====Epoch0, JA:0.4465, AC:0.8642, DI:0.5251, SE:0.5169, SP:0.9797

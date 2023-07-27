@@ -1,0 +1,19 @@
+2023-06-20 20:52:01,533 - fcn_fminist.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-20 20:52:01,534 - fcn_fminist.py - INFO: mode = batch
+2023-06-20 20:52:02,292 - fcn_fminist.py - INFO: train_time:0.75840
+2023-06-20 20:52:02,370 - fcn_fminist.py - INFO: 量化时间：0.073839
+2023-06-20 20:52:02,838 - fcn_fminist.py - INFO: 批处理时间：0.467578
+2023-06-20 20:52:07,232 - fcn_fminist.py - INFO: 加密梯度时间：4.393148
+2023-06-20 20:52:07,236 - fcn_fminist.py - INFO: 聚集时间：0.004437
+2023-06-20 20:52:07,632 - fcn_fminist.py - INFO: 解密时间：0.395518
+2023-06-20 20:52:07,700 - fcn_fminist.py - INFO: 去量化时间：0.067755
+2023-06-20 20:52:08,370 - fcn_fminist.py - INFO: loss: 2.4144820451736453 	 elapsed time: 6.073743581771851
+2023-06-20 20:52:08,396 - fcn_fminist.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-06-20 20:52:08,396 - fcn_fminist.py - INFO: mode = batch
+2023-06-20 20:52:08,469 - fcn_fminist.py - INFO: train_time:0.07290
+2023-06-20 20:52:08,552 - fcn_fminist.py - INFO: 量化时间：0.078105
+2023-06-20 20:52:09,053 - fcn_fminist.py - INFO: 批处理时间：0.501713

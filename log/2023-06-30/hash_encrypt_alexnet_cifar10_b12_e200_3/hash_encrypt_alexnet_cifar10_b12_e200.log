@@ -1,0 +1,29 @@
+2023-06-30 14:14:07,119 - alexnet_cifar10.py - INFO: 10 clients building datasets.
+2023-06-30 14:14:07,119 - alexnet_cifar10.py - INFO: 0 client has 5000 data items.
+2023-06-30 14:14:07,119 - alexnet_cifar10.py - INFO: 1 client has 5000 data items.
+2023-06-30 14:14:07,120 - alexnet_cifar10.py - INFO: 2 client has 5000 data items.
+2023-06-30 14:14:07,120 - alexnet_cifar10.py - INFO: 3 client has 5000 data items.
+2023-06-30 14:14:07,120 - alexnet_cifar10.py - INFO: 4 client has 5000 data items.
+2023-06-30 14:14:07,120 - alexnet_cifar10.py - INFO: 5 client has 5000 data items.
+2023-06-30 14:14:07,121 - alexnet_cifar10.py - INFO: 6 client has 5000 data items.
+2023-06-30 14:14:07,122 - alexnet_cifar10.py - INFO: 7 client has 5000 data items.
+2023-06-30 14:14:07,122 - alexnet_cifar10.py - INFO: 8 client has 5000 data items.
+2023-06-30 14:14:07,122 - alexnet_cifar10.py - INFO: 9 client has 5000 data items.
+2023-06-30 14:14:08,673 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-30 14:14:08,674 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-30 14:14:10,755 - alexnet_cifar10.py - INFO: train_time:2.08095
+2023-06-30 14:14:11,553 - alexnet_cifar10.py - INFO: 量化时间：0.725567
+2023-06-30 14:14:12,738 - alexnet_cifar10.py - INFO: 加密梯度时间：1.185002
+2023-06-30 14:14:13,105 - alexnet_cifar10.py - INFO: 聚集时间：0.366997
+2023-06-30 14:14:13,231 - alexnet_cifar10.py - INFO: 解密时间：0.125002
+2023-06-30 14:14:13,575 - alexnet_cifar10.py - INFO: 去量化时间：0.342593
+2023-06-30 14:14:13,986 - alexnet_cifar10.py - INFO: loss: 2.3034289598464963 	 elapsed time: 3.106153964996338
+2023-06-30 14:14:14,469 - alexnet_cifar10.py - INFO: Plaintext_size 47.72 MB
+2023-06-30 14:14:14,470 - alexnet_cifar10.py - INFO: Ciphertext_size 35.46 MB
+2023-06-30 14:14:14,474 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-06-30 14:14:14,475 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-30 14:14:16,515 - alexnet_cifar10.py - INFO: train_time:2.03353

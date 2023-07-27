@@ -1,0 +1,96 @@
+2023-07-21 23:27:47,949 - fcn_fminist copy.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-07-21 23:27:47,949 - fcn_fminist copy.py - INFO: mode = hash_encrypt
+2023-07-21 23:27:48,056 - fcn_fminist copy.py - INFO: train_time:0.10696
+2023-07-21 23:27:48,138 - fcn_fminist copy.py - INFO: 量化时间：0.077999
+2023-07-21 23:27:48,260 - fcn_fminist copy.py - INFO: 加密梯度时间：0.122005
+2023-07-21 23:27:48,298 - fcn_fminist copy.py - INFO: 聚集时间：0.037008
+2023-07-21 23:27:48,312 - fcn_fminist copy.py - INFO: 解密时间：0.012998
+2023-07-21 23:27:48,349 - fcn_fminist copy.py - INFO: 去量化时间：0.037201
+2023-07-21 23:27:48,437 - fcn_fminist copy.py - INFO: loss: 2.420110869407654 	 elapsed time: 0.37771081924438477
+2023-07-21 23:27:48,459 - fcn_fminist copy.py - INFO: Plaintext_size 3.88 MB
+2023-07-21 23:27:48,460 - fcn_fminist copy.py - INFO: Ciphertext_size 4.86 MB
+2023-07-21 23:27:48,463 - fcn_fminist copy.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-07-21 23:27:48,463 - fcn_fminist copy.py - INFO: mode = hash_encrypt
+2023-07-21 23:27:48,591 - fcn_fminist copy.py - INFO: train_time:0.12760
+2023-07-21 23:27:48,699 - fcn_fminist copy.py - INFO: 量化时间：0.102997
+2023-07-21 23:27:48,815 - fcn_fminist copy.py - INFO: 加密梯度时间：0.114995
+2023-07-21 23:27:48,839 - fcn_fminist copy.py - INFO: 聚集时间：0.022999
+2023-07-21 23:27:48,853 - fcn_fminist copy.py - INFO: 解密时间：0.014004
+2023-07-21 23:27:48,901 - fcn_fminist copy.py - INFO: 去量化时间：0.047000
+2023-07-21 23:27:48,984 - fcn_fminist copy.py - INFO: loss: 1.828642249107361 	 elapsed time: 0.38799476623535156
+2023-07-21 23:27:49,001 - fcn_fminist copy.py - INFO: Plaintext_size 3.88 MB
+2023-07-21 23:27:49,002 - fcn_fminist copy.py - INFO: Ciphertext_size 4.86 MB
+2023-07-21 23:27:49,011 - fcn_fminist copy.py - INFO: 
+---------epoch 0 batch3,10 clients are in federated training
+
+2023-07-21 23:27:49,012 - fcn_fminist copy.py - INFO: mode = hash_encrypt
+2023-07-21 23:27:49,120 - fcn_fminist copy.py - INFO: train_time:0.10500
+2023-07-21 23:27:49,228 - fcn_fminist copy.py - INFO: 量化时间：0.103704
+2023-07-21 23:27:49,359 - fcn_fminist copy.py - INFO: 加密梯度时间：0.131470
+2023-07-21 23:27:49,385 - fcn_fminist copy.py - INFO: 聚集时间：0.026003
+2023-07-21 23:27:49,393 - fcn_fminist copy.py - INFO: 解密时间：0.007997
+2023-07-21 23:27:49,426 - fcn_fminist copy.py - INFO: 去量化时间：0.032001
+2023-07-21 23:27:49,470 - fcn_fminist copy.py - INFO: loss: 1.5658756375312803 	 elapsed time: 0.3461759090423584
+2023-07-21 23:27:49,482 - fcn_fminist copy.py - INFO: Plaintext_size 3.88 MB
+2023-07-21 23:27:49,483 - fcn_fminist copy.py - INFO: Ciphertext_size 4.86 MB
+2023-07-21 23:27:49,486 - fcn_fminist copy.py - INFO: 
+---------epoch 0 batch4,10 clients are in federated training
+
+2023-07-21 23:27:49,487 - fcn_fminist copy.py - INFO: mode = hash_encrypt
+2023-07-21 23:27:49,555 - fcn_fminist copy.py - INFO: train_time:0.06800
+2023-07-21 23:27:49,658 - fcn_fminist copy.py - INFO: 量化时间：0.099001
+2023-07-21 23:27:49,769 - fcn_fminist copy.py - INFO: 加密梯度时间：0.110244
+2023-07-21 23:27:49,792 - fcn_fminist copy.py - INFO: 聚集时间：0.022629
+2023-07-21 23:27:49,801 - fcn_fminist copy.py - INFO: 解密时间：0.008996
+2023-07-21 23:27:49,835 - fcn_fminist copy.py - INFO: 去量化时间：0.032076
+2023-07-21 23:27:49,879 - fcn_fminist copy.py - INFO: loss: 1.3781477093696592 	 elapsed time: 0.31998324394226074
+2023-07-21 23:27:49,891 - fcn_fminist copy.py - INFO: Plaintext_size 3.88 MB
+2023-07-21 23:27:49,892 - fcn_fminist copy.py - INFO: Ciphertext_size 4.86 MB
+2023-07-21 23:27:49,895 - fcn_fminist copy.py - INFO: 
+---------epoch 0 batch5,10 clients are in federated training
+
+2023-07-21 23:27:49,896 - fcn_fminist copy.py - INFO: mode = hash_encrypt
+2023-07-21 23:27:49,963 - fcn_fminist copy.py - INFO: train_time:0.06501
+2023-07-21 23:27:50,045 - fcn_fminist copy.py - INFO: 量化时间：0.077001
+2023-07-21 23:27:50,146 - fcn_fminist copy.py - INFO: 加密梯度时间：0.100001
+2023-07-21 23:27:50,169 - fcn_fminist copy.py - INFO: 聚集时间：0.022008
+2023-07-21 23:27:50,179 - fcn_fminist copy.py - INFO: 解密时间：0.008998
+2023-07-21 23:27:50,214 - fcn_fminist copy.py - INFO: 去量化时间：0.035002
+2023-07-21 23:27:50,261 - fcn_fminist copy.py - INFO: loss: 1.3369977712631227 	 elapsed time: 0.2929987907409668
+2023-07-21 23:27:50,274 - fcn_fminist copy.py - INFO: Plaintext_size 3.88 MB
+2023-07-21 23:27:50,274 - fcn_fminist copy.py - INFO: Ciphertext_size 4.86 MB
+2023-07-21 23:27:50,276 - fcn_fminist copy.py - INFO: 
+---------epoch 0 batch6,10 clients are in federated training
+
+2023-07-21 23:27:50,277 - fcn_fminist copy.py - INFO: mode = hash_encrypt
+2023-07-21 23:27:50,343 - fcn_fminist copy.py - INFO: train_time:0.06600
+2023-07-21 23:27:50,427 - fcn_fminist copy.py - INFO: 量化时间：0.079995
+2023-07-21 23:27:50,529 - fcn_fminist copy.py - INFO: 加密梯度时间：0.101800
+2023-07-21 23:27:50,553 - fcn_fminist copy.py - INFO: 聚集时间：0.024002
+2023-07-21 23:27:50,562 - fcn_fminist copy.py - INFO: 解密时间：0.008998
+2023-07-21 23:27:50,602 - fcn_fminist copy.py - INFO: 去量化时间：0.038000
+2023-07-21 23:27:50,646 - fcn_fminist copy.py - INFO: loss: 1.1070061206817627 	 elapsed time: 0.2987968921661377
+2023-07-21 23:27:50,657 - fcn_fminist copy.py - INFO: Plaintext_size 3.88 MB
+2023-07-21 23:27:50,657 - fcn_fminist copy.py - INFO: Ciphertext_size 4.86 MB
+2023-07-21 23:27:50,660 - fcn_fminist copy.py - INFO: 
+---------epoch 0 batch7,10 clients are in federated training
+
+2023-07-21 23:27:50,661 - fcn_fminist copy.py - INFO: mode = hash_encrypt
+2023-07-21 23:27:50,726 - fcn_fminist copy.py - INFO: train_time:0.06500
+2023-07-21 23:27:50,820 - fcn_fminist copy.py - INFO: 量化时间：0.088474
+2023-07-21 23:27:50,926 - fcn_fminist copy.py - INFO: 加密梯度时间：0.106004
+2023-07-21 23:27:50,948 - fcn_fminist copy.py - INFO: 聚集时间：0.021999
+2023-07-21 23:27:50,958 - fcn_fminist copy.py - INFO: 解密时间：0.010012
+2023-07-21 23:27:50,990 - fcn_fminist copy.py - INFO: 去量化时间：0.031000
+2023-07-21 23:27:51,033 - fcn_fminist copy.py - INFO: loss: 0.9281766951084138 	 elapsed time: 0.3014841079711914
+2023-07-21 23:27:51,043 - fcn_fminist copy.py - INFO: Plaintext_size 3.88 MB
+2023-07-21 23:27:51,043 - fcn_fminist copy.py - INFO: Ciphertext_size 4.86 MB
+2023-07-21 23:27:51,045 - fcn_fminist copy.py - INFO: 
+---------epoch 0 batch8,10 clients are in federated training
+
+2023-07-21 23:27:51,046 - fcn_fminist copy.py - INFO: mode = hash_encrypt
+2023-07-21 23:27:51,109 - fcn_fminist copy.py - INFO: train_time:0.06300

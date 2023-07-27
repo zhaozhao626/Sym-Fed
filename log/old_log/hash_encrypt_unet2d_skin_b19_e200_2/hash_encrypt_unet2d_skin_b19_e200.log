@@ -1,0 +1,18 @@
+2023-06-05 11:21:31,986 - unet2d_skin.py - INFO: 4 clients building datasets.
+2023-06-05 11:21:31,987 - unet2d_skin.py - INFO: 0 client has 453 data items.
+2023-06-05 11:21:31,988 - unet2d_skin.py - INFO: 1 client has 453 data items.
+2023-06-05 11:21:31,988 - unet2d_skin.py - INFO: 2 client has 453 data items.
+2023-06-05 11:21:31,988 - unet2d_skin.py - INFO: 3 client has 456 data items.
+2023-06-05 11:21:34,971 - deprecation.py - WARNING: From /home/wjz/anaconda3/envs/fl/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py:83: Analyzer.lamba_check (from tensorflow.python.autograph.pyct.static_analysis.liveness) is deprecated and will be removed after 2023-09-23.
+Instructions for updating:
+Lambda fuctions will be no more assumed to be used in the statement where they are used, or at least in the same block. https://github.com/tensorflow/tensorflow/issues/56089
+2023-06-05 11:21:36,704 - unet2d_skin.py - INFO: 
+---------epoch 0 batch 1 step 0,4 clients are in federated training
+
+2023-06-05 11:21:36,704 - unet2d_skin.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-05 11:21:56,258 - unet2d_skin.py - INFO: train_time:19.55350
+2023-06-05 11:22:05,974 - unet2d_skin.py - INFO: 量化时间：9.069439
+2023-06-05 11:22:20,346 - unet2d_skin.py - INFO: 加密梯度时间：14.372006
+2023-06-05 11:22:28,984 - unet2d_skin.py - INFO: 聚集时间：8.622740
+2023-06-05 11:22:38,111 - unet2d_skin.py - INFO: 解密时间：9.116033
+2023-06-05 11:22:53,783 - unet2d_skin.py - INFO: 去量化时间：15.671732

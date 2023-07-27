@@ -1,0 +1,1 @@
+step,test_loss,test_accuracy,jaccard index(JA),dice coefficient(DI),Accuracy(AC),sensitivity(SE),specificity(SP)

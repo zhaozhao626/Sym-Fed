@@ -1,0 +1,7 @@
+2023-06-23 22:08:00,480 - fcn_fminist.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-23 22:08:00,481 - fcn_fminist.py - INFO: mode = plain
+2023-06-23 22:08:01,360 - fcn_fminist.py - INFO: train_time:0.87883
+2023-06-23 22:08:01,365 - fcn_fminist.py - INFO: aggregation finished in 0.000616
+2023-06-23 22:08:01,882 - fcn_fminist.py - INFO: loss: 2.417067623138428 	 elapsed time: 0.5179617404937744

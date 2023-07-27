@@ -1,0 +1,370 @@
+2023-06-30 14:32:29,696 - LSTM_Shakespeare.py - INFO: Length of text: 1115394 characters
+2023-06-30 14:32:29,711 - LSTM_Shakespeare.py - INFO: 65 unique characters
+2023-06-30 14:32:29,842 - LSTM_Shakespeare.py - INFO: {
+2023-06-30 14:32:29,842 - LSTM_Shakespeare.py - INFO:   '\n':   0,
+2023-06-30 14:32:29,843 - LSTM_Shakespeare.py - INFO:   ' ' :   1,
+2023-06-30 14:32:29,844 - LSTM_Shakespeare.py - INFO:   '!' :   2,
+2023-06-30 14:32:29,844 - LSTM_Shakespeare.py - INFO:   '$' :   3,
+2023-06-30 14:32:29,844 - LSTM_Shakespeare.py - INFO:   '&' :   4,
+2023-06-30 14:32:29,846 - LSTM_Shakespeare.py - INFO:   "'" :   5,
+2023-06-30 14:32:29,846 - LSTM_Shakespeare.py - INFO:   ',' :   6,
+2023-06-30 14:32:29,846 - LSTM_Shakespeare.py - INFO:   '-' :   7,
+2023-06-30 14:32:29,847 - LSTM_Shakespeare.py - INFO:   '.' :   8,
+2023-06-30 14:32:29,847 - LSTM_Shakespeare.py - INFO:   '3' :   9,
+2023-06-30 14:32:29,847 - LSTM_Shakespeare.py - INFO:   ':' :  10,
+2023-06-30 14:32:29,848 - LSTM_Shakespeare.py - INFO:   ';' :  11,
+2023-06-30 14:32:29,848 - LSTM_Shakespeare.py - INFO:   '?' :  12,
+2023-06-30 14:32:29,848 - LSTM_Shakespeare.py - INFO:   'A' :  13,
+2023-06-30 14:32:29,849 - LSTM_Shakespeare.py - INFO:   'B' :  14,
+2023-06-30 14:32:29,849 - LSTM_Shakespeare.py - INFO:   'C' :  15,
+2023-06-30 14:32:29,849 - LSTM_Shakespeare.py - INFO:   'D' :  16,
+2023-06-30 14:32:29,850 - LSTM_Shakespeare.py - INFO:   'E' :  17,
+2023-06-30 14:32:29,850 - LSTM_Shakespeare.py - INFO:   'F' :  18,
+2023-06-30 14:32:29,850 - LSTM_Shakespeare.py - INFO:   'G' :  19,
+2023-06-30 14:32:29,851 - LSTM_Shakespeare.py - INFO:   ...
+}
+2023-06-30 14:32:29,851 - LSTM_Shakespeare.py - INFO: 'First Citizen' ---- characters mapped to int ---- > [18 47 56 57 58  1 15 47 58 47 64 43 52]
+2023-06-30 14:32:29,880 - LSTM_Shakespeare.py - INFO: F
+2023-06-30 14:32:29,881 - LSTM_Shakespeare.py - INFO: i
+2023-06-30 14:32:29,881 - LSTM_Shakespeare.py - INFO: r
+2023-06-30 14:32:29,882 - LSTM_Shakespeare.py - INFO: s
+2023-06-30 14:32:29,882 - LSTM_Shakespeare.py - INFO: t
+2023-06-30 14:32:29,894 - LSTM_Shakespeare.py - INFO: 'First Citizen:\nBefore we proceed any further, hear me speak.\n\nAll:\nSpeak, speak.\n\nFirst Citizen:\nYou '
+2023-06-30 14:32:29,894 - LSTM_Shakespeare.py - INFO: 'are all resolved rather to die than to famish?\n\nAll:\nResolved. resolved.\n\nFirst Citizen:\nFirst, you k'
+2023-06-30 14:32:29,895 - LSTM_Shakespeare.py - INFO: "now Caius Marcius is chief enemy to the people.\n\nAll:\nWe know't, we know't.\n\nFirst Citizen:\nLet us ki"
+2023-06-30 14:32:29,896 - LSTM_Shakespeare.py - INFO: "ll him, and we'll have corn at our own price.\nIs't a verdict?\n\nAll:\nNo more talking on't; let it be d"
+2023-06-30 14:32:29,896 - LSTM_Shakespeare.py - INFO: 'one: away, away!\n\nSecond Citizen:\nOne word, good citizens.\n\nFirst Citizen:\nWe are accounted poor citi'
+2023-06-30 14:32:29,980 - LSTM_Shakespeare.py - INFO: Step    0
+2023-06-30 14:32:29,981 - LSTM_Shakespeare.py - INFO:   input: 18 ('F')
+2023-06-30 14:32:29,981 - LSTM_Shakespeare.py - INFO:   expected output: 47 ('i')
+2023-06-30 14:32:29,982 - LSTM_Shakespeare.py - INFO: Step    1
+2023-06-30 14:32:29,982 - LSTM_Shakespeare.py - INFO:   input: 47 ('i')
+2023-06-30 14:32:29,983 - LSTM_Shakespeare.py - INFO:   expected output: 56 ('r')
+2023-06-30 14:32:29,984 - LSTM_Shakespeare.py - INFO: Step    2
+2023-06-30 14:32:29,984 - LSTM_Shakespeare.py - INFO:   input: 56 ('r')
+2023-06-30 14:32:29,985 - LSTM_Shakespeare.py - INFO:   expected output: 57 ('s')
+2023-06-30 14:32:29,985 - LSTM_Shakespeare.py - INFO: Step    3
+2023-06-30 14:32:29,986 - LSTM_Shakespeare.py - INFO:   input: 57 ('s')
+2023-06-30 14:32:29,986 - LSTM_Shakespeare.py - INFO:   expected output: 58 ('t')
+2023-06-30 14:32:29,987 - LSTM_Shakespeare.py - INFO: Step    4
+2023-06-30 14:32:29,988 - LSTM_Shakespeare.py - INFO:   input: 58 ('t')
+2023-06-30 14:32:29,988 - LSTM_Shakespeare.py - INFO:   expected output: 1 (' ')
+2023-06-30 14:32:29,992 - deprecation.py - WARNING: From e:/BaiduNetdiskDownload/backup_6_20/home/wjz/Efficient_Data_Processing_with_Symmetrically_Encrypted_Neural_Networks/LSTM_Shakespeare.py:153: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2023-06-30 14:32:40,212 - LSTM_Shakespeare.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-30 14:32:40,213 - LSTM_Shakespeare.py - INFO: mode = batch
+2023-06-30 14:32:40,213 - LSTM_Shakespeare.py - INFO: 10 clients are in federated training
+2023-06-30 14:32:59,678 - LSTM_Shakespeare.py - INFO: train_time:19.46482
+2023-06-30 14:33:02,978 - LSTM_Shakespeare.py - INFO: 量化时间：3.065744
+2023-06-30 14:33:19,228 - LSTM_Shakespeare.py - INFO: 批处理时间：16.250385
+2023-06-30 14:34:17,492 - LSTM_Shakespeare.py - INFO: 加密梯度时间：58.263131
+2023-06-30 14:34:17,502 - LSTM_Shakespeare.py - INFO: 聚集时间：0.009004
+2023-06-30 14:34:23,895 - LSTM_Shakespeare.py - INFO: 解密时间：6.392700
+2023-06-30 14:34:25,150 - LSTM_Shakespeare.py - INFO: 去量化时间：1.253565
+2023-06-30 14:34:25,261 - LSTM_Shakespeare.py - INFO: loss: 0.4175950884819031 	elapsed time: 85.26952958106995
+2023-06-30 14:34:25,262 - LSTM_Shakespeare.py - INFO: Plaintext_size 215.52 MB
+2023-06-30 14:34:25,262 - LSTM_Shakespeare.py - INFO: Ciphertext_size 30.68 MB
+2023-06-30 14:34:25,278 - LSTM_Shakespeare.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-06-30 14:34:25,279 - LSTM_Shakespeare.py - INFO: mode = batch
+2023-06-30 14:34:25,279 - LSTM_Shakespeare.py - INFO: 10 clients are in federated training
+2023-06-30 14:34:46,282 - LSTM_Shakespeare.py - INFO: train_time:20.97605
+2023-06-30 14:34:49,522 - LSTM_Shakespeare.py - INFO: 量化时间：3.032307
+2023-06-30 14:35:05,759 - LSTM_Shakespeare.py - INFO: 批处理时间：16.236906
+2023-06-30 14:36:01,821 - LSTM_Shakespeare.py - INFO: 加密梯度时间：56.062396
+2023-06-30 14:36:01,834 - LSTM_Shakespeare.py - INFO: 聚集时间：0.013002
+2023-06-30 14:36:04,256 - _base.py - ERROR: exception calling callback for <Future at 0x1ffdb1632e0 state=finished raised WorkerInterrupt>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,257 - _base.py - ERROR: exception calling callback for <Future at 0x1ff91006880 state=finished raised PicklingError>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\backend\queues.py", line 125, in _feed
+    obj_ = dumps(obj, reducers=reducers)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\backend\reduction.py", line 211, in dumps
+    dump(obj, buf, reducers=reducers, protocol=protocol)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\backend\reduction.py", line 204, in dump
+    _LokyPickler(file, reducers=reducers, protocol=protocol).dump(obj)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\cloudpickle\cloudpickle_fast.py", line 632, in dump
+    return Pickler.dump(self, obj)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 293, in __reduce__
+    self._reducer_callback()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 1028, in _batched_calls_reducer_callback
+    self._backend._workers._temp_folder_manager.set_current_context(  # noqa
+AttributeError: 'NoneType' object has no attribute '_temp_folder_manager'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,265 - _base.py - ERROR: exception calling callback for <Future at 0x1ffdb792a60 state=finished raised WorkerInterrupt>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,270 - _base.py - ERROR: exception calling callback for <Future at 0x1ffdad306d0 state=finished raised PicklingError>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\backend\queues.py", line 125, in _feed
+    obj_ = dumps(obj, reducers=reducers)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\backend\reduction.py", line 211, in dumps
+    dump(obj, buf, reducers=reducers, protocol=protocol)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\backend\reduction.py", line 204, in dump
+    _LokyPickler(file, reducers=reducers, protocol=protocol).dump(obj)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\cloudpickle\cloudpickle_fast.py", line 632, in dump
+    return Pickler.dump(self, obj)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 293, in __reduce__
+    self._reducer_callback()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 1028, in _batched_calls_reducer_callback
+    self._backend._workers._temp_folder_manager.set_current_context(  # noqa
+AttributeError: 'NoneType' object has no attribute '_temp_folder_manager'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,281 - _base.py - ERROR: exception calling callback for <Future at 0x1ffdacce640 state=finished raised WorkerInterrupt>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,286 - _base.py - ERROR: exception calling callback for <Future at 0x200456c1f10 state=finished raised PicklingError>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\backend\queues.py", line 125, in _feed
+    obj_ = dumps(obj, reducers=reducers)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\backend\reduction.py", line 211, in dumps
+    dump(obj, buf, reducers=reducers, protocol=protocol)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\backend\reduction.py", line 204, in dump
+    _LokyPickler(file, reducers=reducers, protocol=protocol).dump(obj)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\cloudpickle\cloudpickle_fast.py", line 632, in dump
+    return Pickler.dump(self, obj)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 293, in __reduce__
+    self._reducer_callback()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 1028, in _batched_calls_reducer_callback
+    self._backend._workers._temp_folder_manager.set_current_context(  # noqa
+AttributeError: 'NoneType' object has no attribute '_temp_folder_manager'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,292 - _base.py - ERROR: exception calling callback for <Future at 0x200499655e0 state=finished raised WorkerInterrupt>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,300 - _base.py - ERROR: exception calling callback for <Future at 0x1ffdb792550 state=finished raised WorkerInterrupt>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,308 - _base.py - ERROR: exception calling callback for <Future at 0x20049965d00 state=finished raised WorkerInterrupt>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,314 - _base.py - ERROR: exception calling callback for <Future at 0x1ffdb1a68e0 state=finished raised WorkerInterrupt>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,319 - _base.py - ERROR: exception calling callback for <Future at 0x20049965e20 state=finished raised WorkerInterrupt>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,324 - _base.py - ERROR: exception calling callback for <Future at 0x20049965bb0 state=finished returned list>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,329 - _base.py - ERROR: exception calling callback for <Future at 0x1ff91006850 state=finished returned list>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,334 - _base.py - ERROR: exception calling callback for <Future at 0x1ffdb0c8340 state=finished returned list>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,344 - _base.py - ERROR: exception calling callback for <Future at 0x1ff910060a0 state=finished returned list>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'
+2023-06-30 14:36:04,349 - _base.py - ERROR: exception calling callback for <Future at 0x1ffdace28e0 state=finished returned list>
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+AttributeError: 'NoneType' object has no attribute 'submit'

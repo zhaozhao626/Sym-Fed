@@ -1,0 +1,18 @@
+2023-06-07 11:29:33,859 - alexnet_cifar10.py - INFO: 10 clients building datasets.
+2023-06-07 11:29:33,860 - alexnet_cifar10.py - INFO: 0 client has 5000 data items.
+2023-06-07 11:29:33,860 - alexnet_cifar10.py - INFO: 1 client has 5000 data items.
+2023-06-07 11:29:33,860 - alexnet_cifar10.py - INFO: 2 client has 5000 data items.
+2023-06-07 11:29:33,860 - alexnet_cifar10.py - INFO: 3 client has 5000 data items.
+2023-06-07 11:29:33,860 - alexnet_cifar10.py - INFO: 4 client has 5000 data items.
+2023-06-07 11:29:33,860 - alexnet_cifar10.py - INFO: 5 client has 5000 data items.
+2023-06-07 11:29:33,860 - alexnet_cifar10.py - INFO: 6 client has 5000 data items.
+2023-06-07 11:29:33,860 - alexnet_cifar10.py - INFO: 7 client has 5000 data items.
+2023-06-07 11:29:33,860 - alexnet_cifar10.py - INFO: 8 client has 5000 data items.
+2023-06-07 11:29:33,861 - alexnet_cifar10.py - INFO: 9 client has 5000 data items.
+2023-06-07 11:29:36,447 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-07 11:29:36,448 - alexnet_cifar10.py - INFO: mode = quantize parallel_mode = pool
+2023-06-07 11:29:39,409 - alexnet_cifar10.py - INFO: train_time:2.96060
+2023-06-07 11:29:40,130 - alexnet_cifar10.py - INFO: 量化时间：0.663013
+2023-06-07 11:29:40,461 - alexnet_cifar10.py - INFO: 聚集时间：0.330132

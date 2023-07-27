@@ -1,0 +1,61 @@
+2023-07-21 23:37:40,114 - LSTM_Shakespeare_signle.py - INFO: Length of text: 1115394 characters
+2023-07-21 23:37:40,128 - LSTM_Shakespeare_signle.py - INFO: 65 unique characters
+2023-07-21 23:37:40,263 - LSTM_Shakespeare_signle.py - INFO: {
+2023-07-21 23:37:40,263 - LSTM_Shakespeare_signle.py - INFO:   '\n':   0,
+2023-07-21 23:37:40,264 - LSTM_Shakespeare_signle.py - INFO:   ' ' :   1,
+2023-07-21 23:37:40,264 - LSTM_Shakespeare_signle.py - INFO:   '!' :   2,
+2023-07-21 23:37:40,264 - LSTM_Shakespeare_signle.py - INFO:   '$' :   3,
+2023-07-21 23:37:40,265 - LSTM_Shakespeare_signle.py - INFO:   '&' :   4,
+2023-07-21 23:37:40,265 - LSTM_Shakespeare_signle.py - INFO:   "'" :   5,
+2023-07-21 23:37:40,266 - LSTM_Shakespeare_signle.py - INFO:   ',' :   6,
+2023-07-21 23:37:40,267 - LSTM_Shakespeare_signle.py - INFO:   '-' :   7,
+2023-07-21 23:37:40,267 - LSTM_Shakespeare_signle.py - INFO:   '.' :   8,
+2023-07-21 23:37:40,267 - LSTM_Shakespeare_signle.py - INFO:   '3' :   9,
+2023-07-21 23:37:40,268 - LSTM_Shakespeare_signle.py - INFO:   ':' :  10,
+2023-07-21 23:37:40,268 - LSTM_Shakespeare_signle.py - INFO:   ';' :  11,
+2023-07-21 23:37:40,268 - LSTM_Shakespeare_signle.py - INFO:   '?' :  12,
+2023-07-21 23:37:40,269 - LSTM_Shakespeare_signle.py - INFO:   'A' :  13,
+2023-07-21 23:37:40,269 - LSTM_Shakespeare_signle.py - INFO:   'B' :  14,
+2023-07-21 23:37:40,269 - LSTM_Shakespeare_signle.py - INFO:   'C' :  15,
+2023-07-21 23:37:40,270 - LSTM_Shakespeare_signle.py - INFO:   'D' :  16,
+2023-07-21 23:37:40,270 - LSTM_Shakespeare_signle.py - INFO:   'E' :  17,
+2023-07-21 23:37:40,270 - LSTM_Shakespeare_signle.py - INFO:   'F' :  18,
+2023-07-21 23:37:40,271 - LSTM_Shakespeare_signle.py - INFO:   'G' :  19,
+2023-07-21 23:37:40,272 - LSTM_Shakespeare_signle.py - INFO:   ...
+}
+2023-07-21 23:37:40,275 - LSTM_Shakespeare_signle.py - INFO: 'First Citizen' ---- characters mapped to int ---- > [18 47 56 57 58  1 15 47 58 47 64 43 52]
+2023-07-21 23:37:40,308 - LSTM_Shakespeare_signle.py - INFO: F
+2023-07-21 23:37:40,314 - LSTM_Shakespeare_signle.py - INFO: i
+2023-07-21 23:37:40,317 - LSTM_Shakespeare_signle.py - INFO: r
+2023-07-21 23:37:40,319 - LSTM_Shakespeare_signle.py - INFO: s
+2023-07-21 23:37:40,320 - LSTM_Shakespeare_signle.py - INFO: t
+2023-07-21 23:37:40,344 - LSTM_Shakespeare_signle.py - INFO: 'First Citizen:\nBefore we proceed any further, hear me speak.\n\nAll:\nSpeak, speak.\n\nFirst Citizen:\nYou '
+2023-07-21 23:37:40,345 - LSTM_Shakespeare_signle.py - INFO: 'are all resolved rather to die than to famish?\n\nAll:\nResolved. resolved.\n\nFirst Citizen:\nFirst, you k'
+2023-07-21 23:37:40,347 - LSTM_Shakespeare_signle.py - INFO: "now Caius Marcius is chief enemy to the people.\n\nAll:\nWe know't, we know't.\n\nFirst Citizen:\nLet us ki"
+2023-07-21 23:37:40,348 - LSTM_Shakespeare_signle.py - INFO: "ll him, and we'll have corn at our own price.\nIs't a verdict?\n\nAll:\nNo more talking on't; let it be d"
+2023-07-21 23:37:40,349 - LSTM_Shakespeare_signle.py - INFO: 'one: away, away!\n\nSecond Citizen:\nOne word, good citizens.\n\nFirst Citizen:\nWe are accounted poor citi'
+2023-07-21 23:37:40,439 - LSTM_Shakespeare_signle.py - INFO: Step    0
+2023-07-21 23:37:40,439 - LSTM_Shakespeare_signle.py - INFO:   input: 18 ('F')
+2023-07-21 23:37:40,440 - LSTM_Shakespeare_signle.py - INFO:   expected output: 47 ('i')
+2023-07-21 23:37:40,441 - LSTM_Shakespeare_signle.py - INFO: Step    1
+2023-07-21 23:37:40,441 - LSTM_Shakespeare_signle.py - INFO:   input: 47 ('i')
+2023-07-21 23:37:40,441 - LSTM_Shakespeare_signle.py - INFO:   expected output: 56 ('r')
+2023-07-21 23:37:40,442 - LSTM_Shakespeare_signle.py - INFO: Step    2
+2023-07-21 23:37:40,442 - LSTM_Shakespeare_signle.py - INFO:   input: 56 ('r')
+2023-07-21 23:37:40,443 - LSTM_Shakespeare_signle.py - INFO:   expected output: 57 ('s')
+2023-07-21 23:37:40,444 - LSTM_Shakespeare_signle.py - INFO: Step    3
+2023-07-21 23:37:40,444 - LSTM_Shakespeare_signle.py - INFO:   input: 57 ('s')
+2023-07-21 23:37:40,444 - LSTM_Shakespeare_signle.py - INFO:   expected output: 58 ('t')
+2023-07-21 23:37:40,445 - LSTM_Shakespeare_signle.py - INFO: Step    4
+2023-07-21 23:37:40,446 - LSTM_Shakespeare_signle.py - INFO:   input: 58 ('t')
+2023-07-21 23:37:40,446 - LSTM_Shakespeare_signle.py - INFO:   expected output: 1 (' ')
+2023-07-21 23:37:40,451 - deprecation.py - WARNING: From .\LSTM_Shakespeare_signle.py:153: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2023-07-21 23:37:50,738 - LSTM_Shakespeare_signle.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-07-21 23:37:50,738 - LSTM_Shakespeare_signle.py - INFO: mode = hash_encrypt
+2023-07-21 23:37:50,738 - LSTM_Shakespeare_signle.py - INFO: 10 clients are in federated training
+2023-07-21 23:38:10,449 - LSTM_Shakespeare_signle.py - INFO: train_time:19.71069
+2023-07-21 23:38:13,628 - LSTM_Shakespeare_signle.py - INFO: 量化时间：2.962332

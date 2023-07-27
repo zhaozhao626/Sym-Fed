@@ -1,0 +1,54 @@
+2023-07-21 23:33:40,655 - LSTM_Shakespeare.py - INFO: Length of text: 1115394 characters
+2023-07-21 23:33:40,669 - LSTM_Shakespeare.py - INFO: 65 unique characters
+2023-07-21 23:33:40,843 - LSTM_Shakespeare.py - INFO: {
+2023-07-21 23:33:40,844 - LSTM_Shakespeare.py - INFO:   '\n':   0,
+2023-07-21 23:33:40,844 - LSTM_Shakespeare.py - INFO:   ' ' :   1,
+2023-07-21 23:33:40,845 - LSTM_Shakespeare.py - INFO:   '!' :   2,
+2023-07-21 23:33:40,845 - LSTM_Shakespeare.py - INFO:   '$' :   3,
+2023-07-21 23:33:40,846 - LSTM_Shakespeare.py - INFO:   '&' :   4,
+2023-07-21 23:33:40,846 - LSTM_Shakespeare.py - INFO:   "'" :   5,
+2023-07-21 23:33:40,846 - LSTM_Shakespeare.py - INFO:   ',' :   6,
+2023-07-21 23:33:40,848 - LSTM_Shakespeare.py - INFO:   '-' :   7,
+2023-07-21 23:33:40,849 - LSTM_Shakespeare.py - INFO:   '.' :   8,
+2023-07-21 23:33:40,849 - LSTM_Shakespeare.py - INFO:   '3' :   9,
+2023-07-21 23:33:40,850 - LSTM_Shakespeare.py - INFO:   ':' :  10,
+2023-07-21 23:33:40,850 - LSTM_Shakespeare.py - INFO:   ';' :  11,
+2023-07-21 23:33:40,851 - LSTM_Shakespeare.py - INFO:   '?' :  12,
+2023-07-21 23:33:40,851 - LSTM_Shakespeare.py - INFO:   'A' :  13,
+2023-07-21 23:33:40,852 - LSTM_Shakespeare.py - INFO:   'B' :  14,
+2023-07-21 23:33:40,852 - LSTM_Shakespeare.py - INFO:   'C' :  15,
+2023-07-21 23:33:40,853 - LSTM_Shakespeare.py - INFO:   'D' :  16,
+2023-07-21 23:33:40,853 - LSTM_Shakespeare.py - INFO:   'E' :  17,
+2023-07-21 23:33:40,854 - LSTM_Shakespeare.py - INFO:   'F' :  18,
+2023-07-21 23:33:40,854 - LSTM_Shakespeare.py - INFO:   'G' :  19,
+2023-07-21 23:33:40,855 - LSTM_Shakespeare.py - INFO:   ...
+}
+2023-07-21 23:33:40,855 - LSTM_Shakespeare.py - INFO: 'First Citizen' ---- characters mapped to int ---- > [18 47 56 57 58  1 15 47 58 47 64 43 52]
+2023-07-21 23:33:40,889 - LSTM_Shakespeare.py - INFO: F
+2023-07-21 23:33:40,890 - LSTM_Shakespeare.py - INFO: i
+2023-07-21 23:33:40,891 - LSTM_Shakespeare.py - INFO: r
+2023-07-21 23:33:40,891 - LSTM_Shakespeare.py - INFO: s
+2023-07-21 23:33:40,892 - LSTM_Shakespeare.py - INFO: t
+2023-07-21 23:33:40,907 - LSTM_Shakespeare.py - INFO: 'First Citizen:\nBefore we proceed any further, hear me speak.\n\nAll:\nSpeak, speak.\n\nFirst Citizen:\nYou '
+2023-07-21 23:33:40,908 - LSTM_Shakespeare.py - INFO: 'are all resolved rather to die than to famish?\n\nAll:\nResolved. resolved.\n\nFirst Citizen:\nFirst, you k'
+2023-07-21 23:33:40,909 - LSTM_Shakespeare.py - INFO: "now Caius Marcius is chief enemy to the people.\n\nAll:\nWe know't, we know't.\n\nFirst Citizen:\nLet us ki"
+2023-07-21 23:33:40,910 - LSTM_Shakespeare.py - INFO: "ll him, and we'll have corn at our own price.\nIs't a verdict?\n\nAll:\nNo more talking on't; let it be d"
+2023-07-21 23:33:40,911 - LSTM_Shakespeare.py - INFO: 'one: away, away!\n\nSecond Citizen:\nOne word, good citizens.\n\nFirst Citizen:\nWe are accounted poor citi'
+2023-07-21 23:33:41,039 - LSTM_Shakespeare.py - INFO: Step    0
+2023-07-21 23:33:41,039 - LSTM_Shakespeare.py - INFO:   input: 18 ('F')
+2023-07-21 23:33:41,040 - LSTM_Shakespeare.py - INFO:   expected output: 47 ('i')
+2023-07-21 23:33:41,041 - LSTM_Shakespeare.py - INFO: Step    1
+2023-07-21 23:33:41,041 - LSTM_Shakespeare.py - INFO:   input: 47 ('i')
+2023-07-21 23:33:41,042 - LSTM_Shakespeare.py - INFO:   expected output: 56 ('r')
+2023-07-21 23:33:41,044 - LSTM_Shakespeare.py - INFO: Step    2
+2023-07-21 23:33:41,045 - LSTM_Shakespeare.py - INFO:   input: 56 ('r')
+2023-07-21 23:33:41,045 - LSTM_Shakespeare.py - INFO:   expected output: 57 ('s')
+2023-07-21 23:33:41,047 - LSTM_Shakespeare.py - INFO: Step    3
+2023-07-21 23:33:41,047 - LSTM_Shakespeare.py - INFO:   input: 57 ('s')
+2023-07-21 23:33:41,048 - LSTM_Shakespeare.py - INFO:   expected output: 58 ('t')
+2023-07-21 23:33:41,049 - LSTM_Shakespeare.py - INFO: Step    4
+2023-07-21 23:33:41,049 - LSTM_Shakespeare.py - INFO:   input: 58 ('t')
+2023-07-21 23:33:41,050 - LSTM_Shakespeare.py - INFO:   expected output: 1 (' ')
+2023-07-21 23:33:41,055 - deprecation.py - WARNING: From f:/desktop/federated_learning/myfl/LSTM_Shakespeare.py:154: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.

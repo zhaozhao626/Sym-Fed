@@ -1,0 +1,2276 @@
+2023-06-20 21:45:20,109 - alexnet_cifar10.py - INFO: 10 clients building datasets.
+2023-06-20 21:45:20,113 - alexnet_cifar10.py - INFO: 0 client has 5000 data items.
+2023-06-20 21:45:20,114 - alexnet_cifar10.py - INFO: 1 client has 5000 data items.
+2023-06-20 21:45:20,114 - alexnet_cifar10.py - INFO: 2 client has 5000 data items.
+2023-06-20 21:45:20,114 - alexnet_cifar10.py - INFO: 3 client has 5000 data items.
+2023-06-20 21:45:20,114 - alexnet_cifar10.py - INFO: 4 client has 5000 data items.
+2023-06-20 21:45:20,115 - alexnet_cifar10.py - INFO: 5 client has 5000 data items.
+2023-06-20 21:45:20,115 - alexnet_cifar10.py - INFO: 6 client has 5000 data items.
+2023-06-20 21:45:20,115 - alexnet_cifar10.py - INFO: 7 client has 5000 data items.
+2023-06-20 21:45:20,115 - alexnet_cifar10.py - INFO: 8 client has 5000 data items.
+2023-06-20 21:45:20,115 - alexnet_cifar10.py - INFO: 9 client has 5000 data items.
+2023-06-20 21:45:23,097 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch1,10 clients are in federated training
+
+2023-06-20 21:45:23,099 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:26,410 - alexnet_cifar10.py - INFO: train_time:3.31110
+2023-06-20 21:45:26,687 - alexnet_cifar10.py - INFO: 量化时间：0.213471
+2023-06-20 21:45:26,758 - alexnet_cifar10.py - INFO: 加密梯度时间：0.071007
+2023-06-20 21:45:26,790 - alexnet_cifar10.py - INFO: 聚集时间：0.031158
+2023-06-20 21:45:26,799 - alexnet_cifar10.py - INFO: 解密时间：0.008266
+2023-06-20 21:45:26,817 - alexnet_cifar10.py - INFO: 去量化时间：0.017968
+2023-06-20 21:45:27,235 - polymorphic_function.py - WARNING: 5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7fae6075a9d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-06-20 21:45:27,327 - polymorphic_function.py - WARNING: 6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7fae6075a9d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-06-20 21:45:27,777 - alexnet_cifar10.py - INFO: loss: 2.301553726196289 	 elapsed time: 0.34467196464538574
+2023-06-20 21:45:27,911 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch2,10 clients are in federated training
+
+2023-06-20 21:45:27,912 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:28,080 - alexnet_cifar10.py - INFO: train_time:0.16810
+2023-06-20 21:45:28,336 - alexnet_cifar10.py - INFO: 量化时间：0.193317
+2023-06-20 21:45:28,466 - alexnet_cifar10.py - INFO: 加密梯度时间：0.129390
+2023-06-20 21:45:28,519 - alexnet_cifar10.py - INFO: 聚集时间：0.052482
+2023-06-20 21:45:28,526 - alexnet_cifar10.py - INFO: 解密时间：0.007417
+2023-06-20 21:45:28,582 - alexnet_cifar10.py - INFO: 去量化时间：0.056048
+2023-06-20 21:45:28,598 - alexnet_cifar10.py - INFO: loss: 2.2963671684265137 	 elapsed time: 0.4396224021911621
+2023-06-20 21:45:28,621 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch3,10 clients are in federated training
+
+2023-06-20 21:45:28,621 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:28,915 - alexnet_cifar10.py - INFO: train_time:0.29288
+2023-06-20 21:45:29,184 - alexnet_cifar10.py - INFO: 量化时间：0.208413
+2023-06-20 21:45:29,257 - alexnet_cifar10.py - INFO: 加密梯度时间：0.070979
+2023-06-20 21:45:29,285 - alexnet_cifar10.py - INFO: 聚集时间：0.027557
+2023-06-20 21:45:29,293 - alexnet_cifar10.py - INFO: 解密时间：0.006794
+2023-06-20 21:45:29,309 - alexnet_cifar10.py - INFO: 去量化时间：0.015904
+2023-06-20 21:45:29,321 - alexnet_cifar10.py - INFO: loss: 2.2888113498687748 	 elapsed time: 0.33483386039733887
+2023-06-20 21:45:29,346 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch4,10 clients are in federated training
+
+2023-06-20 21:45:29,346 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:29,626 - alexnet_cifar10.py - INFO: train_time:0.27994
+2023-06-20 21:45:29,877 - alexnet_cifar10.py - INFO: 量化时间：0.196113
+2023-06-20 21:45:29,938 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061099
+2023-06-20 21:45:29,962 - alexnet_cifar10.py - INFO: 聚集时间：0.023202
+2023-06-20 21:45:29,969 - alexnet_cifar10.py - INFO: 解密时间：0.006662
+2023-06-20 21:45:29,983 - alexnet_cifar10.py - INFO: 去量化时间：0.013846
+2023-06-20 21:45:29,993 - alexnet_cifar10.py - INFO: loss: 2.2856629848480225 	 elapsed time: 0.3028726577758789
+2023-06-20 21:45:30,005 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch5,10 clients are in federated training
+
+2023-06-20 21:45:30,005 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:30,160 - alexnet_cifar10.py - INFO: train_time:0.15439
+2023-06-20 21:45:30,379 - alexnet_cifar10.py - INFO: 量化时间：0.184959
+2023-06-20 21:45:30,439 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060242
+2023-06-20 21:45:30,463 - alexnet_cifar10.py - INFO: 聚集时间：0.023398
+2023-06-20 21:45:30,469 - alexnet_cifar10.py - INFO: 解密时间：0.006060
+2023-06-20 21:45:30,482 - alexnet_cifar10.py - INFO: 去量化时间：0.013387
+2023-06-20 21:45:30,493 - alexnet_cifar10.py - INFO: loss: 2.280253171920777 	 elapsed time: 0.28870511054992676
+2023-06-20 21:45:30,506 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch6,10 clients are in federated training
+
+2023-06-20 21:45:30,506 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:30,650 - alexnet_cifar10.py - INFO: train_time:0.14328
+2023-06-20 21:45:30,889 - alexnet_cifar10.py - INFO: 量化时间：0.188559
+2023-06-20 21:45:30,964 - alexnet_cifar10.py - INFO: 加密梯度时间：0.073879
+2023-06-20 21:45:31,005 - alexnet_cifar10.py - INFO: 聚集时间：0.041300
+2023-06-20 21:45:31,016 - alexnet_cifar10.py - INFO: 解密时间：0.007683
+2023-06-20 21:45:31,032 - alexnet_cifar10.py - INFO: 去量化时间：0.015372
+2023-06-20 21:45:31,042 - alexnet_cifar10.py - INFO: loss: 2.272084450721741 	 elapsed time: 0.33200597763061523
+2023-06-20 21:45:31,062 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch7,10 clients are in federated training
+
+2023-06-20 21:45:31,062 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:31,241 - alexnet_cifar10.py - INFO: train_time:0.17866
+2023-06-20 21:45:31,671 - alexnet_cifar10.py - INFO: 量化时间：0.374035
+2023-06-20 21:45:31,770 - alexnet_cifar10.py - INFO: 加密梯度时间：0.098368
+2023-06-20 21:45:31,796 - alexnet_cifar10.py - INFO: 聚集时间：0.025816
+2023-06-20 21:45:31,817 - alexnet_cifar10.py - INFO: 解密时间：0.020431
+2023-06-20 21:45:31,845 - alexnet_cifar10.py - INFO: 去量化时间：0.027245
+2023-06-20 21:45:31,870 - alexnet_cifar10.py - INFO: loss: 2.26299843788147 	 elapsed time: 0.5480456352233887
+2023-06-20 21:45:31,892 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch8,10 clients are in federated training
+
+2023-06-20 21:45:31,892 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:32,098 - alexnet_cifar10.py - INFO: train_time:0.20526
+2023-06-20 21:45:32,398 - alexnet_cifar10.py - INFO: 量化时间：0.209173
+2023-06-20 21:45:32,496 - alexnet_cifar10.py - INFO: 加密梯度时间：0.097084
+2023-06-20 21:45:32,524 - alexnet_cifar10.py - INFO: 聚集时间：0.027340
+2023-06-20 21:45:32,533 - alexnet_cifar10.py - INFO: 解密时间：0.008651
+2023-06-20 21:45:32,554 - alexnet_cifar10.py - INFO: 去量化时间：0.019828
+2023-06-20 21:45:32,568 - alexnet_cifar10.py - INFO: loss: 2.26487991809845 	 elapsed time: 0.36536431312561035
+2023-06-20 21:45:32,585 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch9,10 clients are in federated training
+
+2023-06-20 21:45:32,585 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:32,730 - alexnet_cifar10.py - INFO: train_time:0.14466
+2023-06-20 21:45:32,981 - alexnet_cifar10.py - INFO: 量化时间：0.199492
+2023-06-20 21:45:33,048 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066052
+2023-06-20 21:45:33,080 - alexnet_cifar10.py - INFO: 聚集时间：0.031229
+2023-06-20 21:45:33,088 - alexnet_cifar10.py - INFO: 解密时间：0.007732
+2023-06-20 21:45:33,107 - alexnet_cifar10.py - INFO: 去量化时间：0.018340
+2023-06-20 21:45:33,119 - alexnet_cifar10.py - INFO: loss: 2.2576689004898074 	 elapsed time: 0.32592320442199707
+2023-06-20 21:45:33,132 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch10,10 clients are in federated training
+
+2023-06-20 21:45:33,133 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:33,282 - alexnet_cifar10.py - INFO: train_time:0.14856
+2023-06-20 21:45:33,515 - alexnet_cifar10.py - INFO: 量化时间：0.178906
+2023-06-20 21:45:33,575 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060389
+2023-06-20 21:45:33,599 - alexnet_cifar10.py - INFO: 聚集时间：0.023198
+2023-06-20 21:45:33,606 - alexnet_cifar10.py - INFO: 解密时间：0.006484
+2023-06-20 21:45:33,621 - alexnet_cifar10.py - INFO: 去量化时间：0.013932
+2023-06-20 21:45:33,631 - alexnet_cifar10.py - INFO: loss: 2.2449694633483888 	 elapsed time: 0.28574609756469727
+2023-06-20 21:45:33,644 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch11,10 clients are in federated training
+
+2023-06-20 21:45:33,645 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:33,779 - alexnet_cifar10.py - INFO: train_time:0.13268
+2023-06-20 21:45:34,033 - alexnet_cifar10.py - INFO: 量化时间：0.179647
+2023-06-20 21:45:34,099 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065573
+2023-06-20 21:45:34,123 - alexnet_cifar10.py - INFO: 聚集时间：0.024470
+2023-06-20 21:45:34,130 - alexnet_cifar10.py - INFO: 解密时间：0.006045
+2023-06-20 21:45:34,143 - alexnet_cifar10.py - INFO: 去量化时间：0.013408
+2023-06-20 21:45:34,152 - alexnet_cifar10.py - INFO: loss: 2.2437738180160527 	 elapsed time: 0.2898283004760742
+2023-06-20 21:45:34,167 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch12,10 clients are in federated training
+
+2023-06-20 21:45:34,167 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:34,309 - alexnet_cifar10.py - INFO: train_time:0.14205
+2023-06-20 21:45:34,805 - alexnet_cifar10.py - INFO: 量化时间：0.418859
+2023-06-20 21:45:34,943 - alexnet_cifar10.py - INFO: 加密梯度时间：0.127517
+2023-06-20 21:45:34,977 - alexnet_cifar10.py - INFO: 聚集时间：0.028342
+2023-06-20 21:45:34,985 - alexnet_cifar10.py - INFO: 解密时间：0.007205
+2023-06-20 21:45:35,002 - alexnet_cifar10.py - INFO: 去量化时间：0.016231
+2023-06-20 21:45:35,013 - alexnet_cifar10.py - INFO: loss: 2.23897066116333 	 elapsed time: 0.6164064407348633
+2023-06-20 21:45:35,030 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch13,10 clients are in federated training
+
+2023-06-20 21:45:35,031 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:35,240 - alexnet_cifar10.py - INFO: train_time:0.20804
+2023-06-20 21:45:35,494 - alexnet_cifar10.py - INFO: 量化时间：0.194160
+2023-06-20 21:45:35,572 - alexnet_cifar10.py - INFO: 加密梯度时间：0.077630
+2023-06-20 21:45:35,598 - alexnet_cifar10.py - INFO: 聚集时间：0.025362
+2023-06-20 21:45:35,606 - alexnet_cifar10.py - INFO: 解密时间：0.007008
+2023-06-20 21:45:35,622 - alexnet_cifar10.py - INFO: 去量化时间：0.015611
+2023-06-20 21:45:35,634 - alexnet_cifar10.py - INFO: loss: 2.2277598142623902 	 elapsed time: 0.3227884769439697
+2023-06-20 21:45:35,647 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch14,10 clients are in federated training
+
+2023-06-20 21:45:35,648 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:35,847 - alexnet_cifar10.py - INFO: train_time:0.19819
+2023-06-20 21:45:36,083 - alexnet_cifar10.py - INFO: 量化时间：0.185949
+2023-06-20 21:45:36,145 - alexnet_cifar10.py - INFO: 加密梯度时间：0.062540
+2023-06-20 21:45:36,169 - alexnet_cifar10.py - INFO: 聚集时间：0.023628
+2023-06-20 21:45:36,175 - alexnet_cifar10.py - INFO: 解密时间：0.006106
+2023-06-20 21:45:36,189 - alexnet_cifar10.py - INFO: 去量化时间：0.013965
+2023-06-20 21:45:36,201 - alexnet_cifar10.py - INFO: loss: 2.2150211095809937 	 elapsed time: 0.292830228805542
+2023-06-20 21:45:36,242 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch15,10 clients are in federated training
+
+2023-06-20 21:45:36,242 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:36,370 - alexnet_cifar10.py - INFO: train_time:0.12805
+2023-06-20 21:45:36,624 - alexnet_cifar10.py - INFO: 量化时间：0.195124
+2023-06-20 21:45:36,700 - alexnet_cifar10.py - INFO: 加密梯度时间：0.075596
+2023-06-20 21:45:36,726 - alexnet_cifar10.py - INFO: 聚集时间：0.025410
+2023-06-20 21:45:36,734 - alexnet_cifar10.py - INFO: 解密时间：0.007033
+2023-06-20 21:45:36,749 - alexnet_cifar10.py - INFO: 去量化时间：0.014829
+2023-06-20 21:45:36,759 - alexnet_cifar10.py - INFO: loss: 2.1949063777923583 	 elapsed time: 0.31983208656311035
+2023-06-20 21:45:36,801 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch16,10 clients are in federated training
+
+2023-06-20 21:45:36,801 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:36,941 - alexnet_cifar10.py - INFO: train_time:0.13996
+2023-06-20 21:45:37,181 - alexnet_cifar10.py - INFO: 量化时间：0.181108
+2023-06-20 21:45:37,242 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060534
+2023-06-20 21:45:37,265 - alexnet_cifar10.py - INFO: 聚集时间：0.023579
+2023-06-20 21:45:37,272 - alexnet_cifar10.py - INFO: 解密时间：0.006297
+2023-06-20 21:45:37,286 - alexnet_cifar10.py - INFO: 去量化时间：0.013706
+2023-06-20 21:45:37,297 - alexnet_cifar10.py - INFO: loss: 2.178801918029785 	 elapsed time: 0.2864105701446533
+2023-06-20 21:45:37,325 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch17,10 clients are in federated training
+
+2023-06-20 21:45:37,326 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:37,488 - alexnet_cifar10.py - INFO: train_time:0.16224
+2023-06-20 21:45:37,767 - alexnet_cifar10.py - INFO: 量化时间：0.220915
+2023-06-20 21:45:37,846 - alexnet_cifar10.py - INFO: 加密梯度时间：0.078240
+2023-06-20 21:45:37,876 - alexnet_cifar10.py - INFO: 聚集时间：0.029479
+2023-06-20 21:45:37,890 - alexnet_cifar10.py - INFO: 解密时间：0.011883
+2023-06-20 21:45:37,917 - alexnet_cifar10.py - INFO: 去量化时间：0.026396
+2023-06-20 21:45:37,933 - alexnet_cifar10.py - INFO: loss: 2.1846527099609374 	 elapsed time: 0.37127184867858887
+2023-06-20 21:45:37,947 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch18,10 clients are in federated training
+
+2023-06-20 21:45:37,948 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:38,193 - alexnet_cifar10.py - INFO: train_time:0.24481
+2023-06-20 21:45:38,587 - alexnet_cifar10.py - INFO: 量化时间：0.330513
+2023-06-20 21:45:38,713 - alexnet_cifar10.py - INFO: 加密梯度时间：0.125255
+2023-06-20 21:45:38,764 - alexnet_cifar10.py - INFO: 聚集时间：0.050903
+2023-06-20 21:45:38,778 - alexnet_cifar10.py - INFO: 解密时间：0.014590
+2023-06-20 21:45:38,798 - alexnet_cifar10.py - INFO: 去量化时间：0.018961
+2023-06-20 21:45:38,811 - alexnet_cifar10.py - INFO: loss: 2.160036706924439 	 elapsed time: 0.5418000221252441
+2023-06-20 21:45:38,846 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch19,10 clients are in federated training
+
+2023-06-20 21:45:38,847 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:38,979 - alexnet_cifar10.py - INFO: train_time:0.13203
+2023-06-20 21:45:39,217 - alexnet_cifar10.py - INFO: 量化时间：0.187181
+2023-06-20 21:45:39,278 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060281
+2023-06-20 21:45:39,301 - alexnet_cifar10.py - INFO: 聚集时间：0.023305
+2023-06-20 21:45:39,308 - alexnet_cifar10.py - INFO: 解密时间：0.006011
+2023-06-20 21:45:39,322 - alexnet_cifar10.py - INFO: 去量化时间：0.013669
+2023-06-20 21:45:39,332 - alexnet_cifar10.py - INFO: loss: 2.1592528581619264 	 elapsed time: 0.2924225330352783
+2023-06-20 21:45:39,354 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch20,10 clients are in federated training
+
+2023-06-20 21:45:39,355 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:39,491 - alexnet_cifar10.py - INFO: train_time:0.13531
+2023-06-20 21:45:39,724 - alexnet_cifar10.py - INFO: 量化时间：0.179158
+2023-06-20 21:45:39,784 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060107
+2023-06-20 21:45:39,808 - alexnet_cifar10.py - INFO: 聚集时间：0.023167
+2023-06-20 21:45:39,814 - alexnet_cifar10.py - INFO: 解密时间：0.006095
+2023-06-20 21:45:39,829 - alexnet_cifar10.py - INFO: 去量化时间：0.014683
+2023-06-20 21:45:39,841 - alexnet_cifar10.py - INFO: loss: 2.1796492099761964 	 elapsed time: 0.28542613983154297
+2023-06-20 21:45:39,866 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch21,10 clients are in federated training
+
+2023-06-20 21:45:39,866 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:40,005 - alexnet_cifar10.py - INFO: train_time:0.13880
+2023-06-20 21:45:40,292 - alexnet_cifar10.py - INFO: 量化时间：0.221607
+2023-06-20 21:45:40,365 - alexnet_cifar10.py - INFO: 加密梯度时间：0.072365
+2023-06-20 21:45:40,392 - alexnet_cifar10.py - INFO: 聚集时间：0.025643
+2023-06-20 21:45:40,399 - alexnet_cifar10.py - INFO: 解密时间：0.006999
+2023-06-20 21:45:40,414 - alexnet_cifar10.py - INFO: 去量化时间：0.014829
+2023-06-20 21:45:40,425 - alexnet_cifar10.py - INFO: loss: 2.1759359121322635 	 elapsed time: 0.3442237377166748
+2023-06-20 21:45:40,440 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch22,10 clients are in federated training
+
+2023-06-20 21:45:40,440 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:40,614 - alexnet_cifar10.py - INFO: train_time:0.17347
+2023-06-20 21:45:40,844 - alexnet_cifar10.py - INFO: 量化时间：0.177026
+2023-06-20 21:45:40,914 - alexnet_cifar10.py - INFO: 加密梯度时间：0.069315
+2023-06-20 21:45:40,950 - alexnet_cifar10.py - INFO: 聚集时间：0.034714
+2023-06-20 21:45:40,957 - alexnet_cifar10.py - INFO: 解密时间：0.006262
+2023-06-20 21:45:40,971 - alexnet_cifar10.py - INFO: 去量化时间：0.014369
+2023-06-20 21:45:40,983 - alexnet_cifar10.py - INFO: loss: 2.1477325916290284 	 elapsed time: 0.30446434020996094
+2023-06-20 21:45:41,005 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch23,10 clients are in federated training
+
+2023-06-20 21:45:41,005 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:41,150 - alexnet_cifar10.py - INFO: train_time:0.14490
+2023-06-20 21:45:41,384 - alexnet_cifar10.py - INFO: 量化时间：0.179259
+2023-06-20 21:45:41,444 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059674
+2023-06-20 21:45:41,467 - alexnet_cifar10.py - INFO: 聚集时间：0.023259
+2023-06-20 21:45:41,473 - alexnet_cifar10.py - INFO: 解密时间：0.006216
+2023-06-20 21:45:41,487 - alexnet_cifar10.py - INFO: 去量化时间：0.013883
+2023-06-20 21:45:41,497 - alexnet_cifar10.py - INFO: loss: 2.129309558868408 	 elapsed time: 0.2829594612121582
+2023-06-20 21:45:41,518 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch24,10 clients are in federated training
+
+2023-06-20 21:45:41,518 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:41,651 - alexnet_cifar10.py - INFO: train_time:0.13280
+2023-06-20 21:45:41,899 - alexnet_cifar10.py - INFO: 量化时间：0.194109
+2023-06-20 21:45:41,973 - alexnet_cifar10.py - INFO: 加密梯度时间：0.073864
+2023-06-20 21:45:42,004 - alexnet_cifar10.py - INFO: 聚集时间：0.030381
+2023-06-20 21:45:42,012 - alexnet_cifar10.py - INFO: 解密时间：0.006751
+2023-06-20 21:45:42,029 - alexnet_cifar10.py - INFO: 去量化时间：0.016279
+2023-06-20 21:45:42,041 - alexnet_cifar10.py - INFO: loss: 2.10313675403595 	 elapsed time: 0.3245692253112793
+2023-06-20 21:45:42,057 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch25,10 clients are in federated training
+
+2023-06-20 21:45:42,058 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:42,213 - alexnet_cifar10.py - INFO: train_time:0.15397
+2023-06-20 21:45:42,450 - alexnet_cifar10.py - INFO: 量化时间：0.179911
+2023-06-20 21:45:42,511 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060619
+2023-06-20 21:45:42,535 - alexnet_cifar10.py - INFO: 聚集时间：0.023174
+2023-06-20 21:45:42,541 - alexnet_cifar10.py - INFO: 解密时间：0.006107
+2023-06-20 21:45:42,555 - alexnet_cifar10.py - INFO: 去量化时间：0.013564
+2023-06-20 21:45:42,565 - alexnet_cifar10.py - INFO: loss: 2.0976099967956543 	 elapsed time: 0.28539228439331055
+2023-06-20 21:45:42,580 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch26,10 clients are in federated training
+
+2023-06-20 21:45:42,581 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:42,715 - alexnet_cifar10.py - INFO: train_time:0.13244
+2023-06-20 21:45:42,946 - alexnet_cifar10.py - INFO: 量化时间：0.182778
+2023-06-20 21:45:43,006 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060407
+2023-06-20 21:45:43,030 - alexnet_cifar10.py - INFO: 聚集时间：0.023714
+2023-06-20 21:45:43,036 - alexnet_cifar10.py - INFO: 解密时间：0.006159
+2023-06-20 21:45:43,050 - alexnet_cifar10.py - INFO: 去量化时间：0.013213
+2023-06-20 21:45:43,060 - alexnet_cifar10.py - INFO: loss: 2.0977416753768923 	 elapsed time: 0.2869265079498291
+2023-06-20 21:45:43,085 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch27,10 clients are in federated training
+
+2023-06-20 21:45:43,087 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:43,229 - alexnet_cifar10.py - INFO: train_time:0.14224
+2023-06-20 21:45:43,502 - alexnet_cifar10.py - INFO: 量化时间：0.218831
+2023-06-20 21:45:43,640 - alexnet_cifar10.py - INFO: 加密梯度时间：0.136734
+2023-06-20 21:45:43,669 - alexnet_cifar10.py - INFO: 聚集时间：0.027908
+2023-06-20 21:45:43,677 - alexnet_cifar10.py - INFO: 解密时间：0.007660
+2023-06-20 21:45:43,696 - alexnet_cifar10.py - INFO: 去量化时间：0.018604
+2023-06-20 21:45:43,726 - alexnet_cifar10.py - INFO: loss: 2.092422866821289 	 elapsed time: 0.4133608341217041
+2023-06-20 21:45:43,759 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch28,10 clients are in federated training
+
+2023-06-20 21:45:43,759 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:44,056 - alexnet_cifar10.py - INFO: train_time:0.29615
+2023-06-20 21:45:44,408 - alexnet_cifar10.py - INFO: 量化时间：0.254112
+2023-06-20 21:45:44,477 - alexnet_cifar10.py - INFO: 加密梯度时间：0.068851
+2023-06-20 21:45:44,501 - alexnet_cifar10.py - INFO: 聚集时间：0.023311
+2023-06-20 21:45:44,508 - alexnet_cifar10.py - INFO: 解密时间：0.006289
+2023-06-20 21:45:44,524 - alexnet_cifar10.py - INFO: 去量化时间：0.016283
+2023-06-20 21:45:44,547 - alexnet_cifar10.py - INFO: loss: 2.077199172973633 	 elapsed time: 0.3707246780395508
+2023-06-20 21:45:44,584 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch29,10 clients are in federated training
+
+2023-06-20 21:45:44,585 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:44,740 - alexnet_cifar10.py - INFO: train_time:0.15432
+2023-06-20 21:45:45,021 - alexnet_cifar10.py - INFO: 量化时间：0.220026
+2023-06-20 21:45:45,110 - alexnet_cifar10.py - INFO: 加密梯度时间：0.088109
+2023-06-20 21:45:45,133 - alexnet_cifar10.py - INFO: 聚集时间：0.023272
+2023-06-20 21:45:45,140 - alexnet_cifar10.py - INFO: 解密时间：0.006315
+2023-06-20 21:45:45,154 - alexnet_cifar10.py - INFO: 去量化时间：0.013718
+2023-06-20 21:45:45,164 - alexnet_cifar10.py - INFO: loss: 2.082069945335388 	 elapsed time: 0.3527255058288574
+2023-06-20 21:45:45,179 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch30,10 clients are in federated training
+
+2023-06-20 21:45:45,180 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:45,328 - alexnet_cifar10.py - INFO: train_time:0.14720
+2023-06-20 21:45:45,560 - alexnet_cifar10.py - INFO: 量化时间：0.181543
+2023-06-20 21:45:45,622 - alexnet_cifar10.py - INFO: 加密梯度时间：0.062435
+2023-06-20 21:45:45,648 - alexnet_cifar10.py - INFO: 聚集时间：0.025360
+2023-06-20 21:45:45,656 - alexnet_cifar10.py - INFO: 解密时间：0.007027
+2023-06-20 21:45:45,671 - alexnet_cifar10.py - INFO: 去量化时间：0.015034
+2023-06-20 21:45:45,684 - alexnet_cifar10.py - INFO: loss: 2.0808799266815186 	 elapsed time: 0.2943549156188965
+2023-06-20 21:45:45,705 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch31,10 clients are in federated training
+
+2023-06-20 21:45:45,705 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:45,844 - alexnet_cifar10.py - INFO: train_time:0.13794
+2023-06-20 21:45:46,115 - alexnet_cifar10.py - INFO: 量化时间：0.204419
+2023-06-20 21:45:46,190 - alexnet_cifar10.py - INFO: 加密梯度时间：0.074645
+2023-06-20 21:45:46,222 - alexnet_cifar10.py - INFO: 聚集时间：0.030419
+2023-06-20 21:45:46,228 - alexnet_cifar10.py - INFO: 解密时间：0.005970
+2023-06-20 21:45:46,243 - alexnet_cifar10.py - INFO: 去量化时间：0.013897
+2023-06-20 21:45:46,257 - alexnet_cifar10.py - INFO: loss: 2.103455710411072 	 elapsed time: 0.3328673839569092
+2023-06-20 21:45:46,270 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch32,10 clients are in federated training
+
+2023-06-20 21:45:46,270 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:46,395 - alexnet_cifar10.py - INFO: train_time:0.12474
+2023-06-20 21:45:46,697 - alexnet_cifar10.py - INFO: 量化时间：0.248921
+2023-06-20 21:45:46,772 - alexnet_cifar10.py - INFO: 加密梯度时间：0.074193
+2023-06-20 21:45:46,804 - alexnet_cifar10.py - INFO: 聚集时间：0.031283
+2023-06-20 21:45:46,814 - alexnet_cifar10.py - INFO: 解密时间：0.009636
+2023-06-20 21:45:46,851 - alexnet_cifar10.py - INFO: 去量化时间：0.036255
+2023-06-20 21:45:46,877 - alexnet_cifar10.py - INFO: loss: 2.1002479791641235 	 elapsed time: 0.4038276672363281
+2023-06-20 21:45:46,898 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch33,10 clients are in federated training
+
+2023-06-20 21:45:46,899 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:47,151 - alexnet_cifar10.py - INFO: train_time:0.25217
+2023-06-20 21:45:47,405 - alexnet_cifar10.py - INFO: 量化时间：0.199153
+2023-06-20 21:45:47,474 - alexnet_cifar10.py - INFO: 加密梯度时间：0.068089
+2023-06-20 21:45:47,501 - alexnet_cifar10.py - INFO: 聚集时间：0.026671
+2023-06-20 21:45:47,509 - alexnet_cifar10.py - INFO: 解密时间：0.007161
+2023-06-20 21:45:47,533 - alexnet_cifar10.py - INFO: 去量化时间：0.023238
+2023-06-20 21:45:47,549 - alexnet_cifar10.py - INFO: loss: 2.0722587347030643 	 elapsed time: 0.32720375061035156
+2023-06-20 21:45:47,565 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch34,10 clients are in federated training
+
+2023-06-20 21:45:47,567 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:47,834 - alexnet_cifar10.py - INFO: train_time:0.26499
+2023-06-20 21:45:48,099 - alexnet_cifar10.py - INFO: 量化时间：0.203897
+2023-06-20 21:45:48,161 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061281
+2023-06-20 21:45:48,184 - alexnet_cifar10.py - INFO: 聚集时间：0.023084
+2023-06-20 21:45:48,191 - alexnet_cifar10.py - INFO: 解密时间：0.006020
+2023-06-20 21:45:48,205 - alexnet_cifar10.py - INFO: 去量化时间：0.013882
+2023-06-20 21:45:48,216 - alexnet_cifar10.py - INFO: loss: 2.065621089935303 	 elapsed time: 0.31011486053466797
+2023-06-20 21:45:48,228 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch35,10 clients are in federated training
+
+2023-06-20 21:45:48,229 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:48,357 - alexnet_cifar10.py - INFO: train_time:0.12769
+2023-06-20 21:45:48,585 - alexnet_cifar10.py - INFO: 量化时间：0.178204
+2023-06-20 21:45:48,647 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060972
+2023-06-20 21:45:48,670 - alexnet_cifar10.py - INFO: 聚集时间：0.022701
+2023-06-20 21:45:48,676 - alexnet_cifar10.py - INFO: 解密时间：0.006075
+2023-06-20 21:45:48,691 - alexnet_cifar10.py - INFO: 去量化时间：0.013859
+2023-06-20 21:45:48,701 - alexnet_cifar10.py - INFO: loss: 2.050045967102051 	 elapsed time: 0.2838325500488281
+2023-06-20 21:45:48,713 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch36,10 clients are in federated training
+
+2023-06-20 21:45:48,714 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:48,843 - alexnet_cifar10.py - INFO: train_time:0.12778
+2023-06-20 21:45:49,077 - alexnet_cifar10.py - INFO: 量化时间：0.181533
+2023-06-20 21:45:49,142 - alexnet_cifar10.py - INFO: 加密梯度时间：0.064756
+2023-06-20 21:45:49,166 - alexnet_cifar10.py - INFO: 聚集时间：0.023121
+2023-06-20 21:45:49,172 - alexnet_cifar10.py - INFO: 解密时间：0.005974
+2023-06-20 21:45:49,187 - alexnet_cifar10.py - INFO: 去量化时间：0.014456
+2023-06-20 21:45:49,198 - alexnet_cifar10.py - INFO: loss: 2.0182655096054076 	 elapsed time: 0.2911415100097656
+2023-06-20 21:45:49,210 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch37,10 clients are in federated training
+
+2023-06-20 21:45:49,210 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:49,347 - alexnet_cifar10.py - INFO: train_time:0.13594
+2023-06-20 21:45:49,648 - alexnet_cifar10.py - INFO: 量化时间：0.246656
+2023-06-20 21:45:49,789 - alexnet_cifar10.py - INFO: 加密梯度时间：0.127275
+2023-06-20 21:45:49,848 - alexnet_cifar10.py - INFO: 聚集时间：0.057748
+2023-06-20 21:45:49,863 - alexnet_cifar10.py - INFO: 解密时间：0.015114
+2023-06-20 21:45:49,891 - alexnet_cifar10.py - INFO: 去量化时间：0.027043
+2023-06-20 21:45:49,908 - alexnet_cifar10.py - INFO: loss: 2.0455610513687135 	 elapsed time: 0.49083542823791504
+2023-06-20 21:45:49,935 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch38,10 clients are in federated training
+
+2023-06-20 21:45:49,937 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:50,167 - alexnet_cifar10.py - INFO: train_time:0.22967
+2023-06-20 21:45:50,425 - alexnet_cifar10.py - INFO: 量化时间：0.213477
+2023-06-20 21:45:50,486 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060977
+2023-06-20 21:45:50,510 - alexnet_cifar10.py - INFO: 聚集时间：0.023654
+2023-06-20 21:45:50,516 - alexnet_cifar10.py - INFO: 解密时间：0.005954
+2023-06-20 21:45:50,535 - alexnet_cifar10.py - INFO: 去量化时间：0.018374
+2023-06-20 21:45:50,547 - alexnet_cifar10.py - INFO: loss: 2.038697838783264 	 elapsed time: 0.32314038276672363
+2023-06-20 21:45:50,572 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch39,10 clients are in federated training
+
+2023-06-20 21:45:50,572 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:50,713 - alexnet_cifar10.py - INFO: train_time:0.14162
+2023-06-20 21:45:51,006 - alexnet_cifar10.py - INFO: 量化时间：0.234314
+2023-06-20 21:45:51,085 - alexnet_cifar10.py - INFO: 加密梯度时间：0.078610
+2023-06-20 21:45:51,116 - alexnet_cifar10.py - INFO: 聚集时间：0.031263
+2023-06-20 21:45:51,125 - alexnet_cifar10.py - INFO: 解密时间：0.007804
+2023-06-20 21:45:51,140 - alexnet_cifar10.py - INFO: 去量化时间：0.015100
+2023-06-20 21:45:51,152 - alexnet_cifar10.py - INFO: loss: 2.0294978618621826 	 elapsed time: 0.3692142963409424
+2023-06-20 21:45:51,164 - alexnet_cifar10.py - INFO: 
+---------epoch 0 batch40,10 clients are in federated training
+
+2023-06-20 21:45:51,165 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:45:51,353 - alexnet_cifar10.py - INFO: train_time:0.18760
+2023-06-20 21:45:51,604 - alexnet_cifar10.py - INFO: 量化时间：0.193141
+2023-06-20 21:45:51,681 - alexnet_cifar10.py - INFO: 加密梯度时间：0.076011
+2023-06-20 21:45:51,704 - alexnet_cifar10.py - INFO: 聚集时间：0.023089
+2023-06-20 21:45:51,711 - alexnet_cifar10.py - INFO: 解密时间：0.006299
+2023-06-20 21:45:51,725 - alexnet_cifar10.py - INFO: 去量化时间：0.013829
+2023-06-20 21:45:51,736 - alexnet_cifar10.py - INFO: loss: 1.9915699481964113 	 elapsed time: 0.314403772354126
+2023-06-20 21:46:03,619 - alexnet_cifar10.py - INFO: Plaintext_size 1.86 GB
+2023-06-20 21:46:03,620 - alexnet_cifar10.py - INFO: Ciphertext_size 0.00 KB
+2023-06-20 21:46:04,612 - alexnet_cifar10.py - INFO: ========Epoch 000: train_loss: 2.158, train_accuracy: 23.294%, test_loss: 2.078, test_accuracy: 22.160%
+2023-06-20 21:46:04,631 - alexnet_cifar10.py - INFO: Saved epoch_model to disk
+2023-06-20 21:46:04,635 - alexnet_cifar10.py - INFO: 10 clients building datasets.
+2023-06-20 21:46:04,635 - alexnet_cifar10.py - INFO: 0 client has 5000 data items.
+2023-06-20 21:46:04,635 - alexnet_cifar10.py - INFO: 1 client has 5000 data items.
+2023-06-20 21:46:04,636 - alexnet_cifar10.py - INFO: 2 client has 5000 data items.
+2023-06-20 21:46:04,636 - alexnet_cifar10.py - INFO: 3 client has 5000 data items.
+2023-06-20 21:46:04,636 - alexnet_cifar10.py - INFO: 4 client has 5000 data items.
+2023-06-20 21:46:04,636 - alexnet_cifar10.py - INFO: 5 client has 5000 data items.
+2023-06-20 21:46:04,636 - alexnet_cifar10.py - INFO: 6 client has 5000 data items.
+2023-06-20 21:46:04,637 - alexnet_cifar10.py - INFO: 7 client has 5000 data items.
+2023-06-20 21:46:04,637 - alexnet_cifar10.py - INFO: 8 client has 5000 data items.
+2023-06-20 21:46:04,637 - alexnet_cifar10.py - INFO: 9 client has 5000 data items.
+2023-06-20 21:46:05,741 - deprecation.py - WARNING: From /home/wjz/anaconda3/envs/fl/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py:83: Analyzer.lamba_check (from tensorflow.python.autograph.pyct.static_analysis.liveness) is deprecated and will be removed after 2023-09-23.
+Instructions for updating:
+Lambda fuctions will be no more assumed to be used in the statement where they are used, or at least in the same block. https://github.com/tensorflow/tensorflow/issues/56089
+2023-06-20 21:46:07,274 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch1,10 clients are in federated training
+
+2023-06-20 21:46:07,274 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:07,407 - alexnet_cifar10.py - INFO: train_time:0.13266
+2023-06-20 21:46:07,648 - alexnet_cifar10.py - INFO: 量化时间：0.188576
+2023-06-20 21:46:07,716 - alexnet_cifar10.py - INFO: 加密梯度时间：0.067027
+2023-06-20 21:46:07,745 - alexnet_cifar10.py - INFO: 聚集时间：0.028535
+2023-06-20 21:46:07,773 - alexnet_cifar10.py - INFO: 解密时间：0.022010
+2023-06-20 21:46:07,824 - alexnet_cifar10.py - INFO: 去量化时间：0.048697
+2023-06-20 21:46:07,839 - alexnet_cifar10.py - INFO: loss: 2.074527430534363 	 elapsed time: 0.3644270896911621
+2023-06-20 21:46:07,885 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch2,10 clients are in federated training
+
+2023-06-20 21:46:07,886 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:08,216 - alexnet_cifar10.py - INFO: train_time:0.32901
+2023-06-20 21:46:08,567 - alexnet_cifar10.py - INFO: 量化时间：0.203965
+2023-06-20 21:46:08,634 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066194
+2023-06-20 21:46:08,661 - alexnet_cifar10.py - INFO: 聚集时间：0.026327
+2023-06-20 21:46:08,668 - alexnet_cifar10.py - INFO: 解密时间：0.007403
+2023-06-20 21:46:08,684 - alexnet_cifar10.py - INFO: 去量化时间：0.015305
+2023-06-20 21:46:08,699 - alexnet_cifar10.py - INFO: loss: 2.0586305379867555 	 elapsed time: 0.3216376304626465
+2023-06-20 21:46:08,744 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch3,10 clients are in federated training
+
+2023-06-20 21:46:08,745 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:08,904 - alexnet_cifar10.py - INFO: train_time:0.15917
+2023-06-20 21:46:09,171 - alexnet_cifar10.py - INFO: 量化时间：0.213347
+2023-06-20 21:46:09,233 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061875
+2023-06-20 21:46:09,256 - alexnet_cifar10.py - INFO: 聚集时间：0.022950
+2023-06-20 21:46:09,262 - alexnet_cifar10.py - INFO: 解密时间：0.006297
+2023-06-20 21:46:09,275 - alexnet_cifar10.py - INFO: 去量化时间：0.012816
+2023-06-20 21:46:09,286 - alexnet_cifar10.py - INFO: loss: 2.043191063404083 	 elapsed time: 0.31794142723083496
+2023-06-20 21:46:09,308 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch4,10 clients are in federated training
+
+2023-06-20 21:46:09,308 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:09,461 - alexnet_cifar10.py - INFO: train_time:0.15269
+2023-06-20 21:46:09,705 - alexnet_cifar10.py - INFO: 量化时间：0.193830
+2023-06-20 21:46:09,782 - alexnet_cifar10.py - INFO: 加密梯度时间：0.076462
+2023-06-20 21:46:09,825 - alexnet_cifar10.py - INFO: 聚集时间：0.043402
+2023-06-20 21:46:09,834 - alexnet_cifar10.py - INFO: 解密时间：0.008571
+2023-06-20 21:46:09,850 - alexnet_cifar10.py - INFO: 去量化时间：0.015694
+2023-06-20 21:46:09,862 - alexnet_cifar10.py - INFO: loss: 2.038330852985382 	 elapsed time: 0.3394351005554199
+2023-06-20 21:46:09,874 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch5,10 clients are in federated training
+
+2023-06-20 21:46:09,875 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:10,033 - alexnet_cifar10.py - INFO: train_time:0.15816
+2023-06-20 21:46:10,285 - alexnet_cifar10.py - INFO: 量化时间：0.191016
+2023-06-20 21:46:10,347 - alexnet_cifar10.py - INFO: 加密梯度时间：0.062273
+2023-06-20 21:46:10,372 - alexnet_cifar10.py - INFO: 聚集时间：0.024094
+2023-06-20 21:46:10,378 - alexnet_cifar10.py - INFO: 解密时间：0.006243
+2023-06-20 21:46:10,392 - alexnet_cifar10.py - INFO: 去量化时间：0.013862
+2023-06-20 21:46:10,403 - alexnet_cifar10.py - INFO: loss: 2.0196040630340577 	 elapsed time: 0.29871582984924316
+2023-06-20 21:46:10,435 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch6,10 clients are in federated training
+
+2023-06-20 21:46:10,436 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:10,570 - alexnet_cifar10.py - INFO: train_time:0.13065
+2023-06-20 21:46:10,842 - alexnet_cifar10.py - INFO: 量化时间：0.215378
+2023-06-20 21:46:10,918 - alexnet_cifar10.py - INFO: 加密梯度时间：0.075114
+2023-06-20 21:46:10,947 - alexnet_cifar10.py - INFO: 聚集时间：0.028765
+2023-06-20 21:46:10,956 - alexnet_cifar10.py - INFO: 解密时间：0.007799
+2023-06-20 21:46:10,974 - alexnet_cifar10.py - INFO: 去量化时间：0.017186
+2023-06-20 21:46:10,986 - alexnet_cifar10.py - INFO: loss: 2.010147023200989 	 elapsed time: 0.3479635715484619
+2023-06-20 21:46:11,016 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch7,10 clients are in federated training
+
+2023-06-20 21:46:11,018 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:11,353 - alexnet_cifar10.py - INFO: train_time:0.33234
+2023-06-20 21:46:11,669 - alexnet_cifar10.py - INFO: 量化时间：0.237260
+2023-06-20 21:46:11,802 - alexnet_cifar10.py - INFO: 加密梯度时间：0.122303
+2023-06-20 21:46:11,830 - alexnet_cifar10.py - INFO: 聚集时间：0.027895
+2023-06-20 21:46:11,837 - alexnet_cifar10.py - INFO: 解密时间：0.006772
+2023-06-20 21:46:11,873 - alexnet_cifar10.py - INFO: 去量化时间：0.035548
+2023-06-20 21:46:11,918 - alexnet_cifar10.py - INFO: loss: 2.0243343353271483 	 elapsed time: 0.44158077239990234
+2023-06-20 21:46:11,951 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch8,10 clients are in federated training
+
+2023-06-20 21:46:11,959 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:12,194 - alexnet_cifar10.py - INFO: train_time:0.23392
+2023-06-20 21:46:12,428 - alexnet_cifar10.py - INFO: 量化时间：0.179361
+2023-06-20 21:46:12,489 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060038
+2023-06-20 21:46:12,512 - alexnet_cifar10.py - INFO: 聚集时间：0.022526
+2023-06-20 21:46:12,517 - alexnet_cifar10.py - INFO: 解密时间：0.005749
+2023-06-20 21:46:12,532 - alexnet_cifar10.py - INFO: 去量化时间：0.013889
+2023-06-20 21:46:12,542 - alexnet_cifar10.py - INFO: loss: 2.0134382963180544 	 elapsed time: 0.2827935218811035
+2023-06-20 21:46:12,554 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch9,10 clients are in federated training
+
+2023-06-20 21:46:12,555 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:12,719 - alexnet_cifar10.py - INFO: train_time:0.16388
+2023-06-20 21:46:12,956 - alexnet_cifar10.py - INFO: 量化时间：0.180850
+2023-06-20 21:46:13,017 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060323
+2023-06-20 21:46:13,040 - alexnet_cifar10.py - INFO: 聚集时间：0.023143
+2023-06-20 21:46:13,046 - alexnet_cifar10.py - INFO: 解密时间：0.005970
+2023-06-20 21:46:13,059 - alexnet_cifar10.py - INFO: 去量化时间：0.012795
+2023-06-20 21:46:13,086 - alexnet_cifar10.py - INFO: loss: 1.9907790422439575 	 elapsed time: 0.28373026847839355
+2023-06-20 21:46:13,118 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch10,10 clients are in federated training
+
+2023-06-20 21:46:13,119 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:13,262 - alexnet_cifar10.py - INFO: train_time:0.14173
+2023-06-20 21:46:13,524 - alexnet_cifar10.py - INFO: 量化时间：0.200451
+2023-06-20 21:46:13,592 - alexnet_cifar10.py - INFO: 加密梯度时间：0.067465
+2023-06-20 21:46:13,622 - alexnet_cifar10.py - INFO: 聚集时间：0.028735
+2023-06-20 21:46:13,630 - alexnet_cifar10.py - INFO: 解密时间：0.007766
+2023-06-20 21:46:13,647 - alexnet_cifar10.py - INFO: 去量化时间：0.016280
+2023-06-20 21:46:13,661 - alexnet_cifar10.py - INFO: loss: 2.012855088710785 	 elapsed time: 0.3240067958831787
+2023-06-20 21:46:13,712 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch11,10 clients are in federated training
+
+2023-06-20 21:46:13,712 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:13,926 - alexnet_cifar10.py - INFO: train_time:0.21382
+2023-06-20 21:46:14,385 - alexnet_cifar10.py - INFO: 量化时间：0.371447
+2023-06-20 21:46:14,490 - alexnet_cifar10.py - INFO: 加密梯度时间：0.104306
+2023-06-20 21:46:14,524 - alexnet_cifar10.py - INFO: 聚集时间：0.032309
+2023-06-20 21:46:14,531 - alexnet_cifar10.py - INFO: 解密时间：0.006223
+2023-06-20 21:46:14,545 - alexnet_cifar10.py - INFO: 去量化时间：0.013343
+2023-06-20 21:46:14,555 - alexnet_cifar10.py - INFO: loss: 1.9476230382919313 	 elapsed time: 0.5314345359802246
+2023-06-20 21:46:14,585 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch12,10 clients are in federated training
+
+2023-06-20 21:46:14,586 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:14,738 - alexnet_cifar10.py - INFO: train_time:0.15173
+2023-06-20 21:46:14,996 - alexnet_cifar10.py - INFO: 量化时间：0.198722
+2023-06-20 21:46:15,078 - alexnet_cifar10.py - INFO: 加密梯度时间：0.082117
+2023-06-20 21:46:15,107 - alexnet_cifar10.py - INFO: 聚集时间：0.028254
+2023-06-20 21:46:15,115 - alexnet_cifar10.py - INFO: 解密时间：0.007165
+2023-06-20 21:46:15,132 - alexnet_cifar10.py - INFO: 去量化时间：0.016247
+2023-06-20 21:46:15,143 - alexnet_cifar10.py - INFO: loss: 1.9896445393562319 	 elapsed time: 0.3352358341217041
+2023-06-20 21:46:15,186 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch13,10 clients are in federated training
+
+2023-06-20 21:46:15,187 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:15,351 - alexnet_cifar10.py - INFO: train_time:0.16353
+2023-06-20 21:46:15,632 - alexnet_cifar10.py - INFO: 量化时间：0.221956
+2023-06-20 21:46:15,694 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061423
+2023-06-20 21:46:15,718 - alexnet_cifar10.py - INFO: 聚集时间：0.023694
+2023-06-20 21:46:15,725 - alexnet_cifar10.py - INFO: 解密时间：0.006374
+2023-06-20 21:46:15,739 - alexnet_cifar10.py - INFO: 去量化时间：0.014009
+2023-06-20 21:46:15,750 - alexnet_cifar10.py - INFO: loss: 2.0111899733543397 	 elapsed time: 0.3290901184082031
+2023-06-20 21:46:15,787 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch14,10 clients are in federated training
+
+2023-06-20 21:46:15,788 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:15,928 - alexnet_cifar10.py - INFO: train_time:0.13879
+2023-06-20 21:46:16,169 - alexnet_cifar10.py - INFO: 量化时间：0.186066
+2023-06-20 21:46:16,230 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060718
+2023-06-20 21:46:16,253 - alexnet_cifar10.py - INFO: 聚集时间：0.023107
+2023-06-20 21:46:16,259 - alexnet_cifar10.py - INFO: 解密时间：0.006119
+2023-06-20 21:46:16,274 - alexnet_cifar10.py - INFO: 去量化时间：0.014187
+2023-06-20 21:46:16,285 - alexnet_cifar10.py - INFO: loss: 2.0652045965194703 	 elapsed time: 0.29143357276916504
+2023-06-20 21:46:16,306 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch15,10 clients are in federated training
+
+2023-06-20 21:46:16,307 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:16,443 - alexnet_cifar10.py - INFO: train_time:0.13571
+2023-06-20 21:46:16,678 - alexnet_cifar10.py - INFO: 量化时间：0.178881
+2023-06-20 21:46:16,739 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060863
+2023-06-20 21:46:16,763 - alexnet_cifar10.py - INFO: 聚集时间：0.023027
+2023-06-20 21:46:16,769 - alexnet_cifar10.py - INFO: 解密时间：0.006184
+2023-06-20 21:46:16,783 - alexnet_cifar10.py - INFO: 去量化时间：0.013809
+2023-06-20 21:46:16,794 - alexnet_cifar10.py - INFO: loss: 2.04063777923584 	 elapsed time: 0.28470349311828613
+2023-06-20 21:46:16,806 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch16,10 clients are in federated training
+
+2023-06-20 21:46:16,807 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:17,123 - alexnet_cifar10.py - INFO: train_time:0.31598
+2023-06-20 21:46:17,465 - alexnet_cifar10.py - INFO: 量化时间：0.269569
+2023-06-20 21:46:17,571 - alexnet_cifar10.py - INFO: 加密梯度时间：0.105202
+2023-06-20 21:46:17,601 - alexnet_cifar10.py - INFO: 聚集时间：0.029567
+2023-06-20 21:46:17,609 - alexnet_cifar10.py - INFO: 解密时间：0.007897
+2023-06-20 21:46:17,650 - alexnet_cifar10.py - INFO: 去量化时间：0.040500
+2023-06-20 21:46:17,668 - alexnet_cifar10.py - INFO: loss: 2.0250987648963927 	 elapsed time: 0.4548373222351074
+2023-06-20 21:46:17,721 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch17,10 clients are in federated training
+
+2023-06-20 21:46:17,722 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:17,904 - alexnet_cifar10.py - INFO: train_time:0.18203
+2023-06-20 21:46:18,147 - alexnet_cifar10.py - INFO: 量化时间：0.188309
+2023-06-20 21:46:18,214 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066839
+2023-06-20 21:46:18,240 - alexnet_cifar10.py - INFO: 聚集时间：0.025799
+2023-06-20 21:46:18,248 - alexnet_cifar10.py - INFO: 解密时间：0.006832
+2023-06-20 21:46:18,263 - alexnet_cifar10.py - INFO: 去量化时间：0.014906
+2023-06-20 21:46:18,275 - alexnet_cifar10.py - INFO: loss: 1.9914718747138977 	 elapsed time: 0.3052220344543457
+2023-06-20 21:46:18,312 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch18,10 clients are in federated training
+
+2023-06-20 21:46:18,312 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:18,463 - alexnet_cifar10.py - INFO: train_time:0.14997
+2023-06-20 21:46:18,713 - alexnet_cifar10.py - INFO: 量化时间：0.191245
+2023-06-20 21:46:18,775 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061574
+2023-06-20 21:46:18,798 - alexnet_cifar10.py - INFO: 聚集时间：0.023005
+2023-06-20 21:46:18,805 - alexnet_cifar10.py - INFO: 解密时间：0.006296
+2023-06-20 21:46:18,819 - alexnet_cifar10.py - INFO: 去量化时间：0.013673
+2023-06-20 21:46:18,829 - alexnet_cifar10.py - INFO: loss: 2.005910682678223 	 elapsed time: 0.29772424697875977
+2023-06-20 21:46:18,842 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch19,10 clients are in federated training
+
+2023-06-20 21:46:18,842 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:19,000 - alexnet_cifar10.py - INFO: train_time:0.15807
+2023-06-20 21:46:19,276 - alexnet_cifar10.py - INFO: 量化时间：0.215342
+2023-06-20 21:46:19,343 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065733
+2023-06-20 21:46:19,369 - alexnet_cifar10.py - INFO: 聚集时间：0.025881
+2023-06-20 21:46:19,376 - alexnet_cifar10.py - INFO: 解密时间：0.006885
+2023-06-20 21:46:19,391 - alexnet_cifar10.py - INFO: 去量化时间：0.014387
+2023-06-20 21:46:19,401 - alexnet_cifar10.py - INFO: loss: 1.978595554828644 	 elapsed time: 0.33037638664245605
+2023-06-20 21:46:19,422 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch20,10 clients are in federated training
+
+2023-06-20 21:46:19,425 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:19,581 - alexnet_cifar10.py - INFO: train_time:0.15574
+2023-06-20 21:46:19,820 - alexnet_cifar10.py - INFO: 量化时间：0.180815
+2023-06-20 21:46:19,891 - alexnet_cifar10.py - INFO: 加密梯度时间：0.071523
+2023-06-20 21:46:19,925 - alexnet_cifar10.py - INFO: 聚集时间：0.028358
+2023-06-20 21:46:19,932 - alexnet_cifar10.py - INFO: 解密时间：0.006843
+2023-06-20 21:46:19,949 - alexnet_cifar10.py - INFO: 去量化时间：0.016745
+2023-06-20 21:46:19,962 - alexnet_cifar10.py - INFO: loss: 1.95615531206131 	 elapsed time: 0.31125736236572266
+2023-06-20 21:46:20,015 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch21,10 clients are in federated training
+
+2023-06-20 21:46:20,015 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:20,280 - alexnet_cifar10.py - INFO: train_time:0.26437
+2023-06-20 21:46:20,607 - alexnet_cifar10.py - INFO: 量化时间：0.255684
+2023-06-20 21:46:20,685 - alexnet_cifar10.py - INFO: 加密梯度时间：0.077965
+2023-06-20 21:46:20,739 - alexnet_cifar10.py - INFO: 聚集时间：0.047352
+2023-06-20 21:46:20,758 - alexnet_cifar10.py - INFO: 解密时间：0.007060
+2023-06-20 21:46:20,786 - alexnet_cifar10.py - INFO: 去量化时间：0.027455
+2023-06-20 21:46:20,802 - alexnet_cifar10.py - INFO: loss: 1.9541399240493775 	 elapsed time: 0.43593525886535645
+2023-06-20 21:46:20,854 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch22,10 clients are in federated training
+
+2023-06-20 21:46:20,855 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:21,063 - alexnet_cifar10.py - INFO: train_time:0.20765
+2023-06-20 21:46:21,404 - alexnet_cifar10.py - INFO: 量化时间：0.254988
+2023-06-20 21:46:21,474 - alexnet_cifar10.py - INFO: 加密梯度时间：0.070244
+2023-06-20 21:46:21,498 - alexnet_cifar10.py - INFO: 聚集时间：0.023743
+2023-06-20 21:46:21,505 - alexnet_cifar10.py - INFO: 解密时间：0.006262
+2023-06-20 21:46:21,519 - alexnet_cifar10.py - INFO: 去量化时间：0.013280
+2023-06-20 21:46:21,528 - alexnet_cifar10.py - INFO: loss: 1.975548505783081 	 elapsed time: 0.370513916015625
+2023-06-20 21:46:21,549 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch23,10 clients are in federated training
+
+2023-06-20 21:46:21,549 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:21,702 - alexnet_cifar10.py - INFO: train_time:0.15205
+2023-06-20 21:46:21,939 - alexnet_cifar10.py - INFO: 量化时间：0.181305
+2023-06-20 21:46:22,000 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060509
+2023-06-20 21:46:22,024 - alexnet_cifar10.py - INFO: 聚集时间：0.023134
+2023-06-20 21:46:22,030 - alexnet_cifar10.py - INFO: 解密时间：0.006121
+2023-06-20 21:46:22,044 - alexnet_cifar10.py - INFO: 去量化时间：0.013817
+2023-06-20 21:46:22,055 - alexnet_cifar10.py - INFO: loss: 1.9865378260612487 	 elapsed time: 0.28633880615234375
+2023-06-20 21:46:22,076 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch24,10 clients are in federated training
+
+2023-06-20 21:46:22,078 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:22,235 - alexnet_cifar10.py - INFO: train_time:0.15354
+2023-06-20 21:46:22,605 - alexnet_cifar10.py - INFO: 量化时间：0.316158
+2023-06-20 21:46:22,723 - alexnet_cifar10.py - INFO: 加密梯度时间：0.115515
+2023-06-20 21:46:22,752 - alexnet_cifar10.py - INFO: 聚集时间：0.029063
+2023-06-20 21:46:22,760 - alexnet_cifar10.py - INFO: 解密时间：0.007421
+2023-06-20 21:46:22,784 - alexnet_cifar10.py - INFO: 去量化时间：0.023026
+2023-06-20 21:46:22,797 - alexnet_cifar10.py - INFO: loss: 1.9727700710296632 	 elapsed time: 0.4955270290374756
+2023-06-20 21:46:22,839 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch25,10 clients are in federated training
+
+2023-06-20 21:46:22,840 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:23,134 - alexnet_cifar10.py - INFO: train_time:0.29333
+2023-06-20 21:46:23,386 - alexnet_cifar10.py - INFO: 量化时间：0.211762
+2023-06-20 21:46:23,497 - alexnet_cifar10.py - INFO: 加密梯度时间：0.110139
+2023-06-20 21:46:23,534 - alexnet_cifar10.py - INFO: 聚集时间：0.036631
+2023-06-20 21:46:23,542 - alexnet_cifar10.py - INFO: 解密时间：0.008466
+2023-06-20 21:46:23,560 - alexnet_cifar10.py - INFO: 去量化时间：0.017008
+2023-06-20 21:46:23,573 - alexnet_cifar10.py - INFO: loss: 1.9834264755249027 	 elapsed time: 0.38591527938842773
+2023-06-20 21:46:23,597 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch26,10 clients are in federated training
+
+2023-06-20 21:46:23,597 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:23,801 - alexnet_cifar10.py - INFO: train_time:0.20360
+2023-06-20 21:46:24,048 - alexnet_cifar10.py - INFO: 量化时间：0.178886
+2023-06-20 21:46:24,114 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065959
+2023-06-20 21:46:24,138 - alexnet_cifar10.py - INFO: 聚集时间：0.023168
+2023-06-20 21:46:24,144 - alexnet_cifar10.py - INFO: 解密时间：0.005955
+2023-06-20 21:46:24,158 - alexnet_cifar10.py - INFO: 去量化时间：0.013728
+2023-06-20 21:46:24,168 - alexnet_cifar10.py - INFO: loss: 1.9538636684417727 	 elapsed time: 0.289365291595459
+2023-06-20 21:46:24,188 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch27,10 clients are in federated training
+
+2023-06-20 21:46:24,189 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:24,336 - alexnet_cifar10.py - INFO: train_time:0.14627
+2023-06-20 21:46:24,548 - alexnet_cifar10.py - INFO: 量化时间：0.179446
+2023-06-20 21:46:24,609 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060643
+2023-06-20 21:46:24,635 - alexnet_cifar10.py - INFO: 聚集时间：0.025133
+2023-06-20 21:46:24,643 - alexnet_cifar10.py - INFO: 解密时间：0.007247
+2023-06-20 21:46:24,658 - alexnet_cifar10.py - INFO: 去量化时间：0.014695
+2023-06-20 21:46:24,670 - alexnet_cifar10.py - INFO: loss: 1.9596785306930544 	 elapsed time: 0.2892434597015381
+2023-06-20 21:46:24,699 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch28,10 clients are in federated training
+
+2023-06-20 21:46:24,700 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:24,841 - alexnet_cifar10.py - INFO: train_time:0.14044
+2023-06-20 21:46:25,091 - alexnet_cifar10.py - INFO: 量化时间：0.198515
+2023-06-20 21:46:25,162 - alexnet_cifar10.py - INFO: 加密梯度时间：0.070870
+2023-06-20 21:46:25,190 - alexnet_cifar10.py - INFO: 聚集时间：0.027540
+2023-06-20 21:46:25,199 - alexnet_cifar10.py - INFO: 解密时间：0.008287
+2023-06-20 21:46:25,217 - alexnet_cifar10.py - INFO: 去量化时间：0.016540
+2023-06-20 21:46:25,228 - alexnet_cifar10.py - INFO: loss: 1.9682977318763735 	 elapsed time: 0.32498908042907715
+2023-06-20 21:46:25,252 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch29,10 clients are in federated training
+
+2023-06-20 21:46:25,253 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:25,442 - alexnet_cifar10.py - INFO: train_time:0.18842
+2023-06-20 21:46:25,897 - alexnet_cifar10.py - INFO: 量化时间：0.380984
+2023-06-20 21:46:26,018 - alexnet_cifar10.py - INFO: 加密梯度时间：0.120308
+2023-06-20 21:46:26,086 - alexnet_cifar10.py - INFO: 聚集时间：0.068725
+2023-06-20 21:46:26,098 - alexnet_cifar10.py - INFO: 解密时间：0.011097
+2023-06-20 21:46:26,135 - alexnet_cifar10.py - INFO: 去量化时间：0.037188
+2023-06-20 21:46:26,152 - alexnet_cifar10.py - INFO: loss: 1.971164190769196 	 elapsed time: 0.6191091537475586
+2023-06-20 21:46:26,190 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch30,10 clients are in federated training
+
+2023-06-20 21:46:26,191 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:26,491 - alexnet_cifar10.py - INFO: train_time:0.29960
+2023-06-20 21:46:26,994 - alexnet_cifar10.py - INFO: 量化时间：0.403570
+2023-06-20 21:46:27,130 - alexnet_cifar10.py - INFO: 加密梯度时间：0.134870
+2023-06-20 21:46:27,156 - alexnet_cifar10.py - INFO: 聚集时间：0.025572
+2023-06-20 21:46:27,164 - alexnet_cifar10.py - INFO: 解密时间：0.006967
+2023-06-20 21:46:27,181 - alexnet_cifar10.py - INFO: 去量化时间：0.017061
+2023-06-20 21:46:27,193 - alexnet_cifar10.py - INFO: loss: 1.9518514156341555 	 elapsed time: 0.5911037921905518
+2023-06-20 21:46:27,207 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch31,10 clients are in federated training
+
+2023-06-20 21:46:27,208 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:27,400 - alexnet_cifar10.py - INFO: train_time:0.19110
+2023-06-20 21:46:27,654 - alexnet_cifar10.py - INFO: 量化时间：0.198489
+2023-06-20 21:46:27,721 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066257
+2023-06-20 21:46:27,747 - alexnet_cifar10.py - INFO: 聚集时间：0.025663
+2023-06-20 21:46:27,755 - alexnet_cifar10.py - INFO: 解密时间：0.007246
+2023-06-20 21:46:27,771 - alexnet_cifar10.py - INFO: 去量化时间：0.016226
+2023-06-20 21:46:27,785 - alexnet_cifar10.py - INFO: loss: 1.9439133167266847 	 elapsed time: 0.31707310676574707
+2023-06-20 21:46:27,803 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch32,10 clients are in federated training
+
+2023-06-20 21:46:27,804 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:27,935 - alexnet_cifar10.py - INFO: train_time:0.12999
+2023-06-20 21:46:28,192 - alexnet_cifar10.py - INFO: 量化时间：0.201511
+2023-06-20 21:46:28,270 - alexnet_cifar10.py - INFO: 加密梯度时间：0.077203
+2023-06-20 21:46:28,296 - alexnet_cifar10.py - INFO: 聚集时间：0.025643
+2023-06-20 21:46:28,303 - alexnet_cifar10.py - INFO: 解密时间：0.006432
+2023-06-20 21:46:28,317 - alexnet_cifar10.py - INFO: 去量化时间：0.013968
+2023-06-20 21:46:28,330 - alexnet_cifar10.py - INFO: loss: 1.9431307792663572 	 elapsed time: 0.326873779296875
+2023-06-20 21:46:28,346 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch33,10 clients are in federated training
+
+2023-06-20 21:46:28,346 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:28,600 - alexnet_cifar10.py - INFO: train_time:0.25319
+2023-06-20 21:46:29,019 - alexnet_cifar10.py - INFO: 量化时间：0.312341
+2023-06-20 21:46:29,151 - alexnet_cifar10.py - INFO: 加密梯度时间：0.131288
+2023-06-20 21:46:29,183 - alexnet_cifar10.py - INFO: 聚集时间：0.030901
+2023-06-20 21:46:29,191 - alexnet_cifar10.py - INFO: 解密时间：0.007313
+2023-06-20 21:46:29,208 - alexnet_cifar10.py - INFO: 去量化时间：0.017102
+2023-06-20 21:46:29,223 - alexnet_cifar10.py - INFO: loss: 1.9238078236579896 	 elapsed time: 0.5019075870513916
+2023-06-20 21:46:29,239 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch34,10 clients are in federated training
+
+2023-06-20 21:46:29,239 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:29,383 - alexnet_cifar10.py - INFO: train_time:0.14294
+2023-06-20 21:46:29,804 - alexnet_cifar10.py - INFO: 量化时间：0.365939
+2023-06-20 21:46:29,878 - alexnet_cifar10.py - INFO: 加密梯度时间：0.073774
+2023-06-20 21:46:29,908 - alexnet_cifar10.py - INFO: 聚集时间：0.029555
+2023-06-20 21:46:29,915 - alexnet_cifar10.py - INFO: 解密时间：0.006677
+2023-06-20 21:46:29,930 - alexnet_cifar10.py - INFO: 去量化时间：0.014307
+2023-06-20 21:46:29,940 - alexnet_cifar10.py - INFO: loss: 1.9389121294021607 	 elapsed time: 0.49223780632019043
+2023-06-20 21:46:29,953 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch35,10 clients are in federated training
+
+2023-06-20 21:46:29,954 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:30,095 - alexnet_cifar10.py - INFO: train_time:0.14029
+2023-06-20 21:46:30,337 - alexnet_cifar10.py - INFO: 量化时间：0.183288
+2023-06-20 21:46:30,399 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061508
+2023-06-20 21:46:30,424 - alexnet_cifar10.py - INFO: 聚集时间：0.024675
+2023-06-20 21:46:30,431 - alexnet_cifar10.py - INFO: 解密时间：0.006362
+2023-06-20 21:46:30,446 - alexnet_cifar10.py - INFO: 去量化时间：0.014794
+2023-06-20 21:46:30,456 - alexnet_cifar10.py - INFO: loss: 1.9575268268585209 	 elapsed time: 0.292863130569458
+2023-06-20 21:46:30,469 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch36,10 clients are in federated training
+
+2023-06-20 21:46:30,471 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:30,610 - alexnet_cifar10.py - INFO: train_time:0.13854
+2023-06-20 21:46:30,868 - alexnet_cifar10.py - INFO: 量化时间：0.204021
+2023-06-20 21:46:30,935 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065993
+2023-06-20 21:46:30,966 - alexnet_cifar10.py - INFO: 聚集时间：0.030394
+2023-06-20 21:46:30,974 - alexnet_cifar10.py - INFO: 解密时间：0.007682
+2023-06-20 21:46:31,003 - alexnet_cifar10.py - INFO: 去量化时间：0.028437
+2023-06-20 21:46:31,015 - alexnet_cifar10.py - INFO: loss: 1.9604589819908145 	 elapsed time: 0.33954286575317383
+2023-06-20 21:46:31,028 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch37,10 clients are in federated training
+
+2023-06-20 21:46:31,030 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:31,160 - alexnet_cifar10.py - INFO: train_time:0.13013
+2023-06-20 21:46:31,397 - alexnet_cifar10.py - INFO: 量化时间：0.183894
+2023-06-20 21:46:31,459 - alexnet_cifar10.py - INFO: 加密梯度时间：0.062099
+2023-06-20 21:46:31,482 - alexnet_cifar10.py - INFO: 聚集时间：0.023266
+2023-06-20 21:46:31,489 - alexnet_cifar10.py - INFO: 解密时间：0.006171
+2023-06-20 21:46:31,502 - alexnet_cifar10.py - INFO: 去量化时间：0.013816
+2023-06-20 21:46:31,513 - alexnet_cifar10.py - INFO: loss: 1.9321500778198244 	 elapsed time: 0.2899363040924072
+2023-06-20 21:46:31,525 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch38,10 clients are in federated training
+
+2023-06-20 21:46:31,525 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:31,656 - alexnet_cifar10.py - INFO: train_time:0.13022
+2023-06-20 21:46:31,884 - alexnet_cifar10.py - INFO: 量化时间：0.177711
+2023-06-20 21:46:31,945 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060914
+2023-06-20 21:46:31,969 - alexnet_cifar10.py - INFO: 聚集时间：0.023582
+2023-06-20 21:46:31,975 - alexnet_cifar10.py - INFO: 解密时间：0.006305
+2023-06-20 21:46:31,989 - alexnet_cifar10.py - INFO: 去量化时间：0.013777
+2023-06-20 21:46:31,999 - alexnet_cifar10.py - INFO: loss: 1.92987562417984 	 elapsed time: 0.28296375274658203
+2023-06-20 21:46:32,011 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch39,10 clients are in federated training
+
+2023-06-20 21:46:32,012 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:32,258 - alexnet_cifar10.py - INFO: train_time:0.24561
+2023-06-20 21:46:32,674 - alexnet_cifar10.py - INFO: 量化时间：0.313113
+2023-06-20 21:46:32,811 - alexnet_cifar10.py - INFO: 加密梯度时间：0.136414
+2023-06-20 21:46:32,859 - alexnet_cifar10.py - INFO: 聚集时间：0.046472
+2023-06-20 21:46:32,869 - alexnet_cifar10.py - INFO: 解密时间：0.008910
+2023-06-20 21:46:32,889 - alexnet_cifar10.py - INFO: 去量化时间：0.019724
+2023-06-20 21:46:32,901 - alexnet_cifar10.py - INFO: loss: 1.913302803039551 	 elapsed time: 0.5287256240844727
+2023-06-20 21:46:32,913 - alexnet_cifar10.py - INFO: 
+---------epoch 1 batch40,10 clients are in federated training
+
+2023-06-20 21:46:32,914 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:33,052 - alexnet_cifar10.py - INFO: train_time:0.13767
+2023-06-20 21:46:33,326 - alexnet_cifar10.py - INFO: 量化时间：0.208791
+2023-06-20 21:46:33,394 - alexnet_cifar10.py - INFO: 加密梯度时间：0.067631
+2023-06-20 21:46:33,421 - alexnet_cifar10.py - INFO: 聚集时间：0.026789
+2023-06-20 21:46:33,429 - alexnet_cifar10.py - INFO: 解密时间：0.007150
+2023-06-20 21:46:33,444 - alexnet_cifar10.py - INFO: 去量化时间：0.015314
+2023-06-20 21:46:33,456 - alexnet_cifar10.py - INFO: loss: 1.9830156803131105 	 elapsed time: 0.3278939723968506
+2023-06-20 21:46:48,119 - alexnet_cifar10.py - INFO: Plaintext_size 1.86 GB
+2023-06-20 21:46:48,119 - alexnet_cifar10.py - INFO: Ciphertext_size 0.00 KB
+2023-06-20 21:46:48,535 - alexnet_cifar10.py - INFO: ========Epoch 001: train_loss: 1.985, train_accuracy: 30.062%, test_loss: 2.018, test_accuracy: 26.940%
+2023-06-20 21:46:48,553 - alexnet_cifar10.py - INFO: Saved epoch_model to disk
+2023-06-20 21:46:48,556 - alexnet_cifar10.py - INFO: 10 clients building datasets.
+2023-06-20 21:46:48,556 - alexnet_cifar10.py - INFO: 0 client has 5000 data items.
+2023-06-20 21:46:48,556 - alexnet_cifar10.py - INFO: 1 client has 5000 data items.
+2023-06-20 21:46:48,557 - alexnet_cifar10.py - INFO: 2 client has 5000 data items.
+2023-06-20 21:46:48,557 - alexnet_cifar10.py - INFO: 3 client has 5000 data items.
+2023-06-20 21:46:48,557 - alexnet_cifar10.py - INFO: 4 client has 5000 data items.
+2023-06-20 21:46:48,557 - alexnet_cifar10.py - INFO: 5 client has 5000 data items.
+2023-06-20 21:46:48,557 - alexnet_cifar10.py - INFO: 6 client has 5000 data items.
+2023-06-20 21:46:48,557 - alexnet_cifar10.py - INFO: 7 client has 5000 data items.
+2023-06-20 21:46:48,557 - alexnet_cifar10.py - INFO: 8 client has 5000 data items.
+2023-06-20 21:46:48,557 - alexnet_cifar10.py - INFO: 9 client has 5000 data items.
+2023-06-20 21:46:52,024 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch1,10 clients are in federated training
+
+2023-06-20 21:46:52,024 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:52,156 - alexnet_cifar10.py - INFO: train_time:0.13114
+2023-06-20 21:46:52,398 - alexnet_cifar10.py - INFO: 量化时间：0.188673
+2023-06-20 21:46:52,465 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066611
+2023-06-20 21:46:52,491 - alexnet_cifar10.py - INFO: 聚集时间：0.024525
+2023-06-20 21:46:52,498 - alexnet_cifar10.py - INFO: 解密时间：0.006648
+2023-06-20 21:46:52,513 - alexnet_cifar10.py - INFO: 去量化时间：0.015291
+2023-06-20 21:46:52,525 - alexnet_cifar10.py - INFO: loss: 2.020717477798462 	 elapsed time: 0.30420756340026855
+2023-06-20 21:46:52,554 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch2,10 clients are in federated training
+
+2023-06-20 21:46:52,564 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:52,711 - alexnet_cifar10.py - INFO: train_time:0.14668
+2023-06-20 21:46:53,063 - alexnet_cifar10.py - INFO: 量化时间：0.258152
+2023-06-20 21:46:53,192 - alexnet_cifar10.py - INFO: 加密梯度时间：0.128781
+2023-06-20 21:46:53,234 - alexnet_cifar10.py - INFO: 聚集时间：0.041210
+2023-06-20 21:46:53,242 - alexnet_cifar10.py - INFO: 解密时间：0.007813
+2023-06-20 21:46:53,270 - alexnet_cifar10.py - INFO: 去量化时间：0.027086
+2023-06-20 21:46:53,287 - alexnet_cifar10.py - INFO: loss: 1.9327361583709717 	 elapsed time: 0.46566176414489746
+2023-06-20 21:46:53,327 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch3,10 clients are in federated training
+
+2023-06-20 21:46:53,327 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:53,510 - alexnet_cifar10.py - INFO: train_time:0.18252
+2023-06-20 21:46:53,810 - alexnet_cifar10.py - INFO: 量化时间：0.224294
+2023-06-20 21:46:53,882 - alexnet_cifar10.py - INFO: 加密梯度时间：0.071354
+2023-06-20 21:46:53,915 - alexnet_cifar10.py - INFO: 聚集时间：0.033126
+2023-06-20 21:46:53,924 - alexnet_cifar10.py - INFO: 解密时间：0.006945
+2023-06-20 21:46:53,943 - alexnet_cifar10.py - INFO: 去量化时间：0.019063
+2023-06-20 21:46:53,963 - alexnet_cifar10.py - INFO: loss: 1.9145406603813173 	 elapsed time: 0.357677698135376
+2023-06-20 21:46:53,993 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch4,10 clients are in federated training
+
+2023-06-20 21:46:53,993 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:54,188 - alexnet_cifar10.py - INFO: train_time:0.19410
+2023-06-20 21:46:54,465 - alexnet_cifar10.py - INFO: 量化时间：0.221624
+2023-06-20 21:46:54,543 - alexnet_cifar10.py - INFO: 加密梯度时间：0.078060
+2023-06-20 21:46:54,569 - alexnet_cifar10.py - INFO: 聚集时间：0.026125
+2023-06-20 21:46:54,578 - alexnet_cifar10.py - INFO: 解密时间：0.008245
+2023-06-20 21:46:54,596 - alexnet_cifar10.py - INFO: 去量化时间：0.017321
+2023-06-20 21:46:54,607 - alexnet_cifar10.py - INFO: loss: 1.9272315025329592 	 elapsed time: 0.35334157943725586
+2023-06-20 21:46:54,628 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch5,10 clients are in federated training
+
+2023-06-20 21:46:54,628 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:54,765 - alexnet_cifar10.py - INFO: train_time:0.13584
+2023-06-20 21:46:54,997 - alexnet_cifar10.py - INFO: 量化时间：0.178954
+2023-06-20 21:46:55,058 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060160
+2023-06-20 21:46:55,084 - alexnet_cifar10.py - INFO: 聚集时间：0.025826
+2023-06-20 21:46:55,091 - alexnet_cifar10.py - INFO: 解密时间：0.006780
+2023-06-20 21:46:55,107 - alexnet_cifar10.py - INFO: 去量化时间：0.015399
+2023-06-20 21:46:55,118 - alexnet_cifar10.py - INFO: loss: 1.8885245800018313 	 elapsed time: 0.28919315338134766
+2023-06-20 21:46:55,135 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch6,10 clients are in federated training
+
+2023-06-20 21:46:55,135 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:55,274 - alexnet_cifar10.py - INFO: train_time:0.13803
+2023-06-20 21:46:55,507 - alexnet_cifar10.py - INFO: 量化时间：0.179563
+2023-06-20 21:46:55,568 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061037
+2023-06-20 21:46:55,591 - alexnet_cifar10.py - INFO: 聚集时间：0.023198
+2023-06-20 21:46:55,598 - alexnet_cifar10.py - INFO: 解密时间：0.006068
+2023-06-20 21:46:55,612 - alexnet_cifar10.py - INFO: 去量化时间：0.013568
+2023-06-20 21:46:55,621 - alexnet_cifar10.py - INFO: loss: 1.8899107217788695 	 elapsed time: 0.2846407890319824
+2023-06-20 21:46:55,649 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch7,10 clients are in federated training
+
+2023-06-20 21:46:55,655 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:55,829 - alexnet_cifar10.py - INFO: train_time:0.17328
+2023-06-20 21:46:56,249 - alexnet_cifar10.py - INFO: 量化时间：0.327125
+2023-06-20 21:46:56,437 - alexnet_cifar10.py - INFO: 加密梯度时间：0.187035
+2023-06-20 21:46:56,493 - alexnet_cifar10.py - INFO: 聚集时间：0.054284
+2023-06-20 21:46:56,510 - alexnet_cifar10.py - INFO: 解密时间：0.016841
+2023-06-20 21:46:56,547 - alexnet_cifar10.py - INFO: 去量化时间：0.030127
+2023-06-20 21:46:56,572 - alexnet_cifar10.py - INFO: loss: 1.89410297870636 	 elapsed time: 0.6262011528015137
+2023-06-20 21:46:56,588 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch8,10 clients are in federated training
+
+2023-06-20 21:46:56,596 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:56,758 - alexnet_cifar10.py - INFO: train_time:0.14844
+2023-06-20 21:46:57,003 - alexnet_cifar10.py - INFO: 量化时间：0.187511
+2023-06-20 21:46:57,095 - alexnet_cifar10.py - INFO: 加密梯度时间：0.091549
+2023-06-20 21:46:57,126 - alexnet_cifar10.py - INFO: 聚集时间：0.030381
+2023-06-20 21:46:57,134 - alexnet_cifar10.py - INFO: 解密时间：0.008062
+2023-06-20 21:46:57,152 - alexnet_cifar10.py - INFO: 去量化时间：0.017449
+2023-06-20 21:46:57,164 - alexnet_cifar10.py - INFO: loss: 1.8852355480194092 	 elapsed time: 0.33710813522338867
+2023-06-20 21:46:57,180 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch9,10 clients are in federated training
+
+2023-06-20 21:46:57,180 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:57,354 - alexnet_cifar10.py - INFO: train_time:0.17386
+2023-06-20 21:46:57,604 - alexnet_cifar10.py - INFO: 量化时间：0.178638
+2023-06-20 21:46:57,666 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061755
+2023-06-20 21:46:57,689 - alexnet_cifar10.py - INFO: 聚集时间：0.022983
+2023-06-20 21:46:57,696 - alexnet_cifar10.py - INFO: 解密时间：0.005965
+2023-06-20 21:46:57,709 - alexnet_cifar10.py - INFO: 去量化时间：0.013415
+2023-06-20 21:46:57,723 - alexnet_cifar10.py - INFO: loss: 1.8941501617431642 	 elapsed time: 0.2839813232421875
+2023-06-20 21:46:57,735 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch10,10 clients are in federated training
+
+2023-06-20 21:46:57,735 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:57,901 - alexnet_cifar10.py - INFO: train_time:0.16505
+2023-06-20 21:46:58,161 - alexnet_cifar10.py - INFO: 量化时间：0.198973
+2023-06-20 21:46:58,227 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066060
+2023-06-20 21:46:58,254 - alexnet_cifar10.py - INFO: 聚集时间：0.026549
+2023-06-20 21:46:58,262 - alexnet_cifar10.py - INFO: 解密时间：0.006647
+2023-06-20 21:46:58,277 - alexnet_cifar10.py - INFO: 去量化时间：0.014763
+2023-06-20 21:46:58,288 - alexnet_cifar10.py - INFO: loss: 1.8785662412643434 	 elapsed time: 0.31588053703308105
+2023-06-20 21:46:58,301 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch11,10 clients are in federated training
+
+2023-06-20 21:46:58,302 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:58,493 - alexnet_cifar10.py - INFO: train_time:0.18460
+2023-06-20 21:46:58,725 - alexnet_cifar10.py - INFO: 量化时间：0.178325
+2023-06-20 21:46:58,785 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059938
+2023-06-20 21:46:58,810 - alexnet_cifar10.py - INFO: 聚集时间：0.024818
+2023-06-20 21:46:58,821 - alexnet_cifar10.py - INFO: 解密时间：0.009732
+2023-06-20 21:46:58,853 - alexnet_cifar10.py - INFO: 去量化时间：0.026951
+2023-06-20 21:46:58,872 - alexnet_cifar10.py - INFO: loss: 1.8876176238059998 	 elapsed time: 0.3064298629760742
+2023-06-20 21:46:58,891 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch12,10 clients are in federated training
+
+2023-06-20 21:46:58,892 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:59,222 - alexnet_cifar10.py - INFO: train_time:0.32941
+2023-06-20 21:46:59,520 - alexnet_cifar10.py - INFO: 量化时间：0.213810
+2023-06-20 21:46:59,581 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061309
+2023-06-20 21:46:59,604 - alexnet_cifar10.py - INFO: 聚集时间：0.023135
+2023-06-20 21:46:59,611 - alexnet_cifar10.py - INFO: 解密时间：0.006114
+2023-06-20 21:46:59,624 - alexnet_cifar10.py - INFO: 去量化时间：0.013365
+2023-06-20 21:46:59,649 - alexnet_cifar10.py - INFO: loss: 1.8520947217941284 	 elapsed time: 0.31843090057373047
+2023-06-20 21:46:59,666 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch13,10 clients are in federated training
+
+2023-06-20 21:46:59,667 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:46:59,873 - alexnet_cifar10.py - INFO: train_time:0.20609
+2023-06-20 21:47:00,247 - alexnet_cifar10.py - INFO: 量化时间：0.306033
+2023-06-20 21:47:00,323 - alexnet_cifar10.py - INFO: 加密梯度时间：0.073816
+2023-06-20 21:47:00,352 - alexnet_cifar10.py - INFO: 聚集时间：0.029202
+2023-06-20 21:47:00,361 - alexnet_cifar10.py - INFO: 解密时间：0.008145
+2023-06-20 21:47:00,377 - alexnet_cifar10.py - INFO: 去量化时间：0.015762
+2023-06-20 21:47:00,389 - alexnet_cifar10.py - INFO: loss: 1.8938652873039248 	 elapsed time: 0.43670177459716797
+2023-06-20 21:47:00,408 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch14,10 clients are in federated training
+
+2023-06-20 21:47:00,408 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:00,549 - alexnet_cifar10.py - INFO: train_time:0.14074
+2023-06-20 21:47:00,783 - alexnet_cifar10.py - INFO: 量化时间：0.179109
+2023-06-20 21:47:00,844 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060782
+2023-06-20 21:47:00,867 - alexnet_cifar10.py - INFO: 聚集时间：0.023043
+2023-06-20 21:47:00,874 - alexnet_cifar10.py - INFO: 解密时间：0.006186
+2023-06-20 21:47:00,888 - alexnet_cifar10.py - INFO: 去量化时间：0.013670
+2023-06-20 21:47:00,898 - alexnet_cifar10.py - INFO: loss: 1.8904299139976504 	 elapsed time: 0.28475189208984375
+2023-06-20 21:47:00,925 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch15,10 clients are in federated training
+
+2023-06-20 21:47:00,926 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:01,056 - alexnet_cifar10.py - INFO: train_time:0.13005
+2023-06-20 21:47:01,287 - alexnet_cifar10.py - INFO: 量化时间：0.181114
+2023-06-20 21:47:01,349 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061407
+2023-06-20 21:47:01,372 - alexnet_cifar10.py - INFO: 聚集时间：0.022894
+2023-06-20 21:47:01,378 - alexnet_cifar10.py - INFO: 解密时间：0.005938
+2023-06-20 21:47:01,392 - alexnet_cifar10.py - INFO: 去量化时间：0.013684
+2023-06-20 21:47:01,412 - alexnet_cifar10.py - INFO: loss: 1.848590660095215 	 elapsed time: 0.286851167678833
+2023-06-20 21:47:01,443 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch16,10 clients are in federated training
+
+2023-06-20 21:47:01,444 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:01,587 - alexnet_cifar10.py - INFO: train_time:0.14228
+2023-06-20 21:47:01,870 - alexnet_cifar10.py - INFO: 量化时间：0.212456
+2023-06-20 21:47:02,061 - alexnet_cifar10.py - INFO: 加密梯度时间：0.188968
+2023-06-20 21:47:02,134 - alexnet_cifar10.py - INFO: 聚集时间：0.070069
+2023-06-20 21:47:02,155 - alexnet_cifar10.py - INFO: 解密时间：0.007311
+2023-06-20 21:47:02,176 - alexnet_cifar10.py - INFO: 去量化时间：0.020904
+2023-06-20 21:47:02,206 - alexnet_cifar10.py - INFO: loss: 1.8951300144195558 	 elapsed time: 0.5189199447631836
+2023-06-20 21:47:02,229 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch17,10 clients are in federated training
+
+2023-06-20 21:47:02,230 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:02,493 - alexnet_cifar10.py - INFO: train_time:0.26273
+2023-06-20 21:47:02,783 - alexnet_cifar10.py - INFO: 量化时间：0.197971
+2023-06-20 21:47:02,844 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061355
+2023-06-20 21:47:02,868 - alexnet_cifar10.py - INFO: 聚集时间：0.023290
+2023-06-20 21:47:02,874 - alexnet_cifar10.py - INFO: 解密时间：0.006020
+2023-06-20 21:47:02,887 - alexnet_cifar10.py - INFO: 去量化时间：0.012738
+2023-06-20 21:47:02,899 - alexnet_cifar10.py - INFO: loss: 1.8990650177001955 	 elapsed time: 0.30205607414245605
+2023-06-20 21:47:02,931 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch18,10 clients are in federated training
+
+2023-06-20 21:47:02,931 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:03,090 - alexnet_cifar10.py - INFO: train_time:0.15819
+2023-06-20 21:47:03,375 - alexnet_cifar10.py - INFO: 量化时间：0.227038
+2023-06-20 21:47:03,470 - alexnet_cifar10.py - INFO: 加密梯度时间：0.094319
+2023-06-20 21:47:03,505 - alexnet_cifar10.py - INFO: 聚集时间：0.033828
+2023-06-20 21:47:03,512 - alexnet_cifar10.py - INFO: 解密时间：0.006932
+2023-06-20 21:47:03,528 - alexnet_cifar10.py - INFO: 去量化时间：0.015674
+2023-06-20 21:47:03,540 - alexnet_cifar10.py - INFO: loss: 1.900555467605591 	 elapsed time: 0.380845308303833
+2023-06-20 21:47:03,580 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch19,10 clients are in federated training
+
+2023-06-20 21:47:03,581 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:03,724 - alexnet_cifar10.py - INFO: train_time:0.14239
+2023-06-20 21:47:03,980 - alexnet_cifar10.py - INFO: 量化时间：0.195983
+2023-06-20 21:47:04,042 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061291
+2023-06-20 21:47:04,065 - alexnet_cifar10.py - INFO: 聚集时间：0.023093
+2023-06-20 21:47:04,074 - alexnet_cifar10.py - INFO: 解密时间：0.007169
+2023-06-20 21:47:04,090 - alexnet_cifar10.py - INFO: 去量化时间：0.015769
+2023-06-20 21:47:04,101 - alexnet_cifar10.py - INFO: loss: 1.910724365711212 	 elapsed time: 0.3066837787628174
+2023-06-20 21:47:04,116 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch20,10 clients are in federated training
+
+2023-06-20 21:47:04,116 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:04,280 - alexnet_cifar10.py - INFO: train_time:0.16341
+2023-06-20 21:47:04,531 - alexnet_cifar10.py - INFO: 量化时间：0.197112
+2023-06-20 21:47:04,592 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060765
+2023-06-20 21:47:04,615 - alexnet_cifar10.py - INFO: 聚集时间：0.022999
+2023-06-20 21:47:04,622 - alexnet_cifar10.py - INFO: 解密时间：0.006042
+2023-06-20 21:47:04,636 - alexnet_cifar10.py - INFO: 去量化时间：0.013710
+2023-06-20 21:47:04,646 - alexnet_cifar10.py - INFO: loss: 1.902016377449036 	 elapsed time: 0.3021419048309326
+2023-06-20 21:47:04,671 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch21,10 clients are in federated training
+
+2023-06-20 21:47:04,672 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:04,807 - alexnet_cifar10.py - INFO: train_time:0.13496
+2023-06-20 21:47:05,065 - alexnet_cifar10.py - INFO: 量化时间：0.201985
+2023-06-20 21:47:05,142 - alexnet_cifar10.py - INFO: 加密梯度时间：0.077268
+2023-06-20 21:47:05,189 - alexnet_cifar10.py - INFO: 聚集时间：0.044487
+2023-06-20 21:47:05,206 - alexnet_cifar10.py - INFO: 解密时间：0.014402
+2023-06-20 21:47:05,260 - alexnet_cifar10.py - INFO: 去量化时间：0.054026
+2023-06-20 21:47:05,283 - alexnet_cifar10.py - INFO: loss: 1.915626358985901 	 elapsed time: 0.39798450469970703
+2023-06-20 21:47:05,313 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch22,10 clients are in federated training
+
+2023-06-20 21:47:05,314 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:05,629 - alexnet_cifar10.py - INFO: train_time:0.31492
+2023-06-20 21:47:06,048 - alexnet_cifar10.py - INFO: 量化时间：0.328326
+2023-06-20 21:47:06,126 - alexnet_cifar10.py - INFO: 加密梯度时间：0.076856
+2023-06-20 21:47:06,152 - alexnet_cifar10.py - INFO: 聚集时间：0.026283
+2023-06-20 21:47:06,160 - alexnet_cifar10.py - INFO: 解密时间：0.006885
+2023-06-20 21:47:06,176 - alexnet_cifar10.py - INFO: 去量化时间：0.016242
+2023-06-20 21:47:06,193 - alexnet_cifar10.py - INFO: loss: 1.8494717478752138 	 elapsed time: 0.45702052116394043
+2023-06-20 21:47:06,208 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch23,10 clients are in federated training
+
+2023-06-20 21:47:06,215 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:06,397 - alexnet_cifar10.py - INFO: train_time:0.18007
+2023-06-20 21:47:06,629 - alexnet_cifar10.py - INFO: 量化时间：0.175016
+2023-06-20 21:47:06,689 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059666
+2023-06-20 21:47:06,712 - alexnet_cifar10.py - INFO: 聚集时间：0.023142
+2023-06-20 21:47:06,719 - alexnet_cifar10.py - INFO: 解密时间：0.006167
+2023-06-20 21:47:06,733 - alexnet_cifar10.py - INFO: 去量化时间：0.013757
+2023-06-20 21:47:06,743 - alexnet_cifar10.py - INFO: loss: 1.882969880104065 	 elapsed time: 0.27974438667297363
+2023-06-20 21:47:06,761 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch24,10 clients are in federated training
+
+2023-06-20 21:47:06,761 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:06,900 - alexnet_cifar10.py - INFO: train_time:0.13849
+2023-06-20 21:47:07,133 - alexnet_cifar10.py - INFO: 量化时间：0.182960
+2023-06-20 21:47:07,194 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060571
+2023-06-20 21:47:07,221 - alexnet_cifar10.py - INFO: 聚集时间：0.025749
+2023-06-20 21:47:07,228 - alexnet_cifar10.py - INFO: 解密时间：0.006908
+2023-06-20 21:47:07,244 - alexnet_cifar10.py - INFO: 去量化时间：0.015310
+2023-06-20 21:47:07,257 - alexnet_cifar10.py - INFO: loss: 1.8569310545921327 	 elapsed time: 0.2953817844390869
+2023-06-20 21:47:07,273 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch25,10 clients are in federated training
+
+2023-06-20 21:47:07,274 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:07,449 - alexnet_cifar10.py - INFO: train_time:0.17467
+2023-06-20 21:47:07,707 - alexnet_cifar10.py - INFO: 量化时间：0.199427
+2023-06-20 21:47:07,772 - alexnet_cifar10.py - INFO: 加密梯度时间：0.064528
+2023-06-20 21:47:07,796 - alexnet_cifar10.py - INFO: 聚集时间：0.023401
+2023-06-20 21:47:07,802 - alexnet_cifar10.py - INFO: 解密时间：0.006278
+2023-06-20 21:47:07,816 - alexnet_cifar10.py - INFO: 去量化时间：0.013880
+2023-06-20 21:47:07,826 - alexnet_cifar10.py - INFO: loss: 1.889710319042206 	 elapsed time: 0.308790922164917
+2023-06-20 21:47:07,845 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch26,10 clients are in federated training
+
+2023-06-20 21:47:07,845 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:08,090 - alexnet_cifar10.py - INFO: train_time:0.24501
+2023-06-20 21:47:08,421 - alexnet_cifar10.py - INFO: 量化时间：0.241782
+2023-06-20 21:47:08,494 - alexnet_cifar10.py - INFO: 加密梯度时间：0.072912
+2023-06-20 21:47:08,539 - alexnet_cifar10.py - INFO: 聚集时间：0.044590
+2023-06-20 21:47:08,547 - alexnet_cifar10.py - INFO: 解密时间：0.007000
+2023-06-20 21:47:08,570 - alexnet_cifar10.py - INFO: 去量化时间：0.023369
+2023-06-20 21:47:08,585 - alexnet_cifar10.py - INFO: loss: 1.8808578491210939 	 elapsed time: 0.39165639877319336
+2023-06-20 21:47:08,635 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch27,10 clients are in federated training
+
+2023-06-20 21:47:08,635 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:08,779 - alexnet_cifar10.py - INFO: train_time:0.14360
+2023-06-20 21:47:09,019 - alexnet_cifar10.py - INFO: 量化时间：0.190163
+2023-06-20 21:47:09,190 - alexnet_cifar10.py - INFO: 加密梯度时间：0.160596
+2023-06-20 21:47:09,238 - alexnet_cifar10.py - INFO: 聚集时间：0.046573
+2023-06-20 21:47:09,257 - alexnet_cifar10.py - INFO: 解密时间：0.011134
+2023-06-20 21:47:09,276 - alexnet_cifar10.py - INFO: 去量化时间：0.015048
+2023-06-20 21:47:09,305 - alexnet_cifar10.py - INFO: loss: 1.8736219763755801 	 elapsed time: 0.4475274085998535
+2023-06-20 21:47:09,365 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch28,10 clients are in federated training
+
+2023-06-20 21:47:09,366 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:09,553 - alexnet_cifar10.py - INFO: train_time:0.18697
+2023-06-20 21:47:09,810 - alexnet_cifar10.py - INFO: 量化时间：0.196281
+2023-06-20 21:47:09,871 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060706
+2023-06-20 21:47:09,894 - alexnet_cifar10.py - INFO: 聚集时间：0.022944
+2023-06-20 21:47:09,900 - alexnet_cifar10.py - INFO: 解密时间：0.006114
+2023-06-20 21:47:09,914 - alexnet_cifar10.py - INFO: 去量化时间：0.013445
+2023-06-20 21:47:09,924 - alexnet_cifar10.py - INFO: loss: 1.8484608411788943 	 elapsed time: 0.30014729499816895
+2023-06-20 21:47:09,938 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch29,10 clients are in federated training
+
+2023-06-20 21:47:09,939 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:10,095 - alexnet_cifar10.py - INFO: train_time:0.15589
+2023-06-20 21:47:10,324 - alexnet_cifar10.py - INFO: 量化时间：0.180086
+2023-06-20 21:47:10,384 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059540
+2023-06-20 21:47:10,407 - alexnet_cifar10.py - INFO: 聚集时间：0.023139
+2023-06-20 21:47:10,413 - alexnet_cifar10.py - INFO: 解密时间：0.005906
+2023-06-20 21:47:10,426 - alexnet_cifar10.py - INFO: 去量化时间：0.013300
+2023-06-20 21:47:10,437 - alexnet_cifar10.py - INFO: loss: 1.8495186090469362 	 elapsed time: 0.28261542320251465
+2023-06-20 21:47:10,474 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch30,10 clients are in federated training
+
+2023-06-20 21:47:10,475 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:10,608 - alexnet_cifar10.py - INFO: train_time:0.13258
+2023-06-20 21:47:10,840 - alexnet_cifar10.py - INFO: 量化时间：0.178991
+2023-06-20 21:47:10,900 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060163
+2023-06-20 21:47:10,925 - alexnet_cifar10.py - INFO: 聚集时间：0.024359
+2023-06-20 21:47:10,932 - alexnet_cifar10.py - INFO: 解密时间：0.006860
+2023-06-20 21:47:10,948 - alexnet_cifar10.py - INFO: 去量化时间：0.015485
+2023-06-20 21:47:10,961 - alexnet_cifar10.py - INFO: loss: 1.8484745860099792 	 elapsed time: 0.2881815433502197
+2023-06-20 21:47:10,979 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch31,10 clients are in federated training
+
+2023-06-20 21:47:10,980 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:11,235 - alexnet_cifar10.py - INFO: train_time:0.25299
+2023-06-20 21:47:11,695 - alexnet_cifar10.py - INFO: 量化时间：0.350273
+2023-06-20 21:47:11,802 - alexnet_cifar10.py - INFO: 加密梯度时间：0.106109
+2023-06-20 21:47:11,836 - alexnet_cifar10.py - INFO: 聚集时间：0.032923
+2023-06-20 21:47:11,845 - alexnet_cifar10.py - INFO: 解密时间：0.009436
+2023-06-20 21:47:11,866 - alexnet_cifar10.py - INFO: 去量化时间：0.020554
+2023-06-20 21:47:11,878 - alexnet_cifar10.py - INFO: loss: 1.8583657503128053 	 elapsed time: 0.5217642784118652
+2023-06-20 21:47:11,893 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch32,10 clients are in federated training
+
+2023-06-20 21:47:11,894 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:12,023 - alexnet_cifar10.py - INFO: train_time:0.12931
+2023-06-20 21:47:12,294 - alexnet_cifar10.py - INFO: 量化时间：0.209141
+2023-06-20 21:47:12,366 - alexnet_cifar10.py - INFO: 加密梯度时间：0.071237
+2023-06-20 21:47:12,392 - alexnet_cifar10.py - INFO: 聚集时间：0.025297
+2023-06-20 21:47:12,399 - alexnet_cifar10.py - INFO: 解密时间：0.006981
+2023-06-20 21:47:12,415 - alexnet_cifar10.py - INFO: 去量化时间：0.015280
+2023-06-20 21:47:12,427 - alexnet_cifar10.py - INFO: loss: 1.8268489837646484 	 elapsed time: 0.3301408290863037
+2023-06-20 21:47:12,442 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch33,10 clients are in federated training
+
+2023-06-20 21:47:12,443 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:12,583 - alexnet_cifar10.py - INFO: train_time:0.13991
+2023-06-20 21:47:12,827 - alexnet_cifar10.py - INFO: 量化时间：0.184746
+2023-06-20 21:47:12,892 - alexnet_cifar10.py - INFO: 加密梯度时间：0.064268
+2023-06-20 21:47:12,917 - alexnet_cifar10.py - INFO: 聚集时间：0.024533
+2023-06-20 21:47:12,925 - alexnet_cifar10.py - INFO: 解密时间：0.006638
+2023-06-20 21:47:12,942 - alexnet_cifar10.py - INFO: 去量化时间：0.016015
+2023-06-20 21:47:12,954 - alexnet_cifar10.py - INFO: loss: 1.8328592061996458 	 elapsed time: 0.29958605766296387
+2023-06-20 21:47:12,969 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch34,10 clients are in federated training
+
+2023-06-20 21:47:12,970 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:13,114 - alexnet_cifar10.py - INFO: train_time:0.14311
+2023-06-20 21:47:13,379 - alexnet_cifar10.py - INFO: 量化时间：0.210820
+2023-06-20 21:47:13,440 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060698
+2023-06-20 21:47:13,464 - alexnet_cifar10.py - INFO: 聚集时间：0.023270
+2023-06-20 21:47:13,471 - alexnet_cifar10.py - INFO: 解密时间：0.006165
+2023-06-20 21:47:13,485 - alexnet_cifar10.py - INFO: 去量化时间：0.014007
+2023-06-20 21:47:13,496 - alexnet_cifar10.py - INFO: loss: 1.850816822052002 	 elapsed time: 0.31761837005615234
+2023-06-20 21:47:13,509 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch35,10 clients are in federated training
+
+2023-06-20 21:47:13,510 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:13,639 - alexnet_cifar10.py - INFO: train_time:0.12897
+2023-06-20 21:47:13,873 - alexnet_cifar10.py - INFO: 量化时间：0.177371
+2023-06-20 21:47:13,932 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059481
+2023-06-20 21:47:13,956 - alexnet_cifar10.py - INFO: 聚集时间：0.023292
+2023-06-20 21:47:13,962 - alexnet_cifar10.py - INFO: 解密时间：0.006380
+2023-06-20 21:47:13,977 - alexnet_cifar10.py - INFO: 去量化时间：0.013937
+2023-06-20 21:47:13,988 - alexnet_cifar10.py - INFO: loss: 1.8955907344818117 	 elapsed time: 0.2816324234008789
+2023-06-20 21:47:14,001 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch36,10 clients are in federated training
+
+2023-06-20 21:47:14,002 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:14,291 - alexnet_cifar10.py - INFO: train_time:0.28924
+2023-06-20 21:47:14,759 - alexnet_cifar10.py - INFO: 量化时间：0.355250
+2023-06-20 21:47:14,887 - alexnet_cifar10.py - INFO: 加密梯度时间：0.128278
+2023-06-20 21:47:14,913 - alexnet_cifar10.py - INFO: 聚集时间：0.024848
+2023-06-20 21:47:14,921 - alexnet_cifar10.py - INFO: 解密时间：0.007814
+2023-06-20 21:47:14,937 - alexnet_cifar10.py - INFO: 去量化时间：0.015331
+2023-06-20 21:47:14,949 - alexnet_cifar10.py - INFO: loss: 1.8765819668769836 	 elapsed time: 0.5344598293304443
+2023-06-20 21:47:14,962 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch37,10 clients are in federated training
+
+2023-06-20 21:47:14,964 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:15,140 - alexnet_cifar10.py - INFO: train_time:0.17618
+2023-06-20 21:47:15,397 - alexnet_cifar10.py - INFO: 量化时间：0.197605
+2023-06-20 21:47:15,464 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066741
+2023-06-20 21:47:15,491 - alexnet_cifar10.py - INFO: 聚集时间：0.025622
+2023-06-20 21:47:15,498 - alexnet_cifar10.py - INFO: 解密时间：0.006609
+2023-06-20 21:47:15,514 - alexnet_cifar10.py - INFO: 去量化时间：0.015311
+2023-06-20 21:47:15,525 - alexnet_cifar10.py - INFO: loss: 1.8241657257080082 	 elapsed time: 0.3148996829986572
+2023-06-20 21:47:15,539 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch38,10 clients are in federated training
+
+2023-06-20 21:47:15,540 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:15,678 - alexnet_cifar10.py - INFO: train_time:0.13749
+2023-06-20 21:47:15,906 - alexnet_cifar10.py - INFO: 量化时间：0.176770
+2023-06-20 21:47:15,968 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061213
+2023-06-20 21:47:15,992 - alexnet_cifar10.py - INFO: 聚集时间：0.023134
+2023-06-20 21:47:15,998 - alexnet_cifar10.py - INFO: 解密时间：0.005863
+2023-06-20 21:47:16,013 - alexnet_cifar10.py - INFO: 去量化时间：0.014137
+2023-06-20 21:47:16,024 - alexnet_cifar10.py - INFO: loss: 1.8207499504089357 	 elapsed time: 0.28377842903137207
+2023-06-20 21:47:16,036 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch39,10 clients are in federated training
+
+2023-06-20 21:47:16,037 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:16,167 - alexnet_cifar10.py - INFO: train_time:0.13012
+2023-06-20 21:47:16,401 - alexnet_cifar10.py - INFO: 量化时间：0.177650
+2023-06-20 21:47:16,463 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061831
+2023-06-20 21:47:16,486 - alexnet_cifar10.py - INFO: 聚集时间：0.023352
+2023-06-20 21:47:16,493 - alexnet_cifar10.py - INFO: 解密时间：0.006124
+2023-06-20 21:47:16,507 - alexnet_cifar10.py - INFO: 去量化时间：0.013931
+2023-06-20 21:47:16,519 - alexnet_cifar10.py - INFO: loss: 1.88244686126709 	 elapsed time: 0.28490519523620605
+2023-06-20 21:47:16,531 - alexnet_cifar10.py - INFO: 
+---------epoch 2 batch40,10 clients are in federated training
+
+2023-06-20 21:47:16,531 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:16,656 - alexnet_cifar10.py - INFO: train_time:0.12468
+2023-06-20 21:47:16,926 - alexnet_cifar10.py - INFO: 量化时间：0.213093
+2023-06-20 21:47:17,004 - alexnet_cifar10.py - INFO: 加密梯度时间：0.077714
+2023-06-20 21:47:17,030 - alexnet_cifar10.py - INFO: 聚集时间：0.025976
+2023-06-20 21:47:17,037 - alexnet_cifar10.py - INFO: 解密时间：0.006590
+2023-06-20 21:47:17,053 - alexnet_cifar10.py - INFO: 去量化时间：0.015451
+2023-06-20 21:47:17,065 - alexnet_cifar10.py - INFO: loss: 1.7624771952629092 	 elapsed time: 0.34008359909057617
+2023-06-20 21:47:32,290 - alexnet_cifar10.py - INFO: Plaintext_size 1.86 GB
+2023-06-20 21:47:32,290 - alexnet_cifar10.py - INFO: Ciphertext_size 0.00 KB
+2023-06-20 21:47:32,892 - alexnet_cifar10.py - INFO: ========Epoch 002: train_loss: 1.878, train_accuracy: 34.444%, test_loss: 1.874, test_accuracy: 31.850%
+2023-06-20 21:47:32,920 - alexnet_cifar10.py - INFO: Saved epoch_model to disk
+2023-06-20 21:47:32,925 - alexnet_cifar10.py - INFO: 10 clients building datasets.
+2023-06-20 21:47:32,925 - alexnet_cifar10.py - INFO: 0 client has 5000 data items.
+2023-06-20 21:47:32,926 - alexnet_cifar10.py - INFO: 1 client has 5000 data items.
+2023-06-20 21:47:32,926 - alexnet_cifar10.py - INFO: 2 client has 5000 data items.
+2023-06-20 21:47:32,926 - alexnet_cifar10.py - INFO: 3 client has 5000 data items.
+2023-06-20 21:47:32,927 - alexnet_cifar10.py - INFO: 4 client has 5000 data items.
+2023-06-20 21:47:32,927 - alexnet_cifar10.py - INFO: 5 client has 5000 data items.
+2023-06-20 21:47:32,928 - alexnet_cifar10.py - INFO: 6 client has 5000 data items.
+2023-06-20 21:47:32,929 - alexnet_cifar10.py - INFO: 7 client has 5000 data items.
+2023-06-20 21:47:32,929 - alexnet_cifar10.py - INFO: 8 client has 5000 data items.
+2023-06-20 21:47:32,929 - alexnet_cifar10.py - INFO: 9 client has 5000 data items.
+2023-06-20 21:47:35,785 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch1,10 clients are in federated training
+
+2023-06-20 21:47:35,785 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:35,924 - alexnet_cifar10.py - INFO: train_time:0.13903
+2023-06-20 21:47:36,162 - alexnet_cifar10.py - INFO: 量化时间：0.186788
+2023-06-20 21:47:36,223 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060640
+2023-06-20 21:47:36,246 - alexnet_cifar10.py - INFO: 聚集时间：0.023056
+2023-06-20 21:47:36,252 - alexnet_cifar10.py - INFO: 解密时间：0.006123
+2023-06-20 21:47:36,266 - alexnet_cifar10.py - INFO: 去量化时间：0.013802
+2023-06-20 21:47:36,276 - alexnet_cifar10.py - INFO: loss: 1.8961433649063113 	 elapsed time: 0.2911043167114258
+2023-06-20 21:47:36,288 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch2,10 clients are in federated training
+
+2023-06-20 21:47:36,288 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:36,433 - alexnet_cifar10.py - INFO: train_time:0.14511
+2023-06-20 21:47:36,668 - alexnet_cifar10.py - INFO: 量化时间：0.177536
+2023-06-20 21:47:36,733 - alexnet_cifar10.py - INFO: 加密梯度时间：0.064306
+2023-06-20 21:47:36,758 - alexnet_cifar10.py - INFO: 聚集时间：0.024896
+2023-06-20 21:47:36,766 - alexnet_cifar10.py - INFO: 解密时间：0.007187
+2023-06-20 21:47:36,781 - alexnet_cifar10.py - INFO: 去量化时间：0.015208
+2023-06-20 21:47:36,793 - alexnet_cifar10.py - INFO: loss: 1.8642292261123656 	 elapsed time: 0.29117727279663086
+2023-06-20 21:47:36,822 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch3,10 clients are in federated training
+
+2023-06-20 21:47:36,823 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:36,963 - alexnet_cifar10.py - INFO: train_time:0.13982
+2023-06-20 21:47:37,243 - alexnet_cifar10.py - INFO: 量化时间：0.214638
+2023-06-20 21:47:37,316 - alexnet_cifar10.py - INFO: 加密梯度时间：0.072573
+2023-06-20 21:47:37,345 - alexnet_cifar10.py - INFO: 聚集时间：0.028768
+2023-06-20 21:47:37,352 - alexnet_cifar10.py - INFO: 解密时间：0.006414
+2023-06-20 21:47:37,366 - alexnet_cifar10.py - INFO: 去量化时间：0.014101
+2023-06-20 21:47:37,377 - alexnet_cifar10.py - INFO: loss: 1.8493753910064699 	 elapsed time: 0.33863258361816406
+2023-06-20 21:47:37,400 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch4,10 clients are in federated training
+
+2023-06-20 21:47:37,401 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:37,536 - alexnet_cifar10.py - INFO: train_time:0.13066
+2023-06-20 21:47:37,779 - alexnet_cifar10.py - INFO: 量化时间：0.187974
+2023-06-20 21:47:37,839 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059947
+2023-06-20 21:47:37,863 - alexnet_cifar10.py - INFO: 聚集时间：0.023261
+2023-06-20 21:47:37,869 - alexnet_cifar10.py - INFO: 解密时间：0.006094
+2023-06-20 21:47:37,883 - alexnet_cifar10.py - INFO: 去量化时间：0.013287
+2023-06-20 21:47:37,894 - alexnet_cifar10.py - INFO: loss: 1.8292640328407288 	 elapsed time: 0.29175853729248047
+2023-06-20 21:47:37,920 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch5,10 clients are in federated training
+
+2023-06-20 21:47:37,920 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:38,050 - alexnet_cifar10.py - INFO: train_time:0.12951
+2023-06-20 21:47:38,282 - alexnet_cifar10.py - INFO: 量化时间：0.179254
+2023-06-20 21:47:38,427 - alexnet_cifar10.py - INFO: 加密梯度时间：0.144662
+2023-06-20 21:47:38,474 - alexnet_cifar10.py - INFO: 聚集时间：0.046475
+2023-06-20 21:47:38,501 - alexnet_cifar10.py - INFO: 解密时间：0.017299
+2023-06-20 21:47:38,531 - alexnet_cifar10.py - INFO: 去量化时间：0.029832
+2023-06-20 21:47:38,552 - alexnet_cifar10.py - INFO: loss: 1.8199543833732605 	 elapsed time: 0.4302334785461426
+2023-06-20 21:47:38,605 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch6,10 clients are in federated training
+
+2023-06-20 21:47:38,606 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:38,877 - alexnet_cifar10.py - INFO: train_time:0.27092
+2023-06-20 21:47:39,212 - alexnet_cifar10.py - INFO: 量化时间：0.240601
+2023-06-20 21:47:39,305 - alexnet_cifar10.py - INFO: 加密梯度时间：0.092662
+2023-06-20 21:47:39,329 - alexnet_cifar10.py - INFO: 聚集时间：0.023518
+2023-06-20 21:47:39,335 - alexnet_cifar10.py - INFO: 解密时间：0.006275
+2023-06-20 21:47:39,349 - alexnet_cifar10.py - INFO: 去量化时间：0.013200
+2023-06-20 21:47:39,359 - alexnet_cifar10.py - INFO: loss: 1.811878538131714 	 elapsed time: 0.3773322105407715
+2023-06-20 21:47:39,371 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch7,10 clients are in federated training
+
+2023-06-20 21:47:39,371 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:39,524 - alexnet_cifar10.py - INFO: train_time:0.15325
+2023-06-20 21:47:39,777 - alexnet_cifar10.py - INFO: 量化时间：0.197537
+2023-06-20 21:47:39,844 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066547
+2023-06-20 21:47:39,870 - alexnet_cifar10.py - INFO: 聚集时间：0.025609
+2023-06-20 21:47:39,877 - alexnet_cifar10.py - INFO: 解密时间：0.007032
+2023-06-20 21:47:39,893 - alexnet_cifar10.py - INFO: 去量化时间：0.014904
+2023-06-20 21:47:39,905 - alexnet_cifar10.py - INFO: loss: 1.8068212747573855 	 elapsed time: 0.3136882781982422
+2023-06-20 21:47:39,928 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch8,10 clients are in federated training
+
+2023-06-20 21:47:39,928 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:40,073 - alexnet_cifar10.py - INFO: train_time:0.14441
+2023-06-20 21:47:40,310 - alexnet_cifar10.py - INFO: 量化时间：0.179739
+2023-06-20 21:47:40,371 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060550
+2023-06-20 21:47:40,394 - alexnet_cifar10.py - INFO: 聚集时间：0.023469
+2023-06-20 21:47:40,401 - alexnet_cifar10.py - INFO: 解密时间：0.006254
+2023-06-20 21:47:40,415 - alexnet_cifar10.py - INFO: 去量化时间：0.014227
+2023-06-20 21:47:40,426 - alexnet_cifar10.py - INFO: loss: 1.7973986387252807 	 elapsed time: 0.2849125862121582
+2023-06-20 21:47:40,451 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch9,10 clients are in federated training
+
+2023-06-20 21:47:40,452 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:40,595 - alexnet_cifar10.py - INFO: train_time:0.14318
+2023-06-20 21:47:40,854 - alexnet_cifar10.py - INFO: 量化时间：0.205695
+2023-06-20 21:47:40,922 - alexnet_cifar10.py - INFO: 加密梯度时间：0.067491
+2023-06-20 21:47:40,950 - alexnet_cifar10.py - INFO: 聚集时间：0.026973
+2023-06-20 21:47:40,959 - alexnet_cifar10.py - INFO: 解密时间：0.008513
+2023-06-20 21:47:40,977 - alexnet_cifar10.py - INFO: 去量化时间：0.017780
+2023-06-20 21:47:40,989 - alexnet_cifar10.py - INFO: loss: 1.84596244096756 	 elapsed time: 0.3295300006866455
+2023-06-20 21:47:41,002 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch10,10 clients are in federated training
+
+2023-06-20 21:47:41,016 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:41,161 - alexnet_cifar10.py - INFO: train_time:0.14384
+2023-06-20 21:47:41,440 - alexnet_cifar10.py - INFO: 量化时间：0.228756
+2023-06-20 21:47:41,509 - alexnet_cifar10.py - INFO: 加密梯度时间：0.068239
+2023-06-20 21:47:41,544 - alexnet_cifar10.py - INFO: 聚集时间：0.035084
+2023-06-20 21:47:41,552 - alexnet_cifar10.py - INFO: 解密时间：0.007314
+2023-06-20 21:47:41,570 - alexnet_cifar10.py - INFO: 去量化时间：0.017203
+2023-06-20 21:47:41,583 - alexnet_cifar10.py - INFO: loss: 1.840068256855011 	 elapsed time: 0.3589324951171875
+2023-06-20 21:47:41,622 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch11,10 clients are in federated training
+
+2023-06-20 21:47:41,622 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:41,839 - alexnet_cifar10.py - INFO: train_time:0.21678
+2023-06-20 21:47:42,187 - alexnet_cifar10.py - INFO: 量化时间：0.269089
+2023-06-20 21:47:42,248 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060436
+2023-06-20 21:47:42,275 - alexnet_cifar10.py - INFO: 聚集时间：0.026582
+2023-06-20 21:47:42,283 - alexnet_cifar10.py - INFO: 解密时间：0.007293
+2023-06-20 21:47:42,311 - alexnet_cifar10.py - INFO: 去量化时间：0.026585
+2023-06-20 21:47:42,330 - alexnet_cifar10.py - INFO: loss: 1.8518813014030457 	 elapsed time: 0.39319467544555664
+2023-06-20 21:47:42,368 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch12,10 clients are in federated training
+
+2023-06-20 21:47:42,369 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:42,632 - alexnet_cifar10.py - INFO: train_time:0.26205
+2023-06-20 21:47:42,914 - alexnet_cifar10.py - INFO: 量化时间：0.206256
+2023-06-20 21:47:42,981 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066385
+2023-06-20 21:47:43,011 - alexnet_cifar10.py - INFO: 聚集时间：0.028857
+2023-06-20 21:47:43,019 - alexnet_cifar10.py - INFO: 解密时间：0.008262
+2023-06-20 21:47:43,036 - alexnet_cifar10.py - INFO: 去量化时间：0.015870
+2023-06-20 21:47:43,049 - alexnet_cifar10.py - INFO: loss: 1.82702134847641 	 elapsed time: 0.32793450355529785
+2023-06-20 21:47:43,077 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch13,10 clients are in federated training
+
+2023-06-20 21:47:43,079 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:43,216 - alexnet_cifar10.py - INFO: train_time:0.13730
+2023-06-20 21:47:43,454 - alexnet_cifar10.py - INFO: 量化时间：0.186419
+2023-06-20 21:47:43,514 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060106
+2023-06-20 21:47:43,537 - alexnet_cifar10.py - INFO: 聚集时间：0.023175
+2023-06-20 21:47:43,544 - alexnet_cifar10.py - INFO: 解密时间：0.006052
+2023-06-20 21:47:43,558 - alexnet_cifar10.py - INFO: 去量化时间：0.013886
+2023-06-20 21:47:43,569 - alexnet_cifar10.py - INFO: loss: 1.8584094882011413 	 elapsed time: 0.29091787338256836
+2023-06-20 21:47:43,585 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch14,10 clients are in federated training
+
+2023-06-20 21:47:43,585 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:43,726 - alexnet_cifar10.py - INFO: train_time:0.14096
+2023-06-20 21:47:43,958 - alexnet_cifar10.py - INFO: 量化时间：0.177131
+2023-06-20 21:47:44,019 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060872
+2023-06-20 21:47:44,043 - alexnet_cifar10.py - INFO: 聚集时间：0.023072
+2023-06-20 21:47:44,049 - alexnet_cifar10.py - INFO: 解密时间：0.006021
+2023-06-20 21:47:44,063 - alexnet_cifar10.py - INFO: 去量化时间：0.013745
+2023-06-20 21:47:44,074 - alexnet_cifar10.py - INFO: loss: 1.7919631958007813 	 elapsed time: 0.2827894687652588
+2023-06-20 21:47:44,100 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch15,10 clients are in federated training
+
+2023-06-20 21:47:44,100 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:44,257 - alexnet_cifar10.py - INFO: train_time:0.15737
+2023-06-20 21:47:44,629 - alexnet_cifar10.py - INFO: 量化时间：0.316042
+2023-06-20 21:47:44,764 - alexnet_cifar10.py - INFO: 加密梯度时间：0.129359
+2023-06-20 21:47:44,795 - alexnet_cifar10.py - INFO: 聚集时间：0.030594
+2023-06-20 21:47:44,804 - alexnet_cifar10.py - INFO: 解密时间：0.007745
+2023-06-20 21:47:44,826 - alexnet_cifar10.py - INFO: 去量化时间：0.021339
+2023-06-20 21:47:44,839 - alexnet_cifar10.py - INFO: loss: 1.8470445275306704 	 elapsed time: 0.5138018131256104
+2023-06-20 21:47:44,877 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch16,10 clients are in federated training
+
+2023-06-20 21:47:44,878 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:45,035 - alexnet_cifar10.py - INFO: train_time:0.15646
+2023-06-20 21:47:45,313 - alexnet_cifar10.py - INFO: 量化时间：0.201733
+2023-06-20 21:47:45,380 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066767
+2023-06-20 21:47:45,407 - alexnet_cifar10.py - INFO: 聚集时间：0.026639
+2023-06-20 21:47:45,415 - alexnet_cifar10.py - INFO: 解密时间：0.006915
+2023-06-20 21:47:45,431 - alexnet_cifar10.py - INFO: 去量化时间：0.015722
+2023-06-20 21:47:45,443 - alexnet_cifar10.py - INFO: loss: 1.7865957975387576 	 elapsed time: 0.32056593894958496
+2023-06-20 21:47:45,471 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch17,10 clients are in federated training
+
+2023-06-20 21:47:45,471 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:45,624 - alexnet_cifar10.py - INFO: train_time:0.15254
+2023-06-20 21:47:45,888 - alexnet_cifar10.py - INFO: 量化时间：0.197617
+2023-06-20 21:47:45,949 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060804
+2023-06-20 21:47:45,973 - alexnet_cifar10.py - INFO: 聚集时间：0.023629
+2023-06-20 21:47:45,979 - alexnet_cifar10.py - INFO: 解密时间：0.006184
+2023-06-20 21:47:45,994 - alexnet_cifar10.py - INFO: 去量化时间：0.014129
+2023-06-20 21:47:46,005 - alexnet_cifar10.py - INFO: loss: 1.8082024812698365 	 elapsed time: 0.3035614490509033
+2023-06-20 21:47:46,021 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch18,10 clients are in federated training
+
+2023-06-20 21:47:46,027 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:46,170 - alexnet_cifar10.py - INFO: train_time:0.13993
+2023-06-20 21:47:46,476 - alexnet_cifar10.py - INFO: 量化时间：0.224402
+2023-06-20 21:47:46,552 - alexnet_cifar10.py - INFO: 加密梯度时间：0.075408
+2023-06-20 21:47:46,581 - alexnet_cifar10.py - INFO: 聚集时间：0.028908
+2023-06-20 21:47:46,589 - alexnet_cifar10.py - INFO: 解密时间：0.006811
+2023-06-20 21:47:46,604 - alexnet_cifar10.py - INFO: 去量化时间：0.014990
+2023-06-20 21:47:46,615 - alexnet_cifar10.py - INFO: loss: 1.851213240623474 	 elapsed time: 0.35282444953918457
+2023-06-20 21:47:46,637 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch19,10 clients are in federated training
+
+2023-06-20 21:47:46,638 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:46,827 - alexnet_cifar10.py - INFO: train_time:0.18840
+2023-06-20 21:47:47,061 - alexnet_cifar10.py - INFO: 量化时间：0.182523
+2023-06-20 21:47:47,126 - alexnet_cifar10.py - INFO: 加密梯度时间：0.064766
+2023-06-20 21:47:47,149 - alexnet_cifar10.py - INFO: 聚集时间：0.023644
+2023-06-20 21:47:47,156 - alexnet_cifar10.py - INFO: 解密时间：0.006129
+2023-06-20 21:47:47,170 - alexnet_cifar10.py - INFO: 去量化时间：0.014006
+2023-06-20 21:47:47,180 - alexnet_cifar10.py - INFO: loss: 1.8272814154624941 	 elapsed time: 0.29172444343566895
+2023-06-20 21:47:47,210 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch20,10 clients are in federated training
+
+2023-06-20 21:47:47,210 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:47,353 - alexnet_cifar10.py - INFO: train_time:0.14267
+2023-06-20 21:47:47,672 - alexnet_cifar10.py - INFO: 量化时间：0.261286
+2023-06-20 21:47:47,766 - alexnet_cifar10.py - INFO: 加密梯度时间：0.092913
+2023-06-20 21:47:47,821 - alexnet_cifar10.py - INFO: 聚集时间：0.054500
+2023-06-20 21:47:47,830 - alexnet_cifar10.py - INFO: 解密时间：0.008885
+2023-06-20 21:47:47,858 - alexnet_cifar10.py - INFO: 去量化时间：0.026472
+2023-06-20 21:47:47,870 - alexnet_cifar10.py - INFO: loss: 1.829496431350708 	 elapsed time: 0.44789791107177734
+2023-06-20 21:47:47,887 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch21,10 clients are in federated training
+
+2023-06-20 21:47:47,888 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:48,178 - alexnet_cifar10.py - INFO: train_time:0.28832
+2023-06-20 21:47:48,572 - alexnet_cifar10.py - INFO: 量化时间：0.320005
+2023-06-20 21:47:48,661 - alexnet_cifar10.py - INFO: 加密梯度时间：0.088862
+2023-06-20 21:47:48,688 - alexnet_cifar10.py - INFO: 聚集时间：0.026917
+2023-06-20 21:47:48,697 - alexnet_cifar10.py - INFO: 解密时间：0.008370
+2023-06-20 21:47:48,717 - alexnet_cifar10.py - INFO: 去量化时间：0.019218
+2023-06-20 21:47:48,730 - alexnet_cifar10.py - INFO: loss: 1.8321425080299378 	 elapsed time: 0.4657728672027588
+2023-06-20 21:47:48,753 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch22,10 clients are in federated training
+
+2023-06-20 21:47:48,754 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:48,902 - alexnet_cifar10.py - INFO: train_time:0.14790
+2023-06-20 21:47:49,149 - alexnet_cifar10.py - INFO: 量化时间：0.193128
+2023-06-20 21:47:49,210 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060483
+2023-06-20 21:47:49,234 - alexnet_cifar10.py - INFO: 聚集时间：0.023240
+2023-06-20 21:47:49,241 - alexnet_cifar10.py - INFO: 解密时间：0.006474
+2023-06-20 21:47:49,255 - alexnet_cifar10.py - INFO: 去量化时间：0.013963
+2023-06-20 21:47:49,266 - alexnet_cifar10.py - INFO: loss: 1.787020742893219 	 elapsed time: 0.30007076263427734
+2023-06-20 21:47:49,288 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch23,10 clients are in federated training
+
+2023-06-20 21:47:49,293 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:49,438 - alexnet_cifar10.py - INFO: train_time:0.14471
+2023-06-20 21:47:49,669 - alexnet_cifar10.py - INFO: 量化时间：0.176600
+2023-06-20 21:47:49,730 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061378
+2023-06-20 21:47:49,755 - alexnet_cifar10.py - INFO: 聚集时间：0.024323
+2023-06-20 21:47:49,761 - alexnet_cifar10.py - INFO: 解密时间：0.006386
+2023-06-20 21:47:49,775 - alexnet_cifar10.py - INFO: 去量化时间：0.013623
+2023-06-20 21:47:49,786 - alexnet_cifar10.py - INFO: loss: 1.8050579905509951 	 elapsed time: 0.28296852111816406
+2023-06-20 21:47:49,805 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch24,10 clients are in federated training
+
+2023-06-20 21:47:49,806 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:49,973 - alexnet_cifar10.py - INFO: train_time:0.16617
+2023-06-20 21:47:50,250 - alexnet_cifar10.py - INFO: 量化时间：0.220178
+2023-06-20 21:47:50,323 - alexnet_cifar10.py - INFO: 加密梯度时间：0.072860
+2023-06-20 21:47:50,353 - alexnet_cifar10.py - INFO: 聚集时间：0.029745
+2023-06-20 21:47:50,360 - alexnet_cifar10.py - INFO: 解密时间：0.006580
+2023-06-20 21:47:50,374 - alexnet_cifar10.py - INFO: 去量化时间：0.013731
+2023-06-20 21:47:50,388 - alexnet_cifar10.py - INFO: loss: 1.8005004286766053 	 elapsed time: 0.3447561264038086
+2023-06-20 21:47:50,415 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch25,10 clients are in federated training
+
+2023-06-20 21:47:50,416 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:50,561 - alexnet_cifar10.py - INFO: train_time:0.14493
+2023-06-20 21:47:50,792 - alexnet_cifar10.py - INFO: 量化时间：0.176921
+2023-06-20 21:47:50,853 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060489
+2023-06-20 21:47:50,876 - alexnet_cifar10.py - INFO: 聚集时间：0.023377
+2023-06-20 21:47:50,883 - alexnet_cifar10.py - INFO: 解密时间：0.005931
+2023-06-20 21:47:50,896 - alexnet_cifar10.py - INFO: 去量化时间：0.013672
+2023-06-20 21:47:50,906 - alexnet_cifar10.py - INFO: loss: 1.7919261217117313 	 elapsed time: 0.28160953521728516
+2023-06-20 21:47:50,924 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch26,10 clients are in federated training
+
+2023-06-20 21:47:50,925 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:51,087 - alexnet_cifar10.py - INFO: train_time:0.16211
+2023-06-20 21:47:51,323 - alexnet_cifar10.py - INFO: 量化时间：0.178049
+2023-06-20 21:47:51,385 - alexnet_cifar10.py - INFO: 加密梯度时间：0.062030
+2023-06-20 21:47:51,408 - alexnet_cifar10.py - INFO: 聚集时间：0.023270
+2023-06-20 21:47:51,415 - alexnet_cifar10.py - INFO: 解密时间：0.006323
+2023-06-20 21:47:51,428 - alexnet_cifar10.py - INFO: 去量化时间：0.013224
+2023-06-20 21:47:51,439 - alexnet_cifar10.py - INFO: loss: 1.786609637737274 	 elapsed time: 0.2835423946380615
+2023-06-20 21:47:51,466 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch27,10 clients are in federated training
+
+2023-06-20 21:47:51,467 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:51,605 - alexnet_cifar10.py - INFO: train_time:0.13410
+2023-06-20 21:47:51,861 - alexnet_cifar10.py - INFO: 量化时间：0.198771
+2023-06-20 21:47:51,927 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065692
+2023-06-20 21:47:51,953 - alexnet_cifar10.py - INFO: 聚集时间：0.025556
+2023-06-20 21:47:51,960 - alexnet_cifar10.py - INFO: 解密时间：0.007127
+2023-06-20 21:47:51,976 - alexnet_cifar10.py - INFO: 去量化时间：0.015348
+2023-06-20 21:47:51,988 - alexnet_cifar10.py - INFO: loss: 1.8186571002006533 	 elapsed time: 0.31496262550354004
+2023-06-20 21:47:52,015 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch28,10 clients are in federated training
+
+2023-06-20 21:47:52,021 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:52,173 - alexnet_cifar10.py - INFO: train_time:0.15158
+2023-06-20 21:47:52,407 - alexnet_cifar10.py - INFO: 量化时间：0.178868
+2023-06-20 21:47:52,467 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059351
+2023-06-20 21:47:52,490 - alexnet_cifar10.py - INFO: 聚集时间：0.022826
+2023-06-20 21:47:52,497 - alexnet_cifar10.py - INFO: 解密时间：0.006334
+2023-06-20 21:47:52,511 - alexnet_cifar10.py - INFO: 去量化时间：0.013427
+2023-06-20 21:47:52,522 - alexnet_cifar10.py - INFO: loss: 1.7872635841369628 	 elapsed time: 0.2833585739135742
+2023-06-20 21:47:52,544 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch29,10 clients are in federated training
+
+2023-06-20 21:47:52,544 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:52,678 - alexnet_cifar10.py - INFO: train_time:0.13062
+2023-06-20 21:47:52,914 - alexnet_cifar10.py - INFO: 量化时间：0.179098
+2023-06-20 21:47:52,975 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061289
+2023-06-20 21:47:52,999 - alexnet_cifar10.py - INFO: 聚集时间：0.023101
+2023-06-20 21:47:53,005 - alexnet_cifar10.py - INFO: 解密时间：0.005992
+2023-06-20 21:47:53,019 - alexnet_cifar10.py - INFO: 去量化时间：0.013916
+2023-06-20 21:47:53,030 - alexnet_cifar10.py - INFO: loss: 1.800672709941864 	 elapsed time: 0.2845914363861084
+2023-06-20 21:47:53,051 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch30,10 clients are in federated training
+
+2023-06-20 21:47:53,052 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:53,196 - alexnet_cifar10.py - INFO: train_time:0.14363
+2023-06-20 21:47:53,450 - alexnet_cifar10.py - INFO: 量化时间：0.199466
+2023-06-20 21:47:53,535 - alexnet_cifar10.py - INFO: 加密梯度时间：0.084190
+2023-06-20 21:47:53,590 - alexnet_cifar10.py - INFO: 聚集时间：0.054334
+2023-06-20 21:47:53,608 - alexnet_cifar10.py - INFO: 解密时间：0.013254
+2023-06-20 21:47:53,638 - alexnet_cifar10.py - INFO: 去量化时间：0.029016
+2023-06-20 21:47:53,663 - alexnet_cifar10.py - INFO: loss: 1.804649567604065 	 elapsed time: 0.3878903388977051
+2023-06-20 21:47:53,689 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch31,10 clients are in federated training
+
+2023-06-20 21:47:53,694 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:53,978 - alexnet_cifar10.py - INFO: train_time:0.28364
+2023-06-20 21:47:54,356 - alexnet_cifar10.py - INFO: 量化时间：0.283494
+2023-06-20 21:47:54,434 - alexnet_cifar10.py - INFO: 加密梯度时间：0.077002
+2023-06-20 21:47:54,465 - alexnet_cifar10.py - INFO: 聚集时间：0.030417
+2023-06-20 21:47:54,473 - alexnet_cifar10.py - INFO: 解密时间：0.008168
+2023-06-20 21:47:54,490 - alexnet_cifar10.py - INFO: 去量化时间：0.016542
+2023-06-20 21:47:54,501 - alexnet_cifar10.py - INFO: loss: 1.786282515525818 	 elapsed time: 0.41797900199890137
+2023-06-20 21:47:54,514 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch32,10 clients are in federated training
+
+2023-06-20 21:47:54,515 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:54,669 - alexnet_cifar10.py - INFO: train_time:0.15398
+2023-06-20 21:47:54,923 - alexnet_cifar10.py - INFO: 量化时间：0.198285
+2023-06-20 21:47:54,990 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066023
+2023-06-20 21:47:55,016 - alexnet_cifar10.py - INFO: 聚集时间：0.025861
+2023-06-20 21:47:55,023 - alexnet_cifar10.py - INFO: 解密时间：0.006855
+2023-06-20 21:47:55,040 - alexnet_cifar10.py - INFO: 去量化时间：0.016914
+2023-06-20 21:47:55,057 - alexnet_cifar10.py - INFO: loss: 1.84332994222641 	 elapsed time: 0.3157939910888672
+2023-06-20 21:47:55,072 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch33,10 clients are in federated training
+
+2023-06-20 21:47:55,073 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:55,217 - alexnet_cifar10.py - INFO: train_time:0.14396
+2023-06-20 21:47:55,458 - alexnet_cifar10.py - INFO: 量化时间：0.183975
+2023-06-20 21:47:55,524 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065613
+2023-06-20 21:47:55,550 - alexnet_cifar10.py - INFO: 聚集时间：0.025924
+2023-06-20 21:47:55,557 - alexnet_cifar10.py - INFO: 解密时间：0.006934
+2023-06-20 21:47:55,573 - alexnet_cifar10.py - INFO: 去量化时间：0.015590
+2023-06-20 21:47:55,585 - alexnet_cifar10.py - INFO: loss: 1.8616859674453738 	 elapsed time: 0.3001720905303955
+2023-06-20 21:47:55,599 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch34,10 clients are in federated training
+
+2023-06-20 21:47:55,600 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:55,744 - alexnet_cifar10.py - INFO: train_time:0.14398
+2023-06-20 21:47:56,083 - alexnet_cifar10.py - INFO: 量化时间：0.285482
+2023-06-20 21:47:56,155 - alexnet_cifar10.py - INFO: 加密梯度时间：0.069853
+2023-06-20 21:47:56,184 - alexnet_cifar10.py - INFO: 聚集时间：0.028357
+2023-06-20 21:47:56,193 - alexnet_cifar10.py - INFO: 解密时间：0.009275
+2023-06-20 21:47:56,209 - alexnet_cifar10.py - INFO: 去量化时间：0.015400
+2023-06-20 21:47:56,221 - alexnet_cifar10.py - INFO: loss: 1.827671313285828 	 elapsed time: 0.41190552711486816
+2023-06-20 21:47:56,244 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch35,10 clients are in federated training
+
+2023-06-20 21:47:56,244 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:56,485 - alexnet_cifar10.py - INFO: train_time:0.24066
+2023-06-20 21:47:56,973 - alexnet_cifar10.py - INFO: 量化时间：0.372028
+2023-06-20 21:47:57,132 - alexnet_cifar10.py - INFO: 加密梯度时间：0.148465
+2023-06-20 21:47:57,213 - alexnet_cifar10.py - INFO: 聚集时间：0.078765
+2023-06-20 21:47:57,232 - alexnet_cifar10.py - INFO: 解密时间：0.018758
+2023-06-20 21:47:57,298 - alexnet_cifar10.py - INFO: 去量化时间：0.064745
+2023-06-20 21:47:57,329 - alexnet_cifar10.py - INFO: loss: 1.805116677284241 	 elapsed time: 0.696871280670166
+2023-06-20 21:47:57,368 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch36,10 clients are in federated training
+
+2023-06-20 21:47:57,368 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:57,629 - alexnet_cifar10.py - INFO: train_time:0.26073
+2023-06-20 21:47:58,017 - alexnet_cifar10.py - INFO: 量化时间：0.262571
+2023-06-20 21:47:58,089 - alexnet_cifar10.py - INFO: 加密梯度时间：0.071308
+2023-06-20 21:47:58,117 - alexnet_cifar10.py - INFO: 聚集时间：0.027442
+2023-06-20 21:47:58,125 - alexnet_cifar10.py - INFO: 解密时间：0.007310
+2023-06-20 21:47:58,140 - alexnet_cifar10.py - INFO: 去量化时间：0.014607
+2023-06-20 21:47:58,151 - alexnet_cifar10.py - INFO: loss: 1.758156144618988 	 elapsed time: 0.3863990306854248
+2023-06-20 21:47:58,166 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch37,10 clients are in federated training
+
+2023-06-20 21:47:58,168 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:58,321 - alexnet_cifar10.py - INFO: train_time:0.15259
+2023-06-20 21:47:58,555 - alexnet_cifar10.py - INFO: 量化时间：0.179971
+2023-06-20 21:47:58,614 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059491
+2023-06-20 21:47:58,638 - alexnet_cifar10.py - INFO: 聚集时间：0.023252
+2023-06-20 21:47:58,644 - alexnet_cifar10.py - INFO: 解密时间：0.006093
+2023-06-20 21:47:58,658 - alexnet_cifar10.py - INFO: 去量化时间：0.013286
+2023-06-20 21:47:58,668 - alexnet_cifar10.py - INFO: loss: 1.7830778241157532 	 elapsed time: 0.2833371162414551
+2023-06-20 21:47:58,682 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch38,10 clients are in federated training
+
+2023-06-20 21:47:58,682 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:58,809 - alexnet_cifar10.py - INFO: train_time:0.12636
+2023-06-20 21:47:59,044 - alexnet_cifar10.py - INFO: 量化时间：0.181111
+2023-06-20 21:47:59,117 - alexnet_cifar10.py - INFO: 加密梯度时间：0.072548
+2023-06-20 21:47:59,140 - alexnet_cifar10.py - INFO: 聚集时间：0.023177
+2023-06-20 21:47:59,147 - alexnet_cifar10.py - INFO: 解密时间：0.006630
+2023-06-20 21:47:59,174 - alexnet_cifar10.py - INFO: 去量化时间：0.026089
+2023-06-20 21:47:59,185 - alexnet_cifar10.py - INFO: loss: 1.7840465545654298 	 elapsed time: 0.3106992244720459
+2023-06-20 21:47:59,198 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch39,10 clients are in federated training
+
+2023-06-20 21:47:59,198 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:47:59,337 - alexnet_cifar10.py - INFO: train_time:0.13823
+2023-06-20 21:47:59,600 - alexnet_cifar10.py - INFO: 量化时间：0.200874
+2023-06-20 21:47:59,761 - alexnet_cifar10.py - INFO: 加密梯度时间：0.150602
+2023-06-20 21:47:59,793 - alexnet_cifar10.py - INFO: 聚集时间：0.031344
+2023-06-20 21:47:59,801 - alexnet_cifar10.py - INFO: 解密时间：0.007295
+2023-06-20 21:47:59,830 - alexnet_cifar10.py - INFO: 去量化时间：0.029243
+2023-06-20 21:47:59,850 - alexnet_cifar10.py - INFO: loss: 1.8074092864990237 	 elapsed time: 0.431166410446167
+2023-06-20 21:47:59,866 - alexnet_cifar10.py - INFO: 
+---------epoch 3 batch40,10 clients are in federated training
+
+2023-06-20 21:47:59,867 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:00,133 - alexnet_cifar10.py - INFO: train_time:0.26565
+2023-06-20 21:48:00,398 - alexnet_cifar10.py - INFO: 量化时间：0.206297
+2023-06-20 21:48:00,461 - alexnet_cifar10.py - INFO: 加密梯度时间：0.063175
+2023-06-20 21:48:00,487 - alexnet_cifar10.py - INFO: 聚集时间：0.025185
+2023-06-20 21:48:00,494 - alexnet_cifar10.py - INFO: 解密时间：0.006767
+2023-06-20 21:48:00,510 - alexnet_cifar10.py - INFO: 去量化时间：0.015204
+2023-06-20 21:48:00,520 - alexnet_cifar10.py - INFO: loss: 1.7711009025573732 	 elapsed time: 0.31862473487854004
+2023-06-20 21:48:16,626 - alexnet_cifar10.py - INFO: Plaintext_size 1.86 GB
+2023-06-20 21:48:16,626 - alexnet_cifar10.py - INFO: Ciphertext_size 0.00 KB
+2023-06-20 21:48:17,032 - alexnet_cifar10.py - INFO: ========Epoch 003: train_loss: 1.817, train_accuracy: 36.802%, test_loss: 1.800, test_accuracy: 35.890%
+2023-06-20 21:48:17,059 - alexnet_cifar10.py - INFO: Saved epoch_model to disk
+2023-06-20 21:48:17,063 - alexnet_cifar10.py - INFO: 10 clients building datasets.
+2023-06-20 21:48:17,063 - alexnet_cifar10.py - INFO: 0 client has 5000 data items.
+2023-06-20 21:48:17,064 - alexnet_cifar10.py - INFO: 1 client has 5000 data items.
+2023-06-20 21:48:17,064 - alexnet_cifar10.py - INFO: 2 client has 5000 data items.
+2023-06-20 21:48:17,064 - alexnet_cifar10.py - INFO: 3 client has 5000 data items.
+2023-06-20 21:48:17,064 - alexnet_cifar10.py - INFO: 4 client has 5000 data items.
+2023-06-20 21:48:17,064 - alexnet_cifar10.py - INFO: 5 client has 5000 data items.
+2023-06-20 21:48:17,064 - alexnet_cifar10.py - INFO: 6 client has 5000 data items.
+2023-06-20 21:48:17,064 - alexnet_cifar10.py - INFO: 7 client has 5000 data items.
+2023-06-20 21:48:17,064 - alexnet_cifar10.py - INFO: 8 client has 5000 data items.
+2023-06-20 21:48:17,065 - alexnet_cifar10.py - INFO: 9 client has 5000 data items.
+2023-06-20 21:48:19,957 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch1,10 clients are in federated training
+
+2023-06-20 21:48:19,958 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:20,089 - alexnet_cifar10.py - INFO: train_time:0.13129
+2023-06-20 21:48:20,423 - alexnet_cifar10.py - INFO: 量化时间：0.277596
+2023-06-20 21:48:20,493 - alexnet_cifar10.py - INFO: 加密梯度时间：0.069046
+2023-06-20 21:48:20,535 - alexnet_cifar10.py - INFO: 聚集时间：0.042022
+2023-06-20 21:48:20,551 - alexnet_cifar10.py - INFO: 解密时间：0.015002
+2023-06-20 21:48:20,583 - alexnet_cifar10.py - INFO: 去量化时间：0.029860
+2023-06-20 21:48:20,595 - alexnet_cifar10.py - INFO: loss: 1.7980822682380677 	 elapsed time: 0.43726444244384766
+2023-06-20 21:48:20,640 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch2,10 clients are in federated training
+
+2023-06-20 21:48:20,640 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:20,901 - alexnet_cifar10.py - INFO: train_time:0.26076
+2023-06-20 21:48:21,234 - alexnet_cifar10.py - INFO: 量化时间：0.217948
+2023-06-20 21:48:21,315 - alexnet_cifar10.py - INFO: 加密梯度时间：0.080729
+2023-06-20 21:48:21,359 - alexnet_cifar10.py - INFO: 聚集时间：0.038086
+2023-06-20 21:48:21,367 - alexnet_cifar10.py - INFO: 解密时间：0.008208
+2023-06-20 21:48:21,409 - alexnet_cifar10.py - INFO: 去量化时间：0.036149
+2023-06-20 21:48:21,427 - alexnet_cifar10.py - INFO: loss: 1.7627052783966066 	 elapsed time: 0.3932225704193115
+2023-06-20 21:48:21,465 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch3,10 clients are in federated training
+
+2023-06-20 21:48:21,472 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:21,747 - alexnet_cifar10.py - INFO: train_time:0.27467
+2023-06-20 21:48:21,991 - alexnet_cifar10.py - INFO: 量化时间：0.193458
+2023-06-20 21:48:22,054 - alexnet_cifar10.py - INFO: 加密梯度时间：0.062891
+2023-06-20 21:48:22,087 - alexnet_cifar10.py - INFO: 聚集时间：0.032472
+2023-06-20 21:48:22,102 - alexnet_cifar10.py - INFO: 解密时间：0.007021
+2023-06-20 21:48:22,117 - alexnet_cifar10.py - INFO: 去量化时间：0.014387
+2023-06-20 21:48:22,128 - alexnet_cifar10.py - INFO: loss: 1.7343706727027894 	 elapsed time: 0.319319486618042
+2023-06-20 21:48:22,148 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch4,10 clients are in federated training
+
+2023-06-20 21:48:22,148 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:22,289 - alexnet_cifar10.py - INFO: train_time:0.14067
+2023-06-20 21:48:22,521 - alexnet_cifar10.py - INFO: 量化时间：0.177632
+2023-06-20 21:48:22,582 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060869
+2023-06-20 21:48:22,605 - alexnet_cifar10.py - INFO: 聚集时间：0.023092
+2023-06-20 21:48:22,611 - alexnet_cifar10.py - INFO: 解密时间：0.006022
+2023-06-20 21:48:22,625 - alexnet_cifar10.py - INFO: 去量化时间：0.013272
+2023-06-20 21:48:22,638 - alexnet_cifar10.py - INFO: loss: 1.7780830979347229 	 elapsed time: 0.283036470413208
+2023-06-20 21:48:22,668 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch5,10 clients are in federated training
+
+2023-06-20 21:48:22,668 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:22,816 - alexnet_cifar10.py - INFO: train_time:0.14730
+2023-06-20 21:48:23,057 - alexnet_cifar10.py - INFO: 量化时间：0.186312
+2023-06-20 21:48:23,132 - alexnet_cifar10.py - INFO: 加密梯度时间：0.074972
+2023-06-20 21:48:23,157 - alexnet_cifar10.py - INFO: 聚集时间：0.025713
+2023-06-20 21:48:23,164 - alexnet_cifar10.py - INFO: 解密时间：0.006759
+2023-06-20 21:48:23,202 - alexnet_cifar10.py - INFO: 去量化时间：0.037702
+2023-06-20 21:48:23,217 - alexnet_cifar10.py - INFO: loss: 1.766413462162018 	 elapsed time: 0.3325212001800537
+2023-06-20 21:48:23,230 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch6,10 clients are in federated training
+
+2023-06-20 21:48:23,231 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:23,554 - alexnet_cifar10.py - INFO: train_time:0.32328
+2023-06-20 21:48:24,015 - alexnet_cifar10.py - INFO: 量化时间：0.357043
+2023-06-20 21:48:24,098 - alexnet_cifar10.py - INFO: 加密梯度时间：0.081920
+2023-06-20 21:48:24,125 - alexnet_cifar10.py - INFO: 聚集时间：0.026685
+2023-06-20 21:48:24,131 - alexnet_cifar10.py - INFO: 解密时间：0.006228
+2023-06-20 21:48:24,145 - alexnet_cifar10.py - INFO: 去量化时间：0.013872
+2023-06-20 21:48:24,156 - alexnet_cifar10.py - INFO: loss: 1.7440240144729617 	 elapsed time: 0.48732852935791016
+2023-06-20 21:48:24,176 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch7,10 clients are in federated training
+
+2023-06-20 21:48:24,176 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:24,349 - alexnet_cifar10.py - INFO: train_time:0.17258
+2023-06-20 21:48:24,603 - alexnet_cifar10.py - INFO: 量化时间：0.198820
+2023-06-20 21:48:24,670 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065864
+2023-06-20 21:48:24,697 - alexnet_cifar10.py - INFO: 聚集时间：0.026930
+2023-06-20 21:48:24,705 - alexnet_cifar10.py - INFO: 解密时间：0.007157
+2023-06-20 21:48:24,720 - alexnet_cifar10.py - INFO: 去量化时间：0.015140
+2023-06-20 21:48:24,731 - alexnet_cifar10.py - INFO: loss: 1.7270950078964233 	 elapsed time: 0.31618762016296387
+2023-06-20 21:48:24,757 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch8,10 clients are in federated training
+
+2023-06-20 21:48:24,759 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:24,907 - alexnet_cifar10.py - INFO: train_time:0.14759
+2023-06-20 21:48:25,177 - alexnet_cifar10.py - INFO: 量化时间：0.210306
+2023-06-20 21:48:25,243 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065724
+2023-06-20 21:48:25,269 - alexnet_cifar10.py - INFO: 聚集时间：0.025681
+2023-06-20 21:48:25,277 - alexnet_cifar10.py - INFO: 解密时间：0.007218
+2023-06-20 21:48:25,293 - alexnet_cifar10.py - INFO: 去量化时间：0.015540
+2023-06-20 21:48:25,306 - alexnet_cifar10.py - INFO: loss: 1.7803748250007634 	 elapsed time: 0.32750368118286133
+2023-06-20 21:48:25,337 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch9,10 clients are in federated training
+
+2023-06-20 21:48:25,337 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:25,475 - alexnet_cifar10.py - INFO: train_time:0.13736
+2023-06-20 21:48:25,706 - alexnet_cifar10.py - INFO: 量化时间：0.179836
+2023-06-20 21:48:25,768 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061002
+2023-06-20 21:48:25,792 - alexnet_cifar10.py - INFO: 聚集时间：0.023236
+2023-06-20 21:48:25,798 - alexnet_cifar10.py - INFO: 解密时间：0.006194
+2023-06-20 21:48:25,813 - alexnet_cifar10.py - INFO: 去量化时间：0.013896
+2023-06-20 21:48:25,823 - alexnet_cifar10.py - INFO: loss: 1.7608064532279968 	 elapsed time: 0.28698229789733887
+2023-06-20 21:48:25,855 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch10,10 clients are in federated training
+
+2023-06-20 21:48:25,859 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:25,993 - alexnet_cifar10.py - INFO: train_time:0.13283
+2023-06-20 21:48:26,233 - alexnet_cifar10.py - INFO: 量化时间：0.189187
+2023-06-20 21:48:26,294 - alexnet_cifar10.py - INFO: 加密梯度时间：0.060884
+2023-06-20 21:48:26,317 - alexnet_cifar10.py - INFO: 聚集时间：0.023321
+2023-06-20 21:48:26,324 - alexnet_cifar10.py - INFO: 解密时间：0.006147
+2023-06-20 21:48:26,340 - alexnet_cifar10.py - INFO: 去量化时间：0.016403
+2023-06-20 21:48:26,356 - alexnet_cifar10.py - INFO: loss: 1.7504380106925963 	 elapsed time: 0.29779505729675293
+2023-06-20 21:48:26,391 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch11,10 clients are in federated training
+
+2023-06-20 21:48:26,392 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:26,534 - alexnet_cifar10.py - INFO: train_time:0.14223
+2023-06-20 21:48:26,834 - alexnet_cifar10.py - INFO: 量化时间：0.236713
+2023-06-20 21:48:26,931 - alexnet_cifar10.py - INFO: 加密梯度时间：0.096640
+2023-06-20 21:48:26,959 - alexnet_cifar10.py - INFO: 聚集时间：0.026893
+2023-06-20 21:48:26,976 - alexnet_cifar10.py - INFO: 解密时间：0.016400
+2023-06-20 21:48:27,013 - alexnet_cifar10.py - INFO: 去量化时间：0.036711
+2023-06-20 21:48:27,028 - alexnet_cifar10.py - INFO: loss: 1.7678207039833072 	 elapsed time: 0.41665005683898926
+2023-06-20 21:48:27,071 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch12,10 clients are in federated training
+
+2023-06-20 21:48:27,071 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:27,299 - alexnet_cifar10.py - INFO: train_time:0.22712
+2023-06-20 21:48:27,559 - alexnet_cifar10.py - INFO: 量化时间：0.200726
+2023-06-20 21:48:27,621 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061875
+2023-06-20 21:48:27,651 - alexnet_cifar10.py - INFO: 聚集时间：0.028985
+2023-06-20 21:48:27,659 - alexnet_cifar10.py - INFO: 解密时间：0.007984
+2023-06-20 21:48:27,697 - alexnet_cifar10.py - INFO: 去量化时间：0.037498
+2023-06-20 21:48:27,708 - alexnet_cifar10.py - INFO: loss: 1.7235785484313968 	 elapsed time: 0.33872318267822266
+2023-06-20 21:48:27,728 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch13,10 clients are in federated training
+
+2023-06-20 21:48:27,733 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:27,877 - alexnet_cifar10.py - INFO: train_time:0.14408
+2023-06-20 21:48:28,137 - alexnet_cifar10.py - INFO: 量化时间：0.200769
+2023-06-20 21:48:28,212 - alexnet_cifar10.py - INFO: 加密梯度时间：0.074725
+2023-06-20 21:48:28,236 - alexnet_cifar10.py - INFO: 聚集时间：0.023663
+2023-06-20 21:48:28,243 - alexnet_cifar10.py - INFO: 解密时间：0.006383
+2023-06-20 21:48:28,257 - alexnet_cifar10.py - INFO: 去量化时间：0.013964
+2023-06-20 21:48:28,267 - alexnet_cifar10.py - INFO: loss: 1.7459385633468631 	 elapsed time: 0.32020020484924316
+2023-06-20 21:48:28,278 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch14,10 clients are in federated training
+
+2023-06-20 21:48:28,278 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:28,418 - alexnet_cifar10.py - INFO: train_time:0.13916
+2023-06-20 21:48:28,635 - alexnet_cifar10.py - INFO: 量化时间：0.183575
+2023-06-20 21:48:28,697 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061609
+2023-06-20 21:48:28,743 - alexnet_cifar10.py - INFO: 聚集时间：0.045422
+2023-06-20 21:48:28,750 - alexnet_cifar10.py - INFO: 解密时间：0.006875
+2023-06-20 21:48:28,766 - alexnet_cifar10.py - INFO: 去量化时间：0.015395
+2023-06-20 21:48:28,777 - alexnet_cifar10.py - INFO: loss: 1.7741418838500977 	 elapsed time: 0.31427884101867676
+2023-06-20 21:48:28,799 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch15,10 clients are in federated training
+
+2023-06-20 21:48:28,802 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:28,986 - alexnet_cifar10.py - INFO: train_time:0.18350
+2023-06-20 21:48:29,248 - alexnet_cifar10.py - INFO: 量化时间：0.209254
+2023-06-20 21:48:29,316 - alexnet_cifar10.py - INFO: 加密梯度时间：0.067696
+2023-06-20 21:48:29,339 - alexnet_cifar10.py - INFO: 聚集时间：0.023171
+2023-06-20 21:48:29,346 - alexnet_cifar10.py - INFO: 解密时间：0.006079
+2023-06-20 21:48:29,359 - alexnet_cifar10.py - INFO: 去量化时间：0.013532
+2023-06-20 21:48:29,370 - alexnet_cifar10.py - INFO: loss: 1.7659178614616395 	 elapsed time: 0.3204166889190674
+2023-06-20 21:48:29,381 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch16,10 clients are in federated training
+
+2023-06-20 21:48:29,381 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:29,619 - alexnet_cifar10.py - INFO: train_time:0.23705
+2023-06-20 21:48:29,978 - alexnet_cifar10.py - INFO: 量化时间：0.268808
+2023-06-20 21:48:30,130 - alexnet_cifar10.py - INFO: 加密梯度时间：0.151669
+2023-06-20 21:48:30,159 - alexnet_cifar10.py - INFO: 聚集时间：0.028628
+2023-06-20 21:48:30,166 - alexnet_cifar10.py - INFO: 解密时间：0.007541
+2023-06-20 21:48:30,183 - alexnet_cifar10.py - INFO: 去量化时间：0.016580
+2023-06-20 21:48:30,195 - alexnet_cifar10.py - INFO: loss: 1.7753217458724977 	 elapsed time: 0.4740879535675049
+2023-06-20 21:48:30,211 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch17,10 clients are in federated training
+
+2023-06-20 21:48:30,212 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:30,360 - alexnet_cifar10.py - INFO: train_time:0.14846
+2023-06-20 21:48:30,658 - alexnet_cifar10.py - INFO: 量化时间：0.246186
+2023-06-20 21:48:30,733 - alexnet_cifar10.py - INFO: 加密梯度时间：0.074618
+2023-06-20 21:48:30,762 - alexnet_cifar10.py - INFO: 聚集时间：0.028355
+2023-06-20 21:48:30,770 - alexnet_cifar10.py - INFO: 解密时间：0.007196
+2023-06-20 21:48:30,788 - alexnet_cifar10.py - INFO: 去量化时间：0.017546
+2023-06-20 21:48:30,799 - alexnet_cifar10.py - INFO: loss: 1.7867449641227724 	 elapsed time: 0.3755955696105957
+2023-06-20 21:48:30,837 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch18,10 clients are in federated training
+
+2023-06-20 21:48:30,838 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:31,108 - alexnet_cifar10.py - INFO: train_time:0.27022
+2023-06-20 21:48:31,353 - alexnet_cifar10.py - INFO: 量化时间：0.192596
+2023-06-20 21:48:31,414 - alexnet_cifar10.py - INFO: 加密梯度时间：0.061054
+2023-06-20 21:48:31,438 - alexnet_cifar10.py - INFO: 聚集时间：0.023283
+2023-06-20 21:48:31,444 - alexnet_cifar10.py - INFO: 解密时间：0.006064
+2023-06-20 21:48:31,457 - alexnet_cifar10.py - INFO: 去量化时间：0.013297
+2023-06-20 21:48:31,468 - alexnet_cifar10.py - INFO: loss: 1.7732762098312378 	 elapsed time: 0.29694318771362305
+2023-06-20 21:48:31,497 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch19,10 clients are in federated training
+
+2023-06-20 21:48:31,497 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:31,639 - alexnet_cifar10.py - INFO: train_time:0.14199
+2023-06-20 21:48:31,870 - alexnet_cifar10.py - INFO: 量化时间：0.180051
+2023-06-20 21:48:31,930 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059764
+2023-06-20 21:48:31,954 - alexnet_cifar10.py - INFO: 聚集时间：0.023242
+2023-06-20 21:48:31,960 - alexnet_cifar10.py - INFO: 解密时间：0.006202
+2023-06-20 21:48:31,974 - alexnet_cifar10.py - INFO: 去量化时间：0.013473
+2023-06-20 21:48:31,991 - alexnet_cifar10.py - INFO: loss: 1.7389268159866333 	 elapsed time: 0.28415846824645996
+2023-06-20 21:48:32,021 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch20,10 clients are in federated training
+
+2023-06-20 21:48:32,021 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:32,163 - alexnet_cifar10.py - INFO: train_time:0.14180
+2023-06-20 21:48:32,397 - alexnet_cifar10.py - INFO: 量化时间：0.180394
+2023-06-20 21:48:32,482 - alexnet_cifar10.py - INFO: 加密梯度时间：0.084532
+2023-06-20 21:48:32,544 - alexnet_cifar10.py - INFO: 聚集时间：0.058942
+2023-06-20 21:48:32,562 - alexnet_cifar10.py - INFO: 解密时间：0.018331
+2023-06-20 21:48:32,600 - alexnet_cifar10.py - INFO: 去量化时间：0.037529
+2023-06-20 21:48:32,634 - alexnet_cifar10.py - INFO: loss: 1.747425365447998 	 elapsed time: 0.3830230236053467
+2023-06-20 21:48:32,699 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch21,10 clients are in federated training
+
+2023-06-20 21:48:32,699 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:32,986 - alexnet_cifar10.py - INFO: train_time:0.28670
+2023-06-20 21:48:33,320 - alexnet_cifar10.py - INFO: 量化时间：0.253670
+2023-06-20 21:48:33,402 - alexnet_cifar10.py - INFO: 加密梯度时间：0.081547
+2023-06-20 21:48:33,433 - alexnet_cifar10.py - INFO: 聚集时间：0.030570
+2023-06-20 21:48:33,442 - alexnet_cifar10.py - INFO: 解密时间：0.008441
+2023-06-20 21:48:33,459 - alexnet_cifar10.py - INFO: 去量化时间：0.015858
+2023-06-20 21:48:33,473 - alexnet_cifar10.py - INFO: loss: 1.7297117471694947 	 elapsed time: 0.39316511154174805
+2023-06-20 21:48:33,503 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch22,10 clients are in federated training
+
+2023-06-20 21:48:33,504 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:33,647 - alexnet_cifar10.py - INFO: train_time:0.14295
+2023-06-20 21:48:33,904 - alexnet_cifar10.py - INFO: 量化时间：0.198791
+2023-06-20 21:48:33,971 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065743
+2023-06-20 21:48:33,997 - alexnet_cifar10.py - INFO: 聚集时间：0.024932
+2023-06-20 21:48:34,004 - alexnet_cifar10.py - INFO: 解密时间：0.006984
+2023-06-20 21:48:34,019 - alexnet_cifar10.py - INFO: 去量化时间：0.014752
+2023-06-20 21:48:34,030 - alexnet_cifar10.py - INFO: loss: 1.736333465576172 	 elapsed time: 0.3139369487762451
+2023-06-20 21:48:34,059 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch23,10 clients are in federated training
+
+2023-06-20 21:48:34,059 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:34,226 - alexnet_cifar10.py - INFO: train_time:0.16692
+2023-06-20 21:48:34,462 - alexnet_cifar10.py - INFO: 量化时间：0.178186
+2023-06-20 21:48:34,525 - alexnet_cifar10.py - INFO: 加密梯度时间：0.062585
+2023-06-20 21:48:34,561 - alexnet_cifar10.py - INFO: 聚集时间：0.035317
+2023-06-20 21:48:34,568 - alexnet_cifar10.py - INFO: 解密时间：0.006955
+2023-06-20 21:48:34,584 - alexnet_cifar10.py - INFO: 去量化时间：0.015420
+2023-06-20 21:48:34,597 - alexnet_cifar10.py - INFO: loss: 1.7208160400390629 	 elapsed time: 0.30062270164489746
+2023-06-20 21:48:34,635 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch24,10 clients are in federated training
+
+2023-06-20 21:48:34,635 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:34,776 - alexnet_cifar10.py - INFO: train_time:0.14046
+2023-06-20 21:48:35,038 - alexnet_cifar10.py - INFO: 量化时间：0.201512
+2023-06-20 21:48:35,106 - alexnet_cifar10.py - INFO: 加密梯度时间：0.067756
+2023-06-20 21:48:35,130 - alexnet_cifar10.py - INFO: 聚集时间：0.023140
+2023-06-20 21:48:35,136 - alexnet_cifar10.py - INFO: 解密时间：0.006107
+2023-06-20 21:48:35,149 - alexnet_cifar10.py - INFO: 去量化时间：0.012942
+2023-06-20 21:48:35,159 - alexnet_cifar10.py - INFO: loss: 1.7305924773216246 	 elapsed time: 0.312103271484375
+2023-06-20 21:48:35,178 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch25,10 clients are in federated training
+
+2023-06-20 21:48:35,178 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:35,329 - alexnet_cifar10.py - INFO: train_time:0.15146
+2023-06-20 21:48:35,572 - alexnet_cifar10.py - INFO: 量化时间：0.188335
+2023-06-20 21:48:35,675 - alexnet_cifar10.py - INFO: 加密梯度时间：0.102793
+2023-06-20 21:48:35,715 - alexnet_cifar10.py - INFO: 聚集时间：0.040155
+2023-06-20 21:48:35,729 - alexnet_cifar10.py - INFO: 解密时间：0.008287
+2023-06-20 21:48:35,748 - alexnet_cifar10.py - INFO: 去量化时间：0.018931
+2023-06-20 21:48:35,762 - alexnet_cifar10.py - INFO: loss: 1.7750936269760131 	 elapsed time: 0.3654201030731201
+2023-06-20 21:48:35,786 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch26,10 clients are in federated training
+
+2023-06-20 21:48:35,787 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:35,950 - alexnet_cifar10.py - INFO: train_time:0.16189
+2023-06-20 21:48:36,285 - alexnet_cifar10.py - INFO: 量化时间：0.272699
+2023-06-20 21:48:36,353 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066663
+2023-06-20 21:48:36,397 - alexnet_cifar10.py - INFO: 聚集时间：0.043815
+2023-06-20 21:48:36,405 - alexnet_cifar10.py - INFO: 解密时间：0.007888
+2023-06-20 21:48:36,436 - alexnet_cifar10.py - INFO: 去量化时间：0.030368
+2023-06-20 21:48:36,459 - alexnet_cifar10.py - INFO: loss: 1.7528167486190798 	 elapsed time: 0.42339634895324707
+2023-06-20 21:48:36,486 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch27,10 clients are in federated training
+
+2023-06-20 21:48:36,486 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:36,781 - alexnet_cifar10.py - INFO: train_time:0.28032
+2023-06-20 21:48:37,085 - alexnet_cifar10.py - INFO: 量化时间：0.215999
+2023-06-20 21:48:37,149 - alexnet_cifar10.py - INFO: 加密梯度时间：0.063125
+2023-06-20 21:48:37,172 - alexnet_cifar10.py - INFO: 聚集时间：0.023634
+2023-06-20 21:48:37,179 - alexnet_cifar10.py - INFO: 解密时间：0.006327
+2023-06-20 21:48:37,192 - alexnet_cifar10.py - INFO: 去量化时间：0.013113
+2023-06-20 21:48:37,202 - alexnet_cifar10.py - INFO: loss: 1.7239146232604983 	 elapsed time: 0.32322049140930176
+2023-06-20 21:48:37,227 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch28,10 clients are in federated training
+
+2023-06-20 21:48:37,229 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:37,359 - alexnet_cifar10.py - INFO: train_time:0.12978
+2023-06-20 21:48:37,596 - alexnet_cifar10.py - INFO: 量化时间：0.178856
+2023-06-20 21:48:37,660 - alexnet_cifar10.py - INFO: 加密梯度时间：0.063997
+2023-06-20 21:48:37,687 - alexnet_cifar10.py - INFO: 聚集时间：0.026817
+2023-06-20 21:48:37,694 - alexnet_cifar10.py - INFO: 解密时间：0.006275
+2023-06-20 21:48:37,708 - alexnet_cifar10.py - INFO: 去量化时间：0.013554
+2023-06-20 21:48:37,719 - alexnet_cifar10.py - INFO: loss: 1.7576564669609072 	 elapsed time: 0.29096293449401855
+2023-06-20 21:48:37,733 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch29,10 clients are in federated training
+
+2023-06-20 21:48:37,734 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:37,875 - alexnet_cifar10.py - INFO: train_time:0.13706
+2023-06-20 21:48:38,119 - alexnet_cifar10.py - INFO: 量化时间：0.187403
+2023-06-20 21:48:38,187 - alexnet_cifar10.py - INFO: 加密梯度时间：0.067510
+2023-06-20 21:48:38,213 - alexnet_cifar10.py - INFO: 聚集时间：0.025914
+2023-06-20 21:48:38,220 - alexnet_cifar10.py - INFO: 解密时间：0.007047
+2023-06-20 21:48:38,240 - alexnet_cifar10.py - INFO: 去量化时间：0.019016
+2023-06-20 21:48:38,252 - alexnet_cifar10.py - INFO: loss: 1.7451873779296876 	 elapsed time: 0.3080909252166748
+2023-06-20 21:48:38,275 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch30,10 clients are in federated training
+
+2023-06-20 21:48:38,276 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:38,465 - alexnet_cifar10.py - INFO: train_time:0.18814
+2023-06-20 21:48:38,914 - alexnet_cifar10.py - INFO: 量化时间：0.384232
+2023-06-20 21:48:39,023 - alexnet_cifar10.py - INFO: 加密梯度时间：0.108454
+2023-06-20 21:48:39,063 - alexnet_cifar10.py - INFO: 聚集时间：0.040270
+2023-06-20 21:48:39,072 - alexnet_cifar10.py - INFO: 解密时间：0.008365
+2023-06-20 21:48:39,098 - alexnet_cifar10.py - INFO: 去量化时间：0.024861
+2023-06-20 21:48:39,111 - alexnet_cifar10.py - INFO: loss: 1.6574239253997805 	 elapsed time: 0.568972110748291
+2023-06-20 21:48:39,130 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch31,10 clients are in federated training
+
+2023-06-20 21:48:39,131 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:39,290 - alexnet_cifar10.py - INFO: train_time:0.15842
+2023-06-20 21:48:39,539 - alexnet_cifar10.py - INFO: 量化时间：0.191826
+2023-06-20 21:48:39,605 - alexnet_cifar10.py - INFO: 加密梯度时间：0.066092
+2023-06-20 21:48:39,632 - alexnet_cifar10.py - INFO: 聚集时间：0.025892
+2023-06-20 21:48:39,639 - alexnet_cifar10.py - INFO: 解密时间：0.006958
+2023-06-20 21:48:39,655 - alexnet_cifar10.py - INFO: 去量化时间：0.015981
+2023-06-20 21:48:39,669 - alexnet_cifar10.py - INFO: loss: 1.6948660731315615 	 elapsed time: 0.3075075149536133
+2023-06-20 21:48:39,685 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch32,10 clients are in federated training
+
+2023-06-20 21:48:39,688 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:39,835 - alexnet_cifar10.py - INFO: train_time:0.14605
+2023-06-20 21:48:40,109 - alexnet_cifar10.py - INFO: 量化时间：0.212476
+2023-06-20 21:48:40,174 - alexnet_cifar10.py - INFO: 加密梯度时间：0.064704
+2023-06-20 21:48:40,198 - alexnet_cifar10.py - INFO: 聚集时间：0.024697
+2023-06-20 21:48:40,206 - alexnet_cifar10.py - INFO: 解密时间：0.006975
+2023-06-20 21:48:40,221 - alexnet_cifar10.py - INFO: 去量化时间：0.015692
+2023-06-20 21:48:40,232 - alexnet_cifar10.py - INFO: loss: 1.7609857082366944 	 elapsed time: 0.3252689838409424
+2023-06-20 21:48:40,248 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch33,10 clients are in federated training
+
+2023-06-20 21:48:40,248 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:40,390 - alexnet_cifar10.py - INFO: train_time:0.14203
+2023-06-20 21:48:40,639 - alexnet_cifar10.py - INFO: 量化时间：0.189627
+2023-06-20 21:48:40,698 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059317
+2023-06-20 21:48:40,723 - alexnet_cifar10.py - INFO: 聚集时间：0.024711
+2023-06-20 21:48:40,730 - alexnet_cifar10.py - INFO: 解密时间：0.006845
+2023-06-20 21:48:40,744 - alexnet_cifar10.py - INFO: 去量化时间：0.013482
+2023-06-20 21:48:40,755 - alexnet_cifar10.py - INFO: loss: 1.767436718940735 	 elapsed time: 0.2953469753265381
+2023-06-20 21:48:40,768 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch34,10 clients are in federated training
+
+2023-06-20 21:48:40,768 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:40,914 - alexnet_cifar10.py - INFO: train_time:0.14589
+2023-06-20 21:48:41,157 - alexnet_cifar10.py - INFO: 量化时间：0.192674
+2023-06-20 21:48:41,217 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059964
+2023-06-20 21:48:41,241 - alexnet_cifar10.py - INFO: 聚集时间：0.023233
+2023-06-20 21:48:41,247 - alexnet_cifar10.py - INFO: 解密时间：0.006089
+2023-06-20 21:48:41,260 - alexnet_cifar10.py - INFO: 去量化时间：0.013315
+2023-06-20 21:48:41,271 - alexnet_cifar10.py - INFO: loss: 1.7552507281303407 	 elapsed time: 0.2964749336242676
+2023-06-20 21:48:41,283 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch35,10 clients are in federated training
+
+2023-06-20 21:48:41,284 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:41,411 - alexnet_cifar10.py - INFO: train_time:0.12616
+2023-06-20 21:48:41,648 - alexnet_cifar10.py - INFO: 量化时间：0.186276
+2023-06-20 21:48:41,788 - alexnet_cifar10.py - INFO: 加密梯度时间：0.136472
+2023-06-20 21:48:41,843 - alexnet_cifar10.py - INFO: 聚集时间：0.051597
+2023-06-20 21:48:41,856 - alexnet_cifar10.py - INFO: 解密时间：0.011254
+2023-06-20 21:48:41,933 - alexnet_cifar10.py - INFO: 去量化时间：0.074280
+2023-06-20 21:48:41,956 - alexnet_cifar10.py - INFO: loss: 1.7243135809898378 	 elapsed time: 0.4712867736816406
+2023-06-20 21:48:41,976 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch36,10 clients are in federated training
+
+2023-06-20 21:48:41,977 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:42,251 - alexnet_cifar10.py - INFO: train_time:0.27371
+2023-06-20 21:48:42,572 - alexnet_cifar10.py - INFO: 量化时间：0.234134
+2023-06-20 21:48:42,638 - alexnet_cifar10.py - INFO: 加密梯度时间：0.065811
+2023-06-20 21:48:42,671 - alexnet_cifar10.py - INFO: 聚集时间：0.029910
+2023-06-20 21:48:42,679 - alexnet_cifar10.py - INFO: 解密时间：0.007158
+2023-06-20 21:48:42,713 - alexnet_cifar10.py - INFO: 去量化时间：0.033530
+2023-06-20 21:48:42,726 - alexnet_cifar10.py - INFO: loss: 1.7043211460113528 	 elapsed time: 0.3748621940612793
+2023-06-20 21:48:42,741 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch37,10 clients are in federated training
+
+2023-06-20 21:48:42,742 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:42,891 - alexnet_cifar10.py - INFO: train_time:0.14898
+2023-06-20 21:48:43,143 - alexnet_cifar10.py - INFO: 量化时间：0.196691
+2023-06-20 21:48:43,208 - alexnet_cifar10.py - INFO: 加密梯度时间：0.064029
+2023-06-20 21:48:43,231 - alexnet_cifar10.py - INFO: 聚集时间：0.023124
+2023-06-20 21:48:43,238 - alexnet_cifar10.py - INFO: 解密时间：0.006059
+2023-06-20 21:48:43,251 - alexnet_cifar10.py - INFO: 去量化时间：0.012829
+2023-06-20 21:48:43,261 - alexnet_cifar10.py - INFO: loss: 1.6975153565406802 	 elapsed time: 0.304790735244751
+2023-06-20 21:48:43,275 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch38,10 clients are in federated training
+
+2023-06-20 21:48:43,276 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:43,401 - alexnet_cifar10.py - INFO: train_time:0.12434
+2023-06-20 21:48:43,631 - alexnet_cifar10.py - INFO: 量化时间：0.179676
+2023-06-20 21:48:43,690 - alexnet_cifar10.py - INFO: 加密梯度时间：0.059000
+2023-06-20 21:48:43,715 - alexnet_cifar10.py - INFO: 聚集时间：0.024286
+2023-06-20 21:48:43,721 - alexnet_cifar10.py - INFO: 解密时间：0.006275
+2023-06-20 21:48:43,735 - alexnet_cifar10.py - INFO: 去量化时间：0.013575
+2023-06-20 21:48:43,751 - alexnet_cifar10.py - INFO: loss: 1.7306786656379702 	 elapsed time: 0.2844400405883789
+2023-06-20 21:48:43,770 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch39,10 clients are in federated training
+
+2023-06-20 21:48:43,770 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:43,905 - alexnet_cifar10.py - INFO: train_time:0.13485
+2023-06-20 21:48:44,202 - alexnet_cifar10.py - INFO: 量化时间：0.238877
+2023-06-20 21:48:44,275 - alexnet_cifar10.py - INFO: 加密梯度时间：0.072050
+2023-06-20 21:48:44,305 - alexnet_cifar10.py - INFO: 聚集时间：0.029749
+2023-06-20 21:48:44,313 - alexnet_cifar10.py - INFO: 解密时间：0.006973
+2023-06-20 21:48:44,327 - alexnet_cifar10.py - INFO: 去量化时间：0.013867
+2023-06-20 21:48:44,337 - alexnet_cifar10.py - INFO: loss: 1.6973590373992922 	 elapsed time: 0.3640758991241455
+2023-06-20 21:48:44,348 - alexnet_cifar10.py - INFO: 
+---------epoch 4 batch40,10 clients are in federated training
+
+2023-06-20 21:48:44,349 - alexnet_cifar10.py - INFO: mode = hash_encrypt parallel_mode = pool
+2023-06-20 21:48:44,467 - alexnet_cifar10.py - INFO: train_time:0.11852
+2023-06-20 21:48:44,709 - alexnet_cifar10.py - INFO: 量化时间：0.190288
+2023-06-20 21:48:44,796 - alexnet_cifar10.py - INFO: 加密梯度时间：0.085882
+2023-06-20 21:48:44,846 - alexnet_cifar10.py - INFO: 聚集时间：0.050424
+2023-06-20 21:48:44,856 - alexnet_cifar10.py - INFO: 解密时间：0.009611
+2023-06-20 21:48:44,882 - alexnet_cifar10.py - INFO: 去量化时间：0.025669
+2023-06-20 21:48:44,902 - alexnet_cifar10.py - INFO: loss: 1.6288432478904726 	 elapsed time: 0.36385011672973633

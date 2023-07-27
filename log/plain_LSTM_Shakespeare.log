@@ -1,0 +1,13 @@
+2023-03-25 17:17:12,049 - LSTM_Shakespeare.py - INFO: 10 clients are in federated training
+2023-03-25 17:17:33,265 - LSTM_Shakespeare.py - INFO: aggregation finished in 0.101999
+2023-03-25 17:17:33,368 - LSTM_Shakespeare.py - INFO: loss: 0.4175383448600769 	elapsed time: 21.317996740341187
+2023-03-25 17:17:33,371 - LSTM_Shakespeare.py - INFO: 10 clients are in federated training
+2023-03-25 17:17:54,231 - LSTM_Shakespeare.py - INFO: aggregation finished in 0.105000
+2023-03-25 17:17:54,303 - LSTM_Shakespeare.py - INFO: loss: 0.41350117325782776 	elapsed time: 20.904001712799072
+2023-03-25 17:17:54,307 - LSTM_Shakespeare.py - INFO: 10 clients are in federated training
+2023-03-25 17:18:18,539 - LSTM_Shakespeare.py - INFO: aggregation finished in 0.093000
+2023-03-25 17:18:18,606 - LSTM_Shakespeare.py - INFO: loss: 0.4064226448535919 	elapsed time: 24.264000177383423
+2023-03-25 17:18:18,609 - LSTM_Shakespeare.py - INFO: 10 clients are in federated training
+2023-03-25 17:18:49,267 - LSTM_Shakespeare.py - INFO: aggregation finished in 0.091999
+2023-03-25 17:18:49,330 - LSTM_Shakespeare.py - INFO: loss: 0.36584460735321045 	elapsed time: 30.68199920654297
+2023-03-25 17:18:49,343 - LSTM_Shakespeare.py - INFO: 10 clients are in federated training

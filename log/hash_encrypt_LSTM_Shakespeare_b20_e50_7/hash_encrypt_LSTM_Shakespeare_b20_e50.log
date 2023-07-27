@@ -1,0 +1,9 @@
+2023-07-21 23:34:15,181 - tf_should_use.py - ERROR: ==================================
+Object was never used (type <class 'tensorflow.python.ops.tensor_array_ops.TensorArray'>):
+<tensorflow.python.ops.tensor_array_ops.TensorArray object at 0x00000171406594F0>
+If you want to mark it as used call its "mark_used()" method.
+It was originally created here:
+  File "D:\Anaconda3\envs\seflm\lib\site-packages\keras\backend.py", line 5133, in <genexpr>
+    ta.write(ta_index_to_write, out)  File "D:\Anaconda3\envs\seflm\lib\site-packages\tensorflow\python\util\tf_should_use.py", line 243, in wrapped
+    return _add_should_use_warning(fn(*args, **kwargs),
+==================================
